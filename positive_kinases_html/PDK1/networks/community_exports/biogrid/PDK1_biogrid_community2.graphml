@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="PNPT1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="SSBP1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PREPL">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="QRSL1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="POLG">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="SUPV3L1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="UQCRFS1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="TARS2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="TRAP1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="YARS2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <edge source="PNPT1" target="TRAP1" />
+    <edge source="PNPT1" target="YARS2" />
+    <edge source="PNPT1" target="QRSL1" />
+    <edge source="PNPT1" target="UQCRFS1" />
+    <edge source="PNPT1" target="SUPV3L1" />
+    <edge source="PNPT1" target="SSBP1" />
+    <edge source="SSBP1" target="POLG" />
+    <edge source="SSBP1" target="PREPL" />
+    <edge source="SSBP1" target="QRSL1" />
+    <edge source="SSBP1" target="TRAP1" />
+    <edge source="SSBP1" target="SSBP1" />
+    <edge source="SSBP1" target="YARS2" />
+    <edge source="SSBP1" target="UQCRFS1" />
+    <edge source="SSBP1" target="SUPV3L1" />
+    <edge source="SSBP1" target="TARS2" />
+    <edge source="PREPL" target="PREPL" />
+    <edge source="PREPL" target="TRAP1" />
+    <edge source="PREPL" target="YARS2" />
+    <edge source="PREPL" target="UQCRFS1" />
+    <edge source="QRSL1" target="TRAP1" />
+    <edge source="QRSL1" target="YARS2" />
+    <edge source="QRSL1" target="TARS2" />
+    <edge source="POLG" target="TRAP1" />
+    <edge source="POLG" target="YARS2" />
+    <edge source="POLG" target="POLG" />
+    <edge source="POLG" target="UQCRFS1" />
+    <edge source="SUPV3L1" target="TRAP1" />
+    <edge source="SUPV3L1" target="YARS2" />
+    <edge source="UQCRFS1" target="TARS2" />
+    <edge source="UQCRFS1" target="TRAP1" />
+    <edge source="UQCRFS1" target="YARS2" />
+    <edge source="TARS2" target="TRAP1" />
+    <edge source="TARS2" target="YARS2" />
+    <edge source="TRAP1" target="YARS2" />
+    <edge source="YARS2" target="YARS2" />
+  </graph>
+</graphml>

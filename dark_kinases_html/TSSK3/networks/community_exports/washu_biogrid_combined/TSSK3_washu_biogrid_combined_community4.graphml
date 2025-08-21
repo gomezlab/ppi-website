@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="SALL2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="HAUS1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PPIG">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="CEP76">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="VPS52">
+      <data key="d0">skyblue</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="DDX54">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PHF10">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="NFATC1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="DPF1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="SMARCE1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="LUC7L">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <edge source="SALL2" target="CEP76" />
+    <edge source="HAUS1" target="HAUS1" />
+    <edge source="HAUS1" target="VPS52" />
+    <edge source="PPIG" target="LUC7L" />
+    <edge source="CEP76" target="SMARCE1" />
+    <edge source="VPS52" target="SMARCE1" />
+    <edge source="VPS52" target="VPS52" />
+    <edge source="DDX54" target="LUC7L" />
+    <edge source="DDX54" target="PHF10" />
+    <edge source="PHF10" target="DPF1" />
+    <edge source="PHF10" target="LUC7L" />
+    <edge source="PHF10" target="SMARCE1" />
+    <edge source="NFATC1" target="SMARCE1" />
+    <edge source="NFATC1" target="NFATC1" />
+    <edge source="DPF1" target="SMARCE1" />
+    <edge source="SMARCE1" target="SMARCE1" />
+    <edge source="LUC7L" target="LUC7L" />
+  </graph>
+</graphml>

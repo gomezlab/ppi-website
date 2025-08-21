@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="DYNC1I2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="ARMC6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="PDLIM4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="SKIV2L">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="PFDN5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="SLC35E1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="PFDN1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="SDCBP">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="WDR91">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="PFDN6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="HSBP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <edge source="DYNC1I2" target="PFDN6" />
+    <edge source="DYNC1I2" target="DYNC1I2" />
+    <edge source="DYNC1I2" target="PFDN5" />
+    <edge source="DYNC1I2" target="PFDN1" />
+    <edge source="ARMC6" target="PFDN5" />
+    <edge source="ARMC6" target="SLC35E1" />
+    <edge source="PDLIM4" target="SDCBP" />
+    <edge source="SKIV2L" target="PFDN1" />
+    <edge source="SKIV2L" target="PFDN5" />
+    <edge source="SKIV2L" target="PFDN6" />
+    <edge source="PFDN5" target="SDCBP" />
+    <edge source="PFDN5" target="PFDN1" />
+    <edge source="PFDN5" target="PFDN6" />
+    <edge source="PFDN1" target="PFDN6" />
+    <edge source="SDCBP" target="WDR91" />
+    <edge source="SDCBP" target="HSBP1" />
+    <edge source="SDCBP" target="SDCBP" />
+    <edge source="HSBP1" target="HSBP1" />
+  </graph>
+</graphml>

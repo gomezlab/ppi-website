@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="DNM2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="MAGED4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="SMC6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="TRAPPC11">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="PJA1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="TIAM2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="GBE1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="SNX18">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="SIRT2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="TRAPPC12">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="RPGR">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="SNX33">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="ESPL1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="SMC1A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <node id="AHI1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">9</data>
+    </node>
+    <edge source="DNM2" target="TIAM2" />
+    <edge source="DNM2" target="GBE1" />
+    <edge source="DNM2" target="SNX18" />
+    <edge source="DNM2" target="AHI1" />
+    <edge source="DNM2" target="RPGR" />
+    <edge source="DNM2" target="SMC1A" />
+    <edge source="DNM2" target="SNX33" />
+    <edge source="DNM2" target="DNM2" />
+    <edge source="MAGED4" target="PJA1" />
+    <edge source="SMC6" target="PJA1" />
+    <edge source="SMC6" target="SMC6" />
+    <edge source="TRAPPC11" target="TRAPPC12" />
+    <edge source="TRAPPC11" target="TRAPPC11" />
+    <edge source="PJA1" target="ESPL1" />
+    <edge source="PJA1" target="PJA1" />
+    <edge source="SNX18" target="SNX18" />
+    <edge source="SNX18" target="SNX33" />
+    <edge source="SIRT2" target="TRAPPC12" />
+    <edge source="SIRT2" target="AHI1" />
+    <edge source="TRAPPC12" target="TRAPPC12" />
+    <edge source="RPGR" target="SMC1A" />
+    <edge source="SNX33" target="SNX33" />
+    <edge source="ESPL1" target="SMC1A" />
+    <edge source="SMC1A" target="SMC1A" />
+    <edge source="AHI1" target="AHI1" />
+  </graph>
+</graphml>

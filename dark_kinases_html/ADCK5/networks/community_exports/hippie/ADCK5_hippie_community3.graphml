@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="ALDH1L1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="COQ5">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="COQ6">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HOGA1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="COQ3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ECH1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="COQ8A">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <edge source="ALDH1L1" target="HOGA1" />
+    <edge source="ALDH1L1" target="COQ8A" />
+    <edge source="ALDH1L1" target="COQ5" />
+    <edge source="ALDH1L1" target="COQ6" />
+    <edge source="ALDH1L1" target="COQ3" />
+    <edge source="COQ5" target="COQ3" />
+    <edge source="COQ5" target="COQ8A" />
+    <edge source="COQ5" target="COQ5" />
+    <edge source="COQ5" target="COQ6" />
+    <edge source="COQ6" target="COQ3" />
+    <edge source="COQ6" target="COQ8A" />
+    <edge source="COQ6" target="ECH1" />
+    <edge source="COQ6" target="COQ6" />
+    <edge source="HOGA1" target="COQ3" />
+    <edge source="HOGA1" target="ECH1" />
+    <edge source="HOGA1" target="HOGA1" />
+    <edge source="COQ3" target="COQ3" />
+    <edge source="COQ3" target="ECH1" />
+    <edge source="COQ3" target="COQ8A" />
+    <edge source="ECH1" target="COQ8A" />
+    <edge source="COQ8A" target="COQ8A" />
+  </graph>
+</graphml>

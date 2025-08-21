@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="SHMT2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="NOTCH2NLA">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="POLDIP2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="TNS2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <edge source="SHMT2" target="NOTCH2NLA" />
+    <edge source="SHMT2" target="POLDIP2" />
+    <edge source="SHMT2" target="SHMT2" />
+    <edge source="NOTCH2NLA" target="TNS2" />
+    <edge source="POLDIP2" target="POLDIP2" />
+    <edge source="POLDIP2" target="TNS2" />
+    <edge source="TNS2" target="TNS2" />
+  </graph>
+</graphml>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="S100A11">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MYH9">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="SLC25A13">
+      <data key="d0">skyblue</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MYO1B">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="NUDCD2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="CCDC102A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="WDR7">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="SLC25A10">
+      <data key="d0">skyblue</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="EIF3H">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="EIF4A2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="ASCC2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PLEKHG3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="DMXL2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="NFKB1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <edge source="S100A11" target="MYH9" />
+    <edge source="S100A11" target="S100A11" />
+    <edge source="MYH9" target="ASCC2" />
+    <edge source="MYH9" target="NUDCD2" />
+    <edge source="MYH9" target="NFKB1" />
+    <edge source="MYH9" target="PLEKHG3" />
+    <edge source="MYH9" target="CCDC102A" />
+    <edge source="MYH9" target="MYH9" />
+    <edge source="MYH9" target="MYO1B" />
+    <edge source="SLC25A13" target="NFKB1" />
+    <edge source="SLC25A13" target="EIF3H" />
+    <edge source="MYO1B" target="NUDCD2" />
+    <edge source="MYO1B" target="EIF4A2" />
+    <edge source="NUDCD2" target="DMXL2" />
+    <edge source="NUDCD2" target="NUDCD2" />
+    <edge source="NUDCD2" target="NFKB1" />
+    <edge source="WDR7" target="DMXL2" />
+    <edge source="SLC25A10" target="NFKB1" />
+    <edge source="EIF3H" target="EIF4A2" />
+    <edge source="EIF3H" target="EIF3H" />
+    <edge source="EIF4A2" target="EIF4A2" />
+    <edge source="NFKB1" target="NFKB1" />
+  </graph>
+</graphml>

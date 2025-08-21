@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="SMARCC2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MED12">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="FOXJ3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TERF1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="DEPDC1B">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PHF10">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TET2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="STAG1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NUMA1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SMARCE1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="RAI1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="DPF2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PAN2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <edge source="SMARCC2" target="TET2" />
+    <edge source="SMARCC2" target="TERF1" />
+    <edge source="SMARCC2" target="DPF2" />
+    <edge source="SMARCC2" target="PHF10" />
+    <edge source="SMARCC2" target="SMARCE1" />
+    <edge source="MED12" target="MED12" />
+    <edge source="MED12" target="NUMA1" />
+    <edge source="FOXJ3" target="TERF1" />
+    <edge source="FOXJ3" target="FOXJ3" />
+    <edge source="TERF1" target="STAG1" />
+    <edge source="TERF1" target="NUMA1" />
+    <edge source="TERF1" target="TERF1" />
+    <edge source="DEPDC1B" target="NUMA1" />
+    <edge source="PHF10" target="DPF2" />
+    <edge source="PHF10" target="SMARCE1" />
+    <edge source="TET2" target="PAN2" />
+    <edge source="TET2" target="RAI1" />
+    <edge source="STAG1" target="STAG1" />
+    <edge source="SMARCE1" target="DPF2" />
+    <edge source="SMARCE1" target="SMARCE1" />
+    <edge source="PAN2" target="PAN2" />
+  </graph>
+</graphml>

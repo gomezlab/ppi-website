@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="TBL2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="KIF24">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PDZRN3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="KIAA0586">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="RAP2C">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MYH9">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="HMGN2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="EIF2AK4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="NEK2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="S100A11">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="CCDC102A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="FAR1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="LIMD2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="ECHDC1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PLEKHG3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="KIF14">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MYO1B">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="EIF4A2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="ASCC2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <edge source="TBL2" target="KIF14" />
+    <edge source="KIF24" target="KIAA0586" />
+    <edge source="KIF24" target="KIF24" />
+    <edge source="KIF24" target="NEK2" />
+    <edge source="PDZRN3" target="KIF14" />
+    <edge source="PDZRN3" target="PDZRN3" />
+    <edge source="RAP2C" target="KIF14" />
+    <edge source="MYH9" target="S100A11" />
+    <edge source="MYH9" target="ASCC2" />
+    <edge source="MYH9" target="PLEKHG3" />
+    <edge source="MYH9" target="KIF14" />
+    <edge source="MYH9" target="NEK2" />
+    <edge source="MYH9" target="CCDC102A" />
+    <edge source="MYH9" target="MYH9" />
+    <edge source="MYH9" target="MYO1B" />
+    <edge source="HMGN2" target="KIF14" />
+    <edge source="HMGN2" target="HMGN2" />
+    <edge source="EIF2AK4" target="KIF14" />
+    <edge source="NEK2" target="EIF4A2" />
+    <edge source="NEK2" target="NEK2" />
+    <edge source="S100A11" target="S100A11" />
+    <edge source="FAR1" target="KIF14" />
+    <edge source="LIMD2" target="KIF14" />
+    <edge source="ECHDC1" target="KIF14" />
+    <edge source="PLEKHG3" target="KIF14" />
+    <edge source="KIF14" target="EIF4A2" />
+    <edge source="KIF14" target="MYO1B" />
+    <edge source="KIF14" target="KIF14" />
+    <edge source="MYO1B" target="EIF4A2" />
+    <edge source="EIF4A2" target="EIF4A2" />
+  </graph>
+</graphml>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="SNX4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="C10orf88">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="TPP2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="ABCF3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="SNX30">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <edge source="SNX4" target="SNX30" />
+    <edge source="SNX4" target="C10orf88" />
+    <edge source="SNX4" target="SNX4" />
+    <edge source="C10orf88" target="SNX30" />
+    <edge source="C10orf88" target="C10orf88" />
+    <edge source="C10orf88" target="TPP2" />
+    <edge source="TPP2" target="TPP2" />
+    <edge source="TPP2" target="ABCF3" />
+    <edge source="SNX30" target="SNX30" />
+  </graph>
+</graphml>

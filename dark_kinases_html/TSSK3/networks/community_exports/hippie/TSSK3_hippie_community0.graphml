@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="CENPN">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="UROD">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="RBCK1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="GP2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="TSSK3">
+      <data key="d0">lightblue</data>
+      <data key="d1">400</data>
+      <data key="d2">bait</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="MBD3L1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="RBBP4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="FUT9">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="CCDC130">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="STAT5B">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="SLAIN1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="C9orf24">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="TRIM35">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="PJA1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="NME4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="DDIT4L">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="C15orf48">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="PDCD5">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="LBX1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <edge source="CENPN" target="TSSK3" />
+    <edge source="CENPN" target="CENPN" />
+    <edge source="UROD" target="TSSK3" />
+    <edge source="UROD" target="UROD" />
+    <edge source="RBCK1" target="TSSK3" />
+    <edge source="RBCK1" target="RBCK1" />
+    <edge source="RBCK1" target="TRIM35" />
+    <edge source="GP2" target="TSSK3" />
+    <edge source="GP2" target="GP2" />
+    <edge source="TSSK3" target="C15orf48" />
+    <edge source="TSSK3" target="C9orf24" />
+    <edge source="TSSK3" target="CCDC130" />
+    <edge source="TSSK3" target="DDIT4L" />
+    <edge source="TSSK3" target="FUT9" />
+    <edge source="TSSK3" target="LBX1" />
+    <edge source="TSSK3" target="MBD3L1" />
+    <edge source="TSSK3" target="NME4" />
+    <edge source="TSSK3" target="PDCD5" />
+    <edge source="TSSK3" target="PJA1" />
+    <edge source="TSSK3" target="RBBP4" />
+    <edge source="TSSK3" target="SLAIN1" />
+    <edge source="TSSK3" target="STAT5B" />
+    <edge source="TSSK3" target="TRIM35" />
+    <edge source="MBD3L1" target="RBBP4" />
+    <edge source="RBBP4" target="RBBP4" />
+    <edge source="RBBP4" target="STAT5B" />
+    <edge source="STAT5B" target="STAT5B" />
+    <edge source="TRIM35" target="PDCD5" />
+    <edge source="PJA1" target="PJA1" />
+    <edge source="NME4" target="NME4" />
+  </graph>
+</graphml>

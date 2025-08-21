@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="ATP1A1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="NFKB1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="SNRPE">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CYB5A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="RBBP4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="TECR">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="E2F4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="SMC2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CENPE">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="MRPS27">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CDIPT">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="NCAPG2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CNP">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="IPO4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="USP11">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="PHB">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="DNAJB6">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="RCN1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="ST13">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="DDOST">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="FSIP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="VDAC3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CUL3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <edge source="ATP1A1" target="PHB" />
+    <edge source="ATP1A1" target="VDAC3" />
+    <edge source="ATP1A1" target="E2F4" />
+    <edge source="ATP1A1" target="NFKB1" />
+    <edge source="ATP1A1" target="TECR" />
+    <edge source="ATP1A1" target="DDOST" />
+    <edge source="ATP1A1" target="USP11" />
+    <edge source="ATP1A1" target="ST13" />
+    <edge source="ATP1A1" target="CUL3" />
+    <edge source="NFKB1" target="TECR" />
+    <edge source="NFKB1" target="CUL3" />
+    <edge source="NFKB1" target="NFKB1" />
+    <edge source="SNRPE" target="PHB" />
+    <edge source="SNRPE" target="CUL3" />
+    <edge source="SNRPE" target="SNRPE" />
+    <edge source="CYB5A" target="PHB" />
+    <edge source="RBBP4" target="PHB" />
+    <edge source="RBBP4" target="E2F4" />
+    <edge source="RBBP4" target="DNAJB6" />
+    <edge source="RBBP4" target="USP11" />
+    <edge source="RBBP4" target="RBBP4" />
+    <edge source="TECR" target="PHB" />
+    <edge source="TECR" target="VDAC3" />
+    <edge source="TECR" target="CUL3" />
+    <edge source="TECR" target="DDOST" />
+    <edge source="SMC2" target="NCAPG2" />
+    <edge source="SMC2" target="PHB" />
+    <edge source="CENPE" target="USP11" />
+    <edge source="CENPE" target="CENPE" />
+    <edge source="MRPS27" target="PHB" />
+    <edge source="MRPS27" target="CUL3" />
+    <edge source="CDIPT" target="PHB" />
+    <edge source="NCAPG2" target="PHB" />
+    <edge source="CNP" target="PHB" />
+    <edge source="IPO4" target="CUL3" />
+    <edge source="USP11" target="PHB" />
+    <edge source="USP11" target="USP11" />
+    <edge source="PHB" target="FSIP1" />
+    <edge source="PHB" target="CUL3" />
+    <edge source="PHB" target="VDAC3" />
+    <edge source="PHB" target="DDOST" />
+    <edge source="PHB" target="PHB" />
+    <edge source="PHB" target="DNAJB6" />
+    <edge source="DNAJB6" target="CUL3" />
+    <edge source="DNAJB6" target="RCN1" />
+    <edge source="DNAJB6" target="DNAJB6" />
+    <edge source="RCN1" target="CUL3" />
+    <edge source="DDOST" target="VDAC3" />
+    <edge source="CUL3" target="CUL3" />
+  </graph>
+</graphml>

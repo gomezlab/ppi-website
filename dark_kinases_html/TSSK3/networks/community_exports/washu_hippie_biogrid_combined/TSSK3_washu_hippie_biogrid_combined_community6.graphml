@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="ARMC6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CCT2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TCP1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="FUT9">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CCT8">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="DTL">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ERCC6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="FNBP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="HEY1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CCT6A">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CCT5">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CCT3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CCT4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CANX">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="RIN3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CCT7">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <edge source="ARMC6" target="CCT2" />
+    <edge source="ARMC6" target="CCT5" />
+    <edge source="ARMC6" target="TCP1" />
+    <edge source="ARMC6" target="CCT3" />
+    <edge source="ARMC6" target="CCT6A" />
+    <edge source="ARMC6" target="CCT8" />
+    <edge source="ARMC6" target="CCT4" />
+    <edge source="ARMC6" target="CCT7" />
+    <edge source="CCT2" target="DTL" />
+    <edge source="CCT2" target="RIN3" />
+    <edge source="CCT2" target="CCT3" />
+    <edge source="CCT2" target="CCT5" />
+    <edge source="CCT2" target="TCP1" />
+    <edge source="CCT2" target="CCT4" />
+    <edge source="CCT2" target="CCT7" />
+    <edge source="CCT2" target="CCT8" />
+    <edge source="CCT2" target="CCT6A" />
+    <edge source="TCP1" target="RIN3" />
+    <edge source="TCP1" target="CCT3" />
+    <edge source="TCP1" target="CCT5" />
+    <edge source="TCP1" target="CCT4" />
+    <edge source="TCP1" target="CCT7" />
+    <edge source="TCP1" target="CCT8" />
+    <edge source="TCP1" target="CCT6A" />
+    <edge source="FUT9" target="CANX" />
+    <edge source="CCT8" target="HEY1" />
+    <edge source="CCT8" target="RIN3" />
+    <edge source="CCT8" target="CCT3" />
+    <edge source="CCT8" target="CCT5" />
+    <edge source="CCT8" target="CCT4" />
+    <edge source="CCT8" target="CCT7" />
+    <edge source="CCT8" target="CCT6A" />
+    <edge source="DTL" target="CCT5" />
+    <edge source="DTL" target="CCT3" />
+    <edge source="DTL" target="CCT7" />
+    <edge source="ERCC6" target="CCT5" />
+    <edge source="ERCC6" target="CCT6A" />
+    <edge source="ERCC6" target="ERCC6" />
+    <edge source="FNBP1" target="FNBP1" />
+    <edge source="FNBP1" target="RIN3" />
+    <edge source="HEY1" target="CCT5" />
+    <edge source="HEY1" target="HEY1" />
+    <edge source="HEY1" target="CCT6A" />
+    <edge source="CCT6A" target="RIN3" />
+    <edge source="CCT6A" target="CCT3" />
+    <edge source="CCT6A" target="CCT5" />
+    <edge source="CCT6A" target="CCT4" />
+    <edge source="CCT6A" target="CCT7" />
+    <edge source="CCT6A" target="CANX" />
+    <edge source="CCT5" target="CCT3" />
+    <edge source="CCT5" target="CCT4" />
+    <edge source="CCT5" target="CCT7" />
+    <edge source="CCT3" target="RIN3" />
+    <edge source="CCT3" target="CCT4" />
+    <edge source="CCT3" target="CCT7" />
+    <edge source="CCT3" target="CANX" />
+    <edge source="CCT4" target="RIN3" />
+    <edge source="CCT4" target="CCT7" />
+    <edge source="CCT4" target="CANX" />
+    <edge source="CANX" target="RIN3" />
+    <edge source="CANX" target="CANX" />
+    <edge source="RIN3" target="CCT7" />
+    <edge source="RIN3" target="RIN3" />
+  </graph>
+</graphml>

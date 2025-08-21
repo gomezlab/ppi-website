@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="PSMA4">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="EXOSC4">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="PSMD4">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="EXOSC6">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="PSMA5">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="PSMG1">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <edge source="PSMA4" target="EXOSC4" />
+    <edge source="PSMA4" target="PSMG1" />
+    <edge source="PSMA4" target="PSMD4" />
+    <edge source="PSMA4" target="PSMA4" />
+    <edge source="PSMA4" target="PSMA5" />
+    <edge source="EXOSC4" target="EXOSC4" />
+    <edge source="EXOSC4" target="EXOSC6" />
+    <edge source="EXOSC4" target="PSMA5" />
+    <edge source="PSMD4" target="PSMA5" />
+    <edge source="PSMD4" target="PSMD4" />
+    <edge source="EXOSC6" target="EXOSC6" />
+    <edge source="EXOSC6" target="PSMA5" />
+    <edge source="PSMA5" target="PSMG1" />
+    <edge source="PSMA5" target="PSMA5" />
+    <edge source="PSMG1" target="PSMG1" />
+  </graph>
+</graphml>

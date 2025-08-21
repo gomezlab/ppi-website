@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="WDR35">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="CCDC40">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="TIPIN">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="DTX3L">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="ZFAND5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="MCM8">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="TOMM34">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="CDC7">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="PHKA2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="MCMBP">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="BTF3L4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="IFT122">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="MCM7">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <edge source="WDR35" target="IFT122" />
+    <edge source="CCDC40" target="IFT122" />
+    <edge source="TIPIN" target="MCM7" />
+    <edge source="DTX3L" target="MCM7" />
+    <edge source="DTX3L" target="DTX3L" />
+    <edge source="ZFAND5" target="TOMM34" />
+    <edge source="ZFAND5" target="ZFAND5" />
+    <edge source="MCM8" target="MCMBP" />
+    <edge source="MCM8" target="MCM7" />
+    <edge source="MCM8" target="MCM8" />
+    <edge source="TOMM34" target="PHKA2" />
+    <edge source="TOMM34" target="MCM7" />
+    <edge source="CDC7" target="IFT122" />
+    <edge source="CDC7" target="MCMBP" />
+    <edge source="CDC7" target="MCM7" />
+    <edge source="CDC7" target="CDC7" />
+    <edge source="PHKA2" target="BTF3L4" />
+    <edge source="MCMBP" target="MCM7" />
+    <edge source="MCM7" target="MCM7" />
+  </graph>
+</graphml>

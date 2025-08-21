@@ -1,0 +1,2718 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Dark Kinase – SBK2</title>
+  <style>
+    :root { --picker-h: 44px; } /* adjust if your picker is taller */
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header { padding: 10px; background: #333; color: white; display:flex; gap:12px; align-items:center; }
+    header select { font-size: 1rem; padding: 5px; }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      height: calc(100vh - 60px);
+    }
+    .column {
+      overflow-y: auto;
+      padding: 12px 12px 80px;
+      border-left: 1px solid #ddd;
+    }
+    .column:first-child { border-left: none; }
+    h2 { margin: 8px 0; font-size: 0.95rem; }
+    .picker {
+      display:flex; gap:8px; align-items:center;
+      position: sticky; top: 0; z-index: 2; background:#fff; padding-bottom:8px;
+    }
+    .picker label { font-size: 0.9rem; color:#333; }
+    img.network {
+      position: sticky; top: calc(var(--picker-h) + 8px);
+      background: #fff; z-index: 1; display:block;
+      max-width: 100%; height: auto; margin: 10px 0 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06); border-radius: 6px;
+    }
+    /* Per-community block uses CSS vars we set inline */
+    .comm-block h3 { margin: 10px 0 4px; font-size: 0.9rem; color: var(--comm-fg); }
+    .comm-block table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
+    .comm-block th, .comm-block td { border: 1px solid #999; padding: 4px; font-size: 12px; }
+    .comm-block th { background: var(--comm-bg); }
+    h4 { margin: 8px 0 2px; font-size: 0.85rem; color:#444; }
+    .muted { color:#888; font-size: 0.9rem; }
+  </style>
+  <script>
+    function onKinaseChange(sel) {
+      window.location = sel.value + ".html";
+    }
+    function onCommunityChange(selectEl, imgId) {
+      const url = selectEl.value;
+      const img = document.getElementById(imgId);
+      if (url && img) img.src = url;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <label for="kinaseSelect">Choose kinase:</label>
+    <select id="kinaseSelect" onchange="onKinaseChange(this)">
+      
+      <option value="comparison_ADCK5" >ADCK5</option>
+      
+      <option value="comparison_DYRK4" >DYRK4</option>
+      
+      <option value="comparison_NEK11" >NEK11</option>
+      
+      <option value="comparison_NRK" >NRK</option>
+      
+      <option value="comparison_PSKH1" >PSKH1</option>
+      
+      <option value="comparison_PSKH2" >PSKH2</option>
+      
+      <option value="comparison_RPS6KL1" >RPS6KL1</option>
+      
+      <option value="comparison_RSKR" >RSKR</option>
+      
+      <option value="comparison_SBK2" selected>SBK2</option>
+      
+      <option value="comparison_SBK3" >SBK3</option>
+      
+      <option value="comparison_STK32A" >STK32A</option>
+      
+      <option value="comparison_STK32B" >STK32B</option>
+      
+      <option value="comparison_STKLD1" >STKLD1</option>
+      
+      <option value="comparison_TSSK2" >TSSK2</option>
+      
+      <option value="comparison_TSSK3" >TSSK3</option>
+      
+      <option value="comparison_TSSK4" >TSSK4</option>
+      
+    </select>
+    <span class="muted">Sticky dropdown + image; headings & table headers tinted by community color</span>
+  </header>
+
+  <div class="container">
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">WashU</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #1f77b4; --comm-bg: rgba(31,119,180,0.18);">
+              <h3>Community 0</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:308</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>2</td>
+      <td>0.039153</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04137</td>
+      <td>Mitophagy - animal</td>
+      <td>Mitophagy - animal</td>
+      <td>3</td>
+      <td>0.001659</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0550053</td>
+      <td>Stomach 2; glandular cells[High]</td>
+      <td>Stomach 2; glandular cells[High]</td>
+      <td>9</td>
+      <td>0.018991</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0150053</td>
+      <td>Duodenum; glandular cells[High]</td>
+      <td>Duodenum; glandular cells[High]</td>
+      <td>9</td>
+      <td>0.033818</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M09817_1</td>
+      <td>Factor: PAX5; motif: RNGCGTGACCNN; match class: 1</td>
+      <td>Factor: PAX5; motif: RNGCGTGACCNN; match class: 1</td>
+      <td>14</td>
+      <td>0.001699</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340453</td>
+      <td>Ovary; follicle cells[High]</td>
+      <td>Ovary; follicle cells[High]</td>
+      <td>4</td>
+      <td>0.004097</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340452</td>
+      <td>Ovary; follicle cells[≥Medium]</td>
+      <td>Ovary; follicle cells[≥Medium]</td>
+      <td>5</td>
+      <td>0.030481</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #d62728; --comm-bg: rgba(214,39,40,0.18);">
+              <h3>Community 3</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00524</td>
+      <td>Neomycin, kanamycin and gentamicin biosynthesis</td>
+      <td>Neomycin, kanamycin and gentamicin biosynthesis</td>
+      <td>2</td>
+      <td>0.000090</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00052</td>
+      <td>Galactose metabolism</td>
+      <td>Galactose metabolism</td>
+      <td>2</td>
+      <td>0.004421</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00051</td>
+      <td>Fructose and mannose metabolism</td>
+      <td>Fructose and mannose metabolism</td>
+      <td>2</td>
+      <td>0.004998</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00500</td>
+      <td>Starch and sucrose metabolism</td>
+      <td>Starch and sucrose metabolism</td>
+      <td>2</td>
+      <td>0.005611</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:01250</td>
+      <td>Biosynthesis of nucleotide sugars</td>
+      <td>Biosynthesis of nucleotide sugars</td>
+      <td>2</td>
+      <td>0.005931</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04930</td>
+      <td>Type II diabetes mellitus</td>
+      <td>Type II diabetes mellitus</td>
+      <td>2</td>
+      <td>0.009204</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04973</td>
+      <td>Carbohydrate digestion and absorption</td>
+      <td>Carbohydrate digestion and absorption</td>
+      <td>2</td>
+      <td>0.009612</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00520</td>
+      <td>Amino sugar and nucleotide sugar metabolism</td>
+      <td>Amino sugar and nucleotide sugar metabolism</td>
+      <td>2</td>
+      <td>0.010453</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00010</td>
+      <td>Glycolysis / Gluconeogenesis</td>
+      <td>Glycolysis / Gluconeogenesis</td>
+      <td>2</td>
+      <td>0.019597</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05230</td>
+      <td>Central carbon metabolism in cancer</td>
+      <td>Central carbon metabolism in cancer</td>
+      <td>2</td>
+      <td>0.021395</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:6000559</td>
+      <td>Reduced erythrocyte hexokinase activity</td>
+      <td>Activity or concentration of hexokinase (EC 2.7.1.1) in red blood cells below the lower limit of normal. Arginase catalyzes the last step of the urea cycle.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #9467bd; --comm-bg: rgba(148,103,189,0.18);">
+              <h3>Community 4</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0025607</td>
+      <td>Upper eyelid entropion</td>
+      <td>An inward turning (inversion) of the margin of the upper eyelid.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #8c564b; --comm-bg: rgba(140,86,75,0.18);">
+              <h3>Community 5</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04210</td>
+      <td>Apoptosis</td>
+      <td>Apoptosis</td>
+      <td>2</td>
+      <td>0.00665</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2000</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:3492</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #e377c2; --comm-bg: rgba(227,119,194,0.18);">
+              <h3>Community 6</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5467</td>
+      <td>IKB(alpha)-RELA-cREL complex</td>
+      <td>IKB(alpha)-RELA-cREL complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0031380</td>
+      <td>Abnormal B cell proliferation</td>
+      <td>Any abnormality in the multiplication or reproduction of B cells, which results in the expansion of a cell population.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">Hippie</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>3</td>
+      <td>0.000378</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04612</td>
+      <td>Antigen processing and presentation</td>
+      <td>Antigen processing and presentation</td>
+      <td>2</td>
+      <td>0.009631</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04657</td>
+      <td>IL-17 signaling pathway</td>
+      <td>IL-17 signaling pathway</td>
+      <td>2</td>
+      <td>0.017154</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05215</td>
+      <td>Prostate cancer</td>
+      <td>Prostate cancer</td>
+      <td>2</td>
+      <td>0.019073</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04914</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>2</td>
+      <td>0.021092</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04659</td>
+      <td>Th17 cell differentiation</td>
+      <td>Th17 cell differentiation</td>
+      <td>2</td>
+      <td>0.022352</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04915</td>
+      <td>Estrogen signaling pathway</td>
+      <td>Estrogen signaling pathway</td>
+      <td>2</td>
+      <td>0.037488</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05418</td>
+      <td>Fluid shear stress and atherosclerosis</td>
+      <td>Fluid shear stress and atherosclerosis</td>
+      <td>2</td>
+      <td>0.038597</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>2</td>
+      <td>0.000177</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>2</td>
+      <td>0.000295</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>2</td>
+      <td>0.000443</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>2</td>
+      <td>0.000827</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>2</td>
+      <td>0.000827</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>2</td>
+      <td>0.001328</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>2</td>
+      <td>0.002301</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5199</td>
+      <td>Kinase maturation complex 1</td>
+      <td>Kinase maturation complex 1</td>
+      <td>2</td>
+      <td>0.003538</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5716</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>1</td>
+      <td>0.049988</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0131333</td>
+      <td>Colon; mucosal lymphoid cells[High]</td>
+      <td>Colon; mucosal lymphoid cells[High]</td>
+      <td>2</td>
+      <td>0.036339</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11655_1</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN; match class: 1</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN; match class: 1</td>
+      <td>2</td>
+      <td>0.032606</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">biogrid</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">wb</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #1f77b4; --comm-bg: rgba(31,119,180,0.18);">
+              <h3>Community 0</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:308</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>2</td>
+      <td>0.039153</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04137</td>
+      <td>Mitophagy - animal</td>
+      <td>Mitophagy - animal</td>
+      <td>3</td>
+      <td>0.00285</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0550053</td>
+      <td>Stomach 2; glandular cells[High]</td>
+      <td>Stomach 2; glandular cells[High]</td>
+      <td>11</td>
+      <td>0.005079</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0150053</td>
+      <td>Duodenum; glandular cells[High]</td>
+      <td>Duodenum; glandular cells[High]</td>
+      <td>11</td>
+      <td>0.010206</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0310441</td>
+      <td>Lymph node; non-germinal center cells[≥Low]</td>
+      <td>Lymph node; non-germinal center cells[≥Low]</td>
+      <td>15</td>
+      <td>0.019727</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0380521</td>
+      <td>Placenta; trophoblastic cells[≥Low]</td>
+      <td>Placenta; trophoblastic cells[≥Low]</td>
+      <td>15</td>
+      <td>0.040210</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0540053</td>
+      <td>Stomach 1; glandular cells[High]</td>
+      <td>Stomach 1; glandular cells[High]</td>
+      <td>10</td>
+      <td>0.044919</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0460672</td>
+      <td>Skin 1; melanocytes[≥Medium]</td>
+      <td>Skin 1; melanocytes[≥Medium]</td>
+      <td>12</td>
+      <td>0.048235</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #d62728; --comm-bg: rgba(214,39,40,0.18);">
+              <h3>Community 3</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00524</td>
+      <td>Neomycin, kanamycin and gentamicin biosynthesis</td>
+      <td>Neomycin, kanamycin and gentamicin biosynthesis</td>
+      <td>2</td>
+      <td>0.000090</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00052</td>
+      <td>Galactose metabolism</td>
+      <td>Galactose metabolism</td>
+      <td>2</td>
+      <td>0.004421</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00051</td>
+      <td>Fructose and mannose metabolism</td>
+      <td>Fructose and mannose metabolism</td>
+      <td>2</td>
+      <td>0.004998</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00500</td>
+      <td>Starch and sucrose metabolism</td>
+      <td>Starch and sucrose metabolism</td>
+      <td>2</td>
+      <td>0.005611</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:01250</td>
+      <td>Biosynthesis of nucleotide sugars</td>
+      <td>Biosynthesis of nucleotide sugars</td>
+      <td>2</td>
+      <td>0.005931</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04930</td>
+      <td>Type II diabetes mellitus</td>
+      <td>Type II diabetes mellitus</td>
+      <td>2</td>
+      <td>0.009204</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04973</td>
+      <td>Carbohydrate digestion and absorption</td>
+      <td>Carbohydrate digestion and absorption</td>
+      <td>2</td>
+      <td>0.009612</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00520</td>
+      <td>Amino sugar and nucleotide sugar metabolism</td>
+      <td>Amino sugar and nucleotide sugar metabolism</td>
+      <td>2</td>
+      <td>0.010453</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00010</td>
+      <td>Glycolysis / Gluconeogenesis</td>
+      <td>Glycolysis / Gluconeogenesis</td>
+      <td>2</td>
+      <td>0.019597</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05230</td>
+      <td>Central carbon metabolism in cancer</td>
+      <td>Central carbon metabolism in cancer</td>
+      <td>2</td>
+      <td>0.021395</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:6000559</td>
+      <td>Reduced erythrocyte hexokinase activity</td>
+      <td>Activity or concentration of hexokinase (EC 2.7.1.1) in red blood cells below the lower limit of normal. Arginase catalyzes the last step of the urea cycle.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #9467bd; --comm-bg: rgba(148,103,189,0.18);">
+              <h3>Community 4</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04210</td>
+      <td>Apoptosis</td>
+      <td>Apoptosis</td>
+      <td>2</td>
+      <td>0.03694</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2000</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:3492</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #8c564b; --comm-bg: rgba(140,86,75,0.18);">
+              <h3>Community 5</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5467</td>
+      <td>IKB(alpha)-RELA-cREL complex</td>
+      <td>IKB(alpha)-RELA-cREL complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0031380</td>
+      <td>Abnormal B cell proliferation</td>
+      <td>Any abnormality in the multiplication or reproduction of B cells, which results in the expansion of a cell population.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">wh</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #1f77b4; --comm-bg: rgba(31,119,180,0.18);">
+              <h3>Community 0</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:308</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>2</td>
+      <td>0.039153</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M10026_1</td>
+      <td>Factor: PATZ; motif: GGGGNGGGGGMKGGRRNGGNRN; match class: 1</td>
+      <td>Factor: PATZ; motif: GGGGNGGGGGMKGGRRNGGNRN; match class: 1</td>
+      <td>18</td>
+      <td>0.048763</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00524</td>
+      <td>Neomycin, kanamycin and gentamicin biosynthesis</td>
+      <td>Neomycin, kanamycin and gentamicin biosynthesis</td>
+      <td>2</td>
+      <td>0.000434</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04137</td>
+      <td>Mitophagy - animal</td>
+      <td>Mitophagy - animal</td>
+      <td>3</td>
+      <td>0.005202</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00052</td>
+      <td>Galactose metabolism</td>
+      <td>Galactose metabolism</td>
+      <td>2</td>
+      <td>0.021258</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00051</td>
+      <td>Fructose and mannose metabolism</td>
+      <td>Fructose and mannose metabolism</td>
+      <td>2</td>
+      <td>0.024021</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00500</td>
+      <td>Starch and sucrose metabolism</td>
+      <td>Starch and sucrose metabolism</td>
+      <td>2</td>
+      <td>0.026950</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:01250</td>
+      <td>Biosynthesis of nucleotide sugars</td>
+      <td>Biosynthesis of nucleotide sugars</td>
+      <td>2</td>
+      <td>0.028476</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04930</td>
+      <td>Type II diabetes mellitus</td>
+      <td>Type II diabetes mellitus</td>
+      <td>2</td>
+      <td>0.044066</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04973</td>
+      <td>Carbohydrate digestion and absorption</td>
+      <td>Carbohydrate digestion and absorption</td>
+      <td>2</td>
+      <td>0.046003</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00520</td>
+      <td>Amino sugar and nucleotide sugar metabolism</td>
+      <td>Amino sugar and nucleotide sugar metabolism</td>
+      <td>2</td>
+      <td>0.049999</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0310441</td>
+      <td>Lymph node; non-germinal center cells[≥Low]</td>
+      <td>Lymph node; non-germinal center cells[≥Low]</td>
+      <td>16</td>
+      <td>0.010559</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0550053</td>
+      <td>Stomach 2; glandular cells[High]</td>
+      <td>Stomach 2; glandular cells[High]</td>
+      <td>11</td>
+      <td>0.012650</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0310000</td>
+      <td>Lymph node</td>
+      <td>Lymph node</td>
+      <td>16</td>
+      <td>0.034464</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08306</td>
+      <td>Factor: GCMa:Elf-1; motif: NNCGGAARTGCKGGT</td>
+      <td>Factor: GCMa:Elf-1; motif: NNCGGAARTGCKGGT</td>
+      <td>12</td>
+      <td>0.005014</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M09817_1</td>
+      <td>Factor: PAX5; motif: RNGCGTGACCNN; match class: 1</td>
+      <td>Factor: PAX5; motif: RNGCGTGACCNN; match class: 1</td>
+      <td>16</td>
+      <td>0.021119</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>4</td>
+      <td>0.001742</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04151</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>4</td>
+      <td>0.032114</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>3</td>
+      <td>3.483223e-07</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>3</td>
+      <td>8.702259e-07</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>3</td>
+      <td>1.739293e-06</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>3</td>
+      <td>4.863534e-06</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>3</td>
+      <td>4.863534e-06</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>3</td>
+      <td>1.040797e-05</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>3</td>
+      <td>2.475609e-05</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5199</td>
+      <td>Kinase maturation complex 1</td>
+      <td>Kinase maturation complex 1</td>
+      <td>3</td>
+      <td>4.837652e-05</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6512</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>2</td>
+      <td>2.207874e-04</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5849</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>2</td>
+      <td>2.207874e-04</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M09901_1</td>
+      <td>Factor: nerf; motif: NNNCCGGAAGTGN; match class: 1</td>
+      <td>Factor: nerf; motif: NNNCCGGAAGTGN; match class: 1</td>
+      <td>7</td>
+      <td>0.029199</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M02064_1</td>
+      <td>Factor: c-ets-2; motif: ACCGGAWRTN; match class: 1</td>
+      <td>Factor: c-ets-2; motif: ACCGGAWRTN; match class: 1</td>
+      <td>11</td>
+      <td>0.031985</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #d62728; --comm-bg: rgba(214,39,40,0.18);">
+              <h3>Community 3</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5467</td>
+      <td>IKB(alpha)-RELA-cREL complex</td>
+      <td>IKB(alpha)-RELA-cREL complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0031380</td>
+      <td>Abnormal B cell proliferation</td>
+      <td>Any abnormality in the multiplication or reproduction of B cells, which results in the expansion of a cell population.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #9467bd; --comm-bg: rgba(148,103,189,0.18);">
+              <h3>Community 4</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #8c564b; --comm-bg: rgba(140,86,75,0.18);">
+              <h3>Community 5</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04210</td>
+      <td>Apoptosis</td>
+      <td>Apoptosis</td>
+      <td>2</td>
+      <td>0.00665</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2000</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:3492</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">whb</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #1f77b4; --comm-bg: rgba(31,119,180,0.18);">
+              <h3>Community 0</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:308</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>2</td>
+      <td>0.039153</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M10026_1</td>
+      <td>Factor: PATZ; motif: GGGGNGGGGGMKGGRRNGGNRN; match class: 1</td>
+      <td>Factor: PATZ; motif: GGGGNGGGGGMKGGRRNGGNRN; match class: 1</td>
+      <td>18</td>
+      <td>0.048763</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00524</td>
+      <td>Neomycin, kanamycin and gentamicin biosynthesis</td>
+      <td>Neomycin, kanamycin and gentamicin biosynthesis</td>
+      <td>2</td>
+      <td>0.000434</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04137</td>
+      <td>Mitophagy - animal</td>
+      <td>Mitophagy - animal</td>
+      <td>3</td>
+      <td>0.005202</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00052</td>
+      <td>Galactose metabolism</td>
+      <td>Galactose metabolism</td>
+      <td>2</td>
+      <td>0.021258</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00051</td>
+      <td>Fructose and mannose metabolism</td>
+      <td>Fructose and mannose metabolism</td>
+      <td>2</td>
+      <td>0.024021</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00500</td>
+      <td>Starch and sucrose metabolism</td>
+      <td>Starch and sucrose metabolism</td>
+      <td>2</td>
+      <td>0.026950</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:01250</td>
+      <td>Biosynthesis of nucleotide sugars</td>
+      <td>Biosynthesis of nucleotide sugars</td>
+      <td>2</td>
+      <td>0.028476</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04930</td>
+      <td>Type II diabetes mellitus</td>
+      <td>Type II diabetes mellitus</td>
+      <td>2</td>
+      <td>0.044066</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04973</td>
+      <td>Carbohydrate digestion and absorption</td>
+      <td>Carbohydrate digestion and absorption</td>
+      <td>2</td>
+      <td>0.046003</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00520</td>
+      <td>Amino sugar and nucleotide sugar metabolism</td>
+      <td>Amino sugar and nucleotide sugar metabolism</td>
+      <td>2</td>
+      <td>0.049999</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0310441</td>
+      <td>Lymph node; non-germinal center cells[≥Low]</td>
+      <td>Lymph node; non-germinal center cells[≥Low]</td>
+      <td>16</td>
+      <td>0.010559</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0550053</td>
+      <td>Stomach 2; glandular cells[High]</td>
+      <td>Stomach 2; glandular cells[High]</td>
+      <td>11</td>
+      <td>0.012650</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0310000</td>
+      <td>Lymph node</td>
+      <td>Lymph node</td>
+      <td>16</td>
+      <td>0.034464</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08306</td>
+      <td>Factor: GCMa:Elf-1; motif: NNCGGAARTGCKGGT</td>
+      <td>Factor: GCMa:Elf-1; motif: NNCGGAARTGCKGGT</td>
+      <td>12</td>
+      <td>0.005014</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M09817_1</td>
+      <td>Factor: PAX5; motif: RNGCGTGACCNN; match class: 1</td>
+      <td>Factor: PAX5; motif: RNGCGTGACCNN; match class: 1</td>
+      <td>16</td>
+      <td>0.021119</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04151</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>4</td>
+      <td>0.017556</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04621</td>
+      <td>NOD-like receptor signaling pathway</td>
+      <td>NOD-like receptor signaling pathway</td>
+      <td>3</td>
+      <td>0.040087</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>3</td>
+      <td>1.042503e-07</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>3</td>
+      <td>2.605678e-07</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>3</td>
+      <td>5.210199e-07</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>3</td>
+      <td>3.123343e-06</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>3</td>
+      <td>7.439004e-06</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5199</td>
+      <td>Kinase maturation complex 1</td>
+      <td>Kinase maturation complex 1</td>
+      <td>3</td>
+      <td>1.455616e-05</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6512</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5849</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #d62728; --comm-bg: rgba(214,39,40,0.18);">
+              <h3>Community 3</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0090922</td>
+      <td>Cerebellum; GLUC cells - cytoplasm/membrane[≥Medium]</td>
+      <td>Cerebellum; GLUC cells - cytoplasm/membrane[≥Medium]</td>
+      <td>2</td>
+      <td>0.046756</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #9467bd; --comm-bg: rgba(148,103,189,0.18);">
+              <h3>Community 4</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5467</td>
+      <td>IKB(alpha)-RELA-cREL complex</td>
+      <td>IKB(alpha)-RELA-cREL complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0031380</td>
+      <td>Abnormal B cell proliferation</td>
+      <td>Any abnormality in the multiplication or reproduction of B cells, which results in the expansion of a cell population.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #8c564b; --comm-bg: rgba(140,86,75,0.18);">
+              <h3>Community 5</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04210</td>
+      <td>Apoptosis</td>
+      <td>Apoptosis</td>
+      <td>2</td>
+      <td>0.00665</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2000</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:3492</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>BAX homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="CEP76">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="STK11">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="LNX1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="RNF168">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ADAMTSL4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TET2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="RBCK1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="CAMKK1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="CDC37">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ACVR1B">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="C19orf44">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="GLMN">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DHFR">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HSP90AB1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="AIP">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SALL2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ECSIT">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="FANCA">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DPCD">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HSP90AA1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SMAD4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="FOXM1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <edge source="CEP76" target="SALL2" />
+    <edge source="CEP76" target="HSP90AA1" />
+    <edge source="CEP76" target="LNX1" />
+    <edge source="CEP76" target="HSP90AB1" />
+    <edge source="STK11" target="CDC37" />
+    <edge source="STK11" target="STK11" />
+    <edge source="STK11" target="HSP90AA1" />
+    <edge source="STK11" target="SMAD4" />
+    <edge source="STK11" target="HSP90AB1" />
+    <edge source="LNX1" target="HSP90AB1" />
+    <edge source="LNX1" target="ADAMTSL4" />
+    <edge source="LNX1" target="HSP90AA1" />
+    <edge source="LNX1" target="RBCK1" />
+    <edge source="LNX1" target="LNX1" />
+    <edge source="RNF168" target="FOXM1" />
+    <edge source="RNF168" target="RNF168" />
+    <edge source="ADAMTSL4" target="SALL2" />
+    <edge source="ADAMTSL4" target="ADAMTSL4" />
+    <edge source="ADAMTSL4" target="HSP90AA1" />
+    <edge source="TET2" target="HSP90AB1" />
+    <edge source="RBCK1" target="DHFR" />
+    <edge source="RBCK1" target="HSP90AA1" />
+    <edge source="RBCK1" target="RBCK1" />
+    <edge source="CAMKK1" target="HSP90AB1" />
+    <edge source="CAMKK1" target="HSP90AA1" />
+    <edge source="CDC37" target="FOXM1" />
+    <edge source="CDC37" target="DPCD" />
+    <edge source="CDC37" target="C19orf44" />
+    <edge source="CDC37" target="HSP90AA1" />
+    <edge source="CDC37" target="GLMN" />
+    <edge source="CDC37" target="AIP" />
+    <edge source="CDC37" target="CDC37" />
+    <edge source="CDC37" target="DHFR" />
+    <edge source="CDC37" target="ECSIT" />
+    <edge source="CDC37" target="HSP90AB1" />
+    <edge source="ACVR1B" target="ACVR1B" />
+    <edge source="ACVR1B" target="HSP90AA1" />
+    <edge source="ACVR1B" target="SMAD4" />
+    <edge source="ACVR1B" target="HSP90AB1" />
+    <edge source="GLMN" target="SMAD4" />
+    <edge source="DHFR" target="DHFR" />
+    <edge source="DHFR" target="FANCA" />
+    <edge source="HSP90AB1" target="FOXM1" />
+    <edge source="HSP90AB1" target="AIP" />
+    <edge source="HSP90AB1" target="FANCA" />
+    <edge source="HSP90AB1" target="HSP90AA1" />
+    <edge source="HSP90AB1" target="HSP90AB1" />
+    <edge source="AIP" target="HSP90AA1" />
+    <edge source="ECSIT" target="SMAD4" />
+    <edge source="ECSIT" target="ECSIT" />
+    <edge source="FANCA" target="FANCA" />
+    <edge source="FANCA" target="HSP90AA1" />
+    <edge source="DPCD" target="SMAD4" />
+    <edge source="HSP90AA1" target="FOXM1" />
+    <edge source="HSP90AA1" target="HSP90AA1" />
+    <edge source="SMAD4" target="SMAD4" />
+    <edge source="FOXM1" target="FOXM1" />
+  </graph>
+</graphml>

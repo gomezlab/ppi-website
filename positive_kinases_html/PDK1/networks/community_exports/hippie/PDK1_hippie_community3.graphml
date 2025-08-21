@@ -1,0 +1,754 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="BCKDHA">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ACAD9">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP5F1C">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFA6">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP5F1D">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFA2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PRDX3">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP5PO">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFV2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFS4">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="FMC1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFAF3">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFS6">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="C6orf203">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFS5">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SDHB">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SDHA">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP5PD">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFS7">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFA5">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="METTL17">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFAF5">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HADHA">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NRDC">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFS3">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFS2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="BCKDHB">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="OGDH">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFV1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFA7">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFA12">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFS1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP5F1B">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP5PB">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP5PF">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PDHB">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PMPCA">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ECI2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="COX4I1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFAF1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SIRT3">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NDUFA9">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <edge source="BCKDHA" target="ATP5F1B" />
+    <edge source="BCKDHA" target="ATP5F1C" />
+    <edge source="BCKDHA" target="NDUFS5" />
+    <edge source="BCKDHA" target="NDUFS7" />
+    <edge source="BCKDHA" target="METTL17" />
+    <edge source="BCKDHA" target="NDUFAF5" />
+    <edge source="BCKDHA" target="BCKDHB" />
+    <edge source="BCKDHA" target="NDUFV2" />
+    <edge source="BCKDHA" target="FMC1" />
+    <edge source="BCKDHA" target="NDUFS1" />
+    <edge source="BCKDHA" target="PDHB" />
+    <edge source="BCKDHA" target="COX4I1" />
+    <edge source="BCKDHA" target="HADHA" />
+    <edge source="BCKDHA" target="NDUFS3" />
+    <edge source="BCKDHA" target="NDUFS2" />
+    <edge source="BCKDHA" target="NDUFV1" />
+    <edge source="ACAD9" target="NDUFA6" />
+    <edge source="ACAD9" target="NDUFS7" />
+    <edge source="ACAD9" target="METTL17" />
+    <edge source="ACAD9" target="NDUFA7" />
+    <edge source="ACAD9" target="ATP5F1B" />
+    <edge source="ACAD9" target="NDUFS1" />
+    <edge source="ACAD9" target="PDHB" />
+    <edge source="ACAD9" target="ATP5F1C" />
+    <edge source="ACAD9" target="SDHB" />
+    <edge source="ACAD9" target="NDUFA9" />
+    <edge source="ACAD9" target="NDUFS3" />
+    <edge source="ACAD9" target="NDUFS2" />
+    <edge source="ACAD9" target="ATP5PF" />
+    <edge source="ACAD9" target="SIRT3" />
+    <edge source="ACAD9" target="NDUFS5" />
+    <edge source="ACAD9" target="OGDH" />
+    <edge source="ACAD9" target="NDUFV2" />
+    <edge source="ACAD9" target="ATP5PD" />
+    <edge source="ACAD9" target="COX4I1" />
+    <edge source="ACAD9" target="ATP5PO" />
+    <edge source="ACAD9" target="HADHA" />
+    <edge source="ACAD9" target="ATP5F1D" />
+    <edge source="ACAD9" target="NDUFS6" />
+    <edge source="ACAD9" target="NDUFA12" />
+    <edge source="ACAD9" target="C6orf203" />
+    <edge source="ACAD9" target="NDUFA2" />
+    <edge source="ACAD9" target="NDUFAF3" />
+    <edge source="ACAD9" target="ECI2" />
+    <edge source="ACAD9" target="NDUFV1" />
+    <edge source="ACAD9" target="NDUFAF5" />
+    <edge source="ACAD9" target="SDHA" />
+    <edge source="ACAD9" target="PMPCA" />
+    <edge source="ACAD9" target="NDUFS4" />
+    <edge source="ACAD9" target="ATP5PB" />
+    <edge source="ACAD9" target="NDUFAF1" />
+    <edge source="ACAD9" target="NDUFA5" />
+    <edge source="ATP5F1C" target="ATP5F1B" />
+    <edge source="ATP5F1C" target="NDUFS7" />
+    <edge source="ATP5F1C" target="NDUFS1" />
+    <edge source="ATP5F1C" target="PDHB" />
+    <edge source="ATP5F1C" target="NDUFA9" />
+    <edge source="ATP5F1C" target="NDUFS3" />
+    <edge source="ATP5F1C" target="NDUFS2" />
+    <edge source="ATP5F1C" target="ATP5PF" />
+    <edge source="ATP5F1C" target="NDUFS5" />
+    <edge source="ATP5F1C" target="OGDH" />
+    <edge source="ATP5F1C" target="ATP5PD" />
+    <edge source="ATP5F1C" target="COX4I1" />
+    <edge source="ATP5F1C" target="ATP5PO" />
+    <edge source="ATP5F1C" target="HADHA" />
+    <edge source="ATP5F1C" target="ATP5F1D" />
+    <edge source="ATP5F1C" target="NDUFA12" />
+    <edge source="ATP5F1C" target="FMC1" />
+    <edge source="ATP5F1C" target="C6orf203" />
+    <edge source="ATP5F1C" target="NDUFV1" />
+    <edge source="ATP5F1C" target="NDUFAF5" />
+    <edge source="ATP5F1C" target="NDUFS4" />
+    <edge source="ATP5F1C" target="ATP5PB" />
+    <edge source="NDUFA6" target="ATP5F1B" />
+    <edge source="NDUFA6" target="C6orf203" />
+    <edge source="NDUFA6" target="COX4I1" />
+    <edge source="NDUFA6" target="METTL17" />
+    <edge source="NDUFA6" target="NDUFA12" />
+    <edge source="NDUFA6" target="NDUFA2" />
+    <edge source="NDUFA6" target="NDUFA5" />
+    <edge source="NDUFA6" target="NDUFS6" />
+    <edge source="NDUFA6" target="NDUFS5" />
+    <edge source="NDUFA6" target="NDUFS7" />
+    <edge source="NDUFA6" target="OGDH" />
+    <edge source="NDUFA6" target="NDUFA7" />
+    <edge source="NDUFA6" target="NDUFV2" />
+    <edge source="NDUFA6" target="NDUFS1" />
+    <edge source="NDUFA6" target="PMPCA" />
+    <edge source="NDUFA6" target="NDUFS4" />
+    <edge source="NDUFA6" target="SDHB" />
+    <edge source="NDUFA6" target="NDUFAF1" />
+    <edge source="NDUFA6" target="NDUFA9" />
+    <edge source="NDUFA6" target="NDUFS3" />
+    <edge source="NDUFA6" target="NDUFS2" />
+    <edge source="NDUFA6" target="NDUFV1" />
+    <edge source="ATP5F1D" target="ATP5F1B" />
+    <edge source="ATP5F1D" target="METTL17" />
+    <edge source="ATP5F1D" target="C6orf203" />
+    <edge source="ATP5F1D" target="ATP5PD" />
+    <edge source="ATP5F1D" target="PMPCA" />
+    <edge source="ATP5F1D" target="COX4I1" />
+    <edge source="ATP5F1D" target="ATP5PB" />
+    <edge source="ATP5F1D" target="ATP5PO" />
+    <edge source="ATP5F1D" target="ATP5PF" />
+    <edge source="ATP5F1D" target="SIRT3" />
+    <edge source="NDUFA2" target="ATP5F1B" />
+    <edge source="NDUFA2" target="C6orf203" />
+    <edge source="NDUFA2" target="COX4I1" />
+    <edge source="NDUFA2" target="ECI2" />
+    <edge source="NDUFA2" target="METTL17" />
+    <edge source="NDUFA2" target="NDUFA12" />
+    <edge source="NDUFA2" target="NDUFS6" />
+    <edge source="NDUFA2" target="NDUFS5" />
+    <edge source="NDUFA2" target="NDUFS7" />
+    <edge source="NDUFA2" target="NDUFA7" />
+    <edge source="NDUFA2" target="NDUFV2" />
+    <edge source="NDUFA2" target="SDHA" />
+    <edge source="NDUFA2" target="NDUFS1" />
+    <edge source="NDUFA2" target="PMPCA" />
+    <edge source="NDUFA2" target="NDUFS4" />
+    <edge source="NDUFA2" target="SDHB" />
+    <edge source="NDUFA2" target="NDUFA9" />
+    <edge source="NDUFA2" target="NDUFA5" />
+    <edge source="NDUFA2" target="NDUFS3" />
+    <edge source="NDUFA2" target="NDUFS2" />
+    <edge source="NDUFA2" target="NDUFV1" />
+    <edge source="PRDX3" target="ATP5F1B" />
+    <edge source="PRDX3" target="ATP5PF" />
+    <edge source="PRDX3" target="ATP5PO" />
+    <edge source="PRDX3" target="C6orf203" />
+    <edge source="PRDX3" target="HADHA" />
+    <edge source="PRDX3" target="METTL17" />
+    <edge source="PRDX3" target="OGDH" />
+    <edge source="PRDX3" target="PMPCA" />
+    <edge source="PRDX3" target="PRDX3" />
+    <edge source="PRDX3" target="SDHA" />
+    <edge source="ATP5PO" target="ATP5F1B" />
+    <edge source="ATP5PO" target="ATP5PB" />
+    <edge source="ATP5PO" target="ATP5PD" />
+    <edge source="ATP5PO" target="ATP5PF" />
+    <edge source="ATP5PO" target="METTL17" />
+    <edge source="ATP5PO" target="NDUFS3" />
+    <edge source="ATP5PO" target="OGDH" />
+    <edge source="ATP5PO" target="COX4I1" />
+    <edge source="ATP5PO" target="HADHA" />
+    <edge source="ATP5PO" target="FMC1" />
+    <edge source="ATP5PO" target="C6orf203" />
+    <edge source="ATP5PO" target="PMPCA" />
+    <edge source="ATP5PO" target="NDUFS4" />
+    <edge source="ATP5PO" target="NDUFA5" />
+    <edge source="NDUFV2" target="C6orf203" />
+    <edge source="NDUFV2" target="COX4I1" />
+    <edge source="NDUFV2" target="METTL17" />
+    <edge source="NDUFV2" target="NDUFA12" />
+    <edge source="NDUFV2" target="NDUFA7" />
+    <edge source="NDUFV2" target="NDUFA9" />
+    <edge source="NDUFV2" target="NDUFS1" />
+    <edge source="NDUFV2" target="NDUFS2" />
+    <edge source="NDUFV2" target="NDUFS3" />
+    <edge source="NDUFV2" target="NDUFS4" />
+    <edge source="NDUFV2" target="NDUFS5" />
+    <edge source="NDUFV2" target="NDUFS6" />
+    <edge source="NDUFV2" target="NDUFS7" />
+    <edge source="NDUFV2" target="NDUFV1" />
+    <edge source="NDUFV2" target="SDHA" />
+    <edge source="NDUFV2" target="PDHB" />
+    <edge source="NDUFV2" target="PMPCA" />
+    <edge source="NDUFV2" target="SDHB" />
+    <edge source="NDUFS4" target="ATP5PB" />
+    <edge source="NDUFS4" target="C6orf203" />
+    <edge source="NDUFS4" target="COX4I1" />
+    <edge source="NDUFS4" target="METTL17" />
+    <edge source="NDUFS4" target="NDUFA12" />
+    <edge source="NDUFS4" target="NDUFA7" />
+    <edge source="NDUFS4" target="NDUFA9" />
+    <edge source="NDUFS4" target="NDUFAF3" />
+    <edge source="NDUFS4" target="NDUFS1" />
+    <edge source="NDUFS4" target="NDUFS2" />
+    <edge source="NDUFS4" target="NDUFS3" />
+    <edge source="NDUFS4" target="NDUFS6" />
+    <edge source="NDUFS4" target="NDUFS5" />
+    <edge source="NDUFS4" target="NDUFS7" />
+    <edge source="NDUFS4" target="OGDH" />
+    <edge source="NDUFS4" target="PMPCA" />
+    <edge source="NDUFS4" target="SDHB" />
+    <edge source="NDUFS4" target="NDUFV1" />
+    <edge source="FMC1" target="ATP5F1B" />
+    <edge source="FMC1" target="ATP5PB" />
+    <edge source="FMC1" target="ATP5PD" />
+    <edge source="FMC1" target="ATP5PF" />
+    <edge source="FMC1" target="COX4I1" />
+    <edge source="FMC1" target="NRDC" />
+    <edge source="FMC1" target="PMPCA" />
+    <edge source="FMC1" target="NDUFA5" />
+    <edge source="FMC1" target="NDUFV1" />
+    <edge source="NDUFAF3" target="C6orf203" />
+    <edge source="NDUFAF3" target="COX4I1" />
+    <edge source="NDUFAF3" target="METTL17" />
+    <edge source="NDUFAF3" target="NDUFAF1" />
+    <edge source="NDUFAF3" target="NDUFS5" />
+    <edge source="NDUFAF3" target="NDUFS7" />
+    <edge source="NDUFAF3" target="NDUFAF5" />
+    <edge source="NDUFAF3" target="PMPCA" />
+    <edge source="NDUFAF3" target="NDUFS3" />
+    <edge source="NDUFAF3" target="NDUFS2" />
+    <edge source="NDUFS6" target="ATP5F1B" />
+    <edge source="NDUFS6" target="C6orf203" />
+    <edge source="NDUFS6" target="COX4I1" />
+    <edge source="NDUFS6" target="METTL17" />
+    <edge source="NDUFS6" target="NDUFA12" />
+    <edge source="NDUFS6" target="NDUFA5" />
+    <edge source="NDUFS6" target="NDUFA7" />
+    <edge source="NDUFS6" target="NDUFA9" />
+    <edge source="NDUFS6" target="NDUFS1" />
+    <edge source="NDUFS6" target="NDUFS2" />
+    <edge source="NDUFS6" target="NDUFS3" />
+    <edge source="NDUFS6" target="NDUFS5" />
+    <edge source="NDUFS6" target="NDUFS7" />
+    <edge source="NDUFS6" target="SIRT3" />
+    <edge source="NDUFS6" target="SDHA" />
+    <edge source="NDUFS6" target="PDHB" />
+    <edge source="NDUFS6" target="PMPCA" />
+    <edge source="NDUFS6" target="NDUFV1" />
+    <edge source="C6orf203" target="ATP5F1B" />
+    <edge source="C6orf203" target="ATP5PB" />
+    <edge source="C6orf203" target="ATP5PD" />
+    <edge source="C6orf203" target="ATP5PF" />
+    <edge source="C6orf203" target="NDUFS7" />
+    <edge source="C6orf203" target="NDUFAF5" />
+    <edge source="C6orf203" target="OGDH" />
+    <edge source="C6orf203" target="NDUFA7" />
+    <edge source="C6orf203" target="NDUFA12" />
+    <edge source="C6orf203" target="C6orf203" />
+    <edge source="C6orf203" target="SDHA" />
+    <edge source="C6orf203" target="NRDC" />
+    <edge source="C6orf203" target="NDUFS1" />
+    <edge source="C6orf203" target="PDHB" />
+    <edge source="C6orf203" target="PMPCA" />
+    <edge source="C6orf203" target="COX4I1" />
+    <edge source="C6orf203" target="SDHB" />
+    <edge source="C6orf203" target="ECI2" />
+    <edge source="C6orf203" target="NDUFAF1" />
+    <edge source="C6orf203" target="NDUFA9" />
+    <edge source="C6orf203" target="NDUFA5" />
+    <edge source="C6orf203" target="HADHA" />
+    <edge source="C6orf203" target="NDUFS3" />
+    <edge source="C6orf203" target="NDUFS2" />
+    <edge source="C6orf203" target="NDUFV1" />
+    <edge source="NDUFS5" target="ATP5F1B" />
+    <edge source="NDUFS5" target="HADHA" />
+    <edge source="NDUFS5" target="NDUFA12" />
+    <edge source="NDUFS5" target="NDUFA5" />
+    <edge source="NDUFS5" target="NDUFA7" />
+    <edge source="NDUFS5" target="NDUFA9" />
+    <edge source="NDUFS5" target="NDUFAF1" />
+    <edge source="NDUFS5" target="NDUFS1" />
+    <edge source="NDUFS5" target="NDUFS2" />
+    <edge source="NDUFS5" target="NDUFS3" />
+    <edge source="NDUFS5" target="NDUFS7" />
+    <edge source="NDUFS5" target="OGDH" />
+    <edge source="NDUFS5" target="PDHB" />
+    <edge source="NDUFS5" target="NDUFV1" />
+    <edge source="SDHB" target="ATP5F1B" />
+    <edge source="SDHB" target="COX4I1" />
+    <edge source="SDHB" target="METTL17" />
+    <edge source="SDHB" target="NDUFA12" />
+    <edge source="SDHB" target="NDUFA9" />
+    <edge source="SDHB" target="NDUFS1" />
+    <edge source="SDHB" target="NDUFV1" />
+    <edge source="SDHB" target="SDHA" />
+    <edge source="SDHB" target="SIRT3" />
+    <edge source="SDHA" target="ATP5PB" />
+    <edge source="SDHA" target="ATP5PD" />
+    <edge source="SDHA" target="METTL17" />
+    <edge source="SDHA" target="NDUFS2" />
+    <edge source="SDHA" target="NDUFS3" />
+    <edge source="SDHA" target="NDUFV1" />
+    <edge source="SDHA" target="PMPCA" />
+    <edge source="SDHA" target="SIRT3" />
+    <edge source="ATP5PD" target="ATP5F1B" />
+    <edge source="ATP5PD" target="ATP5PB" />
+    <edge source="ATP5PD" target="METTL17" />
+    <edge source="ATP5PD" target="OGDH" />
+    <edge source="ATP5PD" target="NDUFA7" />
+    <edge source="ATP5PD" target="NDUFA12" />
+    <edge source="ATP5PD" target="PMPCA" />
+    <edge source="ATP5PD" target="COX4I1" />
+    <edge source="ATP5PD" target="NDUFA5" />
+    <edge source="ATP5PD" target="HADHA" />
+    <edge source="ATP5PD" target="NDUFS3" />
+    <edge source="ATP5PD" target="ATP5PF" />
+    <edge source="NDUFS7" target="ATP5F1B" />
+    <edge source="NDUFS7" target="ATP5PB" />
+    <edge source="NDUFS7" target="COX4I1" />
+    <edge source="NDUFS7" target="HADHA" />
+    <edge source="NDUFS7" target="METTL17" />
+    <edge source="NDUFS7" target="NDUFA12" />
+    <edge source="NDUFS7" target="NDUFA5" />
+    <edge source="NDUFS7" target="NDUFA7" />
+    <edge source="NDUFS7" target="NDUFA9" />
+    <edge source="NDUFS7" target="NDUFAF1" />
+    <edge source="NDUFS7" target="NDUFAF5" />
+    <edge source="NDUFS7" target="NDUFS1" />
+    <edge source="NDUFS7" target="NDUFS2" />
+    <edge source="NDUFS7" target="NDUFS3" />
+    <edge source="NDUFS7" target="NDUFS7" />
+    <edge source="NDUFS7" target="PDHB" />
+    <edge source="NDUFS7" target="PMPCA" />
+    <edge source="NDUFS7" target="NDUFV1" />
+    <edge source="NDUFS7" target="SIRT3" />
+    <edge source="NDUFA5" target="ATP5F1B" />
+    <edge source="NDUFA5" target="COX4I1" />
+    <edge source="NDUFA5" target="ECI2" />
+    <edge source="NDUFA5" target="METTL17" />
+    <edge source="NDUFA5" target="NDUFA12" />
+    <edge source="NDUFA5" target="NDUFAF5" />
+    <edge source="NDUFA5" target="NDUFA7" />
+    <edge source="NDUFA5" target="NDUFS1" />
+    <edge source="NDUFA5" target="PDHB" />
+    <edge source="NDUFA5" target="PMPCA" />
+    <edge source="NDUFA5" target="NDUFA9" />
+    <edge source="NDUFA5" target="NDUFS3" />
+    <edge source="METTL17" target="ATP5F1B" />
+    <edge source="METTL17" target="ATP5PB" />
+    <edge source="METTL17" target="ATP5PF" />
+    <edge source="METTL17" target="COX4I1" />
+    <edge source="METTL17" target="ECI2" />
+    <edge source="METTL17" target="HADHA" />
+    <edge source="METTL17" target="NDUFA7" />
+    <edge source="METTL17" target="NDUFS1" />
+    <edge source="METTL17" target="PDHB" />
+    <edge source="METTL17" target="NDUFA9" />
+    <edge source="METTL17" target="NDUFS3" />
+    <edge source="METTL17" target="NDUFS2" />
+    <edge source="METTL17" target="OGDH" />
+    <edge source="METTL17" target="NDUFA12" />
+    <edge source="METTL17" target="NDUFV1" />
+    <edge source="METTL17" target="NDUFAF5" />
+    <edge source="METTL17" target="PMPCA" />
+    <edge source="METTL17" target="NDUFAF1" />
+    <edge source="NDUFAF5" target="ECI2" />
+    <edge source="NDUFAF5" target="NDUFAF1" />
+    <edge source="NDUFAF5" target="NDUFAF5" />
+    <edge source="NDUFAF5" target="PMPCA" />
+    <edge source="NDUFAF5" target="NDUFS3" />
+    <edge source="NDUFAF5" target="NDUFS2" />
+    <edge source="HADHA" target="ATP5F1B" />
+    <edge source="HADHA" target="ATP5PB" />
+    <edge source="HADHA" target="COX4I1" />
+    <edge source="HADHA" target="NDUFS1" />
+    <edge source="HADHA" target="PDHB" />
+    <edge source="HADHA" target="NDUFA9" />
+    <edge source="HADHA" target="NDUFS3" />
+    <edge source="HADHA" target="NDUFS2" />
+    <edge source="HADHA" target="OGDH" />
+    <edge source="HADHA" target="NDUFV1" />
+    <edge source="HADHA" target="PMPCA" />
+    <edge source="NRDC" target="NDUFS3" />
+    <edge source="NRDC" target="NRDC" />
+    <edge source="NDUFS3" target="ATP5F1B" />
+    <edge source="NDUFS3" target="ATP5PB" />
+    <edge source="NDUFS3" target="ATP5PF" />
+    <edge source="NDUFS3" target="BCKDHB" />
+    <edge source="NDUFS3" target="COX4I1" />
+    <edge source="NDUFS3" target="ECI2" />
+    <edge source="NDUFS3" target="NDUFA12" />
+    <edge source="NDUFS3" target="NDUFA7" />
+    <edge source="NDUFS3" target="NDUFA9" />
+    <edge source="NDUFS3" target="NDUFAF1" />
+    <edge source="NDUFS3" target="NDUFS1" />
+    <edge source="NDUFS3" target="NDUFS2" />
+    <edge source="NDUFS3" target="PDHB" />
+    <edge source="NDUFS3" target="NDUFS3" />
+    <edge source="NDUFS3" target="OGDH" />
+    <edge source="NDUFS3" target="NDUFV1" />
+    <edge source="NDUFS3" target="PMPCA" />
+    <edge source="NDUFS2" target="ATP5F1B" />
+    <edge source="NDUFS2" target="ATP5PB" />
+    <edge source="NDUFS2" target="COX4I1" />
+    <edge source="NDUFS2" target="ECI2" />
+    <edge source="NDUFS2" target="NDUFA12" />
+    <edge source="NDUFS2" target="NDUFA7" />
+    <edge source="NDUFS2" target="NDUFA9" />
+    <edge source="NDUFS2" target="NDUFS1" />
+    <edge source="NDUFS2" target="OGDH" />
+    <edge source="NDUFS2" target="PDHB" />
+    <edge source="NDUFS2" target="PMPCA" />
+    <edge source="NDUFS2" target="NDUFV1" />
+    <edge source="BCKDHB" target="NDUFV1" />
+    <edge source="BCKDHB" target="NDUFS1" />
+    <edge source="BCKDHB" target="NDUFA9" />
+    <edge source="OGDH" target="ATP5F1B" />
+    <edge source="OGDH" target="NDUFS1" />
+    <edge source="OGDH" target="NDUFV1" />
+    <edge source="OGDH" target="PDHB" />
+    <edge source="OGDH" target="PMPCA" />
+    <edge source="NDUFV1" target="ATP5F1B" />
+    <edge source="NDUFV1" target="ATP5PB" />
+    <edge source="NDUFV1" target="COX4I1" />
+    <edge source="NDUFV1" target="NDUFA12" />
+    <edge source="NDUFV1" target="NDUFA7" />
+    <edge source="NDUFV1" target="NDUFA9" />
+    <edge source="NDUFV1" target="NDUFS1" />
+    <edge source="NDUFV1" target="PDHB" />
+    <edge source="NDUFV1" target="PMPCA" />
+    <edge source="NDUFA7" target="ATP5F1B" />
+    <edge source="NDUFA7" target="ECI2" />
+    <edge source="NDUFA7" target="NDUFA12" />
+    <edge source="NDUFA7" target="NDUFS1" />
+    <edge source="NDUFA7" target="PMPCA" />
+    <edge source="NDUFA7" target="NDUFA9" />
+    <edge source="NDUFA12" target="ATP5F1B" />
+    <edge source="NDUFA12" target="NDUFS1" />
+    <edge source="NDUFA12" target="PMPCA" />
+    <edge source="NDUFA12" target="NDUFAF1" />
+    <edge source="NDUFA12" target="NDUFA9" />
+    <edge source="NDUFS1" target="ATP5F1B" />
+    <edge source="NDUFS1" target="ATP5PB" />
+    <edge source="NDUFS1" target="COX4I1" />
+    <edge source="NDUFS1" target="NDUFA9" />
+    <edge source="NDUFS1" target="NDUFAF1" />
+    <edge source="NDUFS1" target="PDHB" />
+    <edge source="NDUFS1" target="PMPCA" />
+    <edge source="ATP5F1B" target="PDHB" />
+    <edge source="ATP5F1B" target="NDUFA9" />
+    <edge source="ATP5F1B" target="ATP5PF" />
+    <edge source="ATP5F1B" target="SIRT3" />
+    <edge source="ATP5F1B" target="COX4I1" />
+    <edge source="ATP5F1B" target="ECI2" />
+    <edge source="ATP5F1B" target="PMPCA" />
+    <edge source="ATP5F1B" target="ATP5PB" />
+    <edge source="ATP5PB" target="NDUFA9" />
+    <edge source="ATP5PB" target="ATP5PF" />
+    <edge source="ATP5PB" target="PMPCA" />
+    <edge source="ATP5PF" target="PMPCA" />
+    <edge source="PDHB" target="COX4I1" />
+    <edge source="PDHB" target="NDUFA9" />
+    <edge source="PDHB" target="SIRT3" />
+    <edge source="PDHB" target="PDHB" />
+    <edge source="PDHB" target="PMPCA" />
+    <edge source="PMPCA" target="COX4I1" />
+    <edge source="PMPCA" target="ECI2" />
+    <edge source="PMPCA" target="NDUFA9" />
+    <edge source="PMPCA" target="NDUFAF1" />
+    <edge source="ECI2" target="ECI2" />
+    <edge source="COX4I1" target="NDUFA9" />
+    <edge source="COX4I1" target="COX4I1" />
+    <edge source="NDUFAF1" target="NDUFA9" />
+    <edge source="SIRT3" target="NDUFA9" />
+  </graph>
+</graphml>

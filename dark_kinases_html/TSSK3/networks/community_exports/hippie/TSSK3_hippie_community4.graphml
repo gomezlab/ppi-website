@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="TRIP6">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="ATP23">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="TGM7">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="TRIM50">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="LNX1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="SYNGAP1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="ADAMTSL4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PPP1R16A">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="EFHC2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="KRTAP13-3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <edge source="TRIP6" target="ADAMTSL4" />
+    <edge source="TRIP6" target="ATP23" />
+    <edge source="TRIP6" target="LNX1" />
+    <edge source="TRIP6" target="PPP1R16A" />
+    <edge source="TRIP6" target="SYNGAP1" />
+    <edge source="TRIP6" target="TRIP6" />
+    <edge source="ATP23" target="PPP1R16A" />
+    <edge source="TGM7" target="LNX1" />
+    <edge source="TRIM50" target="EFHC2" />
+    <edge source="TRIM50" target="LNX1" />
+    <edge source="TRIM50" target="TRIM50" />
+    <edge source="LNX1" target="ADAMTSL4" />
+    <edge source="LNX1" target="EFHC2" />
+    <edge source="LNX1" target="KRTAP13-3" />
+    <edge source="LNX1" target="SYNGAP1" />
+    <edge source="LNX1" target="LNX1" />
+    <edge source="ADAMTSL4" target="ADAMTSL4" />
+    <edge source="PPP1R16A" target="PPP1R16A" />
+  </graph>
+</graphml>

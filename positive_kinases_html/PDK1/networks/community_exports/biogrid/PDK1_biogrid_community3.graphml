@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="PDP1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PDPR">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SUCLG1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SDHB">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SUCLG2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SIRT3">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SDHA">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SUCLA2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PPA2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <edge source="PDP1" target="PDPR" />
+    <edge source="PDP1" target="SDHA" />
+    <edge source="PDP1" target="PPA2" />
+    <edge source="PDP1" target="SIRT3" />
+    <edge source="PDPR" target="SDHB" />
+    <edge source="PDPR" target="PPA2" />
+    <edge source="SUCLG1" target="SDHA" />
+    <edge source="SUCLG1" target="SDHB" />
+    <edge source="SUCLG1" target="SUCLA2" />
+    <edge source="SUCLG1" target="SUCLG2" />
+    <edge source="SDHB" target="SDHA" />
+    <edge source="SDHB" target="SIRT3" />
+    <edge source="SDHB" target="SUCLA2" />
+    <edge source="SUCLG2" target="SDHA" />
+    <edge source="SUCLG2" target="SUCLA2" />
+    <edge source="SIRT3" target="SDHA" />
+    <edge source="SDHA" target="SUCLA2" />
+  </graph>
+</graphml>

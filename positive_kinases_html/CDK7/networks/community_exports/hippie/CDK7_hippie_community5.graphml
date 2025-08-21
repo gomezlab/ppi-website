@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="UBE2D1">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CCNA2">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CCNE1">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CDKN1C">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CCND2">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="E2F1">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CDK6">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="ALDH18A1">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CCNO">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="MCM7">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CDK5">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CDK1">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CCNB1">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CDKN1A">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="TP53">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CDKN1B">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CCNB2">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CDK2">
+      <data key="d0">#8c564b</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <edge source="UBE2D1" target="CCNE1" />
+    <edge source="UBE2D1" target="CDKN1A" />
+    <edge source="UBE2D1" target="TP53" />
+    <edge source="UBE2D1" target="UBE2D1" />
+    <edge source="CCNA2" target="E2F1" />
+    <edge source="CCNA2" target="CDK5" />
+    <edge source="CCNA2" target="CCNA2" />
+    <edge source="CCNA2" target="CDKN1C" />
+    <edge source="CCNA2" target="CDKN1B" />
+    <edge source="CCNA2" target="CDK1" />
+    <edge source="CCNA2" target="CCNB1" />
+    <edge source="CCNA2" target="CDKN1A" />
+    <edge source="CCNA2" target="CDK2" />
+    <edge source="CCNA2" target="CDK6" />
+    <edge source="CCNA2" target="TP53" />
+    <edge source="CCNE1" target="CCND2" />
+    <edge source="CCNE1" target="E2F1" />
+    <edge source="CCNE1" target="CCNE1" />
+    <edge source="CCNE1" target="CDK5" />
+    <edge source="CCNE1" target="CDK1" />
+    <edge source="CCNE1" target="CDKN1A" />
+    <edge source="CCNE1" target="CDK2" />
+    <edge source="CCNE1" target="CDK6" />
+    <edge source="CCNE1" target="CDKN1B" />
+    <edge source="CDKN1C" target="CCNB1" />
+    <edge source="CDKN1C" target="CCNB2" />
+    <edge source="CDKN1C" target="CCND2" />
+    <edge source="CDKN1C" target="CDK1" />
+    <edge source="CDKN1C" target="CDK2" />
+    <edge source="CDKN1C" target="CDK6" />
+    <edge source="CDKN1C" target="CDKN1C" />
+    <edge source="CDKN1C" target="MCM7" />
+    <edge source="CDKN1C" target="TP53" />
+    <edge source="CDKN1C" target="E2F1" />
+    <edge source="CCND2" target="CDK5" />
+    <edge source="CCND2" target="CDK1" />
+    <edge source="CCND2" target="CCND2" />
+    <edge source="CCND2" target="CDKN1A" />
+    <edge source="CCND2" target="CDK2" />
+    <edge source="CCND2" target="CDK6" />
+    <edge source="CCND2" target="CDKN1B" />
+    <edge source="E2F1" target="CDK1" />
+    <edge source="E2F1" target="CDK2" />
+    <edge source="E2F1" target="CDKN1A" />
+    <edge source="E2F1" target="E2F1" />
+    <edge source="E2F1" target="TP53" />
+    <edge source="CDK6" target="CCNB1" />
+    <edge source="CDK6" target="CDK2" />
+    <edge source="CDK6" target="CDK5" />
+    <edge source="CDK6" target="CDKN1A" />
+    <edge source="CDK6" target="CDK6" />
+    <edge source="CDK6" target="TP53" />
+    <edge source="CDK6" target="CDKN1B" />
+    <edge source="ALDH18A1" target="CDK2" />
+    <edge source="ALDH18A1" target="TP53" />
+    <edge source="CCNO" target="CDK1" />
+    <edge source="CCNO" target="CCNO" />
+    <edge source="CCNO" target="CDK5" />
+    <edge source="CCNO" target="CDKN1A" />
+    <edge source="CCNO" target="CDKN1B" />
+    <edge source="CCNO" target="CDK2" />
+    <edge source="MCM7" target="CDK2" />
+    <edge source="MCM7" target="CDKN1A" />
+    <edge source="MCM7" target="CDKN1B" />
+    <edge source="MCM7" target="MCM7" />
+    <edge source="MCM7" target="TP53" />
+    <edge source="CDK5" target="CCNB1" />
+    <edge source="CDK5" target="CDK2" />
+    <edge source="CDK5" target="CDK5" />
+    <edge source="CDK5" target="CDKN1B" />
+    <edge source="CDK5" target="CDKN1A" />
+    <edge source="CDK5" target="TP53" />
+    <edge source="CDK1" target="CCNB1" />
+    <edge source="CDK1" target="CCNB2" />
+    <edge source="CDK1" target="CDK2" />
+    <edge source="CDK1" target="CDKN1B" />
+    <edge source="CDK1" target="CDK1" />
+    <edge source="CDK1" target="TP53" />
+    <edge source="CDK1" target="CDKN1A" />
+    <edge source="CCNB1" target="CCNB2" />
+    <edge source="CCNB1" target="CDKN1B" />
+    <edge source="CCNB1" target="CCNB1" />
+    <edge source="CCNB1" target="CDKN1A" />
+    <edge source="CCNB1" target="CDK2" />
+    <edge source="CDKN1A" target="CCNB2" />
+    <edge source="CDKN1A" target="CDK2" />
+    <edge source="CDKN1A" target="CDKN1B" />
+    <edge source="CDKN1A" target="TP53" />
+    <edge source="CDKN1A" target="CDKN1A" />
+    <edge source="TP53" target="CDK2" />
+    <edge source="TP53" target="TP53" />
+    <edge source="CDKN1B" target="CCNB2" />
+    <edge source="CDKN1B" target="CDK2" />
+    <edge source="CCNB2" target="CDK2" />
+    <edge source="CDK2" target="CDK2" />
+  </graph>
+</graphml>

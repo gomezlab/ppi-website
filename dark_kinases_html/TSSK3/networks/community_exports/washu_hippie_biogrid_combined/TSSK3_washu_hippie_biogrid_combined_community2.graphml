@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="VPS52">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PHF10">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="GOLGA2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PLEKHG4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="LUC7L">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="KRT75">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="LHX3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="C19orf44">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="AK2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DPF1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="GSE1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DDX54">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="TCP10L">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="HAUS1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PPIG">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="C2CD6">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PJA1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RUSC2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="NFATC1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="SMARCE1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DRG2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="TRIM54">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <edge source="VPS52" target="SMARCE1" />
+    <edge source="VPS52" target="HAUS1" />
+    <edge source="VPS52" target="C2CD6" />
+    <edge source="VPS52" target="VPS52" />
+    <edge source="PHF10" target="DPF1" />
+    <edge source="PHF10" target="LUC7L" />
+    <edge source="PHF10" target="DDX54" />
+    <edge source="PHF10" target="SMARCE1" />
+    <edge source="PHF10" target="LHX3" />
+    <edge source="GOLGA2" target="DDX54" />
+    <edge source="GOLGA2" target="SMARCE1" />
+    <edge source="GOLGA2" target="HAUS1" />
+    <edge source="GOLGA2" target="C19orf44" />
+    <edge source="GOLGA2" target="RUSC2" />
+    <edge source="GOLGA2" target="GSE1" />
+    <edge source="GOLGA2" target="KRT75" />
+    <edge source="GOLGA2" target="C2CD6" />
+    <edge source="GOLGA2" target="GOLGA2" />
+    <edge source="PLEKHG4" target="KRT75" />
+    <edge source="LUC7L" target="PPIG" />
+    <edge source="LUC7L" target="LUC7L" />
+    <edge source="LUC7L" target="DDX54" />
+    <edge source="KRT75" target="C2CD6" />
+    <edge source="KRT75" target="TRIM54" />
+    <edge source="LHX3" target="DPF1" />
+    <edge source="LHX3" target="GSE1" />
+    <edge source="LHX3" target="C2CD6" />
+    <edge source="AK2" target="TRIM54" />
+    <edge source="DPF1" target="SMARCE1" />
+    <edge source="GSE1" target="GSE1" />
+    <edge source="DDX54" target="PJA1" />
+    <edge source="TCP10L" target="C2CD6" />
+    <edge source="TCP10L" target="TCP10L" />
+    <edge source="HAUS1" target="HAUS1" />
+    <edge source="HAUS1" target="TRIM54" />
+    <edge source="PPIG" target="TRIM54" />
+    <edge source="C2CD6" target="TRIM54" />
+    <edge source="PJA1" target="PJA1" />
+    <edge source="NFATC1" target="SMARCE1" />
+    <edge source="NFATC1" target="NFATC1" />
+    <edge source="SMARCE1" target="SMARCE1" />
+    <edge source="SMARCE1" target="TRIM54" />
+    <edge source="DRG2" target="TRIM54" />
+    <edge source="TRIM54" target="TRIM54" />
+  </graph>
+</graphml>

@@ -1,0 +1,983 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="ATP6V1A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ANKRD50">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SQSTM1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="VPS13A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ZMPSTE24">
+      <data key="d0">skyblue</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DMXL2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NAPG">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="GBE1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SYNE2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATG2A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ARFGEF3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="AUP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SLC25A4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MFF">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="FLVCR1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="CISD1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SH3GLB2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SUN2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SNAP47">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MTX1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PARP16">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="LPP">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="RNF114">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PIK3C3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SCAMP3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PPHLN1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP6V1G1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="UBA5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NPC1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DTX3L">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MOSPD2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MYO19">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="VAPA">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ARMCX3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ACBD5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="STAM">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MTFR1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="BCL2L13">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PHB2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="EIF2B3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="RB1CC1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="EXD2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TACC1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="IMMT">
+      <data key="d0">skyblue</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TCP11L1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SOAT1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="CYP51A1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="BZW2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="BZW1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TDRKH">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MBOAT7">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TRIM13">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MTFR2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TMEM201">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ANKRD13A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PEX5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DNAJC11">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ARMC10">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ITCH">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="CRELD1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="OPA1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TMEM214">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HK1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="STX12">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DNAJC1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SH3GL3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SNAP29">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SH3GLB1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TMEM159">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MAVS">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP6V1C1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="USP30">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="POLA2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PLXNB2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ATP6V1H">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ZFAND5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="OPTN">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="RHOD">
+      <data key="d0">skyblue</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="POR">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="GOLGB1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PTAR1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PSMD4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="WDR7">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PEX13">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="VPS35">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="OCIAD1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="COG2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="UBXN8">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="VDAC3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <edge source="ATP6V1A" target="HK1" />
+    <edge source="ATP6V1A" target="PHB2" />
+    <edge source="ATP6V1A" target="NPC1" />
+    <edge source="ATP6V1A" target="COG2" />
+    <edge source="ATP6V1A" target="VDAC3" />
+    <edge source="ATP6V1A" target="ATP6V1H" />
+    <edge source="ATP6V1A" target="ATP6V1C1" />
+    <edge source="ATP6V1A" target="ARMCX3" />
+    <edge source="ATP6V1A" target="ATP6V1A" />
+    <edge source="ATP6V1A" target="ATP6V1G1" />
+    <edge source="ATP6V1A" target="VAPA" />
+    <edge source="ATP6V1A" target="POR" />
+    <edge source="ANKRD50" target="VPS35" />
+    <edge source="ANKRD50" target="PEX5" />
+    <edge source="ANKRD50" target="PPHLN1" />
+    <edge source="ANKRD50" target="ARMCX3" />
+    <edge source="SQSTM1" target="PHB2" />
+    <edge source="SQSTM1" target="PEX5" />
+    <edge source="SQSTM1" target="ZFAND5" />
+    <edge source="SQSTM1" target="RB1CC1" />
+    <edge source="SQSTM1" target="PPHLN1" />
+    <edge source="SQSTM1" target="SQSTM1" />
+    <edge source="SQSTM1" target="MTX1" />
+    <edge source="SQSTM1" target="RNF114" />
+    <edge source="SQSTM1" target="SCAMP3" />
+    <edge source="SQSTM1" target="TRIM13" />
+    <edge source="SQSTM1" target="MAVS" />
+    <edge source="SQSTM1" target="GOLGB1" />
+    <edge source="SQSTM1" target="ARFGEF3" />
+    <edge source="SQSTM1" target="MFF" />
+    <edge source="SQSTM1" target="LPP" />
+    <edge source="SQSTM1" target="VAPA" />
+    <edge source="SQSTM1" target="STAM" />
+    <edge source="SQSTM1" target="IMMT" />
+    <edge source="SQSTM1" target="SH3GLB1" />
+    <edge source="SQSTM1" target="OPTN" />
+    <edge source="SQSTM1" target="PSMD4" />
+    <edge source="SQSTM1" target="OCIAD1" />
+    <edge source="SQSTM1" target="SLC25A4" />
+    <edge source="SQSTM1" target="BZW1" />
+    <edge source="VPS13A" target="VPS35" />
+    <edge source="VPS13A" target="OCIAD1" />
+    <edge source="VPS13A" target="DNAJC1" />
+    <edge source="VPS13A" target="VAPA" />
+    <edge source="VPS13A" target="RHOD" />
+    <edge source="ZMPSTE24" target="ATG2A" />
+    <edge source="ZMPSTE24" target="HK1" />
+    <edge source="ZMPSTE24" target="RB1CC1" />
+    <edge source="ZMPSTE24" target="ATP6V1H" />
+    <edge source="ZMPSTE24" target="ARMCX3" />
+    <edge source="ZMPSTE24" target="OPTN" />
+    <edge source="DMXL2" target="ATP6V1G1" />
+    <edge source="DMXL2" target="WDR7" />
+    <edge source="NAPG" target="SNAP47" />
+    <edge source="NAPG" target="SNAP29" />
+    <edge source="NAPG" target="STX12" />
+    <edge source="GBE1" target="SUN2" />
+    <edge source="GBE1" target="VAPA" />
+    <edge source="SYNE2" target="ACBD5" />
+    <edge source="SYNE2" target="DNAJC1" />
+    <edge source="SYNE2" target="SUN2" />
+    <edge source="SYNE2" target="VAPA" />
+    <edge source="SYNE2" target="RHOD" />
+    <edge source="SYNE2" target="OPTN" />
+    <edge source="ATG2A" target="ATG2A" />
+    <edge source="ATG2A" target="MOSPD2" />
+    <edge source="ATG2A" target="PHB2" />
+    <edge source="ATG2A" target="IMMT" />
+    <edge source="ATG2A" target="SOAT1" />
+    <edge source="ATG2A" target="TDRKH" />
+    <edge source="ATG2A" target="DNAJC11" />
+    <edge source="ATG2A" target="SNAP29" />
+    <edge source="ATG2A" target="OPTN" />
+    <edge source="ATG2A" target="OCIAD1" />
+    <edge source="ARFGEF3" target="PHB2" />
+    <edge source="AUP1" target="AUP1" />
+    <edge source="AUP1" target="RNF114" />
+    <edge source="AUP1" target="NPC1" />
+    <edge source="AUP1" target="ACBD5" />
+    <edge source="AUP1" target="DNAJC1" />
+    <edge source="AUP1" target="TMEM159" />
+    <edge source="AUP1" target="RHOD" />
+    <edge source="SLC25A4" target="UBXN8" />
+    <edge source="SLC25A4" target="SOAT1" />
+    <edge source="SLC25A4" target="VDAC3" />
+    <edge source="SLC25A4" target="BCL2L13" />
+    <edge source="MFF" target="OCIAD1" />
+    <edge source="MFF" target="EXD2" />
+    <edge source="MFF" target="TMEM201" />
+    <edge source="MFF" target="OPTN" />
+    <edge source="MFF" target="MAVS" />
+    <edge source="MFF" target="MFF" />
+    <edge source="MFF" target="RHOD" />
+    <edge source="FLVCR1" target="CRELD1" />
+    <edge source="FLVCR1" target="RHOD" />
+    <edge source="CISD1" target="CISD1" />
+    <edge source="CISD1" target="MTX1" />
+    <edge source="CISD1" target="EXD2" />
+    <edge source="CISD1" target="OPA1" />
+    <edge source="CISD1" target="STX12" />
+    <edge source="CISD1" target="MAVS" />
+    <edge source="CISD1" target="ATP6V1C1" />
+    <edge source="CISD1" target="OPTN" />
+    <edge source="CISD1" target="OCIAD1" />
+    <edge source="CISD1" target="VDAC3" />
+    <edge source="SH3GLB2" target="SH3GLB1" />
+    <edge source="SH3GLB2" target="SH3GLB2" />
+    <edge source="SH3GLB2" target="UBA5" />
+    <edge source="SH3GLB2" target="MAVS" />
+    <edge source="SUN2" target="SH3GL3" />
+    <edge source="SUN2" target="DNAJC1" />
+    <edge source="SUN2" target="SUN2" />
+    <edge source="SUN2" target="TDRKH" />
+    <edge source="SUN2" target="RHOD" />
+    <edge source="SNAP47" target="EXD2" />
+    <edge source="SNAP47" target="OPA1" />
+    <edge source="SNAP47" target="STX12" />
+    <edge source="SNAP47" target="DNAJC1" />
+    <edge source="SNAP47" target="RHOD" />
+    <edge source="SNAP47" target="OCIAD1" />
+    <edge source="MTX1" target="PHB2" />
+    <edge source="MTX1" target="OCIAD1" />
+    <edge source="MTX1" target="OPA1" />
+    <edge source="MTX1" target="OPTN" />
+    <edge source="MTX1" target="IMMT" />
+    <edge source="PARP16" target="NPC1" />
+    <edge source="PARP16" target="CRELD1" />
+    <edge source="LPP" target="SH3GLB1" />
+    <edge source="RNF114" target="RNF114" />
+    <edge source="RNF114" target="MAVS" />
+    <edge source="PIK3C3" target="OCIAD1" />
+    <edge source="PIK3C3" target="SH3GLB1" />
+    <edge source="PIK3C3" target="OPTN" />
+    <edge source="PIK3C3" target="TRIM13" />
+    <edge source="PIK3C3" target="PSMD4" />
+    <edge source="PIK3C3" target="PIK3C3" />
+    <edge source="SCAMP3" target="NPC1" />
+    <edge source="SCAMP3" target="RB1CC1" />
+    <edge source="SCAMP3" target="ITCH" />
+    <edge source="SCAMP3" target="RHOD" />
+    <edge source="SCAMP3" target="OPTN" />
+    <edge source="PPHLN1" target="SH3GL3" />
+    <edge source="PPHLN1" target="PPHLN1" />
+    <edge source="ATP6V1G1" target="NPC1" />
+    <edge source="ATP6V1G1" target="ATP6V1C1" />
+    <edge source="ATP6V1G1" target="VAPA" />
+    <edge source="ATP6V1G1" target="WDR7" />
+    <edge source="UBA5" target="HK1" />
+    <edge source="UBA5" target="SNAP29" />
+    <edge source="UBA5" target="UBA5" />
+    <edge source="NPC1" target="MBOAT7" />
+    <edge source="NPC1" target="CYP51A1" />
+    <edge source="NPC1" target="TMEM214" />
+    <edge source="NPC1" target="STX12" />
+    <edge source="NPC1" target="POR" />
+    <edge source="DTX3L" target="ITCH" />
+    <edge source="DTX3L" target="DTX3L" />
+    <edge source="DTX3L" target="STAM" />
+    <edge source="MOSPD2" target="VAPA" />
+    <edge source="MOSPD2" target="STX12" />
+    <edge source="MOSPD2" target="DNAJC1" />
+    <edge source="MOSPD2" target="RHOD" />
+    <edge source="MYO19" target="OCIAD1" />
+    <edge source="MYO19" target="EXD2" />
+    <edge source="MYO19" target="OPA1" />
+    <edge source="MYO19" target="OPTN" />
+    <edge source="MYO19" target="IMMT" />
+    <edge source="MYO19" target="MAVS" />
+    <edge source="MYO19" target="RHOD" />
+    <edge source="VAPA" target="PHB2" />
+    <edge source="VAPA" target="MBOAT7" />
+    <edge source="VAPA" target="SOAT1" />
+    <edge source="VAPA" target="ACBD5" />
+    <edge source="VAPA" target="RB1CC1" />
+    <edge source="VAPA" target="VDAC3" />
+    <edge source="VAPA" target="OCIAD1" />
+    <edge source="VAPA" target="DNAJC1" />
+    <edge source="VAPA" target="TACC1" />
+    <edge source="VAPA" target="PTAR1" />
+    <edge source="VAPA" target="POR" />
+    <edge source="VAPA" target="RHOD" />
+    <edge source="VAPA" target="VAPA" />
+    <edge source="VAPA" target="IMMT" />
+    <edge source="VAPA" target="TMEM159" />
+    <edge source="ARMCX3" target="OCIAD1" />
+    <edge source="ARMCX3" target="IMMT" />
+    <edge source="ARMCX3" target="OPTN" />
+    <edge source="ARMCX3" target="POR" />
+    <edge source="ACBD5" target="HK1" />
+    <edge source="ACBD5" target="PEX5" />
+    <edge source="ACBD5" target="EXD2" />
+    <edge source="ACBD5" target="DNAJC1" />
+    <edge source="ACBD5" target="SNAP29" />
+    <edge source="ACBD5" target="TMEM159" />
+    <edge source="ACBD5" target="MAVS" />
+    <edge source="ACBD5" target="USP30" />
+    <edge source="ACBD5" target="PSMD4" />
+    <edge source="ACBD5" target="PEX13" />
+    <edge source="ACBD5" target="OCIAD1" />
+    <edge source="STAM" target="ITCH" />
+    <edge source="STAM" target="OPTN" />
+    <edge source="MTFR1" target="PHB2" />
+    <edge source="MTFR1" target="OCIAD1" />
+    <edge source="MTFR1" target="EXD2" />
+    <edge source="BCL2L13" target="VDAC3" />
+    <edge source="BCL2L13" target="OCIAD1" />
+    <edge source="BCL2L13" target="EXD2" />
+    <edge source="BCL2L13" target="STX12" />
+    <edge source="BCL2L13" target="MAVS" />
+    <edge source="BCL2L13" target="OPTN" />
+    <edge source="BCL2L13" target="POR" />
+    <edge source="PHB2" target="HK1" />
+    <edge source="PHB2" target="MTFR2" />
+    <edge source="PHB2" target="SNAP29" />
+    <edge source="PHB2" target="VDAC3" />
+    <edge source="PHB2" target="DNAJC11" />
+    <edge source="PHB2" target="OPA1" />
+    <edge source="PHB2" target="MAVS" />
+    <edge source="PHB2" target="POR" />
+    <edge source="PHB2" target="EXD2" />
+    <edge source="PHB2" target="IMMT" />
+    <edge source="PHB2" target="TDRKH" />
+    <edge source="PHB2" target="ATP6V1C1" />
+    <edge source="PHB2" target="OCIAD1" />
+    <edge source="PHB2" target="USP30" />
+    <edge source="PHB2" target="PTAR1" />
+    <edge source="EIF2B3" target="EXD2" />
+    <edge source="EIF2B3" target="STX12" />
+    <edge source="EIF2B3" target="EIF2B3" />
+    <edge source="RB1CC1" target="SOAT1" />
+    <edge source="RB1CC1" target="TACC1" />
+    <edge source="RB1CC1" target="RB1CC1" />
+    <edge source="RB1CC1" target="OPTN" />
+    <edge source="EXD2" target="HK1" />
+    <edge source="EXD2" target="PEX5" />
+    <edge source="EXD2" target="DNAJC11" />
+    <edge source="EXD2" target="OCIAD1" />
+    <edge source="EXD2" target="MTFR2" />
+    <edge source="EXD2" target="SNAP29" />
+    <edge source="EXD2" target="TACC1" />
+    <edge source="EXD2" target="MAVS" />
+    <edge source="EXD2" target="RHOD" />
+    <edge source="EXD2" target="IMMT" />
+    <edge source="EXD2" target="TDRKH" />
+    <edge source="EXD2" target="USP30" />
+    <edge source="TACC1" target="OCIAD1" />
+    <edge source="TACC1" target="DNAJC1" />
+    <edge source="TACC1" target="TACC1" />
+    <edge source="TACC1" target="PLXNB2" />
+    <edge source="TACC1" target="RHOD" />
+    <edge source="IMMT" target="DNAJC11" />
+    <edge source="IMMT" target="VDAC3" />
+    <edge source="IMMT" target="OCIAD1" />
+    <edge source="IMMT" target="OPA1" />
+    <edge source="IMMT" target="OPTN" />
+    <edge source="IMMT" target="RHOD" />
+    <edge source="IMMT" target="IMMT" />
+    <edge source="TCP11L1" target="ANKRD13A" />
+    <edge source="TCP11L1" target="PSMD4" />
+    <edge source="SOAT1" target="MBOAT7" />
+    <edge source="SOAT1" target="SOAT1" />
+    <edge source="SOAT1" target="CRELD1" />
+    <edge source="SOAT1" target="DNAJC1" />
+    <edge source="SOAT1" target="RHOD" />
+    <edge source="SOAT1" target="VDAC3" />
+    <edge source="CYP51A1" target="RHOD" />
+    <edge source="BZW2" target="BZW1" />
+    <edge source="BZW2" target="STX12" />
+    <edge source="BZW2" target="MAVS" />
+    <edge source="BZW1" target="VPS35" />
+    <edge source="TDRKH" target="OCIAD1" />
+    <edge source="TDRKH" target="OPA1" />
+    <edge source="TDRKH" target="MAVS" />
+    <edge source="MBOAT7" target="CRELD1" />
+    <edge source="MBOAT7" target="RHOD" />
+    <edge source="TRIM13" target="DNAJC1" />
+    <edge source="TRIM13" target="TRIM13" />
+    <edge source="MTFR2" target="OCIAD1" />
+    <edge source="TMEM201" target="CRELD1" />
+    <edge source="TMEM201" target="DNAJC1" />
+    <edge source="TMEM201" target="RHOD" />
+    <edge source="ANKRD13A" target="VPS35" />
+    <edge source="ANKRD13A" target="ITCH" />
+    <edge source="ANKRD13A" target="PSMD4" />
+    <edge source="PEX5" target="PEX5" />
+    <edge source="PEX5" target="CRELD1" />
+    <edge source="PEX5" target="MAVS" />
+    <edge source="PEX5" target="PEX13" />
+    <edge source="PEX5" target="OCIAD1" />
+    <edge source="DNAJC11" target="OPA1" />
+    <edge source="DNAJC11" target="OCIAD1" />
+    <edge source="ARMC10" target="OPTN" />
+    <edge source="ARMC10" target="OCIAD1" />
+    <edge source="ITCH" target="ITCH" />
+    <edge source="ITCH" target="SH3GL3" />
+    <edge source="ITCH" target="SH3GLB1" />
+    <edge source="ITCH" target="MAVS" />
+    <edge source="ITCH" target="RHOD" />
+    <edge source="ITCH" target="OPTN" />
+    <edge source="CRELD1" target="TMEM214" />
+    <edge source="CRELD1" target="POLA2" />
+    <edge source="OPA1" target="OCIAD1" />
+    <edge source="OPA1" target="MAVS" />
+    <edge source="OPA1" target="USP30" />
+    <edge source="OPA1" target="OPTN" />
+    <edge source="TMEM214" target="DNAJC1" />
+    <edge source="TMEM214" target="RHOD" />
+    <edge source="HK1" target="HK1" />
+    <edge source="HK1" target="POR" />
+    <edge source="HK1" target="OCIAD1" />
+    <edge source="STX12" target="VDAC3" />
+    <edge source="STX12" target="SNAP29" />
+    <edge source="STX12" target="OPTN" />
+    <edge source="DNAJC1" target="VPS35" />
+    <edge source="DNAJC1" target="PLXNB2" />
+    <edge source="DNAJC1" target="SH3GLB1" />
+    <edge source="SH3GL3" target="SH3GL3" />
+    <edge source="SNAP29" target="OCIAD1" />
+    <edge source="SNAP29" target="SNAP29" />
+    <edge source="SNAP29" target="RHOD" />
+    <edge source="SH3GLB1" target="SH3GLB1" />
+    <edge source="SH3GLB1" target="POLA2" />
+    <edge source="MAVS" target="OCIAD1" />
+    <edge source="MAVS" target="OPTN" />
+    <edge source="MAVS" target="USP30" />
+    <edge source="MAVS" target="MAVS" />
+    <edge source="MAVS" target="RHOD" />
+    <edge source="ATP6V1C1" target="VPS35" />
+    <edge source="ATP6V1C1" target="ATP6V1H" />
+    <edge source="ATP6V1C1" target="ATP6V1C1" />
+    <edge source="USP30" target="OCIAD1" />
+    <edge source="PLXNB2" target="VDAC3" />
+    <edge source="PLXNB2" target="RHOD" />
+    <edge source="ATP6V1H" target="ZFAND5" />
+    <edge source="ATP6V1H" target="VDAC3" />
+    <edge source="ATP6V1H" target="OPTN" />
+    <edge source="ZFAND5" target="ZFAND5" />
+    <edge source="OPTN" target="OCIAD1" />
+    <edge source="OPTN" target="OPTN" />
+    <edge source="RHOD" target="GOLGB1" />
+    <edge source="RHOD" target="POR" />
+    <edge source="POR" target="VDAC3" />
+    <edge source="POR" target="POR" />
+    <edge source="PSMD4" target="PSMD4" />
+    <edge source="PEX13" target="OCIAD1" />
+    <edge source="PEX13" target="PEX13" />
+    <edge source="VPS35" target="VPS35" />
+    <edge source="OCIAD1" target="COG2" />
+    <edge source="OCIAD1" target="OCIAD1" />
+    <edge source="UBXN8" target="VDAC3" />
+  </graph>
+</graphml>

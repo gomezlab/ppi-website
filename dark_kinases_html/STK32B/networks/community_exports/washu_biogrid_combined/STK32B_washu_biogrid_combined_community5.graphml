@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="CPSF1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="RC3H1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="NCBP2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="PUM2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="SATB2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="MKRN2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="ARHGAP11A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="MORC4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="SMG7">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="RPP38">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="WRN">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CUX1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="SOX5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="TSR1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="R3HDM1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+    </node>
+    <edge source="CPSF1" target="CUX1" />
+    <edge source="CPSF1" target="ARHGAP11A" />
+    <edge source="CPSF1" target="CPSF1" />
+    <edge source="CPSF1" target="WRN" />
+    <edge source="CPSF1" target="RPP38" />
+    <edge source="RC3H1" target="MKRN2" />
+    <edge source="RC3H1" target="NCBP2" />
+    <edge source="RC3H1" target="TSR1" />
+    <edge source="RC3H1" target="SMG7" />
+    <edge source="RC3H1" target="RC3H1" />
+    <edge source="RC3H1" target="R3HDM1" />
+    <edge source="NCBP2" target="CUX1" />
+    <edge source="NCBP2" target="NCBP2" />
+    <edge source="PUM2" target="MKRN2" />
+    <edge source="PUM2" target="PUM2" />
+    <edge source="SATB2" target="MKRN2" />
+    <edge source="SATB2" target="SOX5" />
+    <edge source="MKRN2" target="SMG7" />
+    <edge source="MKRN2" target="R3HDM1" />
+    <edge source="MORC4" target="SMG7" />
+    <edge source="SMG7" target="TSR1" />
+    <edge source="SMG7" target="R3HDM1" />
+    <edge source="SMG7" target="WRN" />
+    <edge source="WRN" target="WRN" />
+    <edge source="CUX1" target="SOX5" />
+    <edge source="SOX5" target="SOX5" />
+  </graph>
+</graphml>

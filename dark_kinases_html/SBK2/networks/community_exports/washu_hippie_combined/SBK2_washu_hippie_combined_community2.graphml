@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="DUS3L">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DDOST">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="HSP90AA1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PPP5C">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RBBP6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="SUGT1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="CDC37">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="VAPA">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="TTC4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DNAJC11">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PPP2R1A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="SSR3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="HSP90AB1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="AIP">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+    </node>
+    <edge source="DUS3L" target="CDC37" />
+    <edge source="DDOST" target="VAPA" />
+    <edge source="DDOST" target="SSR3" />
+    <edge source="DDOST" target="HSP90AB1" />
+    <edge source="DDOST" target="HSP90AA1" />
+    <edge source="HSP90AA1" target="SUGT1" />
+    <edge source="HSP90AA1" target="TTC4" />
+    <edge source="HSP90AA1" target="PPP2R1A" />
+    <edge source="HSP90AA1" target="SSR3" />
+    <edge source="HSP90AA1" target="AIP" />
+    <edge source="HSP90AA1" target="PPP5C" />
+    <edge source="HSP90AA1" target="HSP90AB1" />
+    <edge source="HSP90AA1" target="HSP90AA1" />
+    <edge source="HSP90AA1" target="CDC37" />
+    <edge source="PPP5C" target="RBBP6" />
+    <edge source="PPP5C" target="DNAJC11" />
+    <edge source="PPP5C" target="SUGT1" />
+    <edge source="PPP5C" target="PPP2R1A" />
+    <edge source="PPP5C" target="PPP5C" />
+    <edge source="PPP5C" target="CDC37" />
+    <edge source="PPP5C" target="HSP90AB1" />
+    <edge source="SUGT1" target="DNAJC11" />
+    <edge source="SUGT1" target="AIP" />
+    <edge source="SUGT1" target="HSP90AB1" />
+    <edge source="CDC37" target="TTC4" />
+    <edge source="CDC37" target="PPP2R1A" />
+    <edge source="CDC37" target="AIP" />
+    <edge source="CDC37" target="HSP90AB1" />
+    <edge source="CDC37" target="CDC37" />
+    <edge source="VAPA" target="VAPA" />
+    <edge source="TTC4" target="HSP90AB1" />
+    <edge source="PPP2R1A" target="PPP2R1A" />
+    <edge source="HSP90AB1" target="AIP" />
+    <edge source="HSP90AB1" target="HSP90AB1" />
+  </graph>
+</graphml>

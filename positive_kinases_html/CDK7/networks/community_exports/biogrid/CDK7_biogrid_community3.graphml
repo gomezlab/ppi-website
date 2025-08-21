@@ -1,0 +1,946 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="YWHAQ">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="WWOX">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SMARCAD1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="RANBP1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SDCBP">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PRPF31">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DHX38">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PRPF19">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SNRPA1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="XRCC6">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TRIM21">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DZIP1L">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ERC1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="CLNS1A">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="GEMIN5">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SUB1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="RUVBL2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PI4KB">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="GRAMD4">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="RTCB">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="YWHAZ">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PRMT5">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="YWHAG">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DDX17">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PCNA">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SUGP2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="RBM10">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="YWHAE">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="EEF1A1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HNRNPK">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SFPQ">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HNRNPH1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DDX3X">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="EEF1A2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SNRPA">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PABPC3">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PTBP1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HNRNPC">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="LSM14A">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HNRNPA1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="DHX15">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ZNF281">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="YWHAB">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="EEF1G">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PPIA">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PUF60">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PCBP1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HIBADH">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SRPK1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="EEF1D">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SORBS3">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HEY1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SNRPB2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="WDR77">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="TPR">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="EP300">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="THRAP3">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MBP">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="OPTN">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="EEF1B2">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="ELAVL1">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="YWHAH">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="CDKN1B">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HNRNPF">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="KHSRP">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="NONO">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SNRPD3">
+      <data key="d0">#d62728</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <edge source="YWHAQ" target="CDKN1B" />
+    <edge source="YWHAQ" target="DDX3X" />
+    <edge source="YWHAQ" target="EEF1A1" />
+    <edge source="YWHAQ" target="ELAVL1" />
+    <edge source="YWHAQ" target="ERC1" />
+    <edge source="YWHAQ" target="HIBADH" />
+    <edge source="YWHAQ" target="HNRNPA1" />
+    <edge source="YWHAQ" target="HNRNPC" />
+    <edge source="YWHAQ" target="HNRNPF" />
+    <edge source="YWHAQ" target="HNRNPH1" />
+    <edge source="YWHAQ" target="HNRNPK" />
+    <edge source="YWHAQ" target="OPTN" />
+    <edge source="YWHAQ" target="PCBP1" />
+    <edge source="YWHAQ" target="PCNA" />
+    <edge source="YWHAQ" target="PI4KB" />
+    <edge source="YWHAQ" target="PRMT5" />
+    <edge source="YWHAQ" target="RUVBL2" />
+    <edge source="YWHAQ" target="TPR" />
+    <edge source="YWHAQ" target="WDR77" />
+    <edge source="YWHAQ" target="YWHAB" />
+    <edge source="YWHAQ" target="YWHAE" />
+    <edge source="YWHAQ" target="YWHAG" />
+    <edge source="YWHAQ" target="YWHAH" />
+    <edge source="YWHAQ" target="YWHAZ" />
+    <edge source="YWHAQ" target="YWHAQ" />
+    <edge source="WWOX" target="DDX17" />
+    <edge source="WWOX" target="DHX15" />
+    <edge source="WWOX" target="ELAVL1" />
+    <edge source="WWOX" target="GEMIN5" />
+    <edge source="WWOX" target="HNRNPF" />
+    <edge source="WWOX" target="HNRNPH1" />
+    <edge source="WWOX" target="HNRNPK" />
+    <edge source="WWOX" target="KHSRP" />
+    <edge source="WWOX" target="NONO" />
+    <edge source="WWOX" target="PABPC3" />
+    <edge source="WWOX" target="PCNA" />
+    <edge source="WWOX" target="PPIA" />
+    <edge source="WWOX" target="PRMT5" />
+    <edge source="WWOX" target="PRPF31" />
+    <edge source="WWOX" target="SFPQ" />
+    <edge source="WWOX" target="SNRPD3" />
+    <edge source="WWOX" target="SRPK1" />
+    <edge source="WWOX" target="THRAP3" />
+    <edge source="WWOX" target="WDR77" />
+    <edge source="WWOX" target="WWOX" />
+    <edge source="WWOX" target="YWHAZ" />
+    <edge source="WWOX" target="YWHAG" />
+    <edge source="SMARCAD1" target="DDX17" />
+    <edge source="SMARCAD1" target="DDX3X" />
+    <edge source="SMARCAD1" target="HNRNPH1" />
+    <edge source="SMARCAD1" target="HNRNPK" />
+    <edge source="SMARCAD1" target="NONO" />
+    <edge source="SMARCAD1" target="PCBP1" />
+    <edge source="SMARCAD1" target="PCNA" />
+    <edge source="SMARCAD1" target="PRPF19" />
+    <edge source="SMARCAD1" target="PTBP1" />
+    <edge source="SMARCAD1" target="RUVBL2" />
+    <edge source="SMARCAD1" target="XRCC6" />
+    <edge source="SMARCAD1" target="SNRPD3" />
+    <edge source="RANBP1" target="ELAVL1" />
+    <edge source="RANBP1" target="HNRNPH1" />
+    <edge source="SDCBP" target="ELAVL1" />
+    <edge source="SDCBP" target="HNRNPC" />
+    <edge source="SDCBP" target="OPTN" />
+    <edge source="SDCBP" target="PUF60" />
+    <edge source="SDCBP" target="SNRPA" />
+    <edge source="SDCBP" target="SDCBP" />
+    <edge source="SDCBP" target="SUB1" />
+    <edge source="PRPF31" target="EP300" />
+    <edge source="PRPF31" target="HNRNPA1" />
+    <edge source="PRPF31" target="HNRNPK" />
+    <edge source="PRPF31" target="SNRPB2" />
+    <edge source="PRPF31" target="SNRPA1" />
+    <edge source="PRPF31" target="SNRPD3" />
+    <edge source="PRPF31" target="PRPF31" />
+    <edge source="DHX38" target="RBM10" />
+    <edge source="DHX38" target="XRCC6" />
+    <edge source="DHX38" target="EP300" />
+    <edge source="DHX38" target="SNRPD3" />
+    <edge source="PRPF19" target="DHX15" />
+    <edge source="PRPF19" target="EP300" />
+    <edge source="PRPF19" target="HNRNPA1" />
+    <edge source="PRPF19" target="HNRNPH1" />
+    <edge source="PRPF19" target="PPIA" />
+    <edge source="PRPF19" target="SNRPA" />
+    <edge source="PRPF19" target="XRCC6" />
+    <edge source="PRPF19" target="SNRPA1" />
+    <edge source="PRPF19" target="PRPF19" />
+    <edge source="PRPF19" target="RBM10" />
+    <edge source="PRPF19" target="YWHAG" />
+    <edge source="SNRPA1" target="DHX15" />
+    <edge source="SNRPA1" target="EEF1G" />
+    <edge source="SNRPA1" target="EP300" />
+    <edge source="SNRPA1" target="GEMIN5" />
+    <edge source="SNRPA1" target="SFPQ" />
+    <edge source="SNRPA1" target="SNRPA" />
+    <edge source="SNRPA1" target="SNRPD3" />
+    <edge source="SNRPA1" target="XRCC6" />
+    <edge source="SNRPA1" target="SNRPB2" />
+    <edge source="SNRPA1" target="THRAP3" />
+    <edge source="SNRPA1" target="TPR" />
+    <edge source="XRCC6" target="DDX17" />
+    <edge source="XRCC6" target="DDX3X" />
+    <edge source="XRCC6" target="EP300" />
+    <edge source="XRCC6" target="HNRNPA1" />
+    <edge source="XRCC6" target="HNRNPK" />
+    <edge source="XRCC6" target="KHSRP" />
+    <edge source="XRCC6" target="NONO" />
+    <edge source="XRCC6" target="OPTN" />
+    <edge source="XRCC6" target="PCBP1" />
+    <edge source="XRCC6" target="PCNA" />
+    <edge source="XRCC6" target="RBM10" />
+    <edge source="XRCC6" target="SFPQ" />
+    <edge source="XRCC6" target="SUB1" />
+    <edge source="XRCC6" target="SUGP2" />
+    <edge source="XRCC6" target="THRAP3" />
+    <edge source="XRCC6" target="TPR" />
+    <edge source="XRCC6" target="XRCC6" />
+    <edge source="XRCC6" target="YWHAZ" />
+    <edge source="XRCC6" target="ZNF281" />
+    <edge source="TRIM21" target="CDKN1B" />
+    <edge source="TRIM21" target="EEF1D" />
+    <edge source="TRIM21" target="EEF1G" />
+    <edge source="TRIM21" target="ELAVL1" />
+    <edge source="TRIM21" target="EP300" />
+    <edge source="TRIM21" target="PRMT5" />
+    <edge source="TRIM21" target="YWHAZ" />
+    <edge source="TRIM21" target="TRIM21" />
+    <edge source="TRIM21" target="YWHAG" />
+    <edge source="TRIM21" target="YWHAE" />
+    <edge source="DZIP1L" target="YWHAG" />
+    <edge source="DZIP1L" target="HNRNPH1" />
+    <edge source="ERC1" target="YWHAH" />
+    <edge source="ERC1" target="YWHAB" />
+    <edge source="ERC1" target="ERC1" />
+    <edge source="ERC1" target="YWHAG" />
+    <edge source="CLNS1A" target="PRMT5" />
+    <edge source="CLNS1A" target="WDR77" />
+    <edge source="CLNS1A" target="YWHAE" />
+    <edge source="CLNS1A" target="EP300" />
+    <edge source="CLNS1A" target="SNRPD3" />
+    <edge source="GEMIN5" target="DDX3X" />
+    <edge source="GEMIN5" target="SNRPB2" />
+    <edge source="GEMIN5" target="SNRPD3" />
+    <edge source="SUB1" target="ELAVL1" />
+    <edge source="SUB1" target="EP300" />
+    <edge source="SUB1" target="OPTN" />
+    <edge source="SUB1" target="PCNA" />
+    <edge source="SUB1" target="SUB1" />
+    <edge source="SUB1" target="YWHAZ" />
+    <edge source="RUVBL2" target="EEF1A1" />
+    <edge source="RUVBL2" target="EP300" />
+    <edge source="RUVBL2" target="PCBP1" />
+    <edge source="RUVBL2" target="PCNA" />
+    <edge source="RUVBL2" target="YWHAZ" />
+    <edge source="RUVBL2" target="RUVBL2" />
+    <edge source="RUVBL2" target="YWHAE" />
+    <edge source="RUVBL2" target="SUGP2" />
+    <edge source="PI4KB" target="YWHAH" />
+    <edge source="PI4KB" target="YWHAB" />
+    <edge source="PI4KB" target="YWHAZ" />
+    <edge source="PI4KB" target="YWHAG" />
+    <edge source="PI4KB" target="PI4KB" />
+    <edge source="GRAMD4" target="EEF1A2" />
+    <edge source="RTCB" target="DDX3X" />
+    <edge source="RTCB" target="EEF1A1" />
+    <edge source="RTCB" target="EP300" />
+    <edge source="RTCB" target="HNRNPA1" />
+    <edge source="RTCB" target="HNRNPH1" />
+    <edge source="RTCB" target="YWHAZ" />
+    <edge source="YWHAZ" target="CDKN1B" />
+    <edge source="YWHAZ" target="DDX3X" />
+    <edge source="YWHAZ" target="DHX15" />
+    <edge source="YWHAZ" target="EEF1A1" />
+    <edge source="YWHAZ" target="EEF1B2" />
+    <edge source="YWHAZ" target="EP300" />
+    <edge source="YWHAZ" target="HNRNPA1" />
+    <edge source="YWHAZ" target="HNRNPC" />
+    <edge source="YWHAZ" target="HNRNPF" />
+    <edge source="YWHAZ" target="HNRNPK" />
+    <edge source="YWHAZ" target="NONO" />
+    <edge source="YWHAZ" target="OPTN" />
+    <edge source="YWHAZ" target="PCBP1" />
+    <edge source="YWHAZ" target="PPIA" />
+    <edge source="YWHAZ" target="PRMT5" />
+    <edge source="YWHAZ" target="PTBP1" />
+    <edge source="YWHAZ" target="SFPQ" />
+    <edge source="YWHAZ" target="SNRPA" />
+    <edge source="YWHAZ" target="WDR77" />
+    <edge source="YWHAZ" target="YWHAB" />
+    <edge source="YWHAZ" target="YWHAE" />
+    <edge source="YWHAZ" target="YWHAG" />
+    <edge source="YWHAZ" target="YWHAH" />
+    <edge source="YWHAZ" target="YWHAZ" />
+    <edge source="PRMT5" target="DDX3X" />
+    <edge source="PRMT5" target="HNRNPH1" />
+    <edge source="PRMT5" target="MBP" />
+    <edge source="PRMT5" target="NONO" />
+    <edge source="PRMT5" target="SFPQ" />
+    <edge source="PRMT5" target="SNRPD3" />
+    <edge source="PRMT5" target="PRMT5" />
+    <edge source="PRMT5" target="YWHAB" />
+    <edge source="PRMT5" target="WDR77" />
+    <edge source="PRMT5" target="YWHAG" />
+    <edge source="YWHAG" target="CDKN1B" />
+    <edge source="YWHAG" target="DDX17" />
+    <edge source="YWHAG" target="DHX15" />
+    <edge source="YWHAG" target="EEF1A1" />
+    <edge source="YWHAG" target="EEF1G" />
+    <edge source="YWHAG" target="ELAVL1" />
+    <edge source="YWHAG" target="HNRNPF" />
+    <edge source="YWHAG" target="HNRNPH1" />
+    <edge source="YWHAG" target="NONO" />
+    <edge source="YWHAG" target="OPTN" />
+    <edge source="YWHAG" target="PCNA" />
+    <edge source="YWHAG" target="PUF60" />
+    <edge source="YWHAG" target="SFPQ" />
+    <edge source="YWHAG" target="SRPK1" />
+    <edge source="YWHAG" target="THRAP3" />
+    <edge source="YWHAG" target="YWHAB" />
+    <edge source="YWHAG" target="YWHAE" />
+    <edge source="YWHAG" target="YWHAH" />
+    <edge source="YWHAG" target="YWHAG" />
+    <edge source="DDX17" target="SNRPA" />
+    <edge source="DDX17" target="DHX15" />
+    <edge source="DDX17" target="HNRNPK" />
+    <edge source="DDX17" target="SFPQ" />
+    <edge source="DDX17" target="HNRNPA1" />
+    <edge source="DDX17" target="EP300" />
+    <edge source="DDX17" target="ELAVL1" />
+    <edge source="DDX17" target="DDX17" />
+    <edge source="DDX17" target="EEF1A1" />
+    <edge source="DDX17" target="HNRNPH1" />
+    <edge source="DDX17" target="SORBS3" />
+    <edge source="DDX17" target="PCNA" />
+    <edge source="DDX17" target="RBM10" />
+    <edge source="DDX17" target="DDX3X" />
+    <edge source="DDX17" target="PTBP1" />
+    <edge source="PCNA" target="DHX15" />
+    <edge source="PCNA" target="EEF1A1" />
+    <edge source="PCNA" target="EEF1D" />
+    <edge source="PCNA" target="EP300" />
+    <edge source="PCNA" target="HNRNPF" />
+    <edge source="PCNA" target="NONO" />
+    <edge source="PCNA" target="PPIA" />
+    <edge source="PCNA" target="PCNA" />
+    <edge source="SUGP2" target="HNRNPA1" />
+    <edge source="SUGP2" target="HNRNPC" />
+    <edge source="SUGP2" target="NONO" />
+    <edge source="RBM10" target="DHX15" />
+    <edge source="RBM10" target="ELAVL1" />
+    <edge source="RBM10" target="HNRNPA1" />
+    <edge source="RBM10" target="HNRNPK" />
+    <edge source="RBM10" target="PCBP1" />
+    <edge source="RBM10" target="PTBP1" />
+    <edge source="RBM10" target="RBM10" />
+    <edge source="RBM10" target="SNRPA" />
+    <edge source="RBM10" target="YWHAE" />
+    <edge source="YWHAE" target="CDKN1B" />
+    <edge source="YWHAE" target="EEF1A2" />
+    <edge source="YWHAE" target="EEF1G" />
+    <edge source="YWHAE" target="HIBADH" />
+    <edge source="YWHAE" target="HNRNPA1" />
+    <edge source="YWHAE" target="HNRNPC" />
+    <edge source="YWHAE" target="HNRNPH1" />
+    <edge source="YWHAE" target="NONO" />
+    <edge source="YWHAE" target="PCBP1" />
+    <edge source="YWHAE" target="SFPQ" />
+    <edge source="YWHAE" target="YWHAB" />
+    <edge source="YWHAE" target="YWHAE" />
+    <edge source="YWHAE" target="YWHAH" />
+    <edge source="EEF1A1" target="SNRPA" />
+    <edge source="EEF1A1" target="HNRNPC" />
+    <edge source="EEF1A1" target="THRAP3" />
+    <edge source="EEF1A1" target="EEF1G" />
+    <edge source="EEF1A1" target="HNRNPK" />
+    <edge source="EEF1A1" target="EEF1A2" />
+    <edge source="EEF1A1" target="NONO" />
+    <edge source="EEF1A1" target="PCBP1" />
+    <edge source="EEF1A1" target="PABPC3" />
+    <edge source="EEF1A1" target="HNRNPA1" />
+    <edge source="EEF1A1" target="EP300" />
+    <edge source="EEF1A1" target="EEF1A1" />
+    <edge source="EEF1A1" target="PUF60" />
+    <edge source="EEF1A1" target="EEF1B2" />
+    <edge source="EEF1A1" target="EEF1D" />
+    <edge source="HNRNPK" target="DHX15" />
+    <edge source="HNRNPK" target="EEF1D" />
+    <edge source="HNRNPK" target="ELAVL1" />
+    <edge source="HNRNPK" target="EP300" />
+    <edge source="HNRNPK" target="HEY1" />
+    <edge source="HNRNPK" target="HNRNPA1" />
+    <edge source="HNRNPK" target="HNRNPF" />
+    <edge source="HNRNPK" target="HNRNPH1" />
+    <edge source="HNRNPK" target="SNRPA" />
+    <edge source="HNRNPK" target="HNRNPK" />
+    <edge source="HNRNPK" target="PPIA" />
+    <edge source="HNRNPK" target="PCBP1" />
+    <edge source="HNRNPK" target="YWHAH" />
+    <edge source="HNRNPK" target="SORBS3" />
+    <edge source="HNRNPK" target="PTBP1" />
+    <edge source="SFPQ" target="ELAVL1" />
+    <edge source="SFPQ" target="EP300" />
+    <edge source="SFPQ" target="HNRNPA1" />
+    <edge source="SFPQ" target="HNRNPC" />
+    <edge source="SFPQ" target="HNRNPH1" />
+    <edge source="SFPQ" target="LSM14A" />
+    <edge source="SFPQ" target="NONO" />
+    <edge source="SFPQ" target="PCBP1" />
+    <edge source="SFPQ" target="PPIA" />
+    <edge source="SFPQ" target="PTBP1" />
+    <edge source="SFPQ" target="SNRPA" />
+    <edge source="SFPQ" target="THRAP3" />
+    <edge source="SFPQ" target="SFPQ" />
+    <edge source="SFPQ" target="TPR" />
+    <edge source="HNRNPH1" target="DDX3X" />
+    <edge source="HNRNPH1" target="ELAVL1" />
+    <edge source="HNRNPH1" target="HEY1" />
+    <edge source="HNRNPH1" target="HNRNPA1" />
+    <edge source="HNRNPH1" target="HNRNPC" />
+    <edge source="HNRNPH1" target="HNRNPF" />
+    <edge source="HNRNPH1" target="LSM14A" />
+    <edge source="HNRNPH1" target="SNRPD3" />
+    <edge source="HNRNPH1" target="WDR77" />
+    <edge source="HNRNPH1" target="KHSRP" />
+    <edge source="HNRNPH1" target="HNRNPH1" />
+    <edge source="HNRNPH1" target="SRPK1" />
+    <edge source="DDX3X" target="PPIA" />
+    <edge source="DDX3X" target="PCBP1" />
+    <edge source="DDX3X" target="HNRNPA1" />
+    <edge source="DDX3X" target="TPR" />
+    <edge source="DDX3X" target="EP300" />
+    <edge source="DDX3X" target="ELAVL1" />
+    <edge source="DDX3X" target="PUF60" />
+    <edge source="DDX3X" target="LSM14A" />
+    <edge source="DDX3X" target="EEF1D" />
+    <edge source="EEF1A2" target="EEF1A2" />
+    <edge source="EEF1A2" target="EEF1B2" />
+    <edge source="EEF1A2" target="EEF1D" />
+    <edge source="EEF1A2" target="PABPC3" />
+    <edge source="EEF1A2" target="EEF1G" />
+    <edge source="SNRPA" target="EEF1B2" />
+    <edge source="SNRPA" target="EP300" />
+    <edge source="SNRPA" target="NONO" />
+    <edge source="SNRPA" target="PCBP1" />
+    <edge source="SNRPA" target="PTBP1" />
+    <edge source="SNRPA" target="PUF60" />
+    <edge source="SNRPA" target="SNRPA" />
+    <edge source="SNRPA" target="SNRPD3" />
+    <edge source="SNRPA" target="SRPK1" />
+    <edge source="PTBP1" target="ELAVL1" />
+    <edge source="PTBP1" target="EP300" />
+    <edge source="PTBP1" target="HNRNPA1" />
+    <edge source="PTBP1" target="KHSRP" />
+    <edge source="PTBP1" target="NONO" />
+    <edge source="PTBP1" target="PCBP1" />
+    <edge source="PTBP1" target="PTBP1" />
+    <edge source="HNRNPC" target="ELAVL1" />
+    <edge source="HNRNPC" target="EP300" />
+    <edge source="HNRNPC" target="HNRNPA1" />
+    <edge source="HNRNPC" target="HNRNPC" />
+    <edge source="HNRNPC" target="THRAP3" />
+    <edge source="HNRNPC" target="PPIA" />
+    <edge source="HNRNPC" target="PCBP1" />
+    <edge source="HNRNPC" target="PUF60" />
+    <edge source="HNRNPC" target="SRPK1" />
+    <edge source="LSM14A" target="ELAVL1" />
+    <edge source="HNRNPA1" target="DHX15" />
+    <edge source="HNRNPA1" target="EEF1G" />
+    <edge source="HNRNPA1" target="ELAVL1" />
+    <edge source="HNRNPA1" target="HEY1" />
+    <edge source="HNRNPA1" target="KHSRP" />
+    <edge source="HNRNPA1" target="NONO" />
+    <edge source="HNRNPA1" target="PPIA" />
+    <edge source="HNRNPA1" target="PCBP1" />
+    <edge source="HNRNPA1" target="HNRNPA1" />
+    <edge source="HNRNPA1" target="PUF60" />
+    <edge source="HNRNPA1" target="SRPK1" />
+    <edge source="HNRNPA1" target="SNRPD3" />
+    <edge source="HNRNPA1" target="HNRNPF" />
+    <edge source="HNRNPA1" target="WDR77" />
+    <edge source="DHX15" target="SNRPB2" />
+    <edge source="DHX15" target="PCBP1" />
+    <edge source="DHX15" target="EP300" />
+    <edge source="DHX15" target="SRPK1" />
+    <edge source="DHX15" target="HNRNPF" />
+    <edge source="DHX15" target="YWHAB" />
+    <edge source="ZNF281" target="ELAVL1" />
+    <edge source="ZNF281" target="OPTN" />
+    <edge source="ZNF281" target="PCBP1" />
+    <edge source="YWHAB" target="CDKN1B" />
+    <edge source="YWHAB" target="ELAVL1" />
+    <edge source="YWHAB" target="OPTN" />
+    <edge source="YWHAB" target="SRPK1" />
+    <edge source="YWHAB" target="WDR77" />
+    <edge source="YWHAB" target="YWHAH" />
+    <edge source="YWHAB" target="YWHAB" />
+    <edge source="EEF1G" target="EEF1B2" />
+    <edge source="EEF1G" target="EEF1D" />
+    <edge source="EEF1G" target="EEF1G" />
+    <edge source="EEF1G" target="EP300" />
+    <edge source="PPIA" target="ELAVL1" />
+    <edge source="PPIA" target="HNRNPF" />
+    <edge source="PPIA" target="PPIA" />
+    <edge source="PPIA" target="SRPK1" />
+    <edge source="PUF60" target="EP300" />
+    <edge source="PUF60" target="HNRNPF" />
+    <edge source="PUF60" target="KHSRP" />
+    <edge source="PUF60" target="PCBP1" />
+    <edge source="PUF60" target="THRAP3" />
+    <edge source="PUF60" target="PUF60" />
+    <edge source="PUF60" target="SRPK1" />
+    <edge source="PCBP1" target="EEF1D" />
+    <edge source="PCBP1" target="ELAVL1" />
+    <edge source="PCBP1" target="EP300" />
+    <edge source="PCBP1" target="NONO" />
+    <edge source="PCBP1" target="THRAP3" />
+    <edge source="PCBP1" target="SRPK1" />
+    <edge source="HIBADH" target="ELAVL1" />
+    <edge source="HIBADH" target="HIBADH" />
+    <edge source="SRPK1" target="ELAVL1" />
+    <edge source="SRPK1" target="EP300" />
+    <edge source="SRPK1" target="MBP" />
+    <edge source="SRPK1" target="SNRPD3" />
+    <edge source="SRPK1" target="THRAP3" />
+    <edge source="SRPK1" target="SRPK1" />
+    <edge source="EEF1D" target="EEF1B2" />
+    <edge source="EEF1D" target="KHSRP" />
+    <edge source="EEF1D" target="TPR" />
+    <edge source="EEF1D" target="EP300" />
+    <edge source="EEF1D" target="EEF1D" />
+    <edge source="SORBS3" target="HNRNPF" />
+    <edge source="SORBS3" target="SORBS3" />
+    <edge source="HEY1" target="ELAVL1" />
+    <edge source="HEY1" target="HEY1" />
+    <edge source="HEY1" target="NONO" />
+    <edge source="HEY1" target="SNRPD3" />
+    <edge source="SNRPB2" target="EP300" />
+    <edge source="SNRPB2" target="SNRPD3" />
+    <edge source="WDR77" target="HNRNPF" />
+    <edge source="WDR77" target="KHSRP" />
+    <edge source="WDR77" target="SNRPD3" />
+    <edge source="WDR77" target="WDR77" />
+    <edge source="TPR" target="EEF1B2" />
+    <edge source="EP300" target="EEF1B2" />
+    <edge source="EP300" target="ELAVL1" />
+    <edge source="EP300" target="EP300" />
+    <edge source="EP300" target="HNRNPF" />
+    <edge source="EP300" target="NONO" />
+    <edge source="EP300" target="THRAP3" />
+    <edge source="EP300" target="KHSRP" />
+    <edge source="OPTN" target="EEF1B2" />
+    <edge source="OPTN" target="ELAVL1" />
+    <edge source="OPTN" target="OPTN" />
+    <edge source="OPTN" target="YWHAH" />
+    <edge source="EEF1B2" target="EEF1B2" />
+    <edge source="ELAVL1" target="CDKN1B" />
+    <edge source="ELAVL1" target="HNRNPF" />
+    <edge source="ELAVL1" target="NONO" />
+    <edge source="ELAVL1" target="YWHAH" />
+    <edge source="ELAVL1" target="SNRPD3" />
+    <edge source="ELAVL1" target="KHSRP" />
+    <edge source="ELAVL1" target="ELAVL1" />
+    <edge source="YWHAH" target="CDKN1B" />
+    <edge source="YWHAH" target="YWHAH" />
+    <edge source="HNRNPF" target="KHSRP" />
+    <edge source="NONO" target="NONO" />
+  </graph>
+</graphml>

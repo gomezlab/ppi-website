@@ -1,0 +1,1810 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="MRPL42">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="TUFM">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="ATAD3B">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="GADD45GIP1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL37">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PTCD1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPS30">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL50">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL24">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL51">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL3">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="ATAD3A">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL45">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL52">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL9">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL43">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="C6orf203">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL27">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL58">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL13">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="GTPBP8">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="NUBPL">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MALSU1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL22">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL40">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL12">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="TBRG4">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL17">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="TSFM">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="NDUFAB1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL54">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="GTPBP10">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL2">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL55">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL41">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL16">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL32">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="SDHAF4">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL39">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPS18A">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MTG1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MTG2">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL10">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL19">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL46">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL44">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL53">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL21">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="GTPBP3">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRM3">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL15">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL38">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL47">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="TFB1M">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PMPCA">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MTERF4">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL49">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PMPCB">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL28">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL4">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL14">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="MRPL48">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="NGRN">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+    </node>
+    <edge source="MRPL42" target="PTCD1" />
+    <edge source="MRPL42" target="TBRG4" />
+    <edge source="MRPL42" target="PMPCA" />
+    <edge source="MRPL42" target="PMPCB" />
+    <edge source="MRPL42" target="TSFM" />
+    <edge source="MRPL42" target="MRPL15" />
+    <edge source="MRPL42" target="MRPL41" />
+    <edge source="MRPL42" target="MRPL1" />
+    <edge source="MRPL42" target="NGRN" />
+    <edge source="MRPL42" target="GADD45GIP1" />
+    <edge source="MRPL42" target="MRPL37" />
+    <edge source="MRPL42" target="MRPL52" />
+    <edge source="MRPL42" target="MRPL43" />
+    <edge source="MRPL42" target="MRPL58" />
+    <edge source="MRPL42" target="MRPL13" />
+    <edge source="MRPL42" target="MRPL17" />
+    <edge source="MRPL42" target="MRPL54" />
+    <edge source="MRPL42" target="MRPL2" />
+    <edge source="MRPL42" target="MRPL32" />
+    <edge source="MRPL42" target="MRPL46" />
+    <edge source="MRPL42" target="MRPL44" />
+    <edge source="MRPL42" target="MRPL47" />
+    <edge source="MRPL42" target="MRPS30" />
+    <edge source="MRPL42" target="MRPL9" />
+    <edge source="MRPL42" target="C6orf203" />
+    <edge source="MRPL42" target="MRPL12" />
+    <edge source="MRPL42" target="MRPL55" />
+    <edge source="MRPL42" target="MRPL16" />
+    <edge source="MRPL42" target="MRPL19" />
+    <edge source="MRPL42" target="MRPL21" />
+    <edge source="MRPL42" target="MRM3" />
+    <edge source="MRPL42" target="MRPL28" />
+    <edge source="MRPL42" target="MRPL4" />
+    <edge source="MRPL42" target="TUFM" />
+    <edge source="MRPL42" target="MRPL50" />
+    <edge source="MRPL42" target="MRPL3" />
+    <edge source="MRPL42" target="ATAD3A" />
+    <edge source="MRPL42" target="MRPL45" />
+    <edge source="MRPL42" target="MRPL27" />
+    <edge source="MRPL42" target="MRPL22" />
+    <edge source="MRPL42" target="MRPL40" />
+    <edge source="MRPL42" target="MALSU1" />
+    <edge source="MRPL42" target="MRPL38" />
+    <edge source="MRPL42" target="MRPL49" />
+    <edge source="MRPL42" target="MRPL48" />
+    <edge source="MRPL42" target="MRPL24" />
+    <edge source="MRPL42" target="MRPL51" />
+    <edge source="MRPL42" target="NDUFAB1" />
+    <edge source="MRPL42" target="MRPL39" />
+    <edge source="MRPL42" target="MRPS18A" />
+    <edge source="MRPL42" target="MRPL10" />
+    <edge source="MRPL42" target="MRPL53" />
+    <edge source="TUFM" target="PMPCA" />
+    <edge source="TUFM" target="TSFM" />
+    <edge source="TUFM" target="MRPL15" />
+    <edge source="TUFM" target="MRPL41" />
+    <edge source="TUFM" target="GTPBP10" />
+    <edge source="TUFM" target="MRPL1" />
+    <edge source="TUFM" target="GADD45GIP1" />
+    <edge source="TUFM" target="MRPL10" />
+    <edge source="TUFM" target="MRPL49" />
+    <edge source="TUFM" target="MRPL46" />
+    <edge source="TUFM" target="MRPL9" />
+    <edge source="TUFM" target="MRPL39" />
+    <edge source="TUFM" target="MRPL44" />
+    <edge source="TUFM" target="MTG2" />
+    <edge source="TUFM" target="MRPL47" />
+    <edge source="TUFM" target="MRPL21" />
+    <edge source="TUFM" target="GTPBP3" />
+    <edge source="TUFM" target="MRPL19" />
+    <edge source="TUFM" target="MRPL4" />
+    <edge source="TUFM" target="MRPS18A" />
+    <edge source="TUFM" target="MRPL27" />
+    <edge source="TUFM" target="MRPL16" />
+    <edge source="TUFM" target="MRPL37" />
+    <edge source="TUFM" target="MRPL22" />
+    <edge source="TUFM" target="MRPL48" />
+    <edge source="TUFM" target="MRPL40" />
+    <edge source="TUFM" target="MRPL3" />
+    <edge source="TUFM" target="MRPL12" />
+    <edge source="TUFM" target="MRPL17" />
+    <edge source="TUFM" target="MRPL45" />
+    <edge source="TUFM" target="MRPL28" />
+    <edge source="TUFM" target="MRPL24" />
+    <edge source="TUFM" target="MRPS30" />
+    <edge source="TUFM" target="MRPL2" />
+    <edge source="TUFM" target="MRM3" />
+    <edge source="TUFM" target="ATAD3A" />
+    <edge source="TUFM" target="MRPL43" />
+    <edge source="TUFM" target="MRPL58" />
+    <edge source="TUFM" target="MRPL50" />
+    <edge source="TUFM" target="MRPL38" />
+    <edge source="TUFM" target="MRPL53" />
+    <edge source="TUFM" target="MRPL52" />
+    <edge source="TUFM" target="MRPL13" />
+    <edge source="TUFM" target="ATAD3B" />
+    <edge source="TUFM" target="MRPL51" />
+    <edge source="TUFM" target="MRPL14" />
+    <edge source="ATAD3B" target="PMPCA" />
+    <edge source="ATAD3B" target="MRPL15" />
+    <edge source="ATAD3B" target="GTPBP10" />
+    <edge source="ATAD3B" target="MRPL1" />
+    <edge source="ATAD3B" target="GADD45GIP1" />
+    <edge source="ATAD3B" target="MRPL46" />
+    <edge source="ATAD3B" target="MRPL9" />
+    <edge source="ATAD3B" target="MRPL39" />
+    <edge source="ATAD3B" target="MRPL44" />
+    <edge source="ATAD3B" target="MTG2" />
+    <edge source="ATAD3B" target="MRPL47" />
+    <edge source="ATAD3B" target="MRPL21" />
+    <edge source="ATAD3B" target="MRPL19" />
+    <edge source="ATAD3B" target="MRPL4" />
+    <edge source="ATAD3B" target="MRPL16" />
+    <edge source="ATAD3B" target="MRPL37" />
+    <edge source="ATAD3B" target="MRPL22" />
+    <edge source="ATAD3B" target="MRPL40" />
+    <edge source="ATAD3B" target="MRPL3" />
+    <edge source="ATAD3B" target="MRPL45" />
+    <edge source="ATAD3B" target="MRPL28" />
+    <edge source="ATAD3B" target="MRPS30" />
+    <edge source="ATAD3B" target="MRPL58" />
+    <edge source="ATAD3B" target="MRPL13" />
+    <edge source="ATAD3B" target="ATAD3A" />
+    <edge source="ATAD3B" target="MRPL38" />
+    <edge source="GADD45GIP1" target="PTCD1" />
+    <edge source="GADD45GIP1" target="TBRG4" />
+    <edge source="GADD45GIP1" target="PMPCA" />
+    <edge source="GADD45GIP1" target="PMPCB" />
+    <edge source="GADD45GIP1" target="TSFM" />
+    <edge source="GADD45GIP1" target="MRPL15" />
+    <edge source="GADD45GIP1" target="MRPL41" />
+    <edge source="GADD45GIP1" target="MRPL1" />
+    <edge source="GADD45GIP1" target="NGRN" />
+    <edge source="GADD45GIP1" target="MRPL37" />
+    <edge source="GADD45GIP1" target="MRPL52" />
+    <edge source="GADD45GIP1" target="MRPL43" />
+    <edge source="GADD45GIP1" target="MRPL58" />
+    <edge source="GADD45GIP1" target="MRPL13" />
+    <edge source="GADD45GIP1" target="MRPL17" />
+    <edge source="GADD45GIP1" target="MRPL54" />
+    <edge source="GADD45GIP1" target="MRPL2" />
+    <edge source="GADD45GIP1" target="MRPL32" />
+    <edge source="GADD45GIP1" target="MTG1" />
+    <edge source="GADD45GIP1" target="MRPL46" />
+    <edge source="GADD45GIP1" target="MRPL44" />
+    <edge source="GADD45GIP1" target="MRPL47" />
+    <edge source="GADD45GIP1" target="MRPL14" />
+    <edge source="GADD45GIP1" target="MRPS30" />
+    <edge source="GADD45GIP1" target="MRPL9" />
+    <edge source="GADD45GIP1" target="C6orf203" />
+    <edge source="GADD45GIP1" target="MRPL12" />
+    <edge source="GADD45GIP1" target="MRPL55" />
+    <edge source="GADD45GIP1" target="MRPL16" />
+    <edge source="GADD45GIP1" target="MRPL19" />
+    <edge source="GADD45GIP1" target="MRPL21" />
+    <edge source="GADD45GIP1" target="MRPL28" />
+    <edge source="GADD45GIP1" target="MRPL4" />
+    <edge source="GADD45GIP1" target="MRPL50" />
+    <edge source="GADD45GIP1" target="MRPL3" />
+    <edge source="GADD45GIP1" target="ATAD3A" />
+    <edge source="GADD45GIP1" target="MRPL45" />
+    <edge source="GADD45GIP1" target="MRPL27" />
+    <edge source="GADD45GIP1" target="MRPL22" />
+    <edge source="GADD45GIP1" target="MRPL40" />
+    <edge source="GADD45GIP1" target="MALSU1" />
+    <edge source="GADD45GIP1" target="MRPL38" />
+    <edge source="GADD45GIP1" target="MRPL49" />
+    <edge source="GADD45GIP1" target="MRPL48" />
+    <edge source="GADD45GIP1" target="MRPL24" />
+    <edge source="GADD45GIP1" target="MRPL51" />
+    <edge source="GADD45GIP1" target="NDUFAB1" />
+    <edge source="GADD45GIP1" target="MRPL39" />
+    <edge source="GADD45GIP1" target="MRPS18A" />
+    <edge source="GADD45GIP1" target="MRPL10" />
+    <edge source="GADD45GIP1" target="MRPL53" />
+    <edge source="MRPL37" target="TBRG4" />
+    <edge source="MRPL37" target="PMPCA" />
+    <edge source="MRPL37" target="PMPCB" />
+    <edge source="MRPL37" target="TSFM" />
+    <edge source="MRPL37" target="MRPL15" />
+    <edge source="MRPL37" target="MRPL41" />
+    <edge source="MRPL37" target="MRPL1" />
+    <edge source="MRPL37" target="NGRN" />
+    <edge source="MRPL37" target="MRPL10" />
+    <edge source="MRPL37" target="MRPL49" />
+    <edge source="MRPL37" target="MRPL46" />
+    <edge source="MRPL37" target="MRPL9" />
+    <edge source="MRPL37" target="MRPL39" />
+    <edge source="MRPL37" target="MRPL44" />
+    <edge source="MRPL37" target="MTG2" />
+    <edge source="MRPL37" target="MRPL47" />
+    <edge source="MRPL37" target="MRPL21" />
+    <edge source="MRPL37" target="MRPL19" />
+    <edge source="MRPL37" target="MRPL4" />
+    <edge source="MRPL37" target="MRPS18A" />
+    <edge source="MRPL37" target="MRPL27" />
+    <edge source="MRPL37" target="MRPL16" />
+    <edge source="MRPL37" target="MRPL52" />
+    <edge source="MRPL37" target="MRPL43" />
+    <edge source="MRPL37" target="MRPL58" />
+    <edge source="MRPL37" target="MRPL13" />
+    <edge source="MRPL37" target="MRPL17" />
+    <edge source="MRPL37" target="MRPL2" />
+    <edge source="MRPL37" target="MRPL32" />
+    <edge source="MRPL37" target="MRPL14" />
+    <edge source="MRPL37" target="MRPS30" />
+    <edge source="MRPL37" target="C6orf203" />
+    <edge source="MRPL37" target="MRPL12" />
+    <edge source="MRPL37" target="MRPL55" />
+    <edge source="MRPL37" target="MRPL28" />
+    <edge source="MRPL37" target="MRPL50" />
+    <edge source="MRPL37" target="MRPL3" />
+    <edge source="MRPL37" target="ATAD3A" />
+    <edge source="MRPL37" target="MRPL45" />
+    <edge source="MRPL37" target="MRPL40" />
+    <edge source="MRPL37" target="MALSU1" />
+    <edge source="MRPL37" target="MRPL22" />
+    <edge source="MRPL37" target="MRPL38" />
+    <edge source="MRPL37" target="MRPL48" />
+    <edge source="MRPL37" target="MRPL24" />
+    <edge source="MRPL37" target="MRPL51" />
+    <edge source="MRPL37" target="NDUFAB1" />
+    <edge source="MRPL37" target="MRPL53" />
+    <edge source="PTCD1" target="MRPL52" />
+    <edge source="PTCD1" target="MRPL58" />
+    <edge source="PTCD1" target="MRPL13" />
+    <edge source="PTCD1" target="MRPL2" />
+    <edge source="PTCD1" target="MRPL44" />
+    <edge source="PTCD1" target="NGRN" />
+    <edge source="PTCD1" target="TSFM" />
+    <edge source="PTCD1" target="GTPBP10" />
+    <edge source="PTCD1" target="MRPL4" />
+    <edge source="PTCD1" target="MRPL50" />
+    <edge source="PTCD1" target="MALSU1" />
+    <edge source="PTCD1" target="MRPL51" />
+    <edge source="PTCD1" target="NDUFAB1" />
+    <edge source="PTCD1" target="MRPL39" />
+    <edge source="PTCD1" target="MRPS18A" />
+    <edge source="MRPS30" target="TBRG4" />
+    <edge source="MRPS30" target="PMPCA" />
+    <edge source="MRPS30" target="PMPCB" />
+    <edge source="MRPS30" target="TSFM" />
+    <edge source="MRPS30" target="MRPL15" />
+    <edge source="MRPS30" target="MRPL41" />
+    <edge source="MRPS30" target="GTPBP10" />
+    <edge source="MRPS30" target="MRPL1" />
+    <edge source="MRPS30" target="NGRN" />
+    <edge source="MRPS30" target="MRPL10" />
+    <edge source="MRPS30" target="MRPL49" />
+    <edge source="MRPS30" target="MRPL46" />
+    <edge source="MRPS30" target="MRPL9" />
+    <edge source="MRPS30" target="MRPL39" />
+    <edge source="MRPS30" target="MRPL44" />
+    <edge source="MRPS30" target="MTG2" />
+    <edge source="MRPS30" target="MRPL47" />
+    <edge source="MRPS30" target="MRPL21" />
+    <edge source="MRPS30" target="MRPL19" />
+    <edge source="MRPS30" target="MRPL4" />
+    <edge source="MRPS30" target="MRPS18A" />
+    <edge source="MRPS30" target="MRPL27" />
+    <edge source="MRPS30" target="MRPL16" />
+    <edge source="MRPS30" target="MRPL22" />
+    <edge source="MRPS30" target="MRPL48" />
+    <edge source="MRPS30" target="MRPL40" />
+    <edge source="MRPS30" target="MRPL3" />
+    <edge source="MRPS30" target="MTG1" />
+    <edge source="MRPS30" target="MRPL12" />
+    <edge source="MRPS30" target="MRPL17" />
+    <edge source="MRPS30" target="MRPL45" />
+    <edge source="MRPS30" target="MRPL28" />
+    <edge source="MRPS30" target="MRPL24" />
+    <edge source="MRPS30" target="MALSU1" />
+    <edge source="MRPS30" target="MRPL52" />
+    <edge source="MRPS30" target="MRPL43" />
+    <edge source="MRPS30" target="MRPL58" />
+    <edge source="MRPS30" target="MRPL13" />
+    <edge source="MRPS30" target="MRPL54" />
+    <edge source="MRPS30" target="MRPL2" />
+    <edge source="MRPS30" target="MRPL32" />
+    <edge source="MRPS30" target="MRPL14" />
+    <edge source="MRPS30" target="C6orf203" />
+    <edge source="MRPS30" target="MRPL55" />
+    <edge source="MRPS30" target="MRM3" />
+    <edge source="MRPS30" target="MRPL50" />
+    <edge source="MRPS30" target="ATAD3A" />
+    <edge source="MRPS30" target="MRPL38" />
+    <edge source="MRPS30" target="MRPL51" />
+    <edge source="MRPS30" target="NDUFAB1" />
+    <edge source="MRPS30" target="MRPL53" />
+    <edge source="MRPL50" target="TBRG4" />
+    <edge source="MRPL50" target="PMPCA" />
+    <edge source="MRPL50" target="PMPCB" />
+    <edge source="MRPL50" target="TSFM" />
+    <edge source="MRPL50" target="MRPL15" />
+    <edge source="MRPL50" target="MRPL41" />
+    <edge source="MRPL50" target="GTPBP10" />
+    <edge source="MRPL50" target="MRPL1" />
+    <edge source="MRPL50" target="NGRN" />
+    <edge source="MRPL50" target="MRPL10" />
+    <edge source="MRPL50" target="MRPL49" />
+    <edge source="MRPL50" target="MRPL46" />
+    <edge source="MRPL50" target="MRPL9" />
+    <edge source="MRPL50" target="MRPL39" />
+    <edge source="MRPL50" target="MRPL44" />
+    <edge source="MRPL50" target="MTG2" />
+    <edge source="MRPL50" target="MRPL47" />
+    <edge source="MRPL50" target="MRPL21" />
+    <edge source="MRPL50" target="MRPL19" />
+    <edge source="MRPL50" target="MRPL4" />
+    <edge source="MRPL50" target="MRPS18A" />
+    <edge source="MRPL50" target="MRPL27" />
+    <edge source="MRPL50" target="MRPL16" />
+    <edge source="MRPL50" target="MRPL22" />
+    <edge source="MRPL50" target="MRPL48" />
+    <edge source="MRPL50" target="MRPL40" />
+    <edge source="MRPL50" target="MRPL3" />
+    <edge source="MRPL50" target="MTG1" />
+    <edge source="MRPL50" target="MRPL12" />
+    <edge source="MRPL50" target="MRPL17" />
+    <edge source="MRPL50" target="MRPL45" />
+    <edge source="MRPL50" target="MRPL28" />
+    <edge source="MRPL50" target="MRPL24" />
+    <edge source="MRPL50" target="MALSU1" />
+    <edge source="MRPL50" target="MRPL2" />
+    <edge source="MRPL50" target="MRPL55" />
+    <edge source="MRPL50" target="MRPL52" />
+    <edge source="MRPL50" target="MRPL43" />
+    <edge source="MRPL50" target="MRPL58" />
+    <edge source="MRPL50" target="MRPL13" />
+    <edge source="MRPL50" target="MRPL54" />
+    <edge source="MRPL50" target="MRPL32" />
+    <edge source="MRPL50" target="MRPL14" />
+    <edge source="MRPL50" target="C6orf203" />
+    <edge source="MRPL50" target="MRM3" />
+    <edge source="MRPL50" target="ATAD3A" />
+    <edge source="MRPL50" target="MRPL38" />
+    <edge source="MRPL50" target="MRPL51" />
+    <edge source="MRPL50" target="NDUFAB1" />
+    <edge source="MRPL50" target="MRPL53" />
+    <edge source="MRPL24" target="TBRG4" />
+    <edge source="MRPL24" target="PMPCA" />
+    <edge source="MRPL24" target="PMPCB" />
+    <edge source="MRPL24" target="TSFM" />
+    <edge source="MRPL24" target="MRPL41" />
+    <edge source="MRPL24" target="NGRN" />
+    <edge source="MRPL24" target="MRPL10" />
+    <edge source="MRPL24" target="MRPL46" />
+    <edge source="MRPL24" target="MRPL9" />
+    <edge source="MRPL24" target="MRPL39" />
+    <edge source="MRPL24" target="MRPL44" />
+    <edge source="MRPL24" target="MTG2" />
+    <edge source="MRPL24" target="MRPL47" />
+    <edge source="MRPL24" target="MRPL21" />
+    <edge source="MRPL24" target="MRPL19" />
+    <edge source="MRPL24" target="MRPL4" />
+    <edge source="MRPL24" target="MRPS18A" />
+    <edge source="MRPL24" target="MRPL27" />
+    <edge source="MRPL24" target="MRPL22" />
+    <edge source="MRPL24" target="MRPL40" />
+    <edge source="MRPL24" target="MTG1" />
+    <edge source="MRPL24" target="MRPL12" />
+    <edge source="MRPL24" target="MRPL45" />
+    <edge source="MRPL24" target="MRPL28" />
+    <edge source="MRPL24" target="MRPL52" />
+    <edge source="MRPL24" target="MRPL58" />
+    <edge source="MRPL24" target="MRPL13" />
+    <edge source="MRPL24" target="MRPL2" />
+    <edge source="MRPL24" target="C6orf203" />
+    <edge source="MRPL24" target="ATAD3A" />
+    <edge source="MRPL24" target="MALSU1" />
+    <edge source="MRPL24" target="MRPL38" />
+    <edge source="MRPL24" target="MRPL51" />
+    <edge source="MRPL24" target="NDUFAB1" />
+    <edge source="MRPL24" target="MRPL53" />
+    <edge source="MRPL51" target="TBRG4" />
+    <edge source="MRPL51" target="PMPCB" />
+    <edge source="MRPL51" target="TSFM" />
+    <edge source="MRPL51" target="MRPL15" />
+    <edge source="MRPL51" target="MRPL41" />
+    <edge source="MRPL51" target="MRPL1" />
+    <edge source="MRPL51" target="NGRN" />
+    <edge source="MRPL51" target="MRPL10" />
+    <edge source="MRPL51" target="MRPL49" />
+    <edge source="MRPL51" target="MRPL46" />
+    <edge source="MRPL51" target="MRPL9" />
+    <edge source="MRPL51" target="MRPL39" />
+    <edge source="MRPL51" target="MRPL44" />
+    <edge source="MRPL51" target="MRPL47" />
+    <edge source="MRPL51" target="MRPL21" />
+    <edge source="MRPL51" target="MRPL19" />
+    <edge source="MRPL51" target="MRPL4" />
+    <edge source="MRPL51" target="MRPS18A" />
+    <edge source="MRPL51" target="MRPL27" />
+    <edge source="MRPL51" target="MRPL16" />
+    <edge source="MRPL51" target="MRPL22" />
+    <edge source="MRPL51" target="MRPL48" />
+    <edge source="MRPL51" target="MRPL40" />
+    <edge source="MRPL51" target="MRPL3" />
+    <edge source="MRPL51" target="MTG1" />
+    <edge source="MRPL51" target="MRPL12" />
+    <edge source="MRPL51" target="MRPL17" />
+    <edge source="MRPL51" target="MRPL45" />
+    <edge source="MRPL51" target="MRPL28" />
+    <edge source="MRPL51" target="MALSU1" />
+    <edge source="MRPL51" target="MRPL2" />
+    <edge source="MRPL51" target="MRPL55" />
+    <edge source="MRPL51" target="MRPL38" />
+    <edge source="MRPL51" target="ATAD3A" />
+    <edge source="MRPL51" target="MRPL32" />
+    <edge source="MRPL51" target="MRPL52" />
+    <edge source="MRPL51" target="MRPL43" />
+    <edge source="MRPL51" target="MRPL58" />
+    <edge source="MRPL51" target="MRPL13" />
+    <edge source="MRPL51" target="C6orf203" />
+    <edge source="MRPL51" target="NDUFAB1" />
+    <edge source="MRPL51" target="MRPL53" />
+    <edge source="MRPL3" target="TBRG4" />
+    <edge source="MRPL3" target="PMPCA" />
+    <edge source="MRPL3" target="PMPCB" />
+    <edge source="MRPL3" target="TSFM" />
+    <edge source="MRPL3" target="MRPL15" />
+    <edge source="MRPL3" target="MRPL41" />
+    <edge source="MRPL3" target="MRPL1" />
+    <edge source="MRPL3" target="NGRN" />
+    <edge source="MRPL3" target="MRPL10" />
+    <edge source="MRPL3" target="MRPL46" />
+    <edge source="MRPL3" target="MRPL9" />
+    <edge source="MRPL3" target="MRPL39" />
+    <edge source="MRPL3" target="MTG2" />
+    <edge source="MRPL3" target="MRPL47" />
+    <edge source="MRPL3" target="MRPL19" />
+    <edge source="MRPL3" target="MRPL4" />
+    <edge source="MRPL3" target="MRPL27" />
+    <edge source="MRPL3" target="MRPL52" />
+    <edge source="MRPL3" target="MRPL58" />
+    <edge source="MRPL3" target="MRPL13" />
+    <edge source="MRPL3" target="MRPL17" />
+    <edge source="MRPL3" target="MRPL2" />
+    <edge source="MRPL3" target="MTG1" />
+    <edge source="MRPL3" target="C6orf203" />
+    <edge source="MRPL3" target="MRPL12" />
+    <edge source="MRPL3" target="MRPL55" />
+    <edge source="MRPL3" target="MRPL28" />
+    <edge source="MRPL3" target="ATAD3A" />
+    <edge source="MRPL3" target="MALSU1" />
+    <edge source="MRPL3" target="MRPL38" />
+    <edge source="MRPL3" target="NDUFAB1" />
+    <edge source="MRPL3" target="MRPL53" />
+    <edge source="ATAD3A" target="PMPCA" />
+    <edge source="ATAD3A" target="TSFM" />
+    <edge source="ATAD3A" target="MRPL15" />
+    <edge source="ATAD3A" target="MRPL41" />
+    <edge source="ATAD3A" target="GTPBP10" />
+    <edge source="ATAD3A" target="MRPL1" />
+    <edge source="ATAD3A" target="MRPL49" />
+    <edge source="ATAD3A" target="MRPL46" />
+    <edge source="ATAD3A" target="MRPL9" />
+    <edge source="ATAD3A" target="MRPL39" />
+    <edge source="ATAD3A" target="MRPL44" />
+    <edge source="ATAD3A" target="MTG2" />
+    <edge source="ATAD3A" target="NUBPL" />
+    <edge source="ATAD3A" target="MRPL47" />
+    <edge source="ATAD3A" target="MRPL21" />
+    <edge source="ATAD3A" target="MRPL4" />
+    <edge source="ATAD3A" target="MRPS18A" />
+    <edge source="ATAD3A" target="MRPL27" />
+    <edge source="ATAD3A" target="MRPL16" />
+    <edge source="ATAD3A" target="MRPL22" />
+    <edge source="ATAD3A" target="MRPL48" />
+    <edge source="ATAD3A" target="MRPL40" />
+    <edge source="ATAD3A" target="MRPL12" />
+    <edge source="ATAD3A" target="MRPL17" />
+    <edge source="ATAD3A" target="MRPL45" />
+    <edge source="ATAD3A" target="MRPL28" />
+    <edge source="ATAD3A" target="MALSU1" />
+    <edge source="ATAD3A" target="MRPL2" />
+    <edge source="ATAD3A" target="MRPL55" />
+    <edge source="ATAD3A" target="MRPL38" />
+    <edge source="ATAD3A" target="MRPL32" />
+    <edge source="ATAD3A" target="ATAD3A" />
+    <edge source="ATAD3A" target="MRPL43" />
+    <edge source="ATAD3A" target="MRPL58" />
+    <edge source="ATAD3A" target="MRPL53" />
+    <edge source="ATAD3A" target="MRPL13" />
+    <edge source="ATAD3A" target="C6orf203" />
+    <edge source="ATAD3A" target="MRPL14" />
+    <edge source="MRPL45" target="TBRG4" />
+    <edge source="MRPL45" target="PMPCA" />
+    <edge source="MRPL45" target="PMPCB" />
+    <edge source="MRPL45" target="TSFM" />
+    <edge source="MRPL45" target="MRPL15" />
+    <edge source="MRPL45" target="MRPL41" />
+    <edge source="MRPL45" target="MRPL1" />
+    <edge source="MRPL45" target="NGRN" />
+    <edge source="MRPL45" target="MRPL10" />
+    <edge source="MRPL45" target="MRPL49" />
+    <edge source="MRPL45" target="MRPL46" />
+    <edge source="MRPL45" target="MRPL9" />
+    <edge source="MRPL45" target="MRPL39" />
+    <edge source="MRPL45" target="MRPL44" />
+    <edge source="MRPL45" target="MTG2" />
+    <edge source="MRPL45" target="MRPL47" />
+    <edge source="MRPL45" target="MRPL21" />
+    <edge source="MRPL45" target="MRPL19" />
+    <edge source="MRPL45" target="MRPL4" />
+    <edge source="MRPL45" target="MRPS18A" />
+    <edge source="MRPL45" target="MRPL27" />
+    <edge source="MRPL45" target="MTG1" />
+    <edge source="MRPL45" target="MRPL12" />
+    <edge source="MRPL45" target="MRPL17" />
+    <edge source="MRPL45" target="MRPL52" />
+    <edge source="MRPL45" target="MRPL58" />
+    <edge source="MRPL45" target="MRPL13" />
+    <edge source="MRPL45" target="MRPL2" />
+    <edge source="MRPL45" target="MRPL32" />
+    <edge source="MRPL45" target="C6orf203" />
+    <edge source="MRPL45" target="MRPL28" />
+    <edge source="MRPL45" target="MALSU1" />
+    <edge source="MRPL45" target="MRPL38" />
+    <edge source="MRPL45" target="NDUFAB1" />
+    <edge source="MRPL45" target="MRPL53" />
+    <edge source="MRPL52" target="TBRG4" />
+    <edge source="MRPL52" target="PMPCA" />
+    <edge source="MRPL52" target="PMPCB" />
+    <edge source="MRPL52" target="TSFM" />
+    <edge source="MRPL52" target="MRPL15" />
+    <edge source="MRPL52" target="MRPL41" />
+    <edge source="MRPL52" target="MRPL1" />
+    <edge source="MRPL52" target="NGRN" />
+    <edge source="MRPL52" target="MRPL10" />
+    <edge source="MRPL52" target="MRPL49" />
+    <edge source="MRPL52" target="MRPL46" />
+    <edge source="MRPL52" target="MRPL9" />
+    <edge source="MRPL52" target="MRPL39" />
+    <edge source="MRPL52" target="MRPL44" />
+    <edge source="MRPL52" target="MTG2" />
+    <edge source="MRPL52" target="MRPL47" />
+    <edge source="MRPL52" target="MRPL21" />
+    <edge source="MRPL52" target="MRPL19" />
+    <edge source="MRPL52" target="MRPL4" />
+    <edge source="MRPL52" target="MRPS18A" />
+    <edge source="MRPL52" target="MRPL27" />
+    <edge source="MRPL52" target="MRPL16" />
+    <edge source="MRPL52" target="MRPL22" />
+    <edge source="MRPL52" target="MRPL48" />
+    <edge source="MRPL52" target="MRPL40" />
+    <edge source="MRPL52" target="MTG1" />
+    <edge source="MRPL52" target="MRPL12" />
+    <edge source="MRPL52" target="MRPL17" />
+    <edge source="MRPL52" target="MRPL28" />
+    <edge source="MRPL52" target="MALSU1" />
+    <edge source="MRPL52" target="MRPL2" />
+    <edge source="MRPL52" target="MRPL55" />
+    <edge source="MRPL52" target="MRPL38" />
+    <edge source="MRPL52" target="MRPL32" />
+    <edge source="MRPL52" target="MRPL43" />
+    <edge source="MRPL52" target="MRPL58" />
+    <edge source="MRPL52" target="MRPL13" />
+    <edge source="MRPL52" target="C6orf203" />
+    <edge source="MRPL52" target="NDUFAB1" />
+    <edge source="MRPL52" target="MRPL53" />
+    <edge source="MRPL9" target="TBRG4" />
+    <edge source="MRPL9" target="PMPCA" />
+    <edge source="MRPL9" target="PMPCB" />
+    <edge source="MRPL9" target="TSFM" />
+    <edge source="MRPL9" target="MRPL15" />
+    <edge source="MRPL9" target="MRPL41" />
+    <edge source="MRPL9" target="MRPL1" />
+    <edge source="MRPL9" target="NGRN" />
+    <edge source="MRPL9" target="MRPL10" />
+    <edge source="MRPL9" target="MRPL49" />
+    <edge source="MRPL9" target="MRPL46" />
+    <edge source="MRPL9" target="MRPL43" />
+    <edge source="MRPL9" target="MRPL58" />
+    <edge source="MRPL9" target="MRPL13" />
+    <edge source="MRPL9" target="MRPL17" />
+    <edge source="MRPL9" target="MRPL54" />
+    <edge source="MRPL9" target="MRPL2" />
+    <edge source="MRPL9" target="MRPL32" />
+    <edge source="MRPL9" target="MTG1" />
+    <edge source="MRPL9" target="MRPL44" />
+    <edge source="MRPL9" target="MRPL47" />
+    <edge source="MRPL9" target="MRPL14" />
+    <edge source="MRPL9" target="C6orf203" />
+    <edge source="MRPL9" target="MRPL12" />
+    <edge source="MRPL9" target="MRPL55" />
+    <edge source="MRPL9" target="MRPL16" />
+    <edge source="MRPL9" target="MRPL19" />
+    <edge source="MRPL9" target="MRPL21" />
+    <edge source="MRPL9" target="MRPL28" />
+    <edge source="MRPL9" target="MRPL4" />
+    <edge source="MRPL9" target="MRPL27" />
+    <edge source="MRPL9" target="MRPL22" />
+    <edge source="MRPL9" target="MRPL40" />
+    <edge source="MRPL9" target="MALSU1" />
+    <edge source="MRPL9" target="SDHAF4" />
+    <edge source="MRPL9" target="MTG2" />
+    <edge source="MRPL9" target="MRPL38" />
+    <edge source="MRPL9" target="MRPL48" />
+    <edge source="MRPL9" target="NDUFAB1" />
+    <edge source="MRPL9" target="MRPL39" />
+    <edge source="MRPL9" target="MRPS18A" />
+    <edge source="MRPL9" target="MRPL53" />
+    <edge source="MRPL43" target="TBRG4" />
+    <edge source="MRPL43" target="PMPCA" />
+    <edge source="MRPL43" target="PMPCB" />
+    <edge source="MRPL43" target="TSFM" />
+    <edge source="MRPL43" target="MRPL15" />
+    <edge source="MRPL43" target="MRPL1" />
+    <edge source="MRPL43" target="NGRN" />
+    <edge source="MRPL43" target="MRPL10" />
+    <edge source="MRPL43" target="MRPL39" />
+    <edge source="MRPL43" target="MRPL44" />
+    <edge source="MRPL43" target="MTG2" />
+    <edge source="MRPL43" target="MRPL47" />
+    <edge source="MRPL43" target="MRPL21" />
+    <edge source="MRPL43" target="MRPL19" />
+    <edge source="MRPL43" target="MRPL4" />
+    <edge source="MRPL43" target="MRPL27" />
+    <edge source="MRPL43" target="MRPL40" />
+    <edge source="MRPL43" target="MTG1" />
+    <edge source="MRPL43" target="MRPL12" />
+    <edge source="MRPL43" target="MRPL28" />
+    <edge source="MRPL43" target="MALSU1" />
+    <edge source="MRPL43" target="MRPL2" />
+    <edge source="MRPL43" target="MRPL38" />
+    <edge source="MRPL43" target="MRPL13" />
+    <edge source="MRPL43" target="MRPL58" />
+    <edge source="MRPL43" target="C6orf203" />
+    <edge source="MRPL43" target="NDUFAB1" />
+    <edge source="MRPL43" target="MRPL53" />
+    <edge source="C6orf203" target="PMPCA" />
+    <edge source="C6orf203" target="PMPCB" />
+    <edge source="C6orf203" target="TSFM" />
+    <edge source="C6orf203" target="MRPL15" />
+    <edge source="C6orf203" target="MRPL41" />
+    <edge source="C6orf203" target="GTPBP10" />
+    <edge source="C6orf203" target="MRPL1" />
+    <edge source="C6orf203" target="NGRN" />
+    <edge source="C6orf203" target="MRPL10" />
+    <edge source="C6orf203" target="MRPL49" />
+    <edge source="C6orf203" target="MRPL46" />
+    <edge source="C6orf203" target="MRPL39" />
+    <edge source="C6orf203" target="MRPL44" />
+    <edge source="C6orf203" target="NUBPL" />
+    <edge source="C6orf203" target="MRPL47" />
+    <edge source="C6orf203" target="MRPL21" />
+    <edge source="C6orf203" target="GTPBP3" />
+    <edge source="C6orf203" target="MRPL19" />
+    <edge source="C6orf203" target="MRPL4" />
+    <edge source="C6orf203" target="MRPS18A" />
+    <edge source="C6orf203" target="MRPL27" />
+    <edge source="C6orf203" target="MRPL16" />
+    <edge source="C6orf203" target="MRPL22" />
+    <edge source="C6orf203" target="MRPL48" />
+    <edge source="C6orf203" target="MRPL40" />
+    <edge source="C6orf203" target="MTG1" />
+    <edge source="C6orf203" target="MRPL12" />
+    <edge source="C6orf203" target="MRPL17" />
+    <edge source="C6orf203" target="MRPL28" />
+    <edge source="C6orf203" target="SDHAF4" />
+    <edge source="C6orf203" target="MRPL2" />
+    <edge source="C6orf203" target="MRPL55" />
+    <edge source="C6orf203" target="MRPL38" />
+    <edge source="C6orf203" target="MRPL32" />
+    <edge source="C6orf203" target="MRPL54" />
+    <edge source="C6orf203" target="MRPL13" />
+    <edge source="C6orf203" target="MRM3" />
+    <edge source="C6orf203" target="MRPL14" />
+    <edge source="C6orf203" target="NDUFAB1" />
+    <edge source="C6orf203" target="MRPL58" />
+    <edge source="C6orf203" target="MRPL53" />
+    <edge source="C6orf203" target="C6orf203" />
+    <edge source="MRPL27" target="TBRG4" />
+    <edge source="MRPL27" target="PMPCA" />
+    <edge source="MRPL27" target="PMPCB" />
+    <edge source="MRPL27" target="TSFM" />
+    <edge source="MRPL27" target="MRPL15" />
+    <edge source="MRPL27" target="MRPL41" />
+    <edge source="MRPL27" target="MRPL1" />
+    <edge source="MRPL27" target="NGRN" />
+    <edge source="MRPL27" target="MRPL10" />
+    <edge source="MRPL27" target="MRPL49" />
+    <edge source="MRPL27" target="MRPL46" />
+    <edge source="MRPL27" target="MRPL39" />
+    <edge source="MRPL27" target="MRPL44" />
+    <edge source="MRPL27" target="MTG2" />
+    <edge source="MRPL27" target="MRPL47" />
+    <edge source="MRPL27" target="MRPL21" />
+    <edge source="MRPL27" target="MRPL19" />
+    <edge source="MRPL27" target="MRPL4" />
+    <edge source="MRPL27" target="MRPS18A" />
+    <edge source="MRPL27" target="MRPL58" />
+    <edge source="MRPL27" target="MRPL13" />
+    <edge source="MRPL27" target="MRPL17" />
+    <edge source="MRPL27" target="MRPL54" />
+    <edge source="MRPL27" target="MRPL2" />
+    <edge source="MRPL27" target="MRPL32" />
+    <edge source="MRPL27" target="MTG1" />
+    <edge source="MRPL27" target="MRPL12" />
+    <edge source="MRPL27" target="MRPL55" />
+    <edge source="MRPL27" target="MRPL16" />
+    <edge source="MRPL27" target="MRPL28" />
+    <edge source="MRPL27" target="MALSU1" />
+    <edge source="MRPL27" target="MRPL22" />
+    <edge source="MRPL27" target="MRPL40" />
+    <edge source="MRPL27" target="MRPL38" />
+    <edge source="MRPL27" target="MRPL48" />
+    <edge source="MRPL27" target="NDUFAB1" />
+    <edge source="MRPL27" target="MRPL53" />
+    <edge source="MRPL58" target="TBRG4" />
+    <edge source="MRPL58" target="PMPCA" />
+    <edge source="MRPL58" target="PMPCB" />
+    <edge source="MRPL58" target="TSFM" />
+    <edge source="MRPL58" target="TFB1M" />
+    <edge source="MRPL58" target="MRPL15" />
+    <edge source="MRPL58" target="MRPL41" />
+    <edge source="MRPL58" target="GTPBP10" />
+    <edge source="MRPL58" target="MRPL1" />
+    <edge source="MRPL58" target="NGRN" />
+    <edge source="MRPL58" target="MRPL10" />
+    <edge source="MRPL58" target="MRPL49" />
+    <edge source="MRPL58" target="MRPL46" />
+    <edge source="MRPL58" target="MRPL39" />
+    <edge source="MRPL58" target="MRPL44" />
+    <edge source="MRPL58" target="MTG2" />
+    <edge source="MRPL58" target="MRPL47" />
+    <edge source="MRPL58" target="MRPL21" />
+    <edge source="MRPL58" target="MRPL19" />
+    <edge source="MRPL58" target="MRPL4" />
+    <edge source="MRPL58" target="MRPS18A" />
+    <edge source="MRPL58" target="MTERF4" />
+    <edge source="MRPL58" target="MRPL16" />
+    <edge source="MRPL58" target="MRPL22" />
+    <edge source="MRPL58" target="MRPL48" />
+    <edge source="MRPL58" target="MRPL40" />
+    <edge source="MRPL58" target="MTG1" />
+    <edge source="MRPL58" target="MRPL12" />
+    <edge source="MRPL58" target="MRPL17" />
+    <edge source="MRPL58" target="MRPL28" />
+    <edge source="MRPL58" target="MALSU1" />
+    <edge source="MRPL58" target="MRPL2" />
+    <edge source="MRPL58" target="MRPL55" />
+    <edge source="MRPL58" target="MRPL38" />
+    <edge source="MRPL58" target="MRPL32" />
+    <edge source="MRPL58" target="MRPL54" />
+    <edge source="MRPL58" target="MRPL13" />
+    <edge source="MRPL58" target="MRM3" />
+    <edge source="MRPL58" target="MRPL14" />
+    <edge source="MRPL58" target="NDUFAB1" />
+    <edge source="MRPL58" target="MRPL58" />
+    <edge source="MRPL58" target="MRPL53" />
+    <edge source="MRPL13" target="TBRG4" />
+    <edge source="MRPL13" target="PMPCA" />
+    <edge source="MRPL13" target="PMPCB" />
+    <edge source="MRPL13" target="TSFM" />
+    <edge source="MRPL13" target="MRPL15" />
+    <edge source="MRPL13" target="MRPL41" />
+    <edge source="MRPL13" target="GTPBP10" />
+    <edge source="MRPL13" target="MRPL1" />
+    <edge source="MRPL13" target="NGRN" />
+    <edge source="MRPL13" target="MRPL10" />
+    <edge source="MRPL13" target="MRPL49" />
+    <edge source="MRPL13" target="MRPL46" />
+    <edge source="MRPL13" target="MRPL39" />
+    <edge source="MRPL13" target="MRPL44" />
+    <edge source="MRPL13" target="MTG2" />
+    <edge source="MRPL13" target="MRPL47" />
+    <edge source="MRPL13" target="MRPL21" />
+    <edge source="MRPL13" target="MRPL19" />
+    <edge source="MRPL13" target="MRPL4" />
+    <edge source="MRPL13" target="MRPS18A" />
+    <edge source="MRPL13" target="MRPL16" />
+    <edge source="MRPL13" target="MRPL22" />
+    <edge source="MRPL13" target="MRPL48" />
+    <edge source="MRPL13" target="MRPL40" />
+    <edge source="MRPL13" target="MTG1" />
+    <edge source="MRPL13" target="MRPL12" />
+    <edge source="MRPL13" target="MRPL17" />
+    <edge source="MRPL13" target="MRPL28" />
+    <edge source="MRPL13" target="SDHAF4" />
+    <edge source="MRPL13" target="MALSU1" />
+    <edge source="MRPL13" target="MRPL2" />
+    <edge source="MRPL13" target="MRPL55" />
+    <edge source="MRPL13" target="MRPL38" />
+    <edge source="MRPL13" target="MRPL32" />
+    <edge source="MRPL13" target="MRPL54" />
+    <edge source="MRPL13" target="MRPL14" />
+    <edge source="MRPL13" target="MRM3" />
+    <edge source="MRPL13" target="NDUFAB1" />
+    <edge source="MRPL13" target="MRPL53" />
+    <edge source="GTPBP8" target="MALSU1" />
+    <edge source="GTPBP8" target="MRPL12" />
+    <edge source="GTPBP8" target="MRPL21" />
+    <edge source="NUBPL" target="TBRG4" />
+    <edge source="NUBPL" target="PMPCA" />
+    <edge source="NUBPL" target="PMPCB" />
+    <edge source="NUBPL" target="TSFM" />
+    <edge source="NUBPL" target="MTG2" />
+    <edge source="MALSU1" target="TBRG4" />
+    <edge source="MALSU1" target="PMPCA" />
+    <edge source="MALSU1" target="TSFM" />
+    <edge source="MALSU1" target="TFB1M" />
+    <edge source="MALSU1" target="MRPL15" />
+    <edge source="MALSU1" target="MRPL41" />
+    <edge source="MALSU1" target="GTPBP10" />
+    <edge source="MALSU1" target="MRPL1" />
+    <edge source="MALSU1" target="MRPL10" />
+    <edge source="MALSU1" target="MRPL46" />
+    <edge source="MALSU1" target="MRPL39" />
+    <edge source="MALSU1" target="MRPL44" />
+    <edge source="MALSU1" target="MTG2" />
+    <edge source="MALSU1" target="MRPL47" />
+    <edge source="MALSU1" target="MRPL21" />
+    <edge source="MALSU1" target="MRPL19" />
+    <edge source="MALSU1" target="MRPL4" />
+    <edge source="MALSU1" target="MRPS18A" />
+    <edge source="MALSU1" target="MRPL16" />
+    <edge source="MALSU1" target="MRPL22" />
+    <edge source="MALSU1" target="MRPL48" />
+    <edge source="MALSU1" target="MRPL40" />
+    <edge source="MALSU1" target="MTG1" />
+    <edge source="MALSU1" target="MRPL12" />
+    <edge source="MALSU1" target="MRPL17" />
+    <edge source="MALSU1" target="MRPL28" />
+    <edge source="MALSU1" target="MRPL2" />
+    <edge source="MALSU1" target="MRPL32" />
+    <edge source="MALSU1" target="MRPL14" />
+    <edge source="MALSU1" target="MRPL55" />
+    <edge source="MALSU1" target="MRM3" />
+    <edge source="MALSU1" target="MRPL38" />
+    <edge source="MALSU1" target="NDUFAB1" />
+    <edge source="MALSU1" target="MRPL53" />
+    <edge source="MRPL1" target="TBRG4" />
+    <edge source="MRPL1" target="PMPCA" />
+    <edge source="MRPL1" target="PMPCB" />
+    <edge source="MRPL1" target="TSFM" />
+    <edge source="MRPL1" target="MRPL15" />
+    <edge source="MRPL1" target="MRPL41" />
+    <edge source="MRPL1" target="MRPL17" />
+    <edge source="MRPL1" target="MRPL2" />
+    <edge source="MRPL1" target="MRPL32" />
+    <edge source="MRPL1" target="MTG1" />
+    <edge source="MRPL1" target="MRPL44" />
+    <edge source="MRPL1" target="MRPL47" />
+    <edge source="MRPL1" target="MRPL14" />
+    <edge source="MRPL1" target="NGRN" />
+    <edge source="MRPL1" target="MRPL12" />
+    <edge source="MRPL1" target="MRPL16" />
+    <edge source="MRPL1" target="MRPL19" />
+    <edge source="MRPL1" target="MRPL21" />
+    <edge source="MRPL1" target="MRPL28" />
+    <edge source="MRPL1" target="MRPL4" />
+    <edge source="MRPL1" target="MRPL40" />
+    <edge source="MRPL1" target="SDHAF4" />
+    <edge source="MRPL1" target="MTG2" />
+    <edge source="MRPL1" target="MRPL38" />
+    <edge source="MRPL1" target="MRPL49" />
+    <edge source="MRPL1" target="MRPL39" />
+    <edge source="MRPL1" target="MRPS18A" />
+    <edge source="MRPL1" target="MRPL10" />
+    <edge source="MRPL1" target="MRPL53" />
+    <edge source="MRPL22" target="TBRG4" />
+    <edge source="MRPL22" target="PMPCA" />
+    <edge source="MRPL22" target="PMPCB" />
+    <edge source="MRPL22" target="TSFM" />
+    <edge source="MRPL22" target="MRPL41" />
+    <edge source="MRPL22" target="NGRN" />
+    <edge source="MRPL22" target="MRPL10" />
+    <edge source="MRPL22" target="MRPL39" />
+    <edge source="MRPL22" target="MTG2" />
+    <edge source="MRPL22" target="MRPL47" />
+    <edge source="MRPL22" target="MRPL4" />
+    <edge source="MRPL22" target="MRPL16" />
+    <edge source="MRPL22" target="MRPL17" />
+    <edge source="MRPL22" target="MRPL2" />
+    <edge source="MRPL22" target="MRPL14" />
+    <edge source="MRPL22" target="MRPL12" />
+    <edge source="MRPL22" target="MRPL28" />
+    <edge source="MRPL22" target="SDHAF4" />
+    <edge source="MRPL22" target="NDUFAB1" />
+    <edge source="MRPL22" target="MRPL53" />
+    <edge source="MRPL40" target="TBRG4" />
+    <edge source="MRPL40" target="PMPCA" />
+    <edge source="MRPL40" target="PMPCB" />
+    <edge source="MRPL40" target="TSFM" />
+    <edge source="MRPL40" target="MRPL15" />
+    <edge source="MRPL40" target="MRPL41" />
+    <edge source="MRPL40" target="NGRN" />
+    <edge source="MRPL40" target="MRPL10" />
+    <edge source="MRPL40" target="MRPL46" />
+    <edge source="MRPL40" target="MRPL39" />
+    <edge source="MRPL40" target="MTG2" />
+    <edge source="MRPL40" target="MRPL47" />
+    <edge source="MRPL40" target="MRPL21" />
+    <edge source="MRPL40" target="MRPL19" />
+    <edge source="MRPL40" target="MRPL4" />
+    <edge source="MRPL40" target="MRPS18A" />
+    <edge source="MRPL40" target="MRPL16" />
+    <edge source="MRPL40" target="MRPL2" />
+    <edge source="MRPL40" target="MRPL32" />
+    <edge source="MRPL40" target="MRPL14" />
+    <edge source="MRPL40" target="MRPL12" />
+    <edge source="MRPL40" target="MRPL55" />
+    <edge source="MRPL40" target="MRPL28" />
+    <edge source="MRPL40" target="SDHAF4" />
+    <edge source="MRPL40" target="MRPL38" />
+    <edge source="MRPL40" target="NDUFAB1" />
+    <edge source="MRPL40" target="MRPL53" />
+    <edge source="MRPL12" target="TBRG4" />
+    <edge source="MRPL12" target="PMPCA" />
+    <edge source="MRPL12" target="PMPCB" />
+    <edge source="MRPL12" target="TSFM" />
+    <edge source="MRPL12" target="TFB1M" />
+    <edge source="MRPL12" target="MRPL15" />
+    <edge source="MRPL12" target="MRPL41" />
+    <edge source="MRPL12" target="NGRN" />
+    <edge source="MRPL12" target="MRPL10" />
+    <edge source="MRPL12" target="MRPL49" />
+    <edge source="MRPL12" target="MRPL46" />
+    <edge source="MRPL12" target="MRPL39" />
+    <edge source="MRPL12" target="MRPL44" />
+    <edge source="MRPL12" target="MTG2" />
+    <edge source="MRPL12" target="MRPL47" />
+    <edge source="MRPL12" target="MRPL21" />
+    <edge source="MRPL12" target="MRPL19" />
+    <edge source="MRPL12" target="MRPL4" />
+    <edge source="MRPL12" target="MRPS18A" />
+    <edge source="MRPL12" target="MTERF4" />
+    <edge source="MRPL12" target="MRPL16" />
+    <edge source="MRPL12" target="MRPL48" />
+    <edge source="MRPL12" target="MTG1" />
+    <edge source="MRPL12" target="MRPL32" />
+    <edge source="MRPL12" target="MRPL12" />
+    <edge source="MRPL12" target="MRPL17" />
+    <edge source="MRPL12" target="MRPL2" />
+    <edge source="MRPL12" target="MRPL55" />
+    <edge source="MRPL12" target="MRPL38" />
+    <edge source="MRPL12" target="MRPL53" />
+    <edge source="MRPL12" target="MRPL54" />
+    <edge source="MRPL12" target="MRPL14" />
+    <edge source="MRPL12" target="MRPL28" />
+    <edge source="TBRG4" target="NGRN" />
+    <edge source="TBRG4" target="MRM3" />
+    <edge source="TBRG4" target="MRPL10" />
+    <edge source="TBRG4" target="MRPL17" />
+    <edge source="TBRG4" target="MRPL2" />
+    <edge source="TBRG4" target="MRPL47" />
+    <edge source="TBRG4" target="TSFM" />
+    <edge source="TBRG4" target="GTPBP10" />
+    <edge source="TBRG4" target="MRPL55" />
+    <edge source="TBRG4" target="MRPL41" />
+    <edge source="TBRG4" target="MRPL16" />
+    <edge source="TBRG4" target="MRPL19" />
+    <edge source="TBRG4" target="MRPL38" />
+    <edge source="TBRG4" target="MRPL49" />
+    <edge source="TBRG4" target="MRPL53" />
+    <edge source="TBRG4" target="MRPL44" />
+    <edge source="TBRG4" target="MRPL21" />
+    <edge source="TBRG4" target="NDUFAB1" />
+    <edge source="TBRG4" target="MRPS18A" />
+    <edge source="TBRG4" target="MRPL46" />
+    <edge source="TBRG4" target="MRPL14" />
+    <edge source="TBRG4" target="MRPL28" />
+    <edge source="TBRG4" target="MRPL4" />
+    <edge source="TBRG4" target="MRPL48" />
+    <edge source="TBRG4" target="MRPL39" />
+    <edge source="TBRG4" target="MRPL15" />
+    <edge source="MRPL17" target="PMPCA" />
+    <edge source="MRPL17" target="PMPCB" />
+    <edge source="MRPL17" target="TSFM" />
+    <edge source="MRPL17" target="MRPL15" />
+    <edge source="MRPL17" target="MRPL41" />
+    <edge source="MRPL17" target="NGRN" />
+    <edge source="MRPL17" target="MRPL10" />
+    <edge source="MRPL17" target="MRPL49" />
+    <edge source="MRPL17" target="MRPL46" />
+    <edge source="MRPL17" target="MRPL39" />
+    <edge source="MRPL17" target="MRPL44" />
+    <edge source="MRPL17" target="MTG2" />
+    <edge source="MRPL17" target="MRPL47" />
+    <edge source="MRPL17" target="MRPL21" />
+    <edge source="MRPL17" target="MRPL19" />
+    <edge source="MRPL17" target="MRPL4" />
+    <edge source="MRPL17" target="MRPS18A" />
+    <edge source="MRPL17" target="MTG1" />
+    <edge source="MRPL17" target="MRPL2" />
+    <edge source="MRPL17" target="MRPL28" />
+    <edge source="MRPL17" target="MRPL38" />
+    <edge source="MRPL17" target="NDUFAB1" />
+    <edge source="MRPL17" target="MRPL53" />
+    <edge source="TSFM" target="PMPCA" />
+    <edge source="TSFM" target="MRPL32" />
+    <edge source="TSFM" target="MTG1" />
+    <edge source="TSFM" target="NGRN" />
+    <edge source="TSFM" target="MRM3" />
+    <edge source="TSFM" target="MTG2" />
+    <edge source="TSFM" target="MRPL10" />
+    <edge source="TSFM" target="MRPL2" />
+    <edge source="TSFM" target="MRPL47" />
+    <edge source="TSFM" target="GTPBP10" />
+    <edge source="TSFM" target="MRPL55" />
+    <edge source="TSFM" target="MRPL41" />
+    <edge source="TSFM" target="MRPL16" />
+    <edge source="TSFM" target="MRPL19" />
+    <edge source="TSFM" target="MRPL38" />
+    <edge source="TSFM" target="MRPL49" />
+    <edge source="TSFM" target="MRPL53" />
+    <edge source="TSFM" target="GTPBP3" />
+    <edge source="TSFM" target="MRPL44" />
+    <edge source="TSFM" target="MRPL21" />
+    <edge source="TSFM" target="NDUFAB1" />
+    <edge source="TSFM" target="MRPS18A" />
+    <edge source="TSFM" target="MRPL46" />
+    <edge source="TSFM" target="MRPL14" />
+    <edge source="TSFM" target="MRPL28" />
+    <edge source="TSFM" target="MRPL4" />
+    <edge source="TSFM" target="MRPL48" />
+    <edge source="TSFM" target="MRPL39" />
+    <edge source="TSFM" target="MRPL15" />
+    <edge source="NDUFAB1" target="PMPCB" />
+    <edge source="NDUFAB1" target="TFB1M" />
+    <edge source="NDUFAB1" target="MRPL15" />
+    <edge source="NDUFAB1" target="MRPL41" />
+    <edge source="NDUFAB1" target="MRPL10" />
+    <edge source="NDUFAB1" target="MRPL49" />
+    <edge source="NDUFAB1" target="MRPL46" />
+    <edge source="NDUFAB1" target="MRPL39" />
+    <edge source="NDUFAB1" target="MRPL44" />
+    <edge source="NDUFAB1" target="MTG2" />
+    <edge source="NDUFAB1" target="MRPL47" />
+    <edge source="NDUFAB1" target="MRPL21" />
+    <edge source="NDUFAB1" target="MRPL19" />
+    <edge source="NDUFAB1" target="MRPL4" />
+    <edge source="NDUFAB1" target="MRPS18A" />
+    <edge source="NDUFAB1" target="MTERF4" />
+    <edge source="NDUFAB1" target="MRPL16" />
+    <edge source="NDUFAB1" target="MRPL48" />
+    <edge source="NDUFAB1" target="MRPL28" />
+    <edge source="NDUFAB1" target="MRPL2" />
+    <edge source="NDUFAB1" target="MRPL55" />
+    <edge source="NDUFAB1" target="MRPL38" />
+    <edge source="NDUFAB1" target="MRPL32" />
+    <edge source="NDUFAB1" target="MRPL54" />
+    <edge source="NDUFAB1" target="MRM3" />
+    <edge source="NDUFAB1" target="MRPL14" />
+    <edge source="NDUFAB1" target="MRPL53" />
+    <edge source="MRPL54" target="MTG2" />
+    <edge source="MRPL54" target="MTG1" />
+    <edge source="MRPL54" target="MRPL2" />
+    <edge source="MRPL54" target="MRPL53" />
+    <edge source="GTPBP10" target="PMPCA" />
+    <edge source="GTPBP10" target="PMPCB" />
+    <edge source="GTPBP10" target="MRPL2" />
+    <edge source="GTPBP10" target="MTG1" />
+    <edge source="GTPBP10" target="MTG2" />
+    <edge source="MRPL2" target="PMPCA" />
+    <edge source="MRPL2" target="PMPCB" />
+    <edge source="MRPL2" target="TFB1M" />
+    <edge source="MRPL2" target="MRPL15" />
+    <edge source="MRPL2" target="MRPL41" />
+    <edge source="MRPL2" target="NGRN" />
+    <edge source="MRPL2" target="MRPL10" />
+    <edge source="MRPL2" target="MRPL49" />
+    <edge source="MRPL2" target="MRPL46" />
+    <edge source="MRPL2" target="MRPL39" />
+    <edge source="MRPL2" target="MRPL44" />
+    <edge source="MRPL2" target="MTG2" />
+    <edge source="MRPL2" target="MRPL47" />
+    <edge source="MRPL2" target="MRPL21" />
+    <edge source="MRPL2" target="MRPL19" />
+    <edge source="MRPL2" target="MRPL4" />
+    <edge source="MRPL2" target="MRPS18A" />
+    <edge source="MRPL2" target="MRPL16" />
+    <edge source="MRPL2" target="MRPL48" />
+    <edge source="MRPL2" target="MTG1" />
+    <edge source="MRPL2" target="MRPL28" />
+    <edge source="MRPL2" target="MRPL32" />
+    <edge source="MRPL2" target="MRPL14" />
+    <edge source="MRPL2" target="MRPL55" />
+    <edge source="MRPL2" target="MRM3" />
+    <edge source="MRPL2" target="MRPL38" />
+    <edge source="MRPL2" target="MRPL53" />
+    <edge source="MRPL55" target="PMPCA" />
+    <edge source="MRPL55" target="PMPCB" />
+    <edge source="MRPL55" target="MRPL15" />
+    <edge source="MRPL55" target="MRPL41" />
+    <edge source="MRPL55" target="MRPL10" />
+    <edge source="MRPL55" target="MRPL46" />
+    <edge source="MRPL55" target="MRPL39" />
+    <edge source="MRPL55" target="MTG2" />
+    <edge source="MRPL55" target="MRPL47" />
+    <edge source="MRPL55" target="MRPL4" />
+    <edge source="MRPL55" target="MRPS18A" />
+    <edge source="MRPL55" target="MRPL48" />
+    <edge source="MRPL55" target="MRPL28" />
+    <edge source="MRPL55" target="MRPL32" />
+    <edge source="MRPL55" target="MRPL53" />
+    <edge source="MRPL41" target="PMPCA" />
+    <edge source="MRPL41" target="PMPCB" />
+    <edge source="MRPL41" target="MRPL15" />
+    <edge source="MRPL41" target="MRPL32" />
+    <edge source="MRPL41" target="MTG1" />
+    <edge source="MRPL41" target="MRPL46" />
+    <edge source="MRPL41" target="MRPL44" />
+    <edge source="MRPL41" target="MRPL47" />
+    <edge source="MRPL41" target="MRPL14" />
+    <edge source="MRPL41" target="NGRN" />
+    <edge source="MRPL41" target="MRPL16" />
+    <edge source="MRPL41" target="MRPL19" />
+    <edge source="MRPL41" target="MRPL21" />
+    <edge source="MRPL41" target="MRPL28" />
+    <edge source="MRPL41" target="MRPL4" />
+    <edge source="MRPL41" target="MTG2" />
+    <edge source="MRPL41" target="MRPL38" />
+    <edge source="MRPL41" target="MRPL49" />
+    <edge source="MRPL41" target="MRPL48" />
+    <edge source="MRPL41" target="MRPL39" />
+    <edge source="MRPL41" target="MRPS18A" />
+    <edge source="MRPL41" target="MRPL10" />
+    <edge source="MRPL41" target="MRPL53" />
+    <edge source="MRPL16" target="PMPCA" />
+    <edge source="MRPL16" target="PMPCB" />
+    <edge source="MRPL16" target="MRPL15" />
+    <edge source="MRPL16" target="NGRN" />
+    <edge source="MRPL16" target="MRPL10" />
+    <edge source="MRPL16" target="MRPL46" />
+    <edge source="MRPL16" target="MRPL39" />
+    <edge source="MRPL16" target="MTG2" />
+    <edge source="MRPL16" target="MRPL47" />
+    <edge source="MRPL16" target="MRPL19" />
+    <edge source="MRPL16" target="MRPL4" />
+    <edge source="MRPL16" target="MRPS18A" />
+    <edge source="MRPL16" target="MTG1" />
+    <edge source="MRPL16" target="MRPL14" />
+    <edge source="MRPL16" target="MRPL28" />
+    <edge source="MRPL16" target="SDHAF4" />
+    <edge source="MRPL16" target="MRPL38" />
+    <edge source="MRPL16" target="MRPL53" />
+    <edge source="MRPL32" target="PMPCA" />
+    <edge source="MRPL32" target="PMPCB" />
+    <edge source="MRPL32" target="MRPL15" />
+    <edge source="MRPL32" target="NGRN" />
+    <edge source="MRPL32" target="MRPL10" />
+    <edge source="MRPL32" target="MRPL46" />
+    <edge source="MRPL32" target="MRPL39" />
+    <edge source="MRPL32" target="MRPL44" />
+    <edge source="MRPL32" target="MRPL47" />
+    <edge source="MRPL32" target="MRPL21" />
+    <edge source="MRPL32" target="MRPL4" />
+    <edge source="MRPL32" target="MRPS18A" />
+    <edge source="MRPL32" target="MRPL28" />
+    <edge source="MRPL32" target="MRPL38" />
+    <edge source="MRPL32" target="MRPL53" />
+    <edge source="SDHAF4" target="PMPCA" />
+    <edge source="MRPL39" target="PMPCA" />
+    <edge source="MRPL39" target="PMPCB" />
+    <edge source="MRPL39" target="MRPL15" />
+    <edge source="MRPL39" target="NGRN" />
+    <edge source="MRPL39" target="MRPL10" />
+    <edge source="MRPL39" target="MRPL49" />
+    <edge source="MRPL39" target="MRPL46" />
+    <edge source="MRPL39" target="MTG1" />
+    <edge source="MRPL39" target="MRPL44" />
+    <edge source="MRPL39" target="MRPL47" />
+    <edge source="MRPL39" target="MRPL14" />
+    <edge source="MRPL39" target="MRPL19" />
+    <edge source="MRPL39" target="MRPL21" />
+    <edge source="MRPL39" target="MRM3" />
+    <edge source="MRPL39" target="MRPL28" />
+    <edge source="MRPL39" target="MRPL4" />
+    <edge source="MRPL39" target="MTG2" />
+    <edge source="MRPL39" target="MRPL38" />
+    <edge source="MRPL39" target="MRPL48" />
+    <edge source="MRPL39" target="MRPS18A" />
+    <edge source="MRPL39" target="MRPL53" />
+    <edge source="MRPS18A" target="PMPCA" />
+    <edge source="MRPS18A" target="PMPCB" />
+    <edge source="MRPS18A" target="MRPL15" />
+    <edge source="MRPS18A" target="NGRN" />
+    <edge source="MRPS18A" target="MRPL10" />
+    <edge source="MRPS18A" target="MRPL49" />
+    <edge source="MRPS18A" target="MRPL46" />
+    <edge source="MRPS18A" target="MRPL44" />
+    <edge source="MRPS18A" target="MRPL47" />
+    <edge source="MRPS18A" target="MRPL21" />
+    <edge source="MRPS18A" target="MRPL19" />
+    <edge source="MRPS18A" target="MRPL4" />
+    <edge source="MRPS18A" target="MRPL28" />
+    <edge source="MRPS18A" target="MRPL38" />
+    <edge source="MRPS18A" target="MRPL53" />
+    <edge source="MTG1" target="PMPCA" />
+    <edge source="MTG1" target="MRPL15" />
+    <edge source="MTG1" target="MRPL49" />
+    <edge source="MTG1" target="MRPL46" />
+    <edge source="MTG1" target="MRPL44" />
+    <edge source="MTG1" target="GTPBP3" />
+    <edge source="MTG1" target="MRPL19" />
+    <edge source="MTG1" target="MRPL4" />
+    <edge source="MTG1" target="MRM3" />
+    <edge source="MTG1" target="MRPL28" />
+    <edge source="MTG1" target="MRPL38" />
+    <edge source="MTG1" target="MRPL53" />
+    <edge source="MTG2" target="PMPCA" />
+    <edge source="MTG2" target="MRPL15" />
+    <edge source="MTG2" target="MRPL10" />
+    <edge source="MTG2" target="MRPL49" />
+    <edge source="MTG2" target="MRPL46" />
+    <edge source="MTG2" target="MRPL44" />
+    <edge source="MTG2" target="MRPL47" />
+    <edge source="MTG2" target="MRPL14" />
+    <edge source="MTG2" target="MRPL21" />
+    <edge source="MTG2" target="MRM3" />
+    <edge source="MTG2" target="MRPL28" />
+    <edge source="MTG2" target="MRPL4" />
+    <edge source="MTG2" target="MRPL38" />
+    <edge source="MTG2" target="MRPL48" />
+    <edge source="MTG2" target="GTPBP3" />
+    <edge source="MRPL10" target="PMPCA" />
+    <edge source="MRPL10" target="PMPCB" />
+    <edge source="MRPL10" target="MRPL15" />
+    <edge source="MRPL10" target="NGRN" />
+    <edge source="MRPL10" target="MRPL46" />
+    <edge source="MRPL10" target="MRPL44" />
+    <edge source="MRPL10" target="MRPL47" />
+    <edge source="MRPL10" target="MRPL14" />
+    <edge source="MRPL10" target="MRPL19" />
+    <edge source="MRPL10" target="MRPL21" />
+    <edge source="MRPL10" target="MRM3" />
+    <edge source="MRPL10" target="MRPL28" />
+    <edge source="MRPL10" target="MRPL4" />
+    <edge source="MRPL10" target="MRPL38" />
+    <edge source="MRPL10" target="MRPL49" />
+    <edge source="MRPL10" target="MRPL48" />
+    <edge source="MRPL10" target="MRPL53" />
+    <edge source="MRPL10" target="MRPL10" />
+    <edge source="MRPL19" target="PMPCA" />
+    <edge source="MRPL19" target="PMPCB" />
+    <edge source="MRPL19" target="MRPL15" />
+    <edge source="MRPL19" target="NGRN" />
+    <edge source="MRPL19" target="MRPL49" />
+    <edge source="MRPL19" target="MRPL44" />
+    <edge source="MRPL19" target="MRPL47" />
+    <edge source="MRPL19" target="MRPL21" />
+    <edge source="MRPL19" target="MRPL14" />
+    <edge source="MRPL19" target="MRPL28" />
+    <edge source="MRPL19" target="MRPL4" />
+    <edge source="MRPL19" target="MRPL38" />
+    <edge source="MRPL19" target="MRPL53" />
+    <edge source="MRPL46" target="PMPCA" />
+    <edge source="MRPL46" target="PMPCB" />
+    <edge source="MRPL46" target="MRPL15" />
+    <edge source="MRPL46" target="NGRN" />
+    <edge source="MRPL46" target="MRPL49" />
+    <edge source="MRPL46" target="MRPL44" />
+    <edge source="MRPL46" target="MRPL47" />
+    <edge source="MRPL46" target="MRPL28" />
+    <edge source="MRPL46" target="MRPL4" />
+    <edge source="MRPL46" target="MRPL38" />
+    <edge source="MRPL46" target="MRPL48" />
+    <edge source="MRPL46" target="MRPL53" />
+    <edge source="MRPL44" target="PMPCA" />
+    <edge source="MRPL44" target="PMPCB" />
+    <edge source="MRPL44" target="MRPL15" />
+    <edge source="MRPL44" target="NGRN" />
+    <edge source="MRPL44" target="MRPL49" />
+    <edge source="MRPL44" target="MRPL47" />
+    <edge source="MRPL44" target="MRPL21" />
+    <edge source="MRPL44" target="MRPL28" />
+    <edge source="MRPL44" target="MRPL4" />
+    <edge source="MRPL44" target="MRPL38" />
+    <edge source="MRPL44" target="MRPL53" />
+    <edge source="MRPL53" target="PMPCA" />
+    <edge source="MRPL53" target="PMPCB" />
+    <edge source="MRPL53" target="MRPL15" />
+    <edge source="MRPL53" target="NGRN" />
+    <edge source="MRPL53" target="MRPL49" />
+    <edge source="MRPL53" target="MRPL47" />
+    <edge source="MRPL53" target="MRPL21" />
+    <edge source="MRPL53" target="MRPL4" />
+    <edge source="MRPL53" target="MRPL48" />
+    <edge source="MRPL53" target="MRPL28" />
+    <edge source="MRPL53" target="MRPL38" />
+    <edge source="MRPL53" target="MRM3" />
+    <edge source="MRPL53" target="MRPL14" />
+    <edge source="MRPL21" target="PMPCA" />
+    <edge source="MRPL21" target="PMPCB" />
+    <edge source="MRPL21" target="NGRN" />
+    <edge source="MRPL21" target="MRPL49" />
+    <edge source="MRPL21" target="MRPL47" />
+    <edge source="MRPL21" target="MRPL28" />
+    <edge source="MRPL21" target="MRPL4" />
+    <edge source="MRPL21" target="MRPL38" />
+    <edge source="MRPL21" target="GTPBP3" />
+    <edge source="GTPBP3" target="PMPCB" />
+    <edge source="GTPBP3" target="GTPBP3" />
+    <edge source="MRM3" target="PMPCA" />
+    <edge source="MRM3" target="PMPCB" />
+    <edge source="MRM3" target="NGRN" />
+    <edge source="MRM3" target="MRPL47" />
+    <edge source="MRM3" target="MRPL4" />
+    <edge source="MRM3" target="MRPL28" />
+    <edge source="MRM3" target="MRM3" />
+    <edge source="MRPL15" target="PMPCA" />
+    <edge source="MRPL15" target="PMPCB" />
+    <edge source="MRPL15" target="MRPL47" />
+    <edge source="MRPL15" target="MRPL14" />
+    <edge source="MRPL15" target="NGRN" />
+    <edge source="MRPL15" target="MRPL28" />
+    <edge source="MRPL15" target="MRPL4" />
+    <edge source="MRPL15" target="MRPL38" />
+    <edge source="MRPL15" target="MRPL49" />
+    <edge source="MRPL38" target="PMPCA" />
+    <edge source="MRPL38" target="PMPCB" />
+    <edge source="MRPL38" target="NGRN" />
+    <edge source="MRPL38" target="MRPL49" />
+    <edge source="MRPL38" target="MRPL47" />
+    <edge source="MRPL38" target="MRPL4" />
+    <edge source="MRPL38" target="MRPL28" />
+    <edge source="MRPL38" target="MRPL14" />
+    <edge source="MRPL47" target="PMPCA" />
+    <edge source="MRPL47" target="PMPCB" />
+    <edge source="MRPL47" target="NGRN" />
+    <edge source="MRPL47" target="MRPL49" />
+    <edge source="MRPL47" target="MRPL14" />
+    <edge source="MRPL47" target="MRPL28" />
+    <edge source="MRPL47" target="MRPL4" />
+    <edge source="MRPL47" target="MRPL48" />
+    <edge source="TFB1M" target="TFB1M" />
+    <edge source="PMPCA" target="MRPL49" />
+    <edge source="PMPCA" target="PMPCB" />
+    <edge source="PMPCA" target="MRPL14" />
+    <edge source="PMPCA" target="MRPL28" />
+    <edge source="PMPCA" target="MRPL4" />
+    <edge source="PMPCA" target="MRPL48" />
+    <edge source="MRPL49" target="PMPCB" />
+    <edge source="MRPL49" target="NGRN" />
+    <edge source="MRPL49" target="MRPL28" />
+    <edge source="MRPL49" target="MRPL4" />
+    <edge source="PMPCB" target="MRPL14" />
+    <edge source="PMPCB" target="MRPL28" />
+    <edge source="PMPCB" target="MRPL4" />
+    <edge source="PMPCB" target="MRPL48" />
+    <edge source="MRPL28" target="NGRN" />
+    <edge source="MRPL28" target="MRPL4" />
+    <edge source="MRPL28" target="MRPL48" />
+    <edge source="MRPL28" target="MRPL14" />
+    <edge source="MRPL4" target="NGRN" />
+    <edge source="MRPL4" target="MRPL14" />
+    <edge source="MRPL4" target="MRPL48" />
+    <edge source="MRPL14" target="NGRN" />
+    <edge source="MRPL48" target="NGRN" />
+  </graph>
+</graphml>

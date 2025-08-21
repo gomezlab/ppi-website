@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="HAX1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CACYBP">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="FKBP8">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="YME1L1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="DNAJB6">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="DNAJB1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="STUB1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="RCN1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CUL3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <edge source="HAX1" target="CUL3" />
+    <edge source="HAX1" target="DNAJB1" />
+    <edge source="HAX1" target="FKBP8" />
+    <edge source="HAX1" target="YME1L1" />
+    <edge source="HAX1" target="STUB1" />
+    <edge source="CACYBP" target="CACYBP" />
+    <edge source="CACYBP" target="STUB1" />
+    <edge source="CACYBP" target="FKBP8" />
+    <edge source="FKBP8" target="CUL3" />
+    <edge source="FKBP8" target="DNAJB1" />
+    <edge source="FKBP8" target="DNAJB6" />
+    <edge source="FKBP8" target="YME1L1" />
+    <edge source="FKBP8" target="FKBP8" />
+    <edge source="DNAJB6" target="CUL3" />
+    <edge source="DNAJB6" target="DNAJB1" />
+    <edge source="DNAJB6" target="STUB1" />
+    <edge source="DNAJB6" target="RCN1" />
+    <edge source="DNAJB6" target="DNAJB6" />
+    <edge source="DNAJB1" target="CUL3" />
+    <edge source="DNAJB1" target="STUB1" />
+    <edge source="STUB1" target="STUB1" />
+    <edge source="RCN1" target="CUL3" />
+    <edge source="CUL3" target="CUL3" />
+  </graph>
+</graphml>

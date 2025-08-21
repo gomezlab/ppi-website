@@ -1,0 +1,1763 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="COQ3">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="COMT">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NDUFA6">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SYTL4">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PYCR2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TRAP1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TIMM44">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ZFYVE1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ETFA">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="METTL17">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NDUFAF5">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PDE12">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="KBTBD7">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SUCLG2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SHMT2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ACADVL">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MRPL46">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ACOT2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="FKBP7">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="FASTKD5">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ACOT1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MGME1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MRPS10">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CLPX">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MRPS22">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PAM16">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PTCD1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MRPS30">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="LYRM7">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="POLG">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="IARS2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NDUFV2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="LRPPRC">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MTHFD1L">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="DBT">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="THNSL1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PNPT1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="KIAA0391">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MTRF1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="BCS1L">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SCP2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="GTPBP10">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="AMOTL1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NUDT5">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="AK4">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="DHTKD1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NDUFAF7">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="HSDL2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="HSPD1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CARS2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NNT">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="STOML2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NDUFAF2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MRPL45">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PTPMT1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="FOXRED1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="HSPA9">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="DLST">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="COX5B">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SUPV3L1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="GCDH">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PYCR1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="OXLD1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="GRSF1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PEX5">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ATPAF1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TRMT10C">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ANGEL2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="DAP3">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ECI2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PMPCB">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SUCLA2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SLC30A9">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MRPS31">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MRPL24">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ELAC2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="GLS">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="POLRMT">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="VWA8">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ECHS1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="FASTKD2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ATPAF2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ACOT9">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TRMT5">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MRPS35">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TEFM">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="GFM1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NDUFS2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ATP6V1A">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="IDH3B">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ERAL1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="STXBP1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PTCD3">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MDH2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="GTPBP3">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SPRYD4">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PNPLA8">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="C17orf80">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="METTL15">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MSRB2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <edge source="COQ3" target="PMPCB" />
+    <edge source="COQ3" target="COQ3" />
+    <edge source="COQ3" target="NDUFAF2" />
+    <edge source="COQ3" target="TRAP1" />
+    <edge source="COQ3" target="SHMT2" />
+    <edge source="COQ3" target="PYCR1" />
+    <edge source="COMT" target="MSRB2" />
+    <edge source="COMT" target="LRPPRC" />
+    <edge source="COMT" target="NNT" />
+    <edge source="COMT" target="ATP6V1A" />
+    <edge source="NDUFA6" target="METTL17" />
+    <edge source="NDUFA6" target="TEFM" />
+    <edge source="NDUFA6" target="FASTKD2" />
+    <edge source="NDUFA6" target="PMPCB" />
+    <edge source="NDUFA6" target="TRAP1" />
+    <edge source="NDUFA6" target="VWA8" />
+    <edge source="NDUFA6" target="FASTKD5" />
+    <edge source="NDUFA6" target="NDUFV2" />
+    <edge source="NDUFA6" target="MTRF1" />
+    <edge source="NDUFA6" target="GRSF1" />
+    <edge source="NDUFA6" target="GFM1" />
+    <edge source="NDUFA6" target="LRPPRC" />
+    <edge source="NDUFA6" target="NDUFS2" />
+    <edge source="NDUFA6" target="C17orf80" />
+    <edge source="NDUFA6" target="HSPD1" />
+    <edge source="NDUFA6" target="MDH2" />
+    <edge source="NDUFA6" target="METTL15" />
+    <edge source="SYTL4" target="TRAP1" />
+    <edge source="SYTL4" target="SYTL4" />
+    <edge source="SYTL4" target="STXBP1" />
+    <edge source="PYCR2" target="METTL17" />
+    <edge source="PYCR2" target="TEFM" />
+    <edge source="PYCR2" target="FASTKD2" />
+    <edge source="PYCR2" target="PMPCB" />
+    <edge source="PYCR2" target="TRAP1" />
+    <edge source="PYCR2" target="VWA8" />
+    <edge source="PYCR2" target="FASTKD5" />
+    <edge source="PYCR2" target="DLST" />
+    <edge source="PYCR2" target="MTRF1" />
+    <edge source="PYCR2" target="GRSF1" />
+    <edge source="PYCR2" target="GFM1" />
+    <edge source="PYCR2" target="LRPPRC" />
+    <edge source="PYCR2" target="PYCR1" />
+    <edge source="PYCR2" target="C17orf80" />
+    <edge source="PYCR2" target="NUDT5" />
+    <edge source="PYCR2" target="HSPD1" />
+    <edge source="PYCR2" target="HSPA9" />
+    <edge source="PYCR2" target="MDH2" />
+    <edge source="PYCR2" target="METTL15" />
+    <edge source="TRAP1" target="CARS2" />
+    <edge source="TRAP1" target="TRMT5" />
+    <edge source="TRAP1" target="NDUFAF5" />
+    <edge source="TRAP1" target="PNPLA8" />
+    <edge source="TRAP1" target="PDE12" />
+    <edge source="TRAP1" target="FASTKD2" />
+    <edge source="TRAP1" target="MRPL46" />
+    <edge source="TRAP1" target="MRPL45" />
+    <edge source="TRAP1" target="MRPS35" />
+    <edge source="TRAP1" target="SUPV3L1" />
+    <edge source="TRAP1" target="ACOT2" />
+    <edge source="TRAP1" target="FASTKD5" />
+    <edge source="TRAP1" target="ACOT1" />
+    <edge source="TRAP1" target="MRPS22" />
+    <edge source="TRAP1" target="IARS2" />
+    <edge source="TRAP1" target="NDUFAF7" />
+    <edge source="TRAP1" target="MRPS31" />
+    <edge source="TRAP1" target="GLS" />
+    <edge source="TRAP1" target="VWA8" />
+    <edge source="TRAP1" target="GFM1" />
+    <edge source="TRAP1" target="NDUFS2" />
+    <edge source="TRAP1" target="ETFA" />
+    <edge source="TRAP1" target="SHMT2" />
+    <edge source="TRAP1" target="NDUFV2" />
+    <edge source="TRAP1" target="MTHFD1L" />
+    <edge source="TRAP1" target="DBT" />
+    <edge source="TRAP1" target="GTPBP10" />
+    <edge source="TRAP1" target="AK4" />
+    <edge source="TRAP1" target="HSDL2" />
+    <edge source="TRAP1" target="HSPA9" />
+    <edge source="TRAP1" target="COX5B" />
+    <edge source="TRAP1" target="PYCR1" />
+    <edge source="TRAP1" target="POLRMT" />
+    <edge source="TRAP1" target="ACOT9" />
+    <edge source="TRAP1" target="CLPX" />
+    <edge source="TRAP1" target="LYRM7" />
+    <edge source="TRAP1" target="POLG" />
+    <edge source="TRAP1" target="LRPPRC" />
+    <edge source="TRAP1" target="PNPT1" />
+    <edge source="TRAP1" target="NDUFAF2" />
+    <edge source="TRAP1" target="GRSF1" />
+    <edge source="TRAP1" target="TRMT10C" />
+    <edge source="TRAP1" target="ECI2" />
+    <edge source="TRAP1" target="SUCLA2" />
+    <edge source="TRAP1" target="ERAL1" />
+    <edge source="TRAP1" target="TIMM44" />
+    <edge source="TRAP1" target="MGME1" />
+    <edge source="TRAP1" target="KIAA0391" />
+    <edge source="TRAP1" target="DHTKD1" />
+    <edge source="TRAP1" target="HSPD1" />
+    <edge source="TRAP1" target="NNT" />
+    <edge source="TRAP1" target="STOML2" />
+    <edge source="TRAP1" target="PTPMT1" />
+    <edge source="TRAP1" target="DLST" />
+    <edge source="TRAP1" target="ATPAF1" />
+    <edge source="TRAP1" target="SLC30A9" />
+    <edge source="TRAP1" target="ELAC2" />
+    <edge source="TRAP1" target="MRPL24" />
+    <edge source="TRAP1" target="ECHS1" />
+    <edge source="TRAP1" target="IDH3B" />
+    <edge source="TRAP1" target="PTCD3" />
+    <edge source="TRAP1" target="MDH2" />
+    <edge source="TRAP1" target="C17orf80" />
+    <edge source="TIMM44" target="METTL17" />
+    <edge source="TIMM44" target="TEFM" />
+    <edge source="TIMM44" target="FASTKD2" />
+    <edge source="TIMM44" target="PMPCB" />
+    <edge source="TIMM44" target="VWA8" />
+    <edge source="TIMM44" target="FASTKD5" />
+    <edge source="TIMM44" target="MTRF1" />
+    <edge source="TIMM44" target="GRSF1" />
+    <edge source="TIMM44" target="GFM1" />
+    <edge source="TIMM44" target="LRPPRC" />
+    <edge source="TIMM44" target="TIMM44" />
+    <edge source="TIMM44" target="PAM16" />
+    <edge source="TIMM44" target="SCP2" />
+    <edge source="TIMM44" target="HSPD1" />
+    <edge source="TIMM44" target="PTPMT1" />
+    <edge source="TIMM44" target="HSPA9" />
+    <edge source="TIMM44" target="MDH2" />
+    <edge source="TIMM44" target="C17orf80" />
+    <edge source="TIMM44" target="METTL15" />
+    <edge source="ZFYVE1" target="POLRMT" />
+    <edge source="ZFYVE1" target="ERAL1" />
+    <edge source="ZFYVE1" target="SUCLA2" />
+    <edge source="ZFYVE1" target="SUCLG2" />
+    <edge source="ETFA" target="METTL17" />
+    <edge source="ETFA" target="TEFM" />
+    <edge source="ETFA" target="FASTKD2" />
+    <edge source="ETFA" target="PMPCB" />
+    <edge source="ETFA" target="VWA8" />
+    <edge source="ETFA" target="FASTKD5" />
+    <edge source="ETFA" target="MTRF1" />
+    <edge source="ETFA" target="GRSF1" />
+    <edge source="ETFA" target="GFM1" />
+    <edge source="ETFA" target="LRPPRC" />
+    <edge source="ETFA" target="NNT" />
+    <edge source="ETFA" target="C17orf80" />
+    <edge source="ETFA" target="GLS" />
+    <edge source="ETFA" target="HSPD1" />
+    <edge source="ETFA" target="LYRM7" />
+    <edge source="ETFA" target="SUCLA2" />
+    <edge source="ETFA" target="SUCLG2" />
+    <edge source="ETFA" target="HSPA9" />
+    <edge source="ETFA" target="METTL15" />
+    <edge source="ETFA" target="MDH2" />
+    <edge source="METTL17" target="MRPS10" />
+    <edge source="METTL17" target="ACADVL" />
+    <edge source="METTL17" target="ACOT2" />
+    <edge source="METTL17" target="FASTKD5" />
+    <edge source="METTL17" target="ACOT1" />
+    <edge source="METTL17" target="PAM16" />
+    <edge source="METTL17" target="MRPS22" />
+    <edge source="METTL17" target="IARS2" />
+    <edge source="METTL17" target="THNSL1" />
+    <edge source="METTL17" target="CARS2" />
+    <edge source="METTL17" target="MRPS31" />
+    <edge source="METTL17" target="GLS" />
+    <edge source="METTL17" target="VWA8" />
+    <edge source="METTL17" target="FASTKD2" />
+    <edge source="METTL17" target="TRMT5" />
+    <edge source="METTL17" target="GFM1" />
+    <edge source="METTL17" target="NDUFS2" />
+    <edge source="METTL17" target="SHMT2" />
+    <edge source="METTL17" target="NDUFV2" />
+    <edge source="METTL17" target="MTHFD1L" />
+    <edge source="METTL17" target="DBT" />
+    <edge source="METTL17" target="BCS1L" />
+    <edge source="METTL17" target="GTPBP10" />
+    <edge source="METTL17" target="AK4" />
+    <edge source="METTL17" target="HSDL2" />
+    <edge source="METTL17" target="MRPL45" />
+    <edge source="METTL17" target="COX5B" />
+    <edge source="METTL17" target="GCDH" />
+    <edge source="METTL17" target="PYCR1" />
+    <edge source="METTL17" target="POLRMT" />
+    <edge source="METTL17" target="TEFM" />
+    <edge source="METTL17" target="GTPBP3" />
+    <edge source="METTL17" target="PDE12" />
+    <edge source="METTL17" target="CLPX" />
+    <edge source="METTL17" target="LYRM7" />
+    <edge source="METTL17" target="POLG" />
+    <edge source="METTL17" target="LRPPRC" />
+    <edge source="METTL17" target="PNPT1" />
+    <edge source="METTL17" target="NDUFAF2" />
+    <edge source="METTL17" target="SUPV3L1" />
+    <edge source="METTL17" target="GRSF1" />
+    <edge source="METTL17" target="TRMT10C" />
+    <edge source="METTL17" target="ECI2" />
+    <edge source="METTL17" target="SUCLA2" />
+    <edge source="METTL17" target="ERAL1" />
+    <edge source="METTL17" target="PNPLA8" />
+    <edge source="METTL17" target="NDUFAF5" />
+    <edge source="METTL17" target="MRPL46" />
+    <edge source="METTL17" target="MGME1" />
+    <edge source="METTL17" target="MRPS30" />
+    <edge source="METTL17" target="DHTKD1" />
+    <edge source="METTL17" target="HSPD1" />
+    <edge source="METTL17" target="STOML2" />
+    <edge source="METTL17" target="DLST" />
+    <edge source="METTL17" target="ATPAF1" />
+    <edge source="METTL17" target="DAP3" />
+    <edge source="METTL17" target="SLC30A9" />
+    <edge source="METTL17" target="ELAC2" />
+    <edge source="METTL17" target="MRPL24" />
+    <edge source="METTL17" target="ECHS1" />
+    <edge source="METTL17" target="MRPS35" />
+    <edge source="METTL17" target="PTCD3" />
+    <edge source="METTL17" target="MDH2" />
+    <edge source="METTL17" target="C17orf80" />
+    <edge source="NDUFAF5" target="NDUFAF5" />
+    <edge source="NDUFAF5" target="SHMT2" />
+    <edge source="NDUFAF5" target="FASTKD5" />
+    <edge source="NDUFAF5" target="MTRF1" />
+    <edge source="NDUFAF5" target="HSPD1" />
+    <edge source="NDUFAF5" target="COX5B" />
+    <edge source="NDUFAF5" target="OXLD1" />
+    <edge source="NDUFAF5" target="GRSF1" />
+    <edge source="NDUFAF5" target="ECI2" />
+    <edge source="NDUFAF5" target="GFM1" />
+    <edge source="NDUFAF5" target="NDUFS2" />
+    <edge source="NDUFAF5" target="MDH2" />
+    <edge source="PDE12" target="PNPT1" />
+    <edge source="PDE12" target="MTRF1" />
+    <edge source="PDE12" target="HSPD1" />
+    <edge source="PDE12" target="PTPMT1" />
+    <edge source="PDE12" target="PMPCB" />
+    <edge source="PDE12" target="VWA8" />
+    <edge source="PDE12" target="GFM1" />
+    <edge source="PDE12" target="MDH2" />
+    <edge source="PDE12" target="METTL15" />
+    <edge source="KBTBD7" target="KBTBD7" />
+    <edge source="KBTBD7" target="MRPL45" />
+    <edge source="KBTBD7" target="POLRMT" />
+    <edge source="KBTBD7" target="TEFM" />
+    <edge source="KBTBD7" target="METTL15" />
+    <edge source="SUCLG2" target="PMPCB" />
+    <edge source="SUCLG2" target="NDUFV2" />
+    <edge source="SUCLG2" target="SUCLA2" />
+    <edge source="SUCLG2" target="ECHS1" />
+    <edge source="SUCLG2" target="ATP6V1A" />
+    <edge source="SUCLG2" target="STXBP1" />
+    <edge source="SHMT2" target="MRPS10" />
+    <edge source="SHMT2" target="FOXRED1" />
+    <edge source="SHMT2" target="TEFM" />
+    <edge source="SHMT2" target="FASTKD2" />
+    <edge source="SHMT2" target="PMPCB" />
+    <edge source="SHMT2" target="VWA8" />
+    <edge source="SHMT2" target="FASTKD5" />
+    <edge source="SHMT2" target="SPRYD4" />
+    <edge source="SHMT2" target="MRPS22" />
+    <edge source="SHMT2" target="ACOT9" />
+    <edge source="SHMT2" target="MTRF1" />
+    <edge source="SHMT2" target="GRSF1" />
+    <edge source="SHMT2" target="GFM1" />
+    <edge source="SHMT2" target="LRPPRC" />
+    <edge source="SHMT2" target="NNT" />
+    <edge source="SHMT2" target="AMOTL1" />
+    <edge source="SHMT2" target="NDUFS2" />
+    <edge source="SHMT2" target="COX5B" />
+    <edge source="SHMT2" target="C17orf80" />
+    <edge source="SHMT2" target="SHMT2" />
+    <edge source="SHMT2" target="PTCD1" />
+    <edge source="SHMT2" target="HSPA9" />
+    <edge source="SHMT2" target="METTL15" />
+    <edge source="SHMT2" target="TRMT10C" />
+    <edge source="SHMT2" target="HSPD1" />
+    <edge source="SHMT2" target="PTPMT1" />
+    <edge source="SHMT2" target="ATP6V1A" />
+    <edge source="SHMT2" target="MDH2" />
+    <edge source="ACADVL" target="TEFM" />
+    <edge source="ACADVL" target="OXLD1" />
+    <edge source="ACADVL" target="ACADVL" />
+    <edge source="ACADVL" target="MSRB2" />
+    <edge source="ACADVL" target="HSPD1" />
+    <edge source="ACADVL" target="MDH2" />
+    <edge source="MRPL46" target="TEFM" />
+    <edge source="MRPL46" target="FASTKD2" />
+    <edge source="MRPL46" target="PMPCB" />
+    <edge source="MRPL46" target="MGME1" />
+    <edge source="MRPL46" target="MRPS30" />
+    <edge source="MRPL46" target="LYRM7" />
+    <edge source="MRPL46" target="LRPPRC" />
+    <edge source="MRPL46" target="MTRF1" />
+    <edge source="MRPL46" target="HSPD1" />
+    <edge source="MRPL46" target="MRPL45" />
+    <edge source="MRPL46" target="GRSF1" />
+    <edge source="MRPL46" target="MRPL24" />
+    <edge source="MRPL46" target="VWA8" />
+    <edge source="MRPL46" target="GFM1" />
+    <edge source="MRPL46" target="MDH2" />
+    <edge source="MRPL46" target="C17orf80" />
+    <edge source="MRPL46" target="METTL15" />
+    <edge source="ACOT2" target="TEFM" />
+    <edge source="ACOT2" target="FASTKD2" />
+    <edge source="ACOT2" target="PMPCB" />
+    <edge source="ACOT2" target="VWA8" />
+    <edge source="ACOT2" target="FASTKD5" />
+    <edge source="ACOT2" target="MTRF1" />
+    <edge source="ACOT2" target="GRSF1" />
+    <edge source="ACOT2" target="GFM1" />
+    <edge source="ACOT2" target="LRPPRC" />
+    <edge source="ACOT2" target="PEX5" />
+    <edge source="ACOT2" target="C17orf80" />
+    <edge source="ACOT2" target="ACOT1" />
+    <edge source="ACOT2" target="HSPD1" />
+    <edge source="ACOT2" target="MDH2" />
+    <edge source="ACOT2" target="METTL15" />
+    <edge source="FKBP7" target="PTCD1" />
+    <edge source="FKBP7" target="SUCLA2" />
+    <edge source="FKBP7" target="FKBP7" />
+    <edge source="FASTKD5" target="MRPS10" />
+    <edge source="FASTKD5" target="CARS2" />
+    <edge source="FASTKD5" target="FASTKD2" />
+    <edge source="FASTKD5" target="PMPCB" />
+    <edge source="FASTKD5" target="DAP3" />
+    <edge source="FASTKD5" target="MRPL45" />
+    <edge source="FASTKD5" target="MRPS35" />
+    <edge source="FASTKD5" target="SUPV3L1" />
+    <edge source="FASTKD5" target="BCS1L" />
+    <edge source="FASTKD5" target="AK4" />
+    <edge source="FASTKD5" target="MRPL24" />
+    <edge source="FASTKD5" target="VWA8" />
+    <edge source="FASTKD5" target="ACOT1" />
+    <edge source="FASTKD5" target="CLPX" />
+    <edge source="FASTKD5" target="MRPS22" />
+    <edge source="FASTKD5" target="PAM16" />
+    <edge source="FASTKD5" target="MRPS30" />
+    <edge source="FASTKD5" target="LYRM7" />
+    <edge source="FASTKD5" target="POLG" />
+    <edge source="FASTKD5" target="IARS2" />
+    <edge source="FASTKD5" target="NDUFV2" />
+    <edge source="FASTKD5" target="LRPPRC" />
+    <edge source="FASTKD5" target="DBT" />
+    <edge source="FASTKD5" target="PNPT1" />
+    <edge source="FASTKD5" target="MTRF1" />
+    <edge source="FASTKD5" target="HSDL2" />
+    <edge source="FASTKD5" target="HSPD1" />
+    <edge source="FASTKD5" target="NNT" />
+    <edge source="FASTKD5" target="STOML2" />
+    <edge source="FASTKD5" target="NDUFAF2" />
+    <edge source="FASTKD5" target="DLST" />
+    <edge source="FASTKD5" target="PYCR1" />
+    <edge source="FASTKD5" target="GRSF1" />
+    <edge source="FASTKD5" target="ATPAF1" />
+    <edge source="FASTKD5" target="TRMT10C" />
+    <edge source="FASTKD5" target="SUCLA2" />
+    <edge source="FASTKD5" target="SLC30A9" />
+    <edge source="FASTKD5" target="MRPS31" />
+    <edge source="FASTKD5" target="ELAC2" />
+    <edge source="FASTKD5" target="GLS" />
+    <edge source="FASTKD5" target="POLRMT" />
+    <edge source="FASTKD5" target="ECHS1" />
+    <edge source="FASTKD5" target="GFM1" />
+    <edge source="FASTKD5" target="NDUFS2" />
+    <edge source="FASTKD5" target="ERAL1" />
+    <edge source="FASTKD5" target="PTCD3" />
+    <edge source="FASTKD5" target="MDH2" />
+    <edge source="FASTKD5" target="C17orf80" />
+    <edge source="ACOT1" target="TEFM" />
+    <edge source="ACOT1" target="FASTKD2" />
+    <edge source="ACOT1" target="PMPCB" />
+    <edge source="ACOT1" target="VWA8" />
+    <edge source="ACOT1" target="MTRF1" />
+    <edge source="ACOT1" target="GRSF1" />
+    <edge source="ACOT1" target="GFM1" />
+    <edge source="ACOT1" target="LRPPRC" />
+    <edge source="ACOT1" target="C17orf80" />
+    <edge source="ACOT1" target="HSPD1" />
+    <edge source="ACOT1" target="HSPA9" />
+    <edge source="ACOT1" target="MDH2" />
+    <edge source="ACOT1" target="METTL15" />
+    <edge source="MGME1" target="OXLD1" />
+    <edge source="MGME1" target="THNSL1" />
+    <edge source="MGME1" target="VWA8" />
+    <edge source="MGME1" target="GRSF1" />
+    <edge source="MGME1" target="GFM1" />
+    <edge source="MGME1" target="LRPPRC" />
+    <edge source="MGME1" target="POLG" />
+    <edge source="MGME1" target="HSPD1" />
+    <edge source="MGME1" target="MDH2" />
+    <edge source="MRPS10" target="LRPPRC" />
+    <edge source="MRPS10" target="MTRF1" />
+    <edge source="MRPS10" target="AMOTL1" />
+    <edge source="MRPS10" target="HSPD1" />
+    <edge source="MRPS10" target="GRSF1" />
+    <edge source="MRPS10" target="DAP3" />
+    <edge source="MRPS10" target="PMPCB" />
+    <edge source="MRPS10" target="MRPS31" />
+    <edge source="MRPS10" target="MRPL24" />
+    <edge source="MRPS10" target="VWA8" />
+    <edge source="MRPS10" target="FASTKD2" />
+    <edge source="MRPS10" target="TEFM" />
+    <edge source="MRPS10" target="GFM1" />
+    <edge source="MRPS10" target="ERAL1" />
+    <edge source="MRPS10" target="MDH2" />
+    <edge source="MRPS10" target="C17orf80" />
+    <edge source="MRPS10" target="METTL15" />
+    <edge source="CLPX" target="FOXRED1" />
+    <edge source="CLPX" target="TEFM" />
+    <edge source="CLPX" target="OXLD1" />
+    <edge source="CLPX" target="PMPCB" />
+    <edge source="CLPX" target="ATPAF2" />
+    <edge source="CLPX" target="VWA8" />
+    <edge source="CLPX" target="MTRF1" />
+    <edge source="CLPX" target="GRSF1" />
+    <edge source="CLPX" target="GFM1" />
+    <edge source="CLPX" target="LRPPRC" />
+    <edge source="CLPX" target="C17orf80" />
+    <edge source="CLPX" target="HSPD1" />
+    <edge source="CLPX" target="PTPMT1" />
+    <edge source="CLPX" target="HSPA9" />
+    <edge source="CLPX" target="MDH2" />
+    <edge source="MRPS22" target="TEFM" />
+    <edge source="MRPS22" target="FASTKD2" />
+    <edge source="MRPS22" target="PMPCB" />
+    <edge source="MRPS22" target="DAP3" />
+    <edge source="MRPS22" target="MRPS35" />
+    <edge source="MRPS22" target="VWA8" />
+    <edge source="MRPS22" target="LRPPRC" />
+    <edge source="MRPS22" target="MTRF1" />
+    <edge source="MRPS22" target="HSPD1" />
+    <edge source="MRPS22" target="GRSF1" />
+    <edge source="MRPS22" target="C17orf80" />
+    <edge source="MRPS22" target="MRPS31" />
+    <edge source="MRPS22" target="GFM1" />
+    <edge source="MRPS22" target="ERAL1" />
+    <edge source="MRPS22" target="PTCD3" />
+    <edge source="MRPS22" target="MDH2" />
+    <edge source="MRPS22" target="METTL15" />
+    <edge source="PAM16" target="PMPCB" />
+    <edge source="PAM16" target="VWA8" />
+    <edge source="PAM16" target="MTRF1" />
+    <edge source="PAM16" target="GFM1" />
+    <edge source="PAM16" target="LRPPRC" />
+    <edge source="PAM16" target="C17orf80" />
+    <edge source="PAM16" target="PTPMT1" />
+    <edge source="PAM16" target="PAM16" />
+    <edge source="PAM16" target="MDH2" />
+    <edge source="PAM16" target="METTL15" />
+    <edge source="PTCD1" target="FASTKD2" />
+    <edge source="PTCD1" target="AK4" />
+    <edge source="PTCD1" target="VWA8" />
+    <edge source="PTCD1" target="GTPBP10" />
+    <edge source="PTCD1" target="NNT" />
+    <edge source="PTCD1" target="HSPD1" />
+    <edge source="MRPS30" target="FASTKD2" />
+    <edge source="MRPS30" target="PMPCB" />
+    <edge source="MRPS30" target="MRPL45" />
+    <edge source="MRPS30" target="MRPL24" />
+    <edge source="MRPS30" target="VWA8" />
+    <edge source="MRPS30" target="GTPBP10" />
+    <edge source="MRPS30" target="MTRF1" />
+    <edge source="MRPS30" target="GRSF1" />
+    <edge source="MRPS30" target="GFM1" />
+    <edge source="MRPS30" target="LRPPRC" />
+    <edge source="MRPS30" target="KIAA0391" />
+    <edge source="MRPS30" target="HSPD1" />
+    <edge source="MRPS30" target="ELAC2" />
+    <edge source="MRPS30" target="MDH2" />
+    <edge source="MRPS30" target="C17orf80" />
+    <edge source="MRPS30" target="METTL15" />
+    <edge source="LYRM7" target="SPRYD4" />
+    <edge source="LYRM7" target="GFM1" />
+    <edge source="LYRM7" target="HSPD1" />
+    <edge source="LYRM7" target="LYRM7" />
+    <edge source="LYRM7" target="HSPA9" />
+    <edge source="LYRM7" target="MDH2" />
+    <edge source="POLG" target="TEFM" />
+    <edge source="POLG" target="OXLD1" />
+    <edge source="POLG" target="PMPCB" />
+    <edge source="POLG" target="AK4" />
+    <edge source="POLG" target="MTRF1" />
+    <edge source="POLG" target="GFM1" />
+    <edge source="POLG" target="LRPPRC" />
+    <edge source="POLG" target="POLG" />
+    <edge source="POLG" target="HSPD1" />
+    <edge source="POLG" target="COX5B" />
+    <edge source="POLG" target="MDH2" />
+    <edge source="IARS2" target="TEFM" />
+    <edge source="IARS2" target="FASTKD2" />
+    <edge source="IARS2" target="PMPCB" />
+    <edge source="IARS2" target="VWA8" />
+    <edge source="IARS2" target="MTRF1" />
+    <edge source="IARS2" target="GRSF1" />
+    <edge source="IARS2" target="GFM1" />
+    <edge source="IARS2" target="LRPPRC" />
+    <edge source="IARS2" target="C17orf80" />
+    <edge source="IARS2" target="HSPD1" />
+    <edge source="IARS2" target="HSPA9" />
+    <edge source="IARS2" target="MDH2" />
+    <edge source="IARS2" target="METTL15" />
+    <edge source="NDUFV2" target="TEFM" />
+    <edge source="NDUFV2" target="FASTKD2" />
+    <edge source="NDUFV2" target="PMPCB" />
+    <edge source="NDUFV2" target="MSRB2" />
+    <edge source="NDUFV2" target="VWA8" />
+    <edge source="NDUFV2" target="LRPPRC" />
+    <edge source="NDUFV2" target="MTRF1" />
+    <edge source="NDUFV2" target="HSPD1" />
+    <edge source="NDUFV2" target="NNT" />
+    <edge source="NDUFV2" target="NDUFAF2" />
+    <edge source="NDUFV2" target="HSPA9" />
+    <edge source="NDUFV2" target="GRSF1" />
+    <edge source="NDUFV2" target="METTL15" />
+    <edge source="NDUFV2" target="GFM1" />
+    <edge source="NDUFV2" target="NDUFS2" />
+    <edge source="NDUFV2" target="MDH2" />
+    <edge source="NDUFV2" target="C17orf80" />
+    <edge source="LRPPRC" target="CARS2" />
+    <edge source="LRPPRC" target="TRMT5" />
+    <edge source="LRPPRC" target="TEFM" />
+    <edge source="LRPPRC" target="THNSL1" />
+    <edge source="LRPPRC" target="FASTKD2" />
+    <edge source="LRPPRC" target="PMPCB" />
+    <edge source="LRPPRC" target="DAP3" />
+    <edge source="LRPPRC" target="MRPL45" />
+    <edge source="LRPPRC" target="MRPS35" />
+    <edge source="LRPPRC" target="SUPV3L1" />
+    <edge source="LRPPRC" target="BCS1L" />
+    <edge source="LRPPRC" target="AK4" />
+    <edge source="LRPPRC" target="MRPL24" />
+    <edge source="LRPPRC" target="VWA8" />
+    <edge source="LRPPRC" target="DLST" />
+    <edge source="LRPPRC" target="GTPBP10" />
+    <edge source="LRPPRC" target="MTRF1" />
+    <edge source="LRPPRC" target="MRPS31" />
+    <edge source="LRPPRC" target="GRSF1" />
+    <edge source="LRPPRC" target="GFM1" />
+    <edge source="LRPPRC" target="PTCD3" />
+    <edge source="LRPPRC" target="NDUFAF7" />
+    <edge source="LRPPRC" target="GLS" />
+    <edge source="LRPPRC" target="NDUFS2" />
+    <edge source="LRPPRC" target="MTHFD1L" />
+    <edge source="LRPPRC" target="DBT" />
+    <edge source="LRPPRC" target="HSDL2" />
+    <edge source="LRPPRC" target="HSPA9" />
+    <edge source="LRPPRC" target="GCDH" />
+    <edge source="LRPPRC" target="PYCR1" />
+    <edge source="LRPPRC" target="POLRMT" />
+    <edge source="LRPPRC" target="METTL15" />
+    <edge source="LRPPRC" target="LRPPRC" />
+    <edge source="LRPPRC" target="PNPT1" />
+    <edge source="LRPPRC" target="NDUFAF2" />
+    <edge source="LRPPRC" target="TRMT10C" />
+    <edge source="LRPPRC" target="SUCLA2" />
+    <edge source="LRPPRC" target="ERAL1" />
+    <edge source="LRPPRC" target="KIAA0391" />
+    <edge source="LRPPRC" target="HSPD1" />
+    <edge source="LRPPRC" target="NNT" />
+    <edge source="LRPPRC" target="STOML2" />
+    <edge source="LRPPRC" target="PTPMT1" />
+    <edge source="LRPPRC" target="ATPAF1" />
+    <edge source="LRPPRC" target="SLC30A9" />
+    <edge source="LRPPRC" target="ELAC2" />
+    <edge source="LRPPRC" target="ECHS1" />
+    <edge source="LRPPRC" target="ATP6V1A" />
+    <edge source="LRPPRC" target="MDH2" />
+    <edge source="LRPPRC" target="C17orf80" />
+    <edge source="MTHFD1L" target="GRSF1" />
+    <edge source="MTHFD1L" target="HSPD1" />
+    <edge source="MTHFD1L" target="PTPMT1" />
+    <edge source="MTHFD1L" target="MDH2" />
+    <edge source="DBT" target="OXLD1" />
+    <edge source="DBT" target="PMPCB" />
+    <edge source="DBT" target="MSRB2" />
+    <edge source="DBT" target="DLST" />
+    <edge source="DBT" target="MTRF1" />
+    <edge source="DBT" target="GRSF1" />
+    <edge source="DBT" target="GFM1" />
+    <edge source="DBT" target="IDH3B" />
+    <edge source="DBT" target="COX5B" />
+    <edge source="DBT" target="C17orf80" />
+    <edge source="DBT" target="ECHS1" />
+    <edge source="DBT" target="MDH2" />
+    <edge source="DBT" target="METTL15" />
+    <edge source="THNSL1" target="HSPD1" />
+    <edge source="THNSL1" target="GFM1" />
+    <edge source="THNSL1" target="MDH2" />
+    <edge source="THNSL1" target="PMPCB" />
+    <edge source="PNPT1" target="FASTKD2" />
+    <edge source="PNPT1" target="PMPCB" />
+    <edge source="PNPT1" target="SUPV3L1" />
+    <edge source="PNPT1" target="VWA8" />
+    <edge source="PNPT1" target="MTRF1" />
+    <edge source="PNPT1" target="GRSF1" />
+    <edge source="PNPT1" target="GFM1" />
+    <edge source="PNPT1" target="HSPD1" />
+    <edge source="PNPT1" target="MDH2" />
+    <edge source="PNPT1" target="METTL15" />
+    <edge source="KIAA0391" target="OXLD1" />
+    <edge source="KIAA0391" target="FASTKD2" />
+    <edge source="KIAA0391" target="AK4" />
+    <edge source="KIAA0391" target="VWA8" />
+    <edge source="KIAA0391" target="MTRF1" />
+    <edge source="KIAA0391" target="GRSF1" />
+    <edge source="KIAA0391" target="GFM1" />
+    <edge source="KIAA0391" target="PYCR1" />
+    <edge source="KIAA0391" target="ERAL1" />
+    <edge source="KIAA0391" target="TRMT10C" />
+    <edge source="KIAA0391" target="METTL15" />
+    <edge source="MTRF1" target="CARS2" />
+    <edge source="MTRF1" target="TRMT5" />
+    <edge source="MTRF1" target="TEFM" />
+    <edge source="MTRF1" target="FASTKD2" />
+    <edge source="MTRF1" target="DAP3" />
+    <edge source="MTRF1" target="MRPL45" />
+    <edge source="MTRF1" target="MRPS35" />
+    <edge source="MTRF1" target="SUPV3L1" />
+    <edge source="MTRF1" target="BCS1L" />
+    <edge source="MTRF1" target="AK4" />
+    <edge source="MTRF1" target="MRPL24" />
+    <edge source="MTRF1" target="VWA8" />
+    <edge source="MTRF1" target="DLST" />
+    <edge source="MTRF1" target="GTPBP10" />
+    <edge source="MTRF1" target="NDUFAF7" />
+    <edge source="MTRF1" target="HSDL2" />
+    <edge source="MTRF1" target="NNT" />
+    <edge source="MTRF1" target="STOML2" />
+    <edge source="MTRF1" target="NDUFAF2" />
+    <edge source="MTRF1" target="GCDH" />
+    <edge source="MTRF1" target="PYCR1" />
+    <edge source="MTRF1" target="GRSF1" />
+    <edge source="MTRF1" target="ATPAF1" />
+    <edge source="MTRF1" target="TRMT10C" />
+    <edge source="MTRF1" target="ANGEL2" />
+    <edge source="MTRF1" target="SUCLA2" />
+    <edge source="MTRF1" target="SLC30A9" />
+    <edge source="MTRF1" target="MRPS31" />
+    <edge source="MTRF1" target="ELAC2" />
+    <edge source="MTRF1" target="GLS" />
+    <edge source="MTRF1" target="POLRMT" />
+    <edge source="MTRF1" target="ECHS1" />
+    <edge source="MTRF1" target="GFM1" />
+    <edge source="MTRF1" target="NDUFS2" />
+    <edge source="MTRF1" target="ERAL1" />
+    <edge source="MTRF1" target="PTCD3" />
+    <edge source="MTRF1" target="MDH2" />
+    <edge source="MTRF1" target="C17orf80" />
+    <edge source="BCS1L" target="FASTKD2" />
+    <edge source="BCS1L" target="PMPCB" />
+    <edge source="BCS1L" target="HSPD1" />
+    <edge source="BCS1L" target="GRSF1" />
+    <edge source="BCS1L" target="VWA8" />
+    <edge source="BCS1L" target="GFM1" />
+    <edge source="BCS1L" target="MDH2" />
+    <edge source="BCS1L" target="METTL15" />
+    <edge source="SCP2" target="VWA8" />
+    <edge source="SCP2" target="PEX5" />
+    <edge source="SCP2" target="ECI2" />
+    <edge source="GTPBP10" target="PMPCB" />
+    <edge source="GTPBP10" target="VWA8" />
+    <edge source="GTPBP10" target="GRSF1" />
+    <edge source="GTPBP10" target="SUCLA2" />
+    <edge source="GTPBP10" target="GFM1" />
+    <edge source="GTPBP10" target="MDH2" />
+    <edge source="GTPBP10" target="METTL15" />
+    <edge source="AMOTL1" target="DAP3" />
+    <edge source="AMOTL1" target="MRPS35" />
+    <edge source="AMOTL1" target="MRPS31" />
+    <edge source="AMOTL1" target="PTCD3" />
+    <edge source="NUDT5" target="PYCR1" />
+    <edge source="NUDT5" target="COX5B" />
+    <edge source="NUDT5" target="NUDT5" />
+    <edge source="AK4" target="OXLD1" />
+    <edge source="AK4" target="FASTKD2" />
+    <edge source="AK4" target="PMPCB" />
+    <edge source="AK4" target="HSPD1" />
+    <edge source="AK4" target="GRSF1" />
+    <edge source="AK4" target="C17orf80" />
+    <edge source="AK4" target="GLS" />
+    <edge source="AK4" target="POLRMT" />
+    <edge source="AK4" target="METTL15" />
+    <edge source="AK4" target="VWA8" />
+    <edge source="AK4" target="GFM1" />
+    <edge source="AK4" target="GTPBP3" />
+    <edge source="AK4" target="MDH2" />
+    <edge source="DHTKD1" target="PMPCB" />
+    <edge source="DHTKD1" target="VWA8" />
+    <edge source="DHTKD1" target="HSPD1" />
+    <edge source="DHTKD1" target="MDH2" />
+    <edge source="NDUFAF7" target="FOXRED1" />
+    <edge source="NDUFAF7" target="OXLD1" />
+    <edge source="NDUFAF7" target="NDUFS2" />
+    <edge source="NDUFAF7" target="HSPD1" />
+    <edge source="HSDL2" target="PMPCB" />
+    <edge source="HSDL2" target="VWA8" />
+    <edge source="HSDL2" target="DLST" />
+    <edge source="HSDL2" target="GFM1" />
+    <edge source="HSDL2" target="PEX5" />
+    <edge source="HSDL2" target="HSPD1" />
+    <edge source="HSDL2" target="MDH2" />
+    <edge source="HSPD1" target="FOXRED1" />
+    <edge source="HSPD1" target="CARS2" />
+    <edge source="HSPD1" target="TRMT5" />
+    <edge source="HSPD1" target="FASTKD2" />
+    <edge source="HSPD1" target="PMPCB" />
+    <edge source="HSPD1" target="DAP3" />
+    <edge source="HSPD1" target="ATPAF2" />
+    <edge source="HSPD1" target="MRPL45" />
+    <edge source="HSPD1" target="MRPS35" />
+    <edge source="HSPD1" target="SUPV3L1" />
+    <edge source="HSPD1" target="MRPL24" />
+    <edge source="HSPD1" target="VWA8" />
+    <edge source="HSPD1" target="SPRYD4" />
+    <edge source="HSPD1" target="DLST" />
+    <edge source="HSPD1" target="ACOT9" />
+    <edge source="HSPD1" target="MRPS31" />
+    <edge source="HSPD1" target="GRSF1" />
+    <edge source="HSPD1" target="GFM1" />
+    <edge source="HSPD1" target="PTCD3" />
+    <edge source="HSPD1" target="NNT" />
+    <edge source="HSPD1" target="IDH3B" />
+    <edge source="HSPD1" target="PYCR1" />
+    <edge source="HSPD1" target="NDUFS2" />
+    <edge source="HSPD1" target="ATPAF1" />
+    <edge source="HSPD1" target="COX5B" />
+    <edge source="HSPD1" target="C17orf80" />
+    <edge source="HSPD1" target="ERAL1" />
+    <edge source="HSPD1" target="GLS" />
+    <edge source="HSPD1" target="TRMT10C" />
+    <edge source="HSPD1" target="ECI2" />
+    <edge source="HSPD1" target="HSPA9" />
+    <edge source="HSPD1" target="NDUFAF2" />
+    <edge source="HSPD1" target="SUCLA2" />
+    <edge source="HSPD1" target="HSPD1" />
+    <edge source="HSPD1" target="PTPMT1" />
+    <edge source="HSPD1" target="ELAC2" />
+    <edge source="HSPD1" target="ECHS1" />
+    <edge source="HSPD1" target="ATP6V1A" />
+    <edge source="HSPD1" target="MDH2" />
+    <edge source="CARS2" target="OXLD1" />
+    <edge source="CARS2" target="GRSF1" />
+    <edge source="CARS2" target="TRMT10C" />
+    <edge source="CARS2" target="PMPCB" />
+    <edge source="CARS2" target="FASTKD2" />
+    <edge source="CARS2" target="GFM1" />
+    <edge source="CARS2" target="MDH2" />
+    <edge source="CARS2" target="C17orf80" />
+    <edge source="CARS2" target="METTL15" />
+    <edge source="NNT" target="PMPCB" />
+    <edge source="NNT" target="VWA8" />
+    <edge source="NNT" target="GFM1" />
+    <edge source="NNT" target="ATP6V1A" />
+    <edge source="NNT" target="MDH2" />
+    <edge source="NNT" target="C17orf80" />
+    <edge source="STOML2" target="PMPCB" />
+    <edge source="STOML2" target="DAP3" />
+    <edge source="STOML2" target="VWA8" />
+    <edge source="STOML2" target="DLST" />
+    <edge source="STOML2" target="GFM1" />
+    <edge source="STOML2" target="C17orf80" />
+    <edge source="STOML2" target="PTPMT1" />
+    <edge source="STOML2" target="METTL15" />
+    <edge source="STOML2" target="HSPA9" />
+    <edge source="STOML2" target="MDH2" />
+    <edge source="NDUFAF2" target="FASTKD2" />
+    <edge source="NDUFAF2" target="PMPCB" />
+    <edge source="NDUFAF2" target="VWA8" />
+    <edge source="NDUFAF2" target="GRSF1" />
+    <edge source="NDUFAF2" target="GFM1" />
+    <edge source="NDUFAF2" target="C17orf80" />
+    <edge source="NDUFAF2" target="PTPMT1" />
+    <edge source="NDUFAF2" target="METTL15" />
+    <edge source="NDUFAF2" target="MDH2" />
+    <edge source="MRPL45" target="TEFM" />
+    <edge source="MRPL45" target="FASTKD2" />
+    <edge source="MRPL45" target="PMPCB" />
+    <edge source="MRPL45" target="GRSF1" />
+    <edge source="MRPL45" target="MRPL24" />
+    <edge source="MRPL45" target="VWA8" />
+    <edge source="MRPL45" target="GFM1" />
+    <edge source="MRPL45" target="MDH2" />
+    <edge source="MRPL45" target="C17orf80" />
+    <edge source="MRPL45" target="METTL15" />
+    <edge source="PTPMT1" target="PMPCB" />
+    <edge source="PTPMT1" target="NDUFS2" />
+    <edge source="PTPMT1" target="C17orf80" />
+    <edge source="PTPMT1" target="GLS" />
+    <edge source="PTPMT1" target="TRMT10C" />
+    <edge source="PTPMT1" target="PTPMT1" />
+    <edge source="PTPMT1" target="HSPA9" />
+    <edge source="PTPMT1" target="MDH2" />
+    <edge source="FOXRED1" target="FOXRED1" />
+    <edge source="FOXRED1" target="HSPA9" />
+    <edge source="FOXRED1" target="PMPCB" />
+    <edge source="HSPA9" target="TEFM" />
+    <edge source="HSPA9" target="PMPCB" />
+    <edge source="HSPA9" target="DAP3" />
+    <edge source="HSPA9" target="MRPS35" />
+    <edge source="HSPA9" target="DLST" />
+    <edge source="HSPA9" target="MRPS31" />
+    <edge source="HSPA9" target="GRSF1" />
+    <edge source="HSPA9" target="PTCD3" />
+    <edge source="HSPA9" target="PYCR1" />
+    <edge source="HSPA9" target="PEX5" />
+    <edge source="HSPA9" target="NDUFS2" />
+    <edge source="HSPA9" target="SLC30A9" />
+    <edge source="HSPA9" target="C17orf80" />
+    <edge source="HSPA9" target="ERAL1" />
+    <edge source="HSPA9" target="GLS" />
+    <edge source="HSPA9" target="TRMT10C" />
+    <edge source="HSPA9" target="ELAC2" />
+    <edge source="HSPA9" target="ECHS1" />
+    <edge source="DLST" target="TEFM" />
+    <edge source="DLST" target="FASTKD2" />
+    <edge source="DLST" target="PMPCB" />
+    <edge source="DLST" target="VWA8" />
+    <edge source="DLST" target="GFM1" />
+    <edge source="DLST" target="GCDH" />
+    <edge source="DLST" target="ACOT9" />
+    <edge source="DLST" target="METTL15" />
+    <edge source="DLST" target="GRSF1" />
+    <edge source="DLST" target="SUCLA2" />
+    <edge source="DLST" target="MDH2" />
+    <edge source="DLST" target="C17orf80" />
+    <edge source="COX5B" target="ATPAF2" />
+    <edge source="SUPV3L1" target="FASTKD2" />
+    <edge source="SUPV3L1" target="GRSF1" />
+    <edge source="SUPV3L1" target="VWA8" />
+    <edge source="SUPV3L1" target="GFM1" />
+    <edge source="SUPV3L1" target="ERAL1" />
+    <edge source="SUPV3L1" target="MDH2" />
+    <edge source="GCDH" target="PMPCB" />
+    <edge source="GCDH" target="VWA8" />
+    <edge source="GCDH" target="GFM1" />
+    <edge source="GCDH" target="GCDH" />
+    <edge source="GCDH" target="MDH2" />
+    <edge source="GCDH" target="C17orf80" />
+    <edge source="PYCR1" target="TEFM" />
+    <edge source="PYCR1" target="FASTKD2" />
+    <edge source="PYCR1" target="PMPCB" />
+    <edge source="PYCR1" target="DAP3" />
+    <edge source="PYCR1" target="VWA8" />
+    <edge source="PYCR1" target="GRSF1" />
+    <edge source="PYCR1" target="GFM1" />
+    <edge source="PYCR1" target="PYCR1" />
+    <edge source="PYCR1" target="MDH2" />
+    <edge source="PYCR1" target="GTPBP3" />
+    <edge source="PYCR1" target="C17orf80" />
+    <edge source="PYCR1" target="METTL15" />
+    <edge source="OXLD1" target="GLS" />
+    <edge source="OXLD1" target="POLRMT" />
+    <edge source="OXLD1" target="ATPAF2" />
+    <edge source="OXLD1" target="ACOT9" />
+    <edge source="GRSF1" target="TEFM" />
+    <edge source="GRSF1" target="FASTKD2" />
+    <edge source="GRSF1" target="PMPCB" />
+    <edge source="GRSF1" target="DAP3" />
+    <edge source="GRSF1" target="MRPS35" />
+    <edge source="GRSF1" target="MRPL24" />
+    <edge source="GRSF1" target="VWA8" />
+    <edge source="GRSF1" target="ACOT9" />
+    <edge source="GRSF1" target="MRPS31" />
+    <edge source="GRSF1" target="ANGEL2" />
+    <edge source="GRSF1" target="GLS" />
+    <edge source="GRSF1" target="GFM1" />
+    <edge source="GRSF1" target="NDUFS2" />
+    <edge source="GRSF1" target="POLRMT" />
+    <edge source="GRSF1" target="METTL15" />
+    <edge source="GRSF1" target="TRMT10C" />
+    <edge source="GRSF1" target="SUCLA2" />
+    <edge source="GRSF1" target="ERAL1" />
+    <edge source="GRSF1" target="ATPAF1" />
+    <edge source="GRSF1" target="SLC30A9" />
+    <edge source="GRSF1" target="ELAC2" />
+    <edge source="GRSF1" target="ECHS1" />
+    <edge source="GRSF1" target="PTCD3" />
+    <edge source="GRSF1" target="MDH2" />
+    <edge source="GRSF1" target="C17orf80" />
+    <edge source="PEX5" target="VWA8" />
+    <edge source="PEX5" target="PEX5" />
+    <edge source="PEX5" target="ECI2" />
+    <edge source="ATPAF1" target="TEFM" />
+    <edge source="ATPAF1" target="FASTKD2" />
+    <edge source="ATPAF1" target="PMPCB" />
+    <edge source="ATPAF1" target="VWA8" />
+    <edge source="ATPAF1" target="GFM1" />
+    <edge source="ATPAF1" target="ERAL1" />
+    <edge source="ATPAF1" target="MDH2" />
+    <edge source="ATPAF1" target="METTL15" />
+    <edge source="TRMT10C" target="TEFM" />
+    <edge source="TRMT10C" target="FASTKD2" />
+    <edge source="TRMT10C" target="PMPCB" />
+    <edge source="TRMT10C" target="VWA8" />
+    <edge source="TRMT10C" target="GFM1" />
+    <edge source="TRMT10C" target="TRMT10C" />
+    <edge source="TRMT10C" target="ELAC2" />
+    <edge source="TRMT10C" target="MDH2" />
+    <edge source="TRMT10C" target="METTL15" />
+    <edge source="ANGEL2" target="PMPCB" />
+    <edge source="ANGEL2" target="GFM1" />
+    <edge source="ANGEL2" target="METTL15" />
+    <edge source="ANGEL2" target="MDH2" />
+    <edge source="DAP3" target="TEFM" />
+    <edge source="DAP3" target="FASTKD2" />
+    <edge source="DAP3" target="PMPCB" />
+    <edge source="DAP3" target="MRPS31" />
+    <edge source="DAP3" target="VWA8" />
+    <edge source="DAP3" target="GFM1" />
+    <edge source="DAP3" target="METTL15" />
+    <edge source="DAP3" target="ERAL1" />
+    <edge source="DAP3" target="DAP3" />
+    <edge source="DAP3" target="MRPS35" />
+    <edge source="DAP3" target="PTCD3" />
+    <edge source="DAP3" target="MDH2" />
+    <edge source="DAP3" target="C17orf80" />
+    <edge source="ECI2" target="PMPCB" />
+    <edge source="ECI2" target="GFM1" />
+    <edge source="ECI2" target="NDUFS2" />
+    <edge source="ECI2" target="ECI2" />
+    <edge source="ECI2" target="MDH2" />
+    <edge source="PMPCB" target="PNPLA8" />
+    <edge source="PMPCB" target="FASTKD2" />
+    <edge source="PMPCB" target="MRPS31" />
+    <edge source="PMPCB" target="GLS" />
+    <edge source="PMPCB" target="VWA8" />
+    <edge source="PMPCB" target="GFM1" />
+    <edge source="PMPCB" target="NDUFS2" />
+    <edge source="PMPCB" target="POLRMT" />
+    <edge source="PMPCB" target="GTPBP3" />
+    <edge source="PMPCB" target="SPRYD4" />
+    <edge source="PMPCB" target="SUCLA2" />
+    <edge source="PMPCB" target="ERAL1" />
+    <edge source="PMPCB" target="SLC30A9" />
+    <edge source="PMPCB" target="ELAC2" />
+    <edge source="PMPCB" target="MRPL24" />
+    <edge source="PMPCB" target="ECHS1" />
+    <edge source="PMPCB" target="MRPS35" />
+    <edge source="PMPCB" target="PTCD3" />
+    <edge source="PMPCB" target="MDH2" />
+    <edge source="PMPCB" target="C17orf80" />
+    <edge source="SUCLA2" target="VWA8" />
+    <edge source="SUCLA2" target="GFM1" />
+    <edge source="SUCLA2" target="C17orf80" />
+    <edge source="SUCLA2" target="STXBP1" />
+    <edge source="SUCLA2" target="MDH2" />
+    <edge source="SUCLA2" target="METTL15" />
+    <edge source="SLC30A9" target="GFM1" />
+    <edge source="SLC30A9" target="MDH2" />
+    <edge source="SLC30A9" target="C17orf80" />
+    <edge source="MRPS31" target="TEFM" />
+    <edge source="MRPS31" target="FASTKD2" />
+    <edge source="MRPS31" target="MRPS35" />
+    <edge source="MRPS31" target="VWA8" />
+    <edge source="MRPS31" target="C17orf80" />
+    <edge source="MRPS31" target="GFM1" />
+    <edge source="MRPS31" target="PTCD3" />
+    <edge source="MRPS31" target="MDH2" />
+    <edge source="MRPS31" target="METTL15" />
+    <edge source="MRPL24" target="TEFM" />
+    <edge source="MRPL24" target="FASTKD2" />
+    <edge source="MRPL24" target="GFM1" />
+    <edge source="MRPL24" target="MDH2" />
+    <edge source="MRPL24" target="C17orf80" />
+    <edge source="MRPL24" target="METTL15" />
+    <edge source="ELAC2" target="TEFM" />
+    <edge source="ELAC2" target="FASTKD2" />
+    <edge source="ELAC2" target="VWA8" />
+    <edge source="ELAC2" target="GFM1" />
+    <edge source="ELAC2" target="METTL15" />
+    <edge source="ELAC2" target="MDH2" />
+    <edge source="GLS" target="TEFM" />
+    <edge source="GLS" target="FASTKD2" />
+    <edge source="GLS" target="VWA8" />
+    <edge source="GLS" target="SPRYD4" />
+    <edge source="GLS" target="GFM1" />
+    <edge source="GLS" target="C17orf80" />
+    <edge source="GLS" target="GLS" />
+    <edge source="GLS" target="MDH2" />
+    <edge source="GLS" target="METTL15" />
+    <edge source="POLRMT" target="TEFM" />
+    <edge source="POLRMT" target="FASTKD2" />
+    <edge source="POLRMT" target="GFM1" />
+    <edge source="POLRMT" target="ERAL1" />
+    <edge source="POLRMT" target="MDH2" />
+    <edge source="POLRMT" target="METTL15" />
+    <edge source="VWA8" target="FASTKD2" />
+    <edge source="VWA8" target="MRPS35" />
+    <edge source="VWA8" target="GFM1" />
+    <edge source="VWA8" target="NDUFS2" />
+    <edge source="VWA8" target="METTL15" />
+    <edge source="VWA8" target="ERAL1" />
+    <edge source="VWA8" target="ECHS1" />
+    <edge source="VWA8" target="PTCD3" />
+    <edge source="VWA8" target="MDH2" />
+    <edge source="VWA8" target="C17orf80" />
+    <edge source="ECHS1" target="TEFM" />
+    <edge source="ECHS1" target="FASTKD2" />
+    <edge source="ECHS1" target="ATPAF2" />
+    <edge source="ECHS1" target="GFM1" />
+    <edge source="ECHS1" target="C17orf80" />
+    <edge source="ECHS1" target="METTL15" />
+    <edge source="ECHS1" target="MDH2" />
+    <edge source="ECHS1" target="ECHS1" />
+    <edge source="ECHS1" target="STXBP1" />
+    <edge source="FASTKD2" target="PTCD3" />
+    <edge source="FASTKD2" target="METTL15" />
+    <edge source="FASTKD2" target="MRPS35" />
+    <edge source="FASTKD2" target="GFM1" />
+    <edge source="FASTKD2" target="NDUFS2" />
+    <edge source="FASTKD2" target="ERAL1" />
+    <edge source="FASTKD2" target="MDH2" />
+    <edge source="FASTKD2" target="C17orf80" />
+    <edge source="ACOT9" target="MDH2" />
+    <edge source="TRMT5" target="MDH2" />
+    <edge source="MRPS35" target="TEFM" />
+    <edge source="MRPS35" target="C17orf80" />
+    <edge source="MRPS35" target="GFM1" />
+    <edge source="MRPS35" target="ERAL1" />
+    <edge source="MRPS35" target="PTCD3" />
+    <edge source="MRPS35" target="MDH2" />
+    <edge source="MRPS35" target="METTL15" />
+    <edge source="TEFM" target="NDUFS2" />
+    <edge source="TEFM" target="PTCD3" />
+    <edge source="TEFM" target="C17orf80" />
+    <edge source="TEFM" target="METTL15" />
+    <edge source="GFM1" target="PNPLA8" />
+    <edge source="GFM1" target="NDUFS2" />
+    <edge source="GFM1" target="IDH3B" />
+    <edge source="GFM1" target="ERAL1" />
+    <edge source="GFM1" target="PTCD3" />
+    <edge source="GFM1" target="MDH2" />
+    <edge source="GFM1" target="C17orf80" />
+    <edge source="NDUFS2" target="ATP6V1A" />
+    <edge source="NDUFS2" target="MDH2" />
+    <edge source="NDUFS2" target="C17orf80" />
+    <edge source="NDUFS2" target="METTL15" />
+    <edge source="ATP6V1A" target="ATP6V1A" />
+    <edge source="ERAL1" target="PTCD3" />
+    <edge source="ERAL1" target="MDH2" />
+    <edge source="ERAL1" target="METTL15" />
+    <edge source="PTCD3" target="C17orf80" />
+    <edge source="PTCD3" target="MDH2" />
+    <edge source="PTCD3" target="METTL15" />
+    <edge source="MDH2" target="PNPLA8" />
+    <edge source="MDH2" target="C17orf80" />
+    <edge source="MDH2" target="GTPBP3" />
+    <edge source="MDH2" target="METTL15" />
+    <edge source="MDH2" target="MDH2" />
+    <edge source="GTPBP3" target="GTPBP3" />
+    <edge source="SPRYD4" target="SPRYD4" />
+    <edge source="PNPLA8" target="C17orf80" />
+    <edge source="C17orf80" target="METTL15" />
+  </graph>
+</graphml>

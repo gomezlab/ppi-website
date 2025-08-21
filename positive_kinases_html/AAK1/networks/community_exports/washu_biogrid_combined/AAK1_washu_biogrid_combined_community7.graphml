@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="DOCK3">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="CCDC102A">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="GPHN">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="SNX29">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="UBR4">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="R3HCC1L">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="FAM135A">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="ZFYVE9">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="XPO6">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="DOCK1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="LIMD1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="DOCK4">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="NHLRC2">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="GLO1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="EGLN1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="ANKFY1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="NAA40">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="MAP1A">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="ARFGEF3">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="E2F5">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="AGL">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="RPS6KC1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="RAPH1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="ACLY">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="TRIM67">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="TBC1D24">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="PARG">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="ARFGEF1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="WASF2">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="ARHGEF11">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="TRIM9">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="SNX5">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="PYGL">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="ELMO2">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="RASSF5">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="BAIAP2L1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="MON2">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="KIF1A">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="PFKL">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="PFN1">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="VASP">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="BRCC3">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="FANCA">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="MYO9B">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="NAMPT">
+      <data key="d0">#7f7f7f</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <edge source="DOCK3" target="DOCK4" />
+    <edge source="DOCK3" target="ELMO2" />
+    <edge source="DOCK3" target="TBC1D24" />
+    <edge source="CCDC102A" target="SNX5" />
+    <edge source="GPHN" target="BRCC3" />
+    <edge source="GPHN" target="GPHN" />
+    <edge source="GPHN" target="NAA40" />
+    <edge source="GPHN" target="PFN1" />
+    <edge source="GPHN" target="VASP" />
+    <edge source="SNX29" target="ANKFY1" />
+    <edge source="SNX29" target="NAA40" />
+    <edge source="UBR4" target="NHLRC2" />
+    <edge source="UBR4" target="ACLY" />
+    <edge source="UBR4" target="VASP" />
+    <edge source="R3HCC1L" target="NAA40" />
+    <edge source="R3HCC1L" target="PFN1" />
+    <edge source="R3HCC1L" target="VASP" />
+    <edge source="FAM135A" target="ANKFY1" />
+    <edge source="FAM135A" target="PFN1" />
+    <edge source="FAM135A" target="VASP" />
+    <edge source="ZFYVE9" target="ANKFY1" />
+    <edge source="ZFYVE9" target="VASP" />
+    <edge source="XPO6" target="VASP" />
+    <edge source="XPO6" target="PFN1" />
+    <edge source="DOCK1" target="DOCK1" />
+    <edge source="DOCK1" target="ANKFY1" />
+    <edge source="DOCK1" target="WASF2" />
+    <edge source="DOCK1" target="ELMO2" />
+    <edge source="DOCK1" target="PFN1" />
+    <edge source="LIMD1" target="NHLRC2" />
+    <edge source="LIMD1" target="EGLN1" />
+    <edge source="LIMD1" target="LIMD1" />
+    <edge source="LIMD1" target="VASP" />
+    <edge source="LIMD1" target="NAA40" />
+    <edge source="DOCK4" target="ELMO2" />
+    <edge source="DOCK4" target="PFN1" />
+    <edge source="NHLRC2" target="MYO9B" />
+    <edge source="NHLRC2" target="NHLRC2" />
+    <edge source="NHLRC2" target="SNX5" />
+    <edge source="NHLRC2" target="PFKL" />
+    <edge source="NHLRC2" target="VASP" />
+    <edge source="NHLRC2" target="ARFGEF1" />
+    <edge source="NHLRC2" target="GLO1" />
+    <edge source="NHLRC2" target="PFN1" />
+    <edge source="NHLRC2" target="PYGL" />
+    <edge source="GLO1" target="AGL" />
+    <edge source="GLO1" target="NAA40" />
+    <edge source="GLO1" target="GLO1" />
+    <edge source="EGLN1" target="EGLN1" />
+    <edge source="EGLN1" target="NAA40" />
+    <edge source="ANKFY1" target="RPS6KC1" />
+    <edge source="ANKFY1" target="ARFGEF3" />
+    <edge source="ANKFY1" target="SNX5" />
+    <edge source="ANKFY1" target="MON2" />
+    <edge source="ANKFY1" target="KIF1A" />
+    <edge source="ANKFY1" target="PFN1" />
+    <edge source="NAA40" target="RAPH1" />
+    <edge source="NAA40" target="MAP1A" />
+    <edge source="NAA40" target="RASSF5" />
+    <edge source="NAA40" target="NAMPT" />
+    <edge source="NAA40" target="TRIM9" />
+    <edge source="NAA40" target="PFKL" />
+    <edge source="NAA40" target="PARG" />
+    <edge source="NAA40" target="WASF2" />
+    <edge source="NAA40" target="PFN1" />
+    <edge source="NAA40" target="ACLY" />
+    <edge source="NAA40" target="NAA40" />
+    <edge source="MAP1A" target="VASP" />
+    <edge source="MAP1A" target="ARHGEF11" />
+    <edge source="MAP1A" target="PFN1" />
+    <edge source="ARFGEF3" target="VASP" />
+    <edge source="E2F5" target="BRCC3" />
+    <edge source="AGL" target="RASSF5" />
+    <edge source="RPS6KC1" target="RPS6KC1" />
+    <edge source="RAPH1" target="PFN1" />
+    <edge source="RAPH1" target="VASP" />
+    <edge source="ACLY" target="ACLY" />
+    <edge source="TRIM67" target="KIF1A" />
+    <edge source="ARFGEF1" target="MYO9B" />
+    <edge source="WASF2" target="VASP" />
+    <edge source="WASF2" target="WASF2" />
+    <edge source="WASF2" target="PFN1" />
+    <edge source="ARHGEF11" target="ARHGEF11" />
+    <edge source="ARHGEF11" target="PFN1" />
+    <edge source="TRIM9" target="SNX5" />
+    <edge source="TRIM9" target="KIF1A" />
+    <edge source="TRIM9" target="VASP" />
+    <edge source="TRIM9" target="TRIM9" />
+    <edge source="SNX5" target="FANCA" />
+    <edge source="SNX5" target="SNX5" />
+    <edge source="PYGL" target="PFKL" />
+    <edge source="PYGL" target="PYGL" />
+    <edge source="RASSF5" target="RASSF5" />
+    <edge source="RASSF5" target="PFN1" />
+    <edge source="BAIAP2L1" target="VASP" />
+    <edge source="BAIAP2L1" target="PFN1" />
+    <edge source="MON2" target="PFN1" />
+    <edge source="KIF1A" target="KIF1A" />
+    <edge source="PFKL" target="PFKL" />
+    <edge source="PFN1" target="MYO9B" />
+    <edge source="PFN1" target="VASP" />
+    <edge source="PFN1" target="PFN1" />
+    <edge source="VASP" target="VASP" />
+    <edge source="BRCC3" target="FANCA" />
+    <edge source="BRCC3" target="BRCC3" />
+    <edge source="FANCA" target="NAMPT" />
+    <edge source="FANCA" target="FANCA" />
+    <edge source="NAMPT" target="NAMPT" />
+  </graph>
+</graphml>

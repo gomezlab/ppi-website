@@ -1,0 +1,2315 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="SERBP1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="GTPBP4">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DDX52">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="HNRNPU">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL17">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS16">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RIOK1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS13">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL13">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL7">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS5">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL7A">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPLP0">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="EIF6">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PWP1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPLP2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL39">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL38">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="SURF6">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL22">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL13A">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="EIF4B">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS15A">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="SRP68">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS18">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL10A">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="UBA52">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL15">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="GNL2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL29">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="HIST1H1A">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL5">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="NPM1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RBM28">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS11">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="HABP4">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DHX30">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS4Y1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL28">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="EEF1E1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL18">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL10">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="SRPK3">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL23A">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL35A">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS8">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL6">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="CNBP">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL21">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL12">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DDX56">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS3">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="NCL">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS20">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="NAT10">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="HIST1H1E">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPSA">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL8">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RRP1B">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL4">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="HIST1H1C">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS14">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL11">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS6">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL27">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL23">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="FTSJ3">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PES1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="MKI67">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="H1FX">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DDX10">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS3A">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL35">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPL19">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="HIST1H1D">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="LYAR">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="SRPK2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RPS9">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <edge source="SERBP1" target="DDX10" />
+    <edge source="SERBP1" target="DDX52" />
+    <edge source="SERBP1" target="DDX56" />
+    <edge source="SERBP1" target="EIF4B" />
+    <edge source="SERBP1" target="FTSJ3" />
+    <edge source="SERBP1" target="GNL2" />
+    <edge source="SERBP1" target="GTPBP4" />
+    <edge source="SERBP1" target="HNRNPU" />
+    <edge source="SERBP1" target="NCL" />
+    <edge source="SERBP1" target="NPM1" />
+    <edge source="SERBP1" target="PES1" />
+    <edge source="SERBP1" target="PWP1" />
+    <edge source="SERBP1" target="RIOK1" />
+    <edge source="SERBP1" target="RPL10" />
+    <edge source="SERBP1" target="RPL4" />
+    <edge source="SERBP1" target="RPL7A" />
+    <edge source="SERBP1" target="RPS14" />
+    <edge source="SERBP1" target="RPS20" />
+    <edge source="SERBP1" target="RPS3" />
+    <edge source="SERBP1" target="RPS3A" />
+    <edge source="SERBP1" target="RPS6" />
+    <edge source="SERBP1" target="SERBP1" />
+    <edge source="SERBP1" target="SURF6" />
+    <edge source="GTPBP4" target="CNBP" />
+    <edge source="GTPBP4" target="DDX56" />
+    <edge source="GTPBP4" target="EIF6" />
+    <edge source="GTPBP4" target="GNL2" />
+    <edge source="GTPBP4" target="RPL17" />
+    <edge source="GTPBP4" target="RIOK1" />
+    <edge source="GTPBP4" target="RPL13" />
+    <edge source="GTPBP4" target="RPL10" />
+    <edge source="GTPBP4" target="NCL" />
+    <edge source="GTPBP4" target="RPSA" />
+    <edge source="GTPBP4" target="RPL8" />
+    <edge source="GTPBP4" target="RPL4" />
+    <edge source="GTPBP4" target="RPS3A" />
+    <edge source="GTPBP4" target="RPL35" />
+    <edge source="GTPBP4" target="PWP1" />
+    <edge source="GTPBP4" target="SURF6" />
+    <edge source="GTPBP4" target="RPS2" />
+    <edge source="GTPBP4" target="RPL10A" />
+    <edge source="GTPBP4" target="SRPK3" />
+    <edge source="GTPBP4" target="RRP1B" />
+    <edge source="GTPBP4" target="RPL11" />
+    <edge source="GTPBP4" target="MKI67" />
+    <edge source="GTPBP4" target="RPL19" />
+    <edge source="GTPBP4" target="HNRNPU" />
+    <edge source="GTPBP4" target="RPLP0" />
+    <edge source="GTPBP4" target="RPL22" />
+    <edge source="GTPBP4" target="RPL13A" />
+    <edge source="GTPBP4" target="SRP68" />
+    <edge source="GTPBP4" target="RPL15" />
+    <edge source="GTPBP4" target="HIST1H1A" />
+    <edge source="GTPBP4" target="NPM1" />
+    <edge source="GTPBP4" target="HABP4" />
+    <edge source="GTPBP4" target="RPL18" />
+    <edge source="GTPBP4" target="RPL23A" />
+    <edge source="GTPBP4" target="RPS14" />
+    <edge source="GTPBP4" target="RPS6" />
+    <edge source="GTPBP4" target="RPL27" />
+    <edge source="GTPBP4" target="LYAR" />
+    <edge source="GTPBP4" target="RPL7A" />
+    <edge source="GTPBP4" target="RPL28" />
+    <edge source="GTPBP4" target="RPS8" />
+    <edge source="GTPBP4" target="RPL6" />
+    <edge source="GTPBP4" target="HIST1H1E" />
+    <edge source="GTPBP4" target="PES1" />
+    <edge source="GTPBP4" target="SRPK2" />
+    <edge source="DDX52" target="GNL2" />
+    <edge source="DDX52" target="HIST1H1A" />
+    <edge source="DDX52" target="NPM1" />
+    <edge source="DDX52" target="HABP4" />
+    <edge source="DDX52" target="RPL18" />
+    <edge source="DDX52" target="RRP1B" />
+    <edge source="DDX52" target="RPL4" />
+    <edge source="DDX52" target="RPS6" />
+    <edge source="DDX52" target="SRPK2" />
+    <edge source="HNRNPU" target="DHX30" />
+    <edge source="HNRNPU" target="EIF4B" />
+    <edge source="HNRNPU" target="EIF6" />
+    <edge source="HNRNPU" target="FTSJ3" />
+    <edge source="HNRNPU" target="GNL2" />
+    <edge source="HNRNPU" target="H1FX" />
+    <edge source="HNRNPU" target="RPL17" />
+    <edge source="HNRNPU" target="RIOK1" />
+    <edge source="HNRNPU" target="RPL13" />
+    <edge source="HNRNPU" target="RPS15A" />
+    <edge source="HNRNPU" target="RPL10" />
+    <edge source="HNRNPU" target="NCL" />
+    <edge source="HNRNPU" target="RPSA" />
+    <edge source="HNRNPU" target="RPL8" />
+    <edge source="HNRNPU" target="RPL4" />
+    <edge source="HNRNPU" target="RPS3A" />
+    <edge source="HNRNPU" target="RPL35" />
+    <edge source="HNRNPU" target="RPS5" />
+    <edge source="HNRNPU" target="RPLP2" />
+    <edge source="HNRNPU" target="SURF6" />
+    <edge source="HNRNPU" target="RPS2" />
+    <edge source="HNRNPU" target="RPL10A" />
+    <edge source="HNRNPU" target="RRP1B" />
+    <edge source="HNRNPU" target="RPL11" />
+    <edge source="HNRNPU" target="RPL23" />
+    <edge source="HNRNPU" target="RPL19" />
+    <edge source="HNRNPU" target="RPS16" />
+    <edge source="HNRNPU" target="RPL7" />
+    <edge source="HNRNPU" target="RPLP0" />
+    <edge source="HNRNPU" target="RPL22" />
+    <edge source="HNRNPU" target="RPL13A" />
+    <edge source="HNRNPU" target="UBA52" />
+    <edge source="HNRNPU" target="RPL15" />
+    <edge source="HNRNPU" target="NPM1" />
+    <edge source="HNRNPU" target="RPS11" />
+    <edge source="HNRNPU" target="RPL18" />
+    <edge source="HNRNPU" target="RPL23A" />
+    <edge source="HNRNPU" target="RPL12" />
+    <edge source="HNRNPU" target="RPS3" />
+    <edge source="HNRNPU" target="NAT10" />
+    <edge source="HNRNPU" target="RPS14" />
+    <edge source="HNRNPU" target="RPS6" />
+    <edge source="HNRNPU" target="RPL27" />
+    <edge source="HNRNPU" target="LYAR" />
+    <edge source="HNRNPU" target="RPS13" />
+    <edge source="HNRNPU" target="RPL7A" />
+    <edge source="HNRNPU" target="RPS18" />
+    <edge source="HNRNPU" target="RPL5" />
+    <edge source="HNRNPU" target="RBM28" />
+    <edge source="HNRNPU" target="RPL28" />
+    <edge source="HNRNPU" target="RPS8" />
+    <edge source="HNRNPU" target="RPL6" />
+    <edge source="HNRNPU" target="RPL21" />
+    <edge source="HNRNPU" target="RPS9" />
+    <edge source="RPL17" target="CNBP" />
+    <edge source="RPL17" target="DDX10" />
+    <edge source="RPL17" target="DHX30" />
+    <edge source="RPL17" target="EIF6" />
+    <edge source="RPL17" target="FTSJ3" />
+    <edge source="RPL17" target="GNL2" />
+    <edge source="RPL17" target="HIST1H1A" />
+    <edge source="RPL17" target="HIST1H1E" />
+    <edge source="RPL17" target="LYAR" />
+    <edge source="RPL17" target="NAT10" />
+    <edge source="RPL17" target="NCL" />
+    <edge source="RPL17" target="NPM1" />
+    <edge source="RPL17" target="RBM28" />
+    <edge source="RPL17" target="RIOK1" />
+    <edge source="RPL17" target="RPL10" />
+    <edge source="RPL17" target="RPL10A" />
+    <edge source="RPL17" target="RPL11" />
+    <edge source="RPL17" target="RPL12" />
+    <edge source="RPL17" target="RPL13" />
+    <edge source="RPL17" target="RPL13A" />
+    <edge source="RPL17" target="RPL15" />
+    <edge source="RPL17" target="RPL38" />
+    <edge source="RPL17" target="RPS15A" />
+    <edge source="RPL17" target="RPS20" />
+    <edge source="RPL17" target="RPSA" />
+    <edge source="RPL17" target="RPL8" />
+    <edge source="RPL17" target="RPL4" />
+    <edge source="RPL17" target="RPS3A" />
+    <edge source="RPL17" target="RPL35" />
+    <edge source="RPL17" target="RPS5" />
+    <edge source="RPL17" target="SURF6" />
+    <edge source="RPL17" target="RPS2" />
+    <edge source="RPL17" target="RPL29" />
+    <edge source="RPL17" target="SRPK3" />
+    <edge source="RPL17" target="RPL35A" />
+    <edge source="RPL17" target="RRP1B" />
+    <edge source="RPL17" target="RPL23" />
+    <edge source="RPL17" target="RPL19" />
+    <edge source="RPL17" target="RPS16" />
+    <edge source="RPL17" target="RPL7" />
+    <edge source="RPL17" target="RPLP0" />
+    <edge source="RPL17" target="RPL22" />
+    <edge source="RPL17" target="SRP68" />
+    <edge source="RPL17" target="UBA52" />
+    <edge source="RPL17" target="RPS11" />
+    <edge source="RPL17" target="RPL18" />
+    <edge source="RPL17" target="RPL23A" />
+    <edge source="RPL17" target="RPS3" />
+    <edge source="RPL17" target="RPS14" />
+    <edge source="RPL17" target="RPS6" />
+    <edge source="RPL17" target="RPS13" />
+    <edge source="RPL17" target="RPL7A" />
+    <edge source="RPL17" target="RPS18" />
+    <edge source="RPL17" target="RPL5" />
+    <edge source="RPL17" target="RPL28" />
+    <edge source="RPL17" target="RPS8" />
+    <edge source="RPL17" target="RPL6" />
+    <edge source="RPL17" target="RPL21" />
+    <edge source="RPL17" target="SRPK2" />
+    <edge source="RPL17" target="RPS9" />
+    <edge source="RPS16" target="CNBP" />
+    <edge source="RPS16" target="DDX10" />
+    <edge source="RPS16" target="DDX56" />
+    <edge source="RPS16" target="EIF4B" />
+    <edge source="RPS16" target="EIF6" />
+    <edge source="RPS16" target="GNL2" />
+    <edge source="RPS16" target="HIST1H1A" />
+    <edge source="RPS16" target="HIST1H1D" />
+    <edge source="RPS16" target="HIST1H1E" />
+    <edge source="RPS16" target="LYAR" />
+    <edge source="RPS16" target="NCL" />
+    <edge source="RPS16" target="NPM1" />
+    <edge source="RPS16" target="RIOK1" />
+    <edge source="RPS16" target="RPL10" />
+    <edge source="RPS16" target="RPL10A" />
+    <edge source="RPS16" target="RPL11" />
+    <edge source="RPS16" target="RPL12" />
+    <edge source="RPS16" target="RPL13" />
+    <edge source="RPS16" target="RPL13A" />
+    <edge source="RPS16" target="RPL15" />
+    <edge source="RPS16" target="RPL18" />
+    <edge source="RPS16" target="RPL19" />
+    <edge source="RPS16" target="RPL21" />
+    <edge source="RPS16" target="RPL22" />
+    <edge source="RPS16" target="RPL23" />
+    <edge source="RPS16" target="RPL23A" />
+    <edge source="RPS16" target="RPL27" />
+    <edge source="RPS16" target="RPL28" />
+    <edge source="RPS16" target="RPL29" />
+    <edge source="RPS16" target="RPL35" />
+    <edge source="RPS16" target="RPL35A" />
+    <edge source="RPS16" target="RPL38" />
+    <edge source="RPS16" target="RPL4" />
+    <edge source="RPS16" target="RPL5" />
+    <edge source="RPS16" target="RPL6" />
+    <edge source="RPS16" target="RPL7" />
+    <edge source="RPS16" target="RPL7A" />
+    <edge source="RPS16" target="RPL8" />
+    <edge source="RPS16" target="RPLP0" />
+    <edge source="RPS16" target="RPLP2" />
+    <edge source="RPS16" target="RPS11" />
+    <edge source="RPS16" target="RPS13" />
+    <edge source="RPS16" target="RPS14" />
+    <edge source="RPS16" target="RPS15A" />
+    <edge source="RPS16" target="RPS20" />
+    <edge source="RPS16" target="RPSA" />
+    <edge source="RPS16" target="RPS3A" />
+    <edge source="RPS16" target="RPS5" />
+    <edge source="RPS16" target="SURF6" />
+    <edge source="RPS16" target="RPS2" />
+    <edge source="RPS16" target="RRP1B" />
+    <edge source="RPS16" target="RPS3" />
+    <edge source="RPS16" target="RPS6" />
+    <edge source="RPS16" target="RPS18" />
+    <edge source="RPS16" target="RPS8" />
+    <edge source="RPS16" target="RPS9" />
+    <edge source="RIOK1" target="DDX56" />
+    <edge source="RIOK1" target="DHX30" />
+    <edge source="RIOK1" target="FTSJ3" />
+    <edge source="RIOK1" target="GNL2" />
+    <edge source="RIOK1" target="H1FX" />
+    <edge source="RIOK1" target="HIST1H1C" />
+    <edge source="RIOK1" target="HIST1H1D" />
+    <edge source="RIOK1" target="HIST1H1E" />
+    <edge source="RIOK1" target="LYAR" />
+    <edge source="RIOK1" target="NAT10" />
+    <edge source="RIOK1" target="NCL" />
+    <edge source="RIOK1" target="PES1" />
+    <edge source="RIOK1" target="RPL13" />
+    <edge source="RIOK1" target="RPL38" />
+    <edge source="RIOK1" target="RPS15A" />
+    <edge source="RIOK1" target="RPL10" />
+    <edge source="RIOK1" target="RPS20" />
+    <edge source="RIOK1" target="RPSA" />
+    <edge source="RIOK1" target="RPL8" />
+    <edge source="RIOK1" target="RPL4" />
+    <edge source="RIOK1" target="RPS3A" />
+    <edge source="RIOK1" target="RPL35" />
+    <edge source="RIOK1" target="RPS5" />
+    <edge source="RIOK1" target="RPLP2" />
+    <edge source="RIOK1" target="SURF6" />
+    <edge source="RIOK1" target="RPS2" />
+    <edge source="RIOK1" target="RPL10A" />
+    <edge source="RIOK1" target="RPL29" />
+    <edge source="RIOK1" target="RPL11" />
+    <edge source="RIOK1" target="RPL23" />
+    <edge source="RIOK1" target="RPL19" />
+    <edge source="RIOK1" target="RPL7" />
+    <edge source="RIOK1" target="RPLP0" />
+    <edge source="RIOK1" target="RPL22" />
+    <edge source="RIOK1" target="RPL13A" />
+    <edge source="RIOK1" target="RPL15" />
+    <edge source="RIOK1" target="RPS11" />
+    <edge source="RIOK1" target="RPL18" />
+    <edge source="RIOK1" target="RPL23A" />
+    <edge source="RIOK1" target="RPL12" />
+    <edge source="RIOK1" target="RPS3" />
+    <edge source="RIOK1" target="RPS14" />
+    <edge source="RIOK1" target="RPS6" />
+    <edge source="RIOK1" target="RPS13" />
+    <edge source="RIOK1" target="RPL7A" />
+    <edge source="RIOK1" target="RPS18" />
+    <edge source="RIOK1" target="RPL5" />
+    <edge source="RIOK1" target="RPL28" />
+    <edge source="RIOK1" target="RPS8" />
+    <edge source="RIOK1" target="RPL6" />
+    <edge source="RIOK1" target="RPL21" />
+    <edge source="RIOK1" target="RPS9" />
+    <edge source="RPS13" target="CNBP" />
+    <edge source="RPS13" target="EIF4B" />
+    <edge source="RPS13" target="HIST1H1A" />
+    <edge source="RPS13" target="HIST1H1D" />
+    <edge source="RPS13" target="HIST1H1E" />
+    <edge source="RPS13" target="NCL" />
+    <edge source="RPS13" target="NPM1" />
+    <edge source="RPS13" target="RBM28" />
+    <edge source="RPS13" target="RPL10" />
+    <edge source="RPS13" target="RPL10A" />
+    <edge source="RPS13" target="RPL11" />
+    <edge source="RPS13" target="RPL12" />
+    <edge source="RPS13" target="RPL13" />
+    <edge source="RPS13" target="RPL13A" />
+    <edge source="RPS13" target="RPL15" />
+    <edge source="RPS13" target="RPL18" />
+    <edge source="RPS13" target="RPL19" />
+    <edge source="RPS13" target="RPL21" />
+    <edge source="RPS13" target="RPL22" />
+    <edge source="RPS13" target="RPL23" />
+    <edge source="RPS13" target="RPL23A" />
+    <edge source="RPS13" target="RPL27" />
+    <edge source="RPS13" target="RPL35" />
+    <edge source="RPS13" target="RPL35A" />
+    <edge source="RPS13" target="RPL38" />
+    <edge source="RPS13" target="RPL4" />
+    <edge source="RPS13" target="RPL5" />
+    <edge source="RPS13" target="RPL6" />
+    <edge source="RPS13" target="RPL7" />
+    <edge source="RPS13" target="RPL7A" />
+    <edge source="RPS13" target="RPL8" />
+    <edge source="RPS13" target="RPLP0" />
+    <edge source="RPS13" target="RPLP2" />
+    <edge source="RPS13" target="RPS11" />
+    <edge source="RPS13" target="RPS15A" />
+    <edge source="RPS13" target="RPS20" />
+    <edge source="RPS13" target="RPSA" />
+    <edge source="RPS13" target="RPS3A" />
+    <edge source="RPS13" target="RPS5" />
+    <edge source="RPS13" target="SURF6" />
+    <edge source="RPS13" target="RPS2" />
+    <edge source="RPS13" target="RRP1B" />
+    <edge source="RPS13" target="SRP68" />
+    <edge source="RPS13" target="RPS3" />
+    <edge source="RPS13" target="RPS14" />
+    <edge source="RPS13" target="RPS6" />
+    <edge source="RPS13" target="RPS18" />
+    <edge source="RPS13" target="RPS8" />
+    <edge source="RPS13" target="RPS9" />
+    <edge source="RPL13" target="CNBP" />
+    <edge source="RPL13" target="DDX10" />
+    <edge source="RPL13" target="DDX56" />
+    <edge source="RPL13" target="DHX30" />
+    <edge source="RPL13" target="EEF1E1" />
+    <edge source="RPL13" target="FTSJ3" />
+    <edge source="RPL13" target="GNL2" />
+    <edge source="RPL13" target="LYAR" />
+    <edge source="RPL13" target="NAT10" />
+    <edge source="RPL13" target="NCL" />
+    <edge source="RPL13" target="NPM1" />
+    <edge source="RPL13" target="RBM28" />
+    <edge source="RPL13" target="RPL10" />
+    <edge source="RPL13" target="RPL10A" />
+    <edge source="RPL13" target="RPL11" />
+    <edge source="RPL13" target="RPL12" />
+    <edge source="RPL13" target="RPL38" />
+    <edge source="RPL13" target="RPS15A" />
+    <edge source="RPL13" target="RPS20" />
+    <edge source="RPL13" target="RPSA" />
+    <edge source="RPL13" target="RPL8" />
+    <edge source="RPL13" target="RPL4" />
+    <edge source="RPL13" target="RPS3A" />
+    <edge source="RPL13" target="RPL35" />
+    <edge source="RPL13" target="RPS5" />
+    <edge source="RPL13" target="RPLP2" />
+    <edge source="RPL13" target="SURF6" />
+    <edge source="RPL13" target="RPS2" />
+    <edge source="RPL13" target="SRPK3" />
+    <edge source="RPL13" target="RPL35A" />
+    <edge source="RPL13" target="RRP1B" />
+    <edge source="RPL13" target="RPL23" />
+    <edge source="RPL13" target="RPL19" />
+    <edge source="RPL13" target="RPL7" />
+    <edge source="RPL13" target="RPLP0" />
+    <edge source="RPL13" target="RPL22" />
+    <edge source="RPL13" target="RPL13A" />
+    <edge source="RPL13" target="SRP68" />
+    <edge source="RPL13" target="UBA52" />
+    <edge source="RPL13" target="RPL15" />
+    <edge source="RPL13" target="RPS11" />
+    <edge source="RPL13" target="RPL18" />
+    <edge source="RPL13" target="RPL23A" />
+    <edge source="RPL13" target="RPS3" />
+    <edge source="RPL13" target="RPS14" />
+    <edge source="RPL13" target="RPS6" />
+    <edge source="RPL13" target="RPL27" />
+    <edge source="RPL13" target="RPL7A" />
+    <edge source="RPL13" target="RPS18" />
+    <edge source="RPL13" target="RPL5" />
+    <edge source="RPL13" target="RPL28" />
+    <edge source="RPL13" target="RPS8" />
+    <edge source="RPL13" target="RPL6" />
+    <edge source="RPL13" target="RPL21" />
+    <edge source="RPL13" target="SRPK2" />
+    <edge source="RPL13" target="RPS9" />
+    <edge source="RPL7" target="CNBP" />
+    <edge source="RPL7" target="EIF6" />
+    <edge source="RPL7" target="NCL" />
+    <edge source="RPL7" target="NPM1" />
+    <edge source="RPL7" target="PES1" />
+    <edge source="RPL7" target="RPL10" />
+    <edge source="RPL7" target="RPL10A" />
+    <edge source="RPL7" target="RPL11" />
+    <edge source="RPL7" target="RPL12" />
+    <edge source="RPL7" target="RPL13A" />
+    <edge source="RPL7" target="RPL15" />
+    <edge source="RPL7" target="RPL18" />
+    <edge source="RPL7" target="RPL19" />
+    <edge source="RPL7" target="RPL21" />
+    <edge source="RPL7" target="RPL22" />
+    <edge source="RPL7" target="RPL23" />
+    <edge source="RPL7" target="RPL23A" />
+    <edge source="RPL7" target="RPL27" />
+    <edge source="RPL7" target="RPL28" />
+    <edge source="RPL7" target="RPL29" />
+    <edge source="RPL7" target="RPL35" />
+    <edge source="RPL7" target="RPL35A" />
+    <edge source="RPL7" target="RPL38" />
+    <edge source="RPL7" target="RPL4" />
+    <edge source="RPL7" target="RPL5" />
+    <edge source="RPL7" target="RPL6" />
+    <edge source="RPL7" target="RPS15A" />
+    <edge source="RPL7" target="RPS20" />
+    <edge source="RPL7" target="RPSA" />
+    <edge source="RPL7" target="RPL8" />
+    <edge source="RPL7" target="RPS3A" />
+    <edge source="RPL7" target="RPS5" />
+    <edge source="RPL7" target="RPLP2" />
+    <edge source="RPL7" target="SURF6" />
+    <edge source="RPL7" target="RPS2" />
+    <edge source="RPL7" target="RRP1B" />
+    <edge source="RPL7" target="RPL7" />
+    <edge source="RPL7" target="RPLP0" />
+    <edge source="RPL7" target="RPS11" />
+    <edge source="RPL7" target="RPS3" />
+    <edge source="RPL7" target="RPS14" />
+    <edge source="RPL7" target="RPS6" />
+    <edge source="RPL7" target="RPL7A" />
+    <edge source="RPL7" target="RPS18" />
+    <edge source="RPL7" target="RPS8" />
+    <edge source="RPL7" target="RPS9" />
+    <edge source="RPS5" target="EIF4B" />
+    <edge source="RPS5" target="EIF6" />
+    <edge source="RPS5" target="HIST1H1A" />
+    <edge source="RPS5" target="HIST1H1C" />
+    <edge source="RPS5" target="HIST1H1D" />
+    <edge source="RPS5" target="HIST1H1E" />
+    <edge source="RPS5" target="MKI67" />
+    <edge source="RPS5" target="NAT10" />
+    <edge source="RPS5" target="NCL" />
+    <edge source="RPS5" target="NPM1" />
+    <edge source="RPS5" target="RPL10" />
+    <edge source="RPS5" target="RPL10A" />
+    <edge source="RPS5" target="RPL11" />
+    <edge source="RPS5" target="RPL12" />
+    <edge source="RPS5" target="RPL13A" />
+    <edge source="RPS5" target="RPL15" />
+    <edge source="RPS5" target="RPL18" />
+    <edge source="RPS5" target="RPL19" />
+    <edge source="RPS5" target="RPL21" />
+    <edge source="RPS5" target="RPL22" />
+    <edge source="RPS5" target="RPL23" />
+    <edge source="RPS5" target="RPL23A" />
+    <edge source="RPS5" target="RPL27" />
+    <edge source="RPS5" target="RPL35" />
+    <edge source="RPS5" target="RPL35A" />
+    <edge source="RPS5" target="RPL38" />
+    <edge source="RPS5" target="RPL4" />
+    <edge source="RPS5" target="RPL5" />
+    <edge source="RPS5" target="RPL6" />
+    <edge source="RPS5" target="RPL7A" />
+    <edge source="RPS5" target="RPL8" />
+    <edge source="RPS5" target="RPLP0" />
+    <edge source="RPS5" target="RPLP2" />
+    <edge source="RPS5" target="RPS11" />
+    <edge source="RPS5" target="RPS14" />
+    <edge source="RPS5" target="RPS15A" />
+    <edge source="RPS5" target="RPS18" />
+    <edge source="RPS5" target="RPS2" />
+    <edge source="RPS5" target="RPS20" />
+    <edge source="RPS5" target="RPS3" />
+    <edge source="RPS5" target="RPS3A" />
+    <edge source="RPS5" target="RPSA" />
+    <edge source="RPS5" target="SURF6" />
+    <edge source="RPS5" target="RRP1B" />
+    <edge source="RPS5" target="UBA52" />
+    <edge source="RPS5" target="RPS6" />
+    <edge source="RPS5" target="RPS8" />
+    <edge source="RPS5" target="RPS9" />
+    <edge source="RPL7A" target="CNBP" />
+    <edge source="RPL7A" target="DDX10" />
+    <edge source="RPL7A" target="DDX56" />
+    <edge source="RPL7A" target="DHX30" />
+    <edge source="RPL7A" target="EEF1E1" />
+    <edge source="RPL7A" target="FTSJ3" />
+    <edge source="RPL7A" target="GNL2" />
+    <edge source="RPL7A" target="H1FX" />
+    <edge source="RPL7A" target="HIST1H1A" />
+    <edge source="RPL7A" target="HIST1H1E" />
+    <edge source="RPL7A" target="NCL" />
+    <edge source="RPL7A" target="NPM1" />
+    <edge source="RPL7A" target="PES1" />
+    <edge source="RPL7A" target="PWP1" />
+    <edge source="RPL7A" target="RBM28" />
+    <edge source="RPL7A" target="RPL10" />
+    <edge source="RPL7A" target="RPL10A" />
+    <edge source="RPL7A" target="RPL11" />
+    <edge source="RPL7A" target="RPL12" />
+    <edge source="RPL7A" target="RPL13A" />
+    <edge source="RPL7A" target="RPL15" />
+    <edge source="RPL7A" target="RPL18" />
+    <edge source="RPL7A" target="RPL19" />
+    <edge source="RPL7A" target="RPL21" />
+    <edge source="RPL7A" target="RPL22" />
+    <edge source="RPL7A" target="RPL23" />
+    <edge source="RPL7A" target="RPL23A" />
+    <edge source="RPL7A" target="RPL27" />
+    <edge source="RPL7A" target="RPL28" />
+    <edge source="RPL7A" target="RPL29" />
+    <edge source="RPL7A" target="RPL35" />
+    <edge source="RPL7A" target="RPL35A" />
+    <edge source="RPL7A" target="RPL38" />
+    <edge source="RPL7A" target="RPL4" />
+    <edge source="RPL7A" target="RPL5" />
+    <edge source="RPL7A" target="RPL6" />
+    <edge source="RPL7A" target="RPS15A" />
+    <edge source="RPL7A" target="RPS20" />
+    <edge source="RPL7A" target="RPSA" />
+    <edge source="RPL7A" target="RPL8" />
+    <edge source="RPL7A" target="RPS3A" />
+    <edge source="RPL7A" target="RPLP2" />
+    <edge source="RPL7A" target="SURF6" />
+    <edge source="RPL7A" target="RPS2" />
+    <edge source="RPL7A" target="SRPK3" />
+    <edge source="RPL7A" target="RRP1B" />
+    <edge source="RPL7A" target="RPLP0" />
+    <edge source="RPL7A" target="SRP68" />
+    <edge source="RPL7A" target="RPS11" />
+    <edge source="RPL7A" target="RPS3" />
+    <edge source="RPL7A" target="RPS14" />
+    <edge source="RPL7A" target="RPS6" />
+    <edge source="RPL7A" target="RPS18" />
+    <edge source="RPL7A" target="RPS8" />
+    <edge source="RPL7A" target="SRPK2" />
+    <edge source="RPL7A" target="RPS9" />
+    <edge source="RPLP0" target="CNBP" />
+    <edge source="RPLP0" target="DDX10" />
+    <edge source="RPLP0" target="DDX56" />
+    <edge source="RPLP0" target="DHX30" />
+    <edge source="RPLP0" target="EEF1E1" />
+    <edge source="RPLP0" target="EIF6" />
+    <edge source="RPLP0" target="FTSJ3" />
+    <edge source="RPLP0" target="GNL2" />
+    <edge source="RPLP0" target="HIST1H1A" />
+    <edge source="RPLP0" target="HIST1H1C" />
+    <edge source="RPLP0" target="HIST1H1E" />
+    <edge source="RPLP0" target="LYAR" />
+    <edge source="RPLP0" target="NAT10" />
+    <edge source="RPLP0" target="NCL" />
+    <edge source="RPLP0" target="NPM1" />
+    <edge source="RPLP0" target="RBM28" />
+    <edge source="RPLP0" target="RPL10" />
+    <edge source="RPLP0" target="RPL10A" />
+    <edge source="RPLP0" target="RPL11" />
+    <edge source="RPLP0" target="RPL12" />
+    <edge source="RPLP0" target="RPL13A" />
+    <edge source="RPLP0" target="RPL15" />
+    <edge source="RPLP0" target="RPL18" />
+    <edge source="RPLP0" target="RPL19" />
+    <edge source="RPLP0" target="RPL21" />
+    <edge source="RPLP0" target="RPL22" />
+    <edge source="RPLP0" target="RPL23" />
+    <edge source="RPLP0" target="RPL23A" />
+    <edge source="RPLP0" target="RPL27" />
+    <edge source="RPLP0" target="RPL28" />
+    <edge source="RPLP0" target="RPL35" />
+    <edge source="RPLP0" target="RPL35A" />
+    <edge source="RPLP0" target="RPL38" />
+    <edge source="RPLP0" target="RPL4" />
+    <edge source="RPLP0" target="RPL5" />
+    <edge source="RPLP0" target="RPL6" />
+    <edge source="RPLP0" target="RPL8" />
+    <edge source="RPLP0" target="RPS15A" />
+    <edge source="RPLP0" target="RPS20" />
+    <edge source="RPLP0" target="RPSA" />
+    <edge source="RPLP0" target="RPS3A" />
+    <edge source="RPLP0" target="RPLP2" />
+    <edge source="RPLP0" target="SURF6" />
+    <edge source="RPLP0" target="RPS2" />
+    <edge source="RPLP0" target="RRP1B" />
+    <edge source="RPLP0" target="SRP68" />
+    <edge source="RPLP0" target="RPS11" />
+    <edge source="RPLP0" target="RPS3" />
+    <edge source="RPLP0" target="RPS14" />
+    <edge source="RPLP0" target="RPS6" />
+    <edge source="RPLP0" target="RPS18" />
+    <edge source="RPLP0" target="RPS8" />
+    <edge source="RPLP0" target="SRPK2" />
+    <edge source="RPLP0" target="RPS9" />
+    <edge source="EIF6" target="CNBP" />
+    <edge source="EIF6" target="DDX56" />
+    <edge source="EIF6" target="RPS15A" />
+    <edge source="EIF6" target="NCL" />
+    <edge source="EIF6" target="RPL8" />
+    <edge source="EIF6" target="RPL4" />
+    <edge source="EIF6" target="RRP1B" />
+    <edge source="EIF6" target="RPL23" />
+    <edge source="EIF6" target="RPL13A" />
+    <edge source="EIF6" target="GNL2" />
+    <edge source="EIF6" target="RPS6" />
+    <edge source="EIF6" target="LYAR" />
+    <edge source="EIF6" target="RPL5" />
+    <edge source="EIF6" target="RBM28" />
+    <edge source="EIF6" target="RPL6" />
+    <edge source="PWP1" target="DDX10" />
+    <edge source="PWP1" target="FTSJ3" />
+    <edge source="PWP1" target="HABP4" />
+    <edge source="PWP1" target="LYAR" />
+    <edge source="PWP1" target="NCL" />
+    <edge source="PWP1" target="NPM1" />
+    <edge source="PWP1" target="PES1" />
+    <edge source="PWP1" target="RPL15" />
+    <edge source="PWP1" target="RPL5" />
+    <edge source="PWP1" target="SRPK3" />
+    <edge source="PWP1" target="RPS6" />
+    <edge source="PWP1" target="SRPK2" />
+    <edge source="RPLP2" target="CNBP" />
+    <edge source="RPLP2" target="HIST1H1A" />
+    <edge source="RPLP2" target="HIST1H1E" />
+    <edge source="RPLP2" target="LYAR" />
+    <edge source="RPLP2" target="NPM1" />
+    <edge source="RPLP2" target="RPL10" />
+    <edge source="RPLP2" target="RPL10A" />
+    <edge source="RPLP2" target="RPL11" />
+    <edge source="RPLP2" target="RPL12" />
+    <edge source="RPLP2" target="RPL13A" />
+    <edge source="RPLP2" target="RPL15" />
+    <edge source="RPLP2" target="RPL18" />
+    <edge source="RPLP2" target="RPL19" />
+    <edge source="RPLP2" target="RPL21" />
+    <edge source="RPLP2" target="RPL22" />
+    <edge source="RPLP2" target="RPL23" />
+    <edge source="RPLP2" target="RPL23A" />
+    <edge source="RPLP2" target="RPL27" />
+    <edge source="RPLP2" target="RPL28" />
+    <edge source="RPLP2" target="RPL35" />
+    <edge source="RPLP2" target="RPL35A" />
+    <edge source="RPLP2" target="RPL38" />
+    <edge source="RPLP2" target="RPL4" />
+    <edge source="RPLP2" target="RPL5" />
+    <edge source="RPLP2" target="RPL6" />
+    <edge source="RPLP2" target="RPL8" />
+    <edge source="RPLP2" target="RPS15A" />
+    <edge source="RPLP2" target="RPS20" />
+    <edge source="RPLP2" target="RPSA" />
+    <edge source="RPLP2" target="RPS3A" />
+    <edge source="RPLP2" target="RPLP2" />
+    <edge source="RPLP2" target="SURF6" />
+    <edge source="RPLP2" target="RPS2" />
+    <edge source="RPLP2" target="RRP1B" />
+    <edge source="RPLP2" target="UBA52" />
+    <edge source="RPLP2" target="RPS11" />
+    <edge source="RPLP2" target="RPS3" />
+    <edge source="RPLP2" target="RPS14" />
+    <edge source="RPLP2" target="RPS6" />
+    <edge source="RPLP2" target="RPS18" />
+    <edge source="RPLP2" target="RPS8" />
+    <edge source="RPLP2" target="SRPK2" />
+    <edge source="RPLP2" target="RPS9" />
+    <edge source="RPL39" target="FTSJ3" />
+    <edge source="RPL39" target="RPL23" />
+    <edge source="RPL39" target="RPL35A" />
+    <edge source="RPL39" target="RPS6" />
+    <edge source="RPL39" target="RPS18" />
+    <edge source="RPL39" target="RPS3A" />
+    <edge source="RPL39" target="RPS9" />
+    <edge source="RPL38" target="HABP4" />
+    <edge source="RPL38" target="NPM1" />
+    <edge source="RPL38" target="PES1" />
+    <edge source="RPL38" target="RPL10" />
+    <edge source="RPL38" target="RPL10A" />
+    <edge source="RPL38" target="RPL11" />
+    <edge source="RPL38" target="RPL12" />
+    <edge source="RPL38" target="RPL13A" />
+    <edge source="RPL38" target="RPL15" />
+    <edge source="RPL38" target="RPL18" />
+    <edge source="RPL38" target="RPL19" />
+    <edge source="RPL38" target="RPL21" />
+    <edge source="RPL38" target="RPL22" />
+    <edge source="RPL38" target="RPL23" />
+    <edge source="RPL38" target="RPL23A" />
+    <edge source="RPL38" target="RPL27" />
+    <edge source="RPL38" target="RPL28" />
+    <edge source="RPL38" target="RPL29" />
+    <edge source="RPL38" target="RPL35" />
+    <edge source="RPL38" target="RPS2" />
+    <edge source="RPL38" target="RPS15A" />
+    <edge source="RPL38" target="RPS18" />
+    <edge source="RPL38" target="RPL5" />
+    <edge source="RPL38" target="RPS11" />
+    <edge source="RPL38" target="RPS8" />
+    <edge source="RPL38" target="RPL6" />
+    <edge source="RPL38" target="RPS3" />
+    <edge source="RPL38" target="RPS20" />
+    <edge source="RPL38" target="RPSA" />
+    <edge source="RPL38" target="RPL8" />
+    <edge source="RPL38" target="RPL4" />
+    <edge source="RPL38" target="RPS14" />
+    <edge source="RPL38" target="RPS6" />
+    <edge source="RPL38" target="RPS3A" />
+    <edge source="RPL38" target="RPS9" />
+    <edge source="SURF6" target="CNBP" />
+    <edge source="SURF6" target="DDX56" />
+    <edge source="SURF6" target="DHX30" />
+    <edge source="SURF6" target="FTSJ3" />
+    <edge source="SURF6" target="GNL2" />
+    <edge source="SURF6" target="HABP4" />
+    <edge source="SURF6" target="HIST1H1A" />
+    <edge source="SURF6" target="HIST1H1D" />
+    <edge source="SURF6" target="HIST1H1E" />
+    <edge source="SURF6" target="LYAR" />
+    <edge source="SURF6" target="NAT10" />
+    <edge source="SURF6" target="NCL" />
+    <edge source="SURF6" target="NPM1" />
+    <edge source="SURF6" target="RBM28" />
+    <edge source="SURF6" target="RPL10" />
+    <edge source="SURF6" target="RPL10A" />
+    <edge source="SURF6" target="RPL11" />
+    <edge source="SURF6" target="RPL13A" />
+    <edge source="SURF6" target="RPL15" />
+    <edge source="SURF6" target="RPL18" />
+    <edge source="SURF6" target="RPL19" />
+    <edge source="SURF6" target="RPL22" />
+    <edge source="SURF6" target="RPL23A" />
+    <edge source="SURF6" target="RPL28" />
+    <edge source="SURF6" target="RPL35" />
+    <edge source="SURF6" target="RPL4" />
+    <edge source="SURF6" target="RPL6" />
+    <edge source="SURF6" target="RPL8" />
+    <edge source="SURF6" target="RPS2" />
+    <edge source="SURF6" target="RPS3A" />
+    <edge source="SURF6" target="RPS6" />
+    <edge source="SURF6" target="RPS8" />
+    <edge source="SURF6" target="RPSA" />
+    <edge source="SURF6" target="RRP1B" />
+    <edge source="SURF6" target="SRPK2" />
+    <edge source="SURF6" target="SRPK3" />
+    <edge source="RPL22" target="DHX30" />
+    <edge source="RPL22" target="EIF4B" />
+    <edge source="RPL22" target="FTSJ3" />
+    <edge source="RPL22" target="GNL2" />
+    <edge source="RPL22" target="NCL" />
+    <edge source="RPL22" target="NPM1" />
+    <edge source="RPL22" target="RBM28" />
+    <edge source="RPL22" target="RPL10" />
+    <edge source="RPL22" target="RPL10A" />
+    <edge source="RPL22" target="RPL11" />
+    <edge source="RPL22" target="RPL12" />
+    <edge source="RPL22" target="RPL13A" />
+    <edge source="RPL22" target="RPL15" />
+    <edge source="RPL22" target="RPL18" />
+    <edge source="RPL22" target="RPL19" />
+    <edge source="RPL22" target="RPL21" />
+    <edge source="RPL22" target="RPS15A" />
+    <edge source="RPL22" target="RPS20" />
+    <edge source="RPL22" target="RPSA" />
+    <edge source="RPL22" target="RPL8" />
+    <edge source="RPL22" target="RPL4" />
+    <edge source="RPL22" target="RPS3A" />
+    <edge source="RPL22" target="RPL35" />
+    <edge source="RPL22" target="RPS2" />
+    <edge source="RPL22" target="RPL35A" />
+    <edge source="RPL22" target="RRP1B" />
+    <edge source="RPL22" target="RPL23" />
+    <edge source="RPL22" target="RPL22" />
+    <edge source="RPL22" target="RPS11" />
+    <edge source="RPL22" target="RPL23A" />
+    <edge source="RPL22" target="RPS3" />
+    <edge source="RPL22" target="RPS14" />
+    <edge source="RPL22" target="RPS6" />
+    <edge source="RPL22" target="RPL27" />
+    <edge source="RPL22" target="RPS18" />
+    <edge source="RPL22" target="RPL5" />
+    <edge source="RPL22" target="RPS8" />
+    <edge source="RPL22" target="RPL6" />
+    <edge source="RPL22" target="SRPK2" />
+    <edge source="RPL22" target="RPS9" />
+    <edge source="RPL13A" target="CNBP" />
+    <edge source="RPL13A" target="DDX10" />
+    <edge source="RPL13A" target="DDX56" />
+    <edge source="RPL13A" target="DHX30" />
+    <edge source="RPL13A" target="FTSJ3" />
+    <edge source="RPL13A" target="GNL2" />
+    <edge source="RPL13A" target="HIST1H1E" />
+    <edge source="RPL13A" target="LYAR" />
+    <edge source="RPL13A" target="MKI67" />
+    <edge source="RPL13A" target="NAT10" />
+    <edge source="RPL13A" target="NCL" />
+    <edge source="RPL13A" target="NPM1" />
+    <edge source="RPL13A" target="RBM28" />
+    <edge source="RPL13A" target="RPL10" />
+    <edge source="RPL13A" target="RPL10A" />
+    <edge source="RPL13A" target="RPL11" />
+    <edge source="RPL13A" target="RPL12" />
+    <edge source="RPL13A" target="RPS15A" />
+    <edge source="RPL13A" target="RPS20" />
+    <edge source="RPL13A" target="RPSA" />
+    <edge source="RPL13A" target="RPL8" />
+    <edge source="RPL13A" target="RPL4" />
+    <edge source="RPL13A" target="RPS3A" />
+    <edge source="RPL13A" target="RPL35" />
+    <edge source="RPL13A" target="RPS2" />
+    <edge source="RPL13A" target="SRPK3" />
+    <edge source="RPL13A" target="RPL35A" />
+    <edge source="RPL13A" target="RRP1B" />
+    <edge source="RPL13A" target="RPL23" />
+    <edge source="RPL13A" target="RPL19" />
+    <edge source="RPL13A" target="SRP68" />
+    <edge source="RPL13A" target="RPL15" />
+    <edge source="RPL13A" target="RPS11" />
+    <edge source="RPL13A" target="RPL18" />
+    <edge source="RPL13A" target="RPL23A" />
+    <edge source="RPL13A" target="RPS3" />
+    <edge source="RPL13A" target="RPS14" />
+    <edge source="RPL13A" target="RPS6" />
+    <edge source="RPL13A" target="RPL27" />
+    <edge source="RPL13A" target="RPS18" />
+    <edge source="RPL13A" target="RPL5" />
+    <edge source="RPL13A" target="RPS8" />
+    <edge source="RPL13A" target="RPL6" />
+    <edge source="RPL13A" target="RPL21" />
+    <edge source="RPL13A" target="SRPK2" />
+    <edge source="RPL13A" target="RPS9" />
+    <edge source="RPS2" target="DDX10" />
+    <edge source="RPS2" target="DDX56" />
+    <edge source="RPS2" target="DHX30" />
+    <edge source="RPS2" target="GNL2" />
+    <edge source="RPS2" target="HIST1H1A" />
+    <edge source="RPS2" target="HIST1H1C" />
+    <edge source="RPS2" target="HIST1H1D" />
+    <edge source="RPS2" target="HIST1H1E" />
+    <edge source="RPS2" target="NAT10" />
+    <edge source="RPS2" target="NCL" />
+    <edge source="RPS2" target="NPM1" />
+    <edge source="RPS2" target="RPL10" />
+    <edge source="RPS2" target="RPL10A" />
+    <edge source="RPS2" target="RPL11" />
+    <edge source="RPS2" target="RPL12" />
+    <edge source="RPS2" target="RPL15" />
+    <edge source="RPS2" target="RPL18" />
+    <edge source="RPS2" target="RPL19" />
+    <edge source="RPS2" target="RPL21" />
+    <edge source="RPS2" target="RPL23" />
+    <edge source="RPS2" target="RPL23A" />
+    <edge source="RPS2" target="RPL27" />
+    <edge source="RPS2" target="RPL28" />
+    <edge source="RPS2" target="RPL29" />
+    <edge source="RPS2" target="RPL35" />
+    <edge source="RPS2" target="RPL35A" />
+    <edge source="RPS2" target="RPL4" />
+    <edge source="RPS2" target="RPL5" />
+    <edge source="RPS2" target="RPL6" />
+    <edge source="RPS2" target="RPL8" />
+    <edge source="RPS2" target="RPS11" />
+    <edge source="RPS2" target="RPS14" />
+    <edge source="RPS2" target="RPS15A" />
+    <edge source="RPS2" target="RPS18" />
+    <edge source="RPS2" target="RPS20" />
+    <edge source="RPS2" target="RPSA" />
+    <edge source="RPS2" target="RPS3A" />
+    <edge source="RPS2" target="RRP1B" />
+    <edge source="RPS2" target="UBA52" />
+    <edge source="RPS2" target="RPS3" />
+    <edge source="RPS2" target="RPS6" />
+    <edge source="RPS2" target="RPS8" />
+    <edge source="RPS2" target="RPS9" />
+    <edge source="EIF4B" target="EIF4B" />
+    <edge source="EIF4B" target="RPS15A" />
+    <edge source="EIF4B" target="RPS18" />
+    <edge source="EIF4B" target="RPL29" />
+    <edge source="EIF4B" target="RPS11" />
+    <edge source="EIF4B" target="RPL18" />
+    <edge source="EIF4B" target="RPS8" />
+    <edge source="EIF4B" target="RPL23A" />
+    <edge source="EIF4B" target="RPS3" />
+    <edge source="EIF4B" target="RPS20" />
+    <edge source="EIF4B" target="RPS14" />
+    <edge source="EIF4B" target="RPS6" />
+    <edge source="EIF4B" target="RPS3A" />
+    <edge source="EIF4B" target="SRPK2" />
+    <edge source="EIF4B" target="RPS9" />
+    <edge source="RPS15A" target="RPL10" />
+    <edge source="RPS15A" target="RPL10A" />
+    <edge source="RPS15A" target="RPL11" />
+    <edge source="RPS15A" target="RPL12" />
+    <edge source="RPS15A" target="RPL15" />
+    <edge source="RPS15A" target="RPL18" />
+    <edge source="RPS15A" target="RPL19" />
+    <edge source="RPS15A" target="RPL21" />
+    <edge source="RPS15A" target="RPL23" />
+    <edge source="RPS15A" target="RPL23A" />
+    <edge source="RPS15A" target="RPL27" />
+    <edge source="RPS15A" target="RPL28" />
+    <edge source="RPS15A" target="RPL29" />
+    <edge source="RPS15A" target="RPL35" />
+    <edge source="RPS15A" target="RPL35A" />
+    <edge source="RPS15A" target="RPL4" />
+    <edge source="RPS15A" target="RPL5" />
+    <edge source="RPS15A" target="RPL6" />
+    <edge source="RPS15A" target="RPL8" />
+    <edge source="RPS15A" target="RPS11" />
+    <edge source="RPS15A" target="RPS14" />
+    <edge source="RPS15A" target="RPS15A" />
+    <edge source="RPS15A" target="RPS20" />
+    <edge source="RPS15A" target="RPSA" />
+    <edge source="RPS15A" target="RPS3A" />
+    <edge source="RPS15A" target="RRP1B" />
+    <edge source="RPS15A" target="UBA52" />
+    <edge source="RPS15A" target="RPS3" />
+    <edge source="RPS15A" target="RPS6" />
+    <edge source="RPS15A" target="RPS18" />
+    <edge source="RPS15A" target="RPS8" />
+    <edge source="RPS15A" target="RPS9" />
+    <edge source="SRP68" target="FTSJ3" />
+    <edge source="SRP68" target="HIST1H1A" />
+    <edge source="SRP68" target="HIST1H1C" />
+    <edge source="SRP68" target="HIST1H1E" />
+    <edge source="SRP68" target="RBM28" />
+    <edge source="SRP68" target="RPL11" />
+    <edge source="SRP68" target="RPL28" />
+    <edge source="SRP68" target="RPL35A" />
+    <edge source="SRP68" target="RPL4" />
+    <edge source="SRP68" target="RPL8" />
+    <edge source="SRP68" target="RPS6" />
+    <edge source="SRP68" target="SRP68" />
+    <edge source="SRP68" target="SRPK3" />
+    <edge source="RPS18" target="NCL" />
+    <edge source="RPS18" target="NPM1" />
+    <edge source="RPS18" target="RPL10" />
+    <edge source="RPS18" target="RPL10A" />
+    <edge source="RPS18" target="RPL11" />
+    <edge source="RPS18" target="RPL12" />
+    <edge source="RPS18" target="RPL15" />
+    <edge source="RPS18" target="RPL18" />
+    <edge source="RPS18" target="RPL19" />
+    <edge source="RPS18" target="RPL21" />
+    <edge source="RPS18" target="RPL23" />
+    <edge source="RPS18" target="RPL23A" />
+    <edge source="RPS18" target="RPL27" />
+    <edge source="RPS18" target="RPL28" />
+    <edge source="RPS18" target="RPL35" />
+    <edge source="RPS18" target="RPL35A" />
+    <edge source="RPS18" target="RPL4" />
+    <edge source="RPS18" target="RPL5" />
+    <edge source="RPS18" target="RPL6" />
+    <edge source="RPS18" target="RPL8" />
+    <edge source="RPS18" target="RPS11" />
+    <edge source="RPS18" target="RPS14" />
+    <edge source="RPS18" target="RPS20" />
+    <edge source="RPS18" target="RPSA" />
+    <edge source="RPS18" target="RPS3A" />
+    <edge source="RPS18" target="RPS3" />
+    <edge source="RPS18" target="RPS6" />
+    <edge source="RPS18" target="RPS8" />
+    <edge source="RPS18" target="RPS9" />
+    <edge source="RPL10A" target="CNBP" />
+    <edge source="RPL10A" target="DDX10" />
+    <edge source="RPL10A" target="FTSJ3" />
+    <edge source="RPL10A" target="HIST1H1A" />
+    <edge source="RPL10A" target="HIST1H1E" />
+    <edge source="RPL10A" target="LYAR" />
+    <edge source="RPL10A" target="MKI67" />
+    <edge source="RPL10A" target="NCL" />
+    <edge source="RPL10A" target="NPM1" />
+    <edge source="RPL10A" target="RPL10" />
+    <edge source="RPL10A" target="RPS20" />
+    <edge source="RPL10A" target="RPSA" />
+    <edge source="RPL10A" target="RPL8" />
+    <edge source="RPL10A" target="RPL4" />
+    <edge source="RPL10A" target="RPS3A" />
+    <edge source="RPL10A" target="RPL35" />
+    <edge source="RPL10A" target="RPL29" />
+    <edge source="RPL10A" target="RPL35A" />
+    <edge source="RPL10A" target="RRP1B" />
+    <edge source="RPL10A" target="RPL11" />
+    <edge source="RPL10A" target="RPL23" />
+    <edge source="RPL10A" target="RPL19" />
+    <edge source="RPL10A" target="RPL15" />
+    <edge source="RPL10A" target="RPS11" />
+    <edge source="RPL10A" target="RPS4Y1" />
+    <edge source="RPL10A" target="RPL18" />
+    <edge source="RPL10A" target="RPL23A" />
+    <edge source="RPL10A" target="RPL12" />
+    <edge source="RPL10A" target="RPS3" />
+    <edge source="RPL10A" target="RPS14" />
+    <edge source="RPL10A" target="RPS6" />
+    <edge source="RPL10A" target="RPL27" />
+    <edge source="RPL10A" target="RPL5" />
+    <edge source="RPL10A" target="RPS8" />
+    <edge source="RPL10A" target="RPL6" />
+    <edge source="RPL10A" target="RPL21" />
+    <edge source="RPL10A" target="SRPK2" />
+    <edge source="RPL10A" target="RPS9" />
+    <edge source="UBA52" target="HIST1H1E" />
+    <edge source="UBA52" target="PES1" />
+    <edge source="UBA52" target="RPL35" />
+    <edge source="UBA52" target="RPL35A" />
+    <edge source="UBA52" target="RPL4" />
+    <edge source="UBA52" target="RPS14" />
+    <edge source="UBA52" target="RPS20" />
+    <edge source="UBA52" target="RPS3" />
+    <edge source="UBA52" target="RPS8" />
+    <edge source="UBA52" target="UBA52" />
+    <edge source="RPL15" target="CNBP" />
+    <edge source="RPL15" target="DDX10" />
+    <edge source="RPL15" target="EEF1E1" />
+    <edge source="RPL15" target="FTSJ3" />
+    <edge source="RPL15" target="GNL2" />
+    <edge source="RPL15" target="HIST1H1E" />
+    <edge source="RPL15" target="LYAR" />
+    <edge source="RPL15" target="MKI67" />
+    <edge source="RPL15" target="NCL" />
+    <edge source="RPL15" target="NPM1" />
+    <edge source="RPL15" target="RBM28" />
+    <edge source="RPL15" target="RPL10" />
+    <edge source="RPL15" target="RPL11" />
+    <edge source="RPL15" target="RPL12" />
+    <edge source="RPL15" target="RPS20" />
+    <edge source="RPL15" target="RPSA" />
+    <edge source="RPL15" target="RPL8" />
+    <edge source="RPL15" target="RPL4" />
+    <edge source="RPL15" target="RPS3A" />
+    <edge source="RPL15" target="RPL35" />
+    <edge source="RPL15" target="SRPK3" />
+    <edge source="RPL15" target="RPL35A" />
+    <edge source="RPL15" target="RRP1B" />
+    <edge source="RPL15" target="RPL23" />
+    <edge source="RPL15" target="RPL19" />
+    <edge source="RPL15" target="RPS11" />
+    <edge source="RPL15" target="RPL18" />
+    <edge source="RPL15" target="RPL23A" />
+    <edge source="RPL15" target="RPS3" />
+    <edge source="RPL15" target="RPS14" />
+    <edge source="RPL15" target="RPS6" />
+    <edge source="RPL15" target="RPL27" />
+    <edge source="RPL15" target="RPL5" />
+    <edge source="RPL15" target="RPS8" />
+    <edge source="RPL15" target="RPL6" />
+    <edge source="RPL15" target="RPL21" />
+    <edge source="RPL15" target="SRPK2" />
+    <edge source="RPL15" target="RPS9" />
+    <edge source="GNL2" target="CNBP" />
+    <edge source="GNL2" target="DDX56" />
+    <edge source="GNL2" target="HIST1H1A" />
+    <edge source="GNL2" target="NPM1" />
+    <edge source="GNL2" target="RBM28" />
+    <edge source="GNL2" target="HABP4" />
+    <edge source="GNL2" target="RPL18" />
+    <edge source="GNL2" target="RPL10" />
+    <edge source="GNL2" target="SRPK3" />
+    <edge source="GNL2" target="RPL23A" />
+    <edge source="GNL2" target="RPS8" />
+    <edge source="GNL2" target="RPS3" />
+    <edge source="GNL2" target="HIST1H1E" />
+    <edge source="GNL2" target="RPL8" />
+    <edge source="GNL2" target="RRP1B" />
+    <edge source="GNL2" target="RPL4" />
+    <edge source="GNL2" target="RPL11" />
+    <edge source="GNL2" target="RPS6" />
+    <edge source="GNL2" target="MKI67" />
+    <edge source="GNL2" target="RPS3A" />
+    <edge source="GNL2" target="RPL35" />
+    <edge source="GNL2" target="RPL19" />
+    <edge source="GNL2" target="HIST1H1D" />
+    <edge source="GNL2" target="LYAR" />
+    <edge source="GNL2" target="SRPK2" />
+    <edge source="GNL2" target="RPS9" />
+    <edge source="RPL29" target="DDX56" />
+    <edge source="RPL29" target="MKI67" />
+    <edge source="RPL29" target="NPM1" />
+    <edge source="RPL29" target="RPL10" />
+    <edge source="RPL29" target="RPL12" />
+    <edge source="RPL29" target="RPL21" />
+    <edge source="RPL29" target="RPL23A" />
+    <edge source="RPL29" target="RPL5" />
+    <edge source="RPL29" target="RPL6" />
+    <edge source="RPL29" target="RPS3" />
+    <edge source="RPL29" target="RPS20" />
+    <edge source="RPL29" target="RPSA" />
+    <edge source="RPL29" target="RPL8" />
+    <edge source="RPL29" target="RRP1B" />
+    <edge source="RPL29" target="RPL4" />
+    <edge source="RPL29" target="RPS6" />
+    <edge source="RPL29" target="RPS3A" />
+    <edge source="HIST1H1A" target="CNBP" />
+    <edge source="HIST1H1A" target="DDX10" />
+    <edge source="HIST1H1A" target="DDX56" />
+    <edge source="HIST1H1A" target="DHX30" />
+    <edge source="HIST1H1A" target="FTSJ3" />
+    <edge source="HIST1H1A" target="NCL" />
+    <edge source="HIST1H1A" target="RPS20" />
+    <edge source="HIST1H1A" target="RPSA" />
+    <edge source="HIST1H1A" target="RPL8" />
+    <edge source="HIST1H1A" target="RPL4" />
+    <edge source="HIST1H1A" target="RPS3A" />
+    <edge source="HIST1H1A" target="RRP1B" />
+    <edge source="HIST1H1A" target="HIST1H1C" />
+    <edge source="HIST1H1A" target="HIST1H1D" />
+    <edge source="HIST1H1A" target="NPM1" />
+    <edge source="HIST1H1A" target="RPL12" />
+    <edge source="HIST1H1A" target="RPS3" />
+    <edge source="HIST1H1A" target="NAT10" />
+    <edge source="HIST1H1A" target="RPS6" />
+    <edge source="HIST1H1A" target="LYAR" />
+    <edge source="HIST1H1A" target="RBM28" />
+    <edge source="HIST1H1A" target="RPL28" />
+    <edge source="HIST1H1A" target="RPL6" />
+    <edge source="HIST1H1A" target="SRPK2" />
+    <edge source="HIST1H1A" target="RPS9" />
+    <edge source="RPL5" target="CNBP" />
+    <edge source="RPL5" target="DDX56" />
+    <edge source="RPL5" target="FTSJ3" />
+    <edge source="RPL5" target="NAT10" />
+    <edge source="RPL5" target="NCL" />
+    <edge source="RPL5" target="NPM1" />
+    <edge source="RPL5" target="RBM28" />
+    <edge source="RPL5" target="RPL10" />
+    <edge source="RPL5" target="RPL11" />
+    <edge source="RPL5" target="RPL12" />
+    <edge source="RPL5" target="RPL18" />
+    <edge source="RPL5" target="RPL19" />
+    <edge source="RPL5" target="RPL21" />
+    <edge source="RPL5" target="RPL23" />
+    <edge source="RPL5" target="RPL23A" />
+    <edge source="RPL5" target="RPL27" />
+    <edge source="RPL5" target="RPL28" />
+    <edge source="RPL5" target="RPL35" />
+    <edge source="RPL5" target="RPL35A" />
+    <edge source="RPL5" target="RPL4" />
+    <edge source="RPL5" target="RPS20" />
+    <edge source="RPL5" target="RPSA" />
+    <edge source="RPL5" target="RPL8" />
+    <edge source="RPL5" target="RPS3A" />
+    <edge source="RPL5" target="RRP1B" />
+    <edge source="RPL5" target="RPS11" />
+    <edge source="RPL5" target="RPS3" />
+    <edge source="RPL5" target="RPS14" />
+    <edge source="RPL5" target="RPS6" />
+    <edge source="RPL5" target="RPL5" />
+    <edge source="RPL5" target="RPS8" />
+    <edge source="RPL5" target="RPL6" />
+    <edge source="RPL5" target="RPS9" />
+    <edge source="NPM1" target="CNBP" />
+    <edge source="NPM1" target="DDX10" />
+    <edge source="NPM1" target="DDX56" />
+    <edge source="NPM1" target="FTSJ3" />
+    <edge source="NPM1" target="H1FX" />
+    <edge source="NPM1" target="HABP4" />
+    <edge source="NPM1" target="HIST1H1C" />
+    <edge source="NPM1" target="HIST1H1D" />
+    <edge source="NPM1" target="HIST1H1E" />
+    <edge source="NPM1" target="LYAR" />
+    <edge source="NPM1" target="MKI67" />
+    <edge source="NPM1" target="NAT10" />
+    <edge source="NPM1" target="NCL" />
+    <edge source="NPM1" target="RPL10" />
+    <edge source="NPM1" target="RPS20" />
+    <edge source="NPM1" target="RPSA" />
+    <edge source="NPM1" target="RPL8" />
+    <edge source="NPM1" target="RPL4" />
+    <edge source="NPM1" target="RPS3A" />
+    <edge source="NPM1" target="RPL35" />
+    <edge source="NPM1" target="RRP1B" />
+    <edge source="NPM1" target="RPL11" />
+    <edge source="NPM1" target="RPL23" />
+    <edge source="NPM1" target="RPL19" />
+    <edge source="NPM1" target="NPM1" />
+    <edge source="NPM1" target="RPS11" />
+    <edge source="NPM1" target="RPL18" />
+    <edge source="NPM1" target="RPL23A" />
+    <edge source="NPM1" target="RPS3" />
+    <edge source="NPM1" target="RPS14" />
+    <edge source="NPM1" target="RPS6" />
+    <edge source="NPM1" target="RPL27" />
+    <edge source="NPM1" target="RBM28" />
+    <edge source="NPM1" target="RPS8" />
+    <edge source="NPM1" target="RPL6" />
+    <edge source="NPM1" target="RPL21" />
+    <edge source="NPM1" target="SRPK2" />
+    <edge source="NPM1" target="RPS9" />
+    <edge source="RBM28" target="CNBP" />
+    <edge source="RBM28" target="HIST1H1D" />
+    <edge source="RBM28" target="HIST1H1E" />
+    <edge source="RBM28" target="LYAR" />
+    <edge source="RBM28" target="NAT10" />
+    <edge source="RBM28" target="PES1" />
+    <edge source="RBM28" target="RPL28" />
+    <edge source="RBM28" target="RPL18" />
+    <edge source="RBM28" target="RPL10" />
+    <edge source="RBM28" target="SRPK3" />
+    <edge source="RBM28" target="RPL23A" />
+    <edge source="RBM28" target="RPL8" />
+    <edge source="RBM28" target="RRP1B" />
+    <edge source="RBM28" target="RPL4" />
+    <edge source="RBM28" target="RPS14" />
+    <edge source="RBM28" target="RPS6" />
+    <edge source="RBM28" target="RPL11" />
+    <edge source="RBM28" target="RPS3A" />
+    <edge source="RBM28" target="RPL19" />
+    <edge source="RBM28" target="SRPK2" />
+    <edge source="RPS11" target="DDX56" />
+    <edge source="RPS11" target="LYAR" />
+    <edge source="RPS11" target="NAT10" />
+    <edge source="RPS11" target="RPL10" />
+    <edge source="RPS11" target="RPL11" />
+    <edge source="RPS11" target="RPL12" />
+    <edge source="RPS11" target="RPL18" />
+    <edge source="RPS11" target="RPL19" />
+    <edge source="RPS11" target="RPL21" />
+    <edge source="RPS11" target="RPL23" />
+    <edge source="RPS11" target="RPL23A" />
+    <edge source="RPS11" target="RPL27" />
+    <edge source="RPS11" target="RPL28" />
+    <edge source="RPS11" target="RPL35" />
+    <edge source="RPS11" target="RPL35A" />
+    <edge source="RPS11" target="RPL4" />
+    <edge source="RPS11" target="RPL6" />
+    <edge source="RPS11" target="RPL8" />
+    <edge source="RPS11" target="RPS20" />
+    <edge source="RPS11" target="RPSA" />
+    <edge source="RPS11" target="RPS3A" />
+    <edge source="RPS11" target="RRP1B" />
+    <edge source="RPS11" target="RPS3" />
+    <edge source="RPS11" target="RPS14" />
+    <edge source="RPS11" target="RPS6" />
+    <edge source="RPS11" target="RPS8" />
+    <edge source="RPS11" target="RPS9" />
+    <edge source="HABP4" target="DDX10" />
+    <edge source="HABP4" target="DDX56" />
+    <edge source="HABP4" target="HABP4" />
+    <edge source="HABP4" target="RPS20" />
+    <edge source="HABP4" target="PES1" />
+    <edge source="DHX30" target="CNBP" />
+    <edge source="DHX30" target="RPL10" />
+    <edge source="DHX30" target="NCL" />
+    <edge source="DHX30" target="RPSA" />
+    <edge source="DHX30" target="RPL8" />
+    <edge source="DHX30" target="RPL4" />
+    <edge source="DHX30" target="RPL35" />
+    <edge source="DHX30" target="SRPK3" />
+    <edge source="DHX30" target="RRP1B" />
+    <edge source="DHX30" target="RPL11" />
+    <edge source="DHX30" target="RPL18" />
+    <edge source="DHX30" target="RPL23A" />
+    <edge source="DHX30" target="RPS14" />
+    <edge source="DHX30" target="RPS6" />
+    <edge source="DHX30" target="LYAR" />
+    <edge source="DHX30" target="HIST1H1E" />
+    <edge source="DHX30" target="SRPK2" />
+    <edge source="RPS4Y1" target="RPL23A" />
+    <edge source="RPS4Y1" target="RPS8" />
+    <edge source="RPL28" target="DDX56" />
+    <edge source="RPL28" target="FTSJ3" />
+    <edge source="RPL28" target="HIST1H1C" />
+    <edge source="RPL28" target="HIST1H1D" />
+    <edge source="RPL28" target="LYAR" />
+    <edge source="RPL28" target="NCL" />
+    <edge source="RPL28" target="RPL11" />
+    <edge source="RPL28" target="RPL18" />
+    <edge source="RPL28" target="RPL19" />
+    <edge source="RPL28" target="RPL21" />
+    <edge source="RPL28" target="RPL23" />
+    <edge source="RPL28" target="RPL23A" />
+    <edge source="RPL28" target="RPL27" />
+    <edge source="RPL28" target="RPL8" />
+    <edge source="RPL28" target="RPL4" />
+    <edge source="RPL28" target="RPS3A" />
+    <edge source="RPL28" target="RPL35" />
+    <edge source="RPL28" target="RRP1B" />
+    <edge source="RPL28" target="RPS3" />
+    <edge source="RPL28" target="RPS14" />
+    <edge source="RPL28" target="RPS6" />
+    <edge source="RPL28" target="RPS8" />
+    <edge source="RPL28" target="RPL6" />
+    <edge source="RPL28" target="SRPK2" />
+    <edge source="EEF1E1" target="RPL18" />
+    <edge source="EEF1E1" target="RPL23A" />
+    <edge source="EEF1E1" target="RPL21" />
+    <edge source="RPL18" target="CNBP" />
+    <edge source="RPL18" target="DDX10" />
+    <edge source="RPL18" target="DDX56" />
+    <edge source="RPL18" target="FTSJ3" />
+    <edge source="RPL18" target="HIST1H1E" />
+    <edge source="RPL18" target="LYAR" />
+    <edge source="RPL18" target="MKI67" />
+    <edge source="RPL18" target="NCL" />
+    <edge source="RPL18" target="RPL10" />
+    <edge source="RPL18" target="RPL11" />
+    <edge source="RPL18" target="RPL12" />
+    <edge source="RPL18" target="RPS20" />
+    <edge source="RPL18" target="RPSA" />
+    <edge source="RPL18" target="RPL8" />
+    <edge source="RPL18" target="RPL4" />
+    <edge source="RPL18" target="RPS3A" />
+    <edge source="RPL18" target="RPL35" />
+    <edge source="RPL18" target="RPL35A" />
+    <edge source="RPL18" target="RRP1B" />
+    <edge source="RPL18" target="RPL23" />
+    <edge source="RPL18" target="RPL19" />
+    <edge source="RPL18" target="RPL23A" />
+    <edge source="RPL18" target="RPS3" />
+    <edge source="RPL18" target="RPS14" />
+    <edge source="RPL18" target="RPS6" />
+    <edge source="RPL18" target="RPL27" />
+    <edge source="RPL18" target="RPS8" />
+    <edge source="RPL18" target="RPL6" />
+    <edge source="RPL18" target="RPL21" />
+    <edge source="RPL18" target="RPS9" />
+    <edge source="RPL10" target="DDX10" />
+    <edge source="RPL10" target="DDX56" />
+    <edge source="RPL10" target="FTSJ3" />
+    <edge source="RPL10" target="H1FX" />
+    <edge source="RPL10" target="LYAR" />
+    <edge source="RPL10" target="MKI67" />
+    <edge source="RPL10" target="NAT10" />
+    <edge source="RPL10" target="RPS20" />
+    <edge source="RPL10" target="RPSA" />
+    <edge source="RPL10" target="RPL8" />
+    <edge source="RPL10" target="RPL4" />
+    <edge source="RPL10" target="RPS3A" />
+    <edge source="RPL10" target="RPL35" />
+    <edge source="RPL10" target="RPL35A" />
+    <edge source="RPL10" target="RRP1B" />
+    <edge source="RPL10" target="RPL11" />
+    <edge source="RPL10" target="RPL23" />
+    <edge source="RPL10" target="RPL19" />
+    <edge source="RPL10" target="RPL23A" />
+    <edge source="RPL10" target="RPL12" />
+    <edge source="RPL10" target="RPS3" />
+    <edge source="RPL10" target="RPS6" />
+    <edge source="RPL10" target="RPS14" />
+    <edge source="RPL10" target="RPL27" />
+    <edge source="RPL10" target="RPS8" />
+    <edge source="RPL10" target="RPL6" />
+    <edge source="RPL10" target="RPL21" />
+    <edge source="RPL10" target="RPS9" />
+    <edge source="SRPK3" target="DDX56" />
+    <edge source="SRPK3" target="FTSJ3" />
+    <edge source="SRPK3" target="HIST1H1C" />
+    <edge source="SRPK3" target="LYAR" />
+    <edge source="SRPK3" target="NAT10" />
+    <edge source="SRPK3" target="NCL" />
+    <edge source="SRPK3" target="RRP1B" />
+    <edge source="SRPK3" target="SRPK2" />
+    <edge source="SRPK3" target="SRPK3" />
+    <edge source="RPL23A" target="CNBP" />
+    <edge source="RPL23A" target="DDX10" />
+    <edge source="RPL23A" target="DDX56" />
+    <edge source="RPL23A" target="FTSJ3" />
+    <edge source="RPL23A" target="H1FX" />
+    <edge source="RPL23A" target="HIST1H1E" />
+    <edge source="RPL23A" target="LYAR" />
+    <edge source="RPL23A" target="NAT10" />
+    <edge source="RPL23A" target="NCL" />
+    <edge source="RPL23A" target="RPL11" />
+    <edge source="RPL23A" target="RPL12" />
+    <edge source="RPL23A" target="RPL19" />
+    <edge source="RPL23A" target="RPL21" />
+    <edge source="RPL23A" target="RPL23" />
+    <edge source="RPL23A" target="RPS20" />
+    <edge source="RPL23A" target="RPSA" />
+    <edge source="RPL23A" target="RPL8" />
+    <edge source="RPL23A" target="RPL4" />
+    <edge source="RPL23A" target="RPS3A" />
+    <edge source="RPL23A" target="RPL35" />
+    <edge source="RPL23A" target="RPL35A" />
+    <edge source="RPL23A" target="RRP1B" />
+    <edge source="RPL23A" target="RPS3" />
+    <edge source="RPL23A" target="RPS14" />
+    <edge source="RPL23A" target="RPS6" />
+    <edge source="RPL23A" target="RPL27" />
+    <edge source="RPL23A" target="RPS8" />
+    <edge source="RPL23A" target="RPL6" />
+    <edge source="RPL23A" target="SRPK2" />
+    <edge source="RPL23A" target="RPS9" />
+    <edge source="RPL35A" target="CNBP" />
+    <edge source="RPL35A" target="NCL" />
+    <edge source="RPL35A" target="RPL11" />
+    <edge source="RPL35A" target="RPL12" />
+    <edge source="RPL35A" target="RPL19" />
+    <edge source="RPL35A" target="RPL21" />
+    <edge source="RPL35A" target="RPL23" />
+    <edge source="RPL35A" target="RPL27" />
+    <edge source="RPL35A" target="RPL35" />
+    <edge source="RPL35A" target="RPS20" />
+    <edge source="RPL35A" target="RPSA" />
+    <edge source="RPL35A" target="RPL8" />
+    <edge source="RPL35A" target="RPL4" />
+    <edge source="RPL35A" target="RPS3A" />
+    <edge source="RPL35A" target="RRP1B" />
+    <edge source="RPL35A" target="RPS3" />
+    <edge source="RPL35A" target="RPS14" />
+    <edge source="RPL35A" target="RPS6" />
+    <edge source="RPL35A" target="RPS8" />
+    <edge source="RPL35A" target="RPL6" />
+    <edge source="RPL35A" target="RPS9" />
+    <edge source="RPS8" target="CNBP" />
+    <edge source="RPS8" target="DDX10" />
+    <edge source="RPS8" target="DDX56" />
+    <edge source="RPS8" target="FTSJ3" />
+    <edge source="RPS8" target="HIST1H1E" />
+    <edge source="RPS8" target="MKI67" />
+    <edge source="RPS8" target="NAT10" />
+    <edge source="RPS8" target="NCL" />
+    <edge source="RPS8" target="RPL11" />
+    <edge source="RPS8" target="RPL12" />
+    <edge source="RPS8" target="RPL19" />
+    <edge source="RPS8" target="RPL21" />
+    <edge source="RPS8" target="RPL23" />
+    <edge source="RPS8" target="RPL27" />
+    <edge source="RPS8" target="RPL35" />
+    <edge source="RPS8" target="RPL4" />
+    <edge source="RPS8" target="RPL6" />
+    <edge source="RPS8" target="RPL8" />
+    <edge source="RPS8" target="RPS14" />
+    <edge source="RPS8" target="RPS20" />
+    <edge source="RPS8" target="RPS3" />
+    <edge source="RPS8" target="RPS3A" />
+    <edge source="RPS8" target="RPS6" />
+    <edge source="RPS8" target="RPSA" />
+    <edge source="RPS8" target="RRP1B" />
+    <edge source="RPS8" target="SRPK2" />
+    <edge source="RPS8" target="RPS9" />
+    <edge source="RPL6" target="CNBP" />
+    <edge source="RPL6" target="FTSJ3" />
+    <edge source="RPL6" target="HIST1H1D" />
+    <edge source="RPL6" target="HIST1H1E" />
+    <edge source="RPL6" target="LYAR" />
+    <edge source="RPL6" target="NCL" />
+    <edge source="RPL6" target="RPL11" />
+    <edge source="RPL6" target="RPL12" />
+    <edge source="RPL6" target="RPL19" />
+    <edge source="RPL6" target="RPL21" />
+    <edge source="RPL6" target="RPL23" />
+    <edge source="RPL6" target="RPL27" />
+    <edge source="RPL6" target="RPL35" />
+    <edge source="RPL6" target="RPL4" />
+    <edge source="RPL6" target="RPS20" />
+    <edge source="RPL6" target="RPSA" />
+    <edge source="RPL6" target="RPL8" />
+    <edge source="RPL6" target="RPS3A" />
+    <edge source="RPL6" target="RRP1B" />
+    <edge source="RPL6" target="RPS3" />
+    <edge source="RPL6" target="RPS14" />
+    <edge source="RPL6" target="RPS6" />
+    <edge source="RPL6" target="RPS9" />
+    <edge source="CNBP" target="RPL12" />
+    <edge source="CNBP" target="RPL8" />
+    <edge source="CNBP" target="RPL4" />
+    <edge source="CNBP" target="RPL11" />
+    <edge source="CNBP" target="RPS6" />
+    <edge source="CNBP" target="RPL27" />
+    <edge source="CNBP" target="FTSJ3" />
+    <edge source="CNBP" target="RPS3A" />
+    <edge source="CNBP" target="RPL35" />
+    <edge source="CNBP" target="RPS9" />
+    <edge source="RPL21" target="LYAR" />
+    <edge source="RPL21" target="NCL" />
+    <edge source="RPL21" target="RPL11" />
+    <edge source="RPL21" target="RPL12" />
+    <edge source="RPL21" target="RPL19" />
+    <edge source="RPL21" target="RPS3" />
+    <edge source="RPL21" target="RPS20" />
+    <edge source="RPL21" target="RPSA" />
+    <edge source="RPL21" target="RPL8" />
+    <edge source="RPL21" target="RRP1B" />
+    <edge source="RPL21" target="RPL4" />
+    <edge source="RPL21" target="RPS14" />
+    <edge source="RPL21" target="RPS6" />
+    <edge source="RPL21" target="RPL27" />
+    <edge source="RPL21" target="RPL23" />
+    <edge source="RPL21" target="RPS3A" />
+    <edge source="RPL21" target="RPL35" />
+    <edge source="RPL21" target="RPS9" />
+    <edge source="RPL12" target="HIST1H1E" />
+    <edge source="RPL12" target="NCL" />
+    <edge source="RPL12" target="RPL11" />
+    <edge source="RPL12" target="RPS20" />
+    <edge source="RPL12" target="RPSA" />
+    <edge source="RPL12" target="RPL8" />
+    <edge source="RPL12" target="RPL4" />
+    <edge source="RPL12" target="RPS3A" />
+    <edge source="RPL12" target="RPL35" />
+    <edge source="RPL12" target="RRP1B" />
+    <edge source="RPL12" target="RPL23" />
+    <edge source="RPL12" target="RPL19" />
+    <edge source="RPL12" target="RPS3" />
+    <edge source="RPL12" target="RPS14" />
+    <edge source="RPL12" target="RPS6" />
+    <edge source="RPL12" target="RPL27" />
+    <edge source="RPL12" target="RPS9" />
+    <edge source="DDX56" target="DDX10" />
+    <edge source="DDX56" target="DDX56" />
+    <edge source="DDX56" target="HIST1H1E" />
+    <edge source="DDX56" target="RPL8" />
+    <edge source="DDX56" target="RRP1B" />
+    <edge source="DDX56" target="RPL4" />
+    <edge source="DDX56" target="RPL11" />
+    <edge source="DDX56" target="RPS6" />
+    <edge source="DDX56" target="RPL27" />
+    <edge source="DDX56" target="FTSJ3" />
+    <edge source="DDX56" target="MKI67" />
+    <edge source="DDX56" target="RPS3A" />
+    <edge source="DDX56" target="RPL35" />
+    <edge source="DDX56" target="LYAR" />
+    <edge source="DDX56" target="SRPK2" />
+    <edge source="DDX56" target="RPS9" />
+    <edge source="RPS3" target="DDX10" />
+    <edge source="RPS3" target="HIST1H1C" />
+    <edge source="RPS3" target="HIST1H1D" />
+    <edge source="RPS3" target="HIST1H1E" />
+    <edge source="RPS3" target="LYAR" />
+    <edge source="RPS3" target="NAT10" />
+    <edge source="RPS3" target="NCL" />
+    <edge source="RPS3" target="RPL11" />
+    <edge source="RPS3" target="RPL19" />
+    <edge source="RPS3" target="RPL23" />
+    <edge source="RPS3" target="RPL27" />
+    <edge source="RPS3" target="RPL35" />
+    <edge source="RPS3" target="RPL4" />
+    <edge source="RPS3" target="RPL8" />
+    <edge source="RPS3" target="RPS14" />
+    <edge source="RPS3" target="RPS20" />
+    <edge source="RPS3" target="RPSA" />
+    <edge source="RPS3" target="RPS3A" />
+    <edge source="RPS3" target="RRP1B" />
+    <edge source="RPS3" target="RPS6" />
+    <edge source="RPS3" target="RPS9" />
+    <edge source="NCL" target="FTSJ3" />
+    <edge source="NCL" target="H1FX" />
+    <edge source="NCL" target="HIST1H1C" />
+    <edge source="NCL" target="HIST1H1D" />
+    <edge source="NCL" target="HIST1H1E" />
+    <edge source="NCL" target="LYAR" />
+    <edge source="NCL" target="NAT10" />
+    <edge source="NCL" target="NCL" />
+    <edge source="NCL" target="RPS20" />
+    <edge source="NCL" target="RPL8" />
+    <edge source="NCL" target="RPL4" />
+    <edge source="NCL" target="RPS3A" />
+    <edge source="NCL" target="RPL35" />
+    <edge source="NCL" target="RRP1B" />
+    <edge source="NCL" target="RPL11" />
+    <edge source="NCL" target="RPL23" />
+    <edge source="NCL" target="RPL19" />
+    <edge source="NCL" target="RPS14" />
+    <edge source="NCL" target="RPS6" />
+    <edge source="NCL" target="RPL27" />
+    <edge source="NCL" target="PES1" />
+    <edge source="NCL" target="SRPK2" />
+    <edge source="NCL" target="RPS9" />
+    <edge source="RPS20" target="HIST1H1E" />
+    <edge source="RPS20" target="RPL11" />
+    <edge source="RPS20" target="RPL19" />
+    <edge source="RPS20" target="RPL23" />
+    <edge source="RPS20" target="RPL27" />
+    <edge source="RPS20" target="RPL35" />
+    <edge source="RPS20" target="RPL4" />
+    <edge source="RPS20" target="RPL8" />
+    <edge source="RPS20" target="RPS14" />
+    <edge source="RPS20" target="RPSA" />
+    <edge source="RPS20" target="RPS3A" />
+    <edge source="RPS20" target="RPS6" />
+    <edge source="RPS20" target="RPS9" />
+    <edge source="NAT10" target="HIST1H1C" />
+    <edge source="NAT10" target="HIST1H1E" />
+    <edge source="NAT10" target="LYAR" />
+    <edge source="NAT10" target="RPSA" />
+    <edge source="NAT10" target="RRP1B" />
+    <edge source="NAT10" target="RPL4" />
+    <edge source="NAT10" target="RPS14" />
+    <edge source="NAT10" target="RPS6" />
+    <edge source="NAT10" target="RPS3A" />
+    <edge source="NAT10" target="RPL35" />
+    <edge source="NAT10" target="RPL19" />
+    <edge source="NAT10" target="SRPK2" />
+    <edge source="HIST1H1E" target="DDX10" />
+    <edge source="HIST1H1E" target="FTSJ3" />
+    <edge source="HIST1H1E" target="HIST1H1C" />
+    <edge source="HIST1H1E" target="HIST1H1D" />
+    <edge source="HIST1H1E" target="RPL4" />
+    <edge source="HIST1H1E" target="RPS3A" />
+    <edge source="HIST1H1E" target="RRP1B" />
+    <edge source="HIST1H1E" target="RPL11" />
+    <edge source="HIST1H1E" target="RPS6" />
+    <edge source="HIST1H1E" target="SRPK2" />
+    <edge source="HIST1H1E" target="RPS9" />
+    <edge source="RPSA" target="DDX10" />
+    <edge source="RPSA" target="FTSJ3" />
+    <edge source="RPSA" target="MKI67" />
+    <edge source="RPSA" target="RPL11" />
+    <edge source="RPSA" target="RPL19" />
+    <edge source="RPSA" target="RPL23" />
+    <edge source="RPSA" target="RPL27" />
+    <edge source="RPSA" target="RPL35" />
+    <edge source="RPSA" target="RPL4" />
+    <edge source="RPSA" target="RPL8" />
+    <edge source="RPSA" target="RPS14" />
+    <edge source="RPSA" target="RPS3A" />
+    <edge source="RPSA" target="RPS6" />
+    <edge source="RPSA" target="RPS9" />
+    <edge source="RPL8" target="DDX10" />
+    <edge source="RPL8" target="FTSJ3" />
+    <edge source="RPL8" target="PES1" />
+    <edge source="RPL8" target="RPL11" />
+    <edge source="RPL8" target="RPL19" />
+    <edge source="RPL8" target="RPL23" />
+    <edge source="RPL8" target="RPL27" />
+    <edge source="RPL8" target="RPL35" />
+    <edge source="RPL8" target="RPL4" />
+    <edge source="RPL8" target="RPS3A" />
+    <edge source="RPL8" target="RRP1B" />
+    <edge source="RPL8" target="RPS14" />
+    <edge source="RPL8" target="RPS6" />
+    <edge source="RPL8" target="RPS9" />
+    <edge source="RRP1B" target="FTSJ3" />
+    <edge source="RRP1B" target="H1FX" />
+    <edge source="RRP1B" target="LYAR" />
+    <edge source="RRP1B" target="MKI67" />
+    <edge source="RRP1B" target="PES1" />
+    <edge source="RRP1B" target="RPL11" />
+    <edge source="RRP1B" target="RPL19" />
+    <edge source="RRP1B" target="RPL23" />
+    <edge source="RRP1B" target="RPL27" />
+    <edge source="RRP1B" target="RPL35" />
+    <edge source="RRP1B" target="RPL4" />
+    <edge source="RRP1B" target="RPS14" />
+    <edge source="RRP1B" target="RPS3A" />
+    <edge source="RRP1B" target="RPS6" />
+    <edge source="RRP1B" target="RPS9" />
+    <edge source="RRP1B" target="RRP1B" />
+    <edge source="RRP1B" target="SRPK2" />
+    <edge source="RPL4" target="DDX10" />
+    <edge source="RPL4" target="FTSJ3" />
+    <edge source="RPL4" target="LYAR" />
+    <edge source="RPL4" target="MKI67" />
+    <edge source="RPL4" target="PES1" />
+    <edge source="RPL4" target="RPL11" />
+    <edge source="RPL4" target="RPL19" />
+    <edge source="RPL4" target="RPL23" />
+    <edge source="RPL4" target="RPL27" />
+    <edge source="RPL4" target="RPL35" />
+    <edge source="RPL4" target="RPS3A" />
+    <edge source="RPL4" target="RPS14" />
+    <edge source="RPL4" target="RPS6" />
+    <edge source="RPL4" target="SRPK2" />
+    <edge source="RPL4" target="RPS9" />
+    <edge source="HIST1H1C" target="FTSJ3" />
+    <edge source="HIST1H1C" target="H1FX" />
+    <edge source="HIST1H1C" target="RPS3A" />
+    <edge source="HIST1H1C" target="RPL35" />
+    <edge source="HIST1H1C" target="HIST1H1D" />
+    <edge source="RPS14" target="LYAR" />
+    <edge source="RPS14" target="RPL11" />
+    <edge source="RPS14" target="RPL19" />
+    <edge source="RPS14" target="RPL23" />
+    <edge source="RPS14" target="RPL27" />
+    <edge source="RPS14" target="RPL35" />
+    <edge source="RPS14" target="RPS3A" />
+    <edge source="RPS14" target="RPS6" />
+    <edge source="RPS14" target="RPS9" />
+    <edge source="RPL11" target="DDX10" />
+    <edge source="RPL11" target="FTSJ3" />
+    <edge source="RPL11" target="LYAR" />
+    <edge source="RPL11" target="RPS3A" />
+    <edge source="RPL11" target="RPL35" />
+    <edge source="RPL11" target="RPL11" />
+    <edge source="RPL11" target="RPL23" />
+    <edge source="RPL11" target="RPL19" />
+    <edge source="RPL11" target="RPS6" />
+    <edge source="RPL11" target="RPL27" />
+    <edge source="RPL11" target="SRPK2" />
+    <edge source="RPL11" target="RPS9" />
+    <edge source="RPS6" target="DDX10" />
+    <edge source="RPS6" target="FTSJ3" />
+    <edge source="RPS6" target="H1FX" />
+    <edge source="RPS6" target="LYAR" />
+    <edge source="RPS6" target="MKI67" />
+    <edge source="RPS6" target="PES1" />
+    <edge source="RPS6" target="RPL19" />
+    <edge source="RPS6" target="RPL23" />
+    <edge source="RPS6" target="RPL27" />
+    <edge source="RPS6" target="RPL35" />
+    <edge source="RPS6" target="RPS3A" />
+    <edge source="RPS6" target="RPS6" />
+    <edge source="RPS6" target="SRPK2" />
+    <edge source="RPS6" target="RPS9" />
+    <edge source="RPL27" target="PES1" />
+    <edge source="RPL27" target="RPL19" />
+    <edge source="RPL27" target="RPL23" />
+    <edge source="RPL27" target="RPS3A" />
+    <edge source="RPL27" target="RPL35" />
+    <edge source="RPL27" target="RPS9" />
+    <edge source="RPL23" target="PES1" />
+    <edge source="RPL23" target="RPL19" />
+    <edge source="RPL23" target="RPS3A" />
+    <edge source="RPL23" target="RPL35" />
+    <edge source="RPL23" target="RPS9" />
+    <edge source="FTSJ3" target="RPS3A" />
+    <edge source="FTSJ3" target="RPL35" />
+    <edge source="FTSJ3" target="MKI67" />
+    <edge source="FTSJ3" target="RPL19" />
+    <edge source="FTSJ3" target="HIST1H1D" />
+    <edge source="FTSJ3" target="LYAR" />
+    <edge source="FTSJ3" target="PES1" />
+    <edge source="FTSJ3" target="SRPK2" />
+    <edge source="FTSJ3" target="RPS9" />
+    <edge source="PES1" target="MKI67" />
+    <edge source="PES1" target="PES1" />
+    <edge source="PES1" target="SRPK2" />
+    <edge source="MKI67" target="LYAR" />
+    <edge source="MKI67" target="MKI67" />
+    <edge source="MKI67" target="RPL19" />
+    <edge source="MKI67" target="SRPK2" />
+    <edge source="H1FX" target="RPL35" />
+    <edge source="H1FX" target="HIST1H1D" />
+    <edge source="DDX10" target="RPL35" />
+    <edge source="DDX10" target="RPL19" />
+    <edge source="DDX10" target="LYAR" />
+    <edge source="RPS3A" target="LYAR" />
+    <edge source="RPS3A" target="RPL19" />
+    <edge source="RPS3A" target="RPL35" />
+    <edge source="RPS3A" target="SRPK2" />
+    <edge source="RPS3A" target="RPS9" />
+    <edge source="RPL35" target="LYAR" />
+    <edge source="RPL35" target="RPL19" />
+    <edge source="RPL35" target="RPS9" />
+    <edge source="RPL19" target="RPS9" />
+    <edge source="HIST1H1D" target="LYAR" />
+    <edge source="LYAR" target="LYAR" />
+    <edge source="LYAR" target="SRPK2" />
+    <edge source="LYAR" target="RPS9" />
+    <edge source="SRPK2" target="SRPK2" />
+  </graph>
+</graphml>

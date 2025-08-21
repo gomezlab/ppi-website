@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="ASNS">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="WDR41">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="GTF3C5">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ATG2A">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TRABD">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="DDX19A">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PPAT">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="AAAS">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TOMM22">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MAGED2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MTF1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="AARS">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ARMC6">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="VPS45">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MOSPD2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TRIM4">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="C1orf198">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PSD3">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SMC1A">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="RB1CC1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SAR1A">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="UFL1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="BCL2L13">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MTUS1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="DST">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="HK1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="WNK2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="RPLP1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SNAP47">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TRIP13">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="NAMPT">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="RHOT2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="STX12">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="QARS">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="MMS19">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="EIF2B3">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="WDR11">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CTU1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="RRBP1">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="POR">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PHB">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CTU2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="EXD2">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="USP30">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TDRKH">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CFAP20">
+      <data key="d0">#e377c2</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <edge source="ASNS" target="UFL1" />
+    <edge source="ASNS" target="QARS" />
+    <edge source="ASNS" target="AARS" />
+    <edge source="WDR41" target="RB1CC1" />
+    <edge source="WDR41" target="TOMM22" />
+    <edge source="WDR41" target="RHOT2" />
+    <edge source="WDR41" target="EXD2" />
+    <edge source="WDR41" target="MMS19" />
+    <edge source="GTF3C5" target="UFL1" />
+    <edge source="GTF3C5" target="PHB" />
+    <edge source="ATG2A" target="MOSPD2" />
+    <edge source="ATG2A" target="AAAS" />
+    <edge source="ATG2A" target="TDRKH" />
+    <edge source="ATG2A" target="MAGED2" />
+    <edge source="ATG2A" target="SMC1A" />
+    <edge source="ATG2A" target="ATG2A" />
+    <edge source="ATG2A" target="PHB" />
+    <edge source="TRABD" target="RHOT2" />
+    <edge source="TRABD" target="PHB" />
+    <edge source="TRABD" target="EXD2" />
+    <edge source="DDX19A" target="TOMM22" />
+    <edge source="DDX19A" target="EXD2" />
+    <edge source="DDX19A" target="PHB" />
+    <edge source="PPAT" target="MMS19" />
+    <edge source="PPAT" target="PHB" />
+    <edge source="AAAS" target="RB1CC1" />
+    <edge source="AAAS" target="RHOT2" />
+    <edge source="TOMM22" target="USP30" />
+    <edge source="TOMM22" target="UFL1" />
+    <edge source="TOMM22" target="RHOT2" />
+    <edge source="TOMM22" target="BCL2L13" />
+    <edge source="TOMM22" target="HK1" />
+    <edge source="TOMM22" target="PHB" />
+    <edge source="TOMM22" target="TOMM22" />
+    <edge source="TOMM22" target="MAGED2" />
+    <edge source="TOMM22" target="TDRKH" />
+    <edge source="TOMM22" target="EXD2" />
+    <edge source="TOMM22" target="DST" />
+    <edge source="TOMM22" target="RRBP1" />
+    <edge source="TOMM22" target="C1orf198" />
+    <edge source="MAGED2" target="UFL1" />
+    <edge source="MAGED2" target="ARMC6" />
+    <edge source="MAGED2" target="HK1" />
+    <edge source="MAGED2" target="MMS19" />
+    <edge source="MTF1" target="SMC1A" />
+    <edge source="AARS" target="QARS" />
+    <edge source="ARMC6" target="C1orf198" />
+    <edge source="ARMC6" target="TRIP13" />
+    <edge source="VPS45" target="RB1CC1" />
+    <edge source="VPS45" target="STX12" />
+    <edge source="MOSPD2" target="STX12" />
+    <edge source="TRIM4" target="TRIM4" />
+    <edge source="TRIM4" target="RB1CC1" />
+    <edge source="C1orf198" target="RHOT2" />
+    <edge source="PSD3" target="SMC1A" />
+    <edge source="SMC1A" target="RB1CC1" />
+    <edge source="SMC1A" target="MTUS1" />
+    <edge source="SMC1A" target="PHB" />
+    <edge source="SMC1A" target="WNK2" />
+    <edge source="SMC1A" target="SMC1A" />
+    <edge source="RB1CC1" target="RPLP1" />
+    <edge source="RB1CC1" target="UFL1" />
+    <edge source="RB1CC1" target="RB1CC1" />
+    <edge source="RB1CC1" target="RRBP1" />
+    <edge source="SAR1A" target="SNAP47" />
+    <edge source="SAR1A" target="RHOT2" />
+    <edge source="UFL1" target="NAMPT" />
+    <edge source="UFL1" target="RPLP1" />
+    <edge source="UFL1" target="PHB" />
+    <edge source="UFL1" target="CFAP20" />
+    <edge source="UFL1" target="QARS" />
+    <edge source="UFL1" target="UFL1" />
+    <edge source="UFL1" target="RRBP1" />
+    <edge source="BCL2L13" target="POR" />
+    <edge source="BCL2L13" target="RHOT2" />
+    <edge source="BCL2L13" target="EXD2" />
+    <edge source="BCL2L13" target="STX12" />
+    <edge source="MTUS1" target="MTUS1" />
+    <edge source="MTUS1" target="MMS19" />
+    <edge source="DST" target="RHOT2" />
+    <edge source="DST" target="MMS19" />
+    <edge source="HK1" target="POR" />
+    <edge source="HK1" target="RHOT2" />
+    <edge source="HK1" target="RRBP1" />
+    <edge source="HK1" target="HK1" />
+    <edge source="HK1" target="EXD2" />
+    <edge source="RPLP1" target="RPLP1" />
+    <edge source="RPLP1" target="PHB" />
+    <edge source="SNAP47" target="RHOT2" />
+    <edge source="SNAP47" target="EXD2" />
+    <edge source="SNAP47" target="STX12" />
+    <edge source="TRIP13" target="QARS" />
+    <edge source="TRIP13" target="TRIP13" />
+    <edge source="TRIP13" target="MMS19" />
+    <edge source="TRIP13" target="PHB" />
+    <edge source="NAMPT" target="NAMPT" />
+    <edge source="NAMPT" target="PHB" />
+    <edge source="RHOT2" target="USP30" />
+    <edge source="RHOT2" target="PHB" />
+    <edge source="RHOT2" target="TDRKH" />
+    <edge source="RHOT2" target="EXD2" />
+    <edge source="STX12" target="EIF2B3" />
+    <edge source="QARS" target="EIF2B3" />
+    <edge source="QARS" target="PHB" />
+    <edge source="MMS19" target="CTU1" />
+    <edge source="MMS19" target="CTU2" />
+    <edge source="EIF2B3" target="EIF2B3" />
+    <edge source="EIF2B3" target="EXD2" />
+    <edge source="WDR11" target="PHB" />
+    <edge source="CTU1" target="CTU2" />
+    <edge source="RRBP1" target="PHB" />
+    <edge source="POR" target="POR" />
+    <edge source="POR" target="PHB" />
+    <edge source="PHB" target="PHB" />
+    <edge source="EXD2" target="USP30" />
+    <edge source="EXD2" target="TDRKH" />
+  </graph>
+</graphml>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="ACLY">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="NTRK1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="GBF1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PSMD7">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PSMD4">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="IMPDH2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="BICD2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="BICD1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DCTN2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="VIRMA">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="MYC">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="EXOC2">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="CAPZA1">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PRPH">
+      <data key="d0">#2ca02c</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <edge source="ACLY" target="ACLY" />
+    <edge source="ACLY" target="MYC" />
+    <edge source="ACLY" target="NTRK1" />
+    <edge source="ACLY" target="VIRMA" />
+    <edge source="NTRK1" target="BICD1" />
+    <edge source="NTRK1" target="CAPZA1" />
+    <edge source="NTRK1" target="DCTN2" />
+    <edge source="NTRK1" target="EXOC2" />
+    <edge source="NTRK1" target="GBF1" />
+    <edge source="NTRK1" target="IMPDH2" />
+    <edge source="NTRK1" target="PSMD4" />
+    <edge source="NTRK1" target="NTRK1" />
+    <edge source="NTRK1" target="PSMD7" />
+    <edge source="NTRK1" target="VIRMA" />
+    <edge source="GBF1" target="CAPZA1" />
+    <edge source="GBF1" target="DCTN2" />
+    <edge source="GBF1" target="IMPDH2" />
+    <edge source="GBF1" target="VIRMA" />
+    <edge source="PSMD7" target="MYC" />
+    <edge source="PSMD7" target="PSMD4" />
+    <edge source="PSMD7" target="PSMD7" />
+    <edge source="PSMD7" target="VIRMA" />
+    <edge source="PSMD4" target="DCTN2" />
+    <edge source="PSMD4" target="IMPDH2" />
+    <edge source="PSMD4" target="MYC" />
+    <edge source="PSMD4" target="PSMD4" />
+    <edge source="PSMD4" target="VIRMA" />
+    <edge source="IMPDH2" target="MYC" />
+    <edge source="IMPDH2" target="VIRMA" />
+    <edge source="IMPDH2" target="IMPDH2" />
+    <edge source="BICD2" target="BICD1" />
+    <edge source="BICD2" target="BICD2" />
+    <edge source="BICD2" target="CAPZA1" />
+    <edge source="BICD2" target="VIRMA" />
+    <edge source="BICD2" target="DCTN2" />
+    <edge source="BICD2" target="PRPH" />
+    <edge source="BICD1" target="DCTN2" />
+    <edge source="BICD1" target="CAPZA1" />
+    <edge source="BICD1" target="PRPH" />
+    <edge source="BICD1" target="BICD1" />
+    <edge source="BICD1" target="VIRMA" />
+    <edge source="DCTN2" target="CAPZA1" />
+    <edge source="DCTN2" target="DCTN2" />
+    <edge source="DCTN2" target="VIRMA" />
+    <edge source="VIRMA" target="CAPZA1" />
+    <edge source="VIRMA" target="EXOC2" />
+    <edge source="VIRMA" target="MYC" />
+    <edge source="VIRMA" target="VIRMA" />
+    <edge source="MYC" target="CAPZA1" />
+    <edge source="MYC" target="EXOC2" />
+    <edge source="MYC" target="MYC" />
+    <edge source="CAPZA1" target="CAPZA1" />
+    <edge source="CAPZA1" target="PRPH" />
+  </graph>
+</graphml>

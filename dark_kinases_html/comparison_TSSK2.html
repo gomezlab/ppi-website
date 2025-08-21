@@ -1,0 +1,3143 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Dark Kinase – TSSK2</title>
+  <style>
+    :root { --picker-h: 44px; } /* adjust if your picker is taller */
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header { padding: 10px; background: #333; color: white; display:flex; gap:12px; align-items:center; }
+    header select { font-size: 1rem; padding: 5px; }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      height: calc(100vh - 60px);
+    }
+    .column {
+      overflow-y: auto;
+      padding: 12px 12px 80px;
+      border-left: 1px solid #ddd;
+    }
+    .column:first-child { border-left: none; }
+    h2 { margin: 8px 0; font-size: 0.95rem; }
+    .picker {
+      display:flex; gap:8px; align-items:center;
+      position: sticky; top: 0; z-index: 2; background:#fff; padding-bottom:8px;
+    }
+    .picker label { font-size: 0.9rem; color:#333; }
+    img.network {
+      position: sticky; top: calc(var(--picker-h) + 8px);
+      background: #fff; z-index: 1; display:block;
+      max-width: 100%; height: auto; margin: 10px 0 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06); border-radius: 6px;
+    }
+    /* Per-community block uses CSS vars we set inline */
+    .comm-block h3 { margin: 10px 0 4px; font-size: 0.9rem; color: var(--comm-fg); }
+    .comm-block table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
+    .comm-block th, .comm-block td { border: 1px solid #999; padding: 4px; font-size: 12px; }
+    .comm-block th { background: var(--comm-bg); }
+    h4 { margin: 8px 0 2px; font-size: 0.85rem; color:#444; }
+    .muted { color:#888; font-size: 0.9rem; }
+  </style>
+  <script>
+    function onKinaseChange(sel) {
+      window.location = sel.value + ".html";
+    }
+    function onCommunityChange(selectEl, imgId) {
+      const url = selectEl.value;
+      const img = document.getElementById(imgId);
+      if (url && img) img.src = url;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <label for="kinaseSelect">Choose kinase:</label>
+    <select id="kinaseSelect" onchange="onKinaseChange(this)">
+      
+      <option value="comparison_ADCK5" >ADCK5</option>
+      
+      <option value="comparison_DYRK4" >DYRK4</option>
+      
+      <option value="comparison_NEK11" >NEK11</option>
+      
+      <option value="comparison_NRK" >NRK</option>
+      
+      <option value="comparison_PSKH1" >PSKH1</option>
+      
+      <option value="comparison_PSKH2" >PSKH2</option>
+      
+      <option value="comparison_RPS6KL1" >RPS6KL1</option>
+      
+      <option value="comparison_RSKR" >RSKR</option>
+      
+      <option value="comparison_SBK2" >SBK2</option>
+      
+      <option value="comparison_SBK3" >SBK3</option>
+      
+      <option value="comparison_STK32A" >STK32A</option>
+      
+      <option value="comparison_STK32B" >STK32B</option>
+      
+      <option value="comparison_STKLD1" >STKLD1</option>
+      
+      <option value="comparison_TSSK2" selected>TSSK2</option>
+      
+      <option value="comparison_TSSK3" >TSSK3</option>
+      
+      <option value="comparison_TSSK4" >TSSK4</option>
+      
+    </select>
+    <span class="muted">Sticky dropdown + image; headings & table headers tinted by community color</span>
+  </header>
+
+  <div class="container">
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">WashU</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #1f77b4; --comm-bg: rgba(31,119,180,0.18);">
+              <h3>Community 0</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1153</td>
+      <td>Integrator complex</td>
+      <td>Integrator complex</td>
+      <td>2</td>
+      <td>0.004823</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1155</td>
+      <td>Integrator-RNAPII complex</td>
+      <td>Integrator-RNAPII complex</td>
+      <td>2</td>
+      <td>0.005695</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1255</td>
+      <td>Ubiquitin E3 ligase (SIAH1, SIP, SKP1A, TBL1X)</td>
+      <td>Ubiquitin E3 ligase (SIAH1, SIP, SKP1A, TBL1X)</td>
+      <td>2</td>
+      <td>0.004578</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1258</td>
+      <td>Ubiquitin E3 ligase (GLMN, FBXW8, SKP1A, RBX1)</td>
+      <td>Ubiquitin E3 ligase (GLMN, FBXW8, SKP1A, RBX1)</td>
+      <td>2</td>
+      <td>0.004578</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5285</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>2</td>
+      <td>0.007621</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>2</td>
+      <td>0.011417</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>2</td>
+      <td>0.021262</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0180052</td>
+      <td>Epididymis; glandular cells[≥Medium]</td>
+      <td>Epididymis; glandular cells[≥Medium]</td>
+      <td>16</td>
+      <td>0.003801</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340451</td>
+      <td>Ovary; follicle cells[≥Low]</td>
+      <td>Ovary; follicle cells[≥Low]</td>
+      <td>13</td>
+      <td>0.005029</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340461</td>
+      <td>Ovary; ovarian stroma cells[≥Low]</td>
+      <td>Ovary; ovarian stroma cells[≥Low]</td>
+      <td>14</td>
+      <td>0.005200</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340452</td>
+      <td>Ovary; follicle cells[≥Medium]</td>
+      <td>Ovary; follicle cells[≥Medium]</td>
+      <td>11</td>
+      <td>0.005959</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0600222</td>
+      <td>Tonsil; squamous epithelial cells[≥Medium]</td>
+      <td>Tonsil; squamous epithelial cells[≥Medium]</td>
+      <td>15</td>
+      <td>0.008322</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0100212</td>
+      <td>Cerebral cortex; neuropil[≥Medium]</td>
+      <td>Cerebral cortex; neuropil[≥Medium]</td>
+      <td>11</td>
+      <td>0.025902</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0310433</td>
+      <td>Lymph node; germinal center cells[High]</td>
+      <td>Lymph node; germinal center cells[High]</td>
+      <td>7</td>
+      <td>0.028353</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0040081</td>
+      <td>Bone marrow; hematopoietic cells[≥Low]</td>
+      <td>Bone marrow; hematopoietic cells[≥Low]</td>
+      <td>16</td>
+      <td>0.031931</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0040000</td>
+      <td>Bone marrow</td>
+      <td>Bone marrow</td>
+      <td>16</td>
+      <td>0.031931</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340000</td>
+      <td>Ovary</td>
+      <td>Ovary</td>
+      <td>15</td>
+      <td>0.031986</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M02059</td>
+      <td>Factor: ELK-1; motif: ACCGGAAGTN</td>
+      <td>Factor: ELK-1; motif: ACCGGAAGTN</td>
+      <td>20</td>
+      <td>0.009410</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M02052_1</td>
+      <td>Factor: EHF; motif: CSCGGAARTN; match class: 1</td>
+      <td>Factor: EHF; motif: CSCGGAARTN; match class: 1</td>
+      <td>14</td>
+      <td>0.013018</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08451</td>
+      <td>Factor: Elk-1:HOXA1; motif: ACCGGAAGTAATTA</td>
+      <td>Factor: Elk-1:HOXA1; motif: ACCGGAAGTAATTA</td>
+      <td>19</td>
+      <td>0.013553</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M03791</td>
+      <td>Factor: GABPalpha_GABPbeta; motif: CTTCCKGY</td>
+      <td>Factor: GABPalpha_GABPbeta; motif: CTTCCKGY</td>
+      <td>12</td>
+      <td>0.021581</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11447_1</td>
+      <td>Factor: Elf-1; motif: NAMCCGGAAGTN; match class: 1</td>
+      <td>Factor: Elf-1; motif: NAMCCGGAAGTN; match class: 1</td>
+      <td>11</td>
+      <td>0.040304</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:03010</td>
+      <td>Ribosome</td>
+      <td>Ribosome</td>
+      <td>4</td>
+      <td>0.002646</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:308</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>3</td>
+      <td>0.027121</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0630222</td>
+      <td>Cervix; squamous epithelial cells[≥Medium]</td>
+      <td>Cervix; squamous epithelial cells[≥Medium]</td>
+      <td>13</td>
+      <td>0.020822</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #d62728; --comm-bg: rgba(214,39,40,0.18);">
+              <h3>Community 3</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:57</td>
+      <td>HDAC4-ERK2 complex</td>
+      <td>HDAC4-ERK2 complex</td>
+      <td>1</td>
+      <td>0.049988</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M01118</td>
+      <td>Factor: WT1; motif: SMCNCCNSC</td>
+      <td>Factor: WT1; motif: SMCNCCNSC</td>
+      <td>15</td>
+      <td>0.002738</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #9467bd; --comm-bg: rgba(148,103,189,0.18);">
+              <h3>Community 4</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>4</td>
+      <td>0.000545</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0500113</td>
+      <td>Soft tissue 1; chondrocytes[High]</td>
+      <td>Soft tissue 1; chondrocytes[High]</td>
+      <td>4</td>
+      <td>0.025578</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #8c564b; --comm-bg: rgba(140,86,75,0.18);">
+              <h3>Community 5</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">Hippie</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04915</td>
+      <td>Estrogen signaling pathway</td>
+      <td>Estrogen signaling pathway</td>
+      <td>3</td>
+      <td>0.006531</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05207</td>
+      <td>Chemical carcinogenesis - receptor activation</td>
+      <td>Chemical carcinogenesis - receptor activation</td>
+      <td>3</td>
+      <td>0.023933</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>3</td>
+      <td>0.000001</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>3</td>
+      <td>0.000003</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6591</td>
+      <td>Hsp90-p23 complex</td>
+      <td>Hsp90-p23 complex</td>
+      <td>2</td>
+      <td>0.000059</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>2</td>
+      <td>0.000354</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>2</td>
+      <td>0.000590</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5285</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>2</td>
+      <td>0.000590</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>2</td>
+      <td>0.001648</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>2</td>
+      <td>0.002645</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>2</td>
+      <td>0.004576</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5199</td>
+      <td>Kinase maturation complex 1</td>
+      <td>Kinase maturation complex 1</td>
+      <td>2</td>
+      <td>0.007028</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11655_1</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN; match class: 1</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN; match class: 1</td>
+      <td>4</td>
+      <td>0.000014</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11655</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN</td>
+      <td>5</td>
+      <td>0.016363</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11658_1</td>
+      <td>Factor: HSF4; motif: RGAANNTTCYRGAAN; match class: 1</td>
+      <td>Factor: HSF4; motif: RGAANNTTCYRGAAN; match class: 1</td>
+      <td>2</td>
+      <td>0.022918</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0030843</td>
+      <td>Cardiac amyloidosis</td>
+      <td>Extracellular deposition in cardiac tissue of a proteinaceous material that, when stained with Congo red, demonstrates apple-green birefringence under polarized light and that has a distinct color when stained with sulfated Alcian blue. Viewed with electron microscopy, the amyloid deposits are seen to be composed of a beta-sheet fibrillar material. These nonbranching fibrils have a diameter of 7.5 to 10 nm and are the result of protein misfolding.</td>
+      <td>2</td>
+      <td>0.004006</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #d62728; --comm-bg: rgba(214,39,40,0.18);">
+              <h3>Community 3</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2711</td>
+      <td>Amyloid beta protein homo-oligomer complex</td>
+      <td>Amyloid beta protein homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:7529</td>
+      <td>APP-Abeta42-VDAC1 complex</td>
+      <td>APP-Abeta42-VDAC1 complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0004968</td>
+      <td>Recurrent cerebral hemorrhage</td>
+      <td>Recurrent bleeding into the parenchyma of the brain.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">biogrid</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6821</td>
+      <td>TTR-RBP complex</td>
+      <td>TTR-RBP complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0007841</td>
+      <td>Amyloid deposition in the vitreous humor</td>
+      <td>Deposition of hyaline extracellular material (amyloid) into the vitreous humor, which can manifest as vitreous opacities and reduced visual acuity.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HP</td>
+      <td>HP:0032070</td>
+      <td>Leptomeningeal enhancement</td>
+      <td>Contrast material enhancement of the pia mater or enhancement that extends into the subarachnoid spaces of the sulci and cisterns is leptomeningeal enhancement. Leptomeningeal enhancement is usually associated with meningitis, which may be bacterial, viral, or fungal. The primary mechanism of this enhancement is breakdown of the blood-brain barrier without angiogenesis.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0120000</td>
+      <td>Choroid plexus</td>
+      <td>Choroid plexus</td>
+      <td>1</td>
+      <td>0.010515</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0120231</td>
+      <td>Choroid plexus; ependymal cells[≥Low]</td>
+      <td>Choroid plexus; ependymal cells[≥Low]</td>
+      <td>1</td>
+      <td>0.010515</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0120232</td>
+      <td>Choroid plexus; ependymal cells[≥Medium]</td>
+      <td>Choroid plexus; ependymal cells[≥Medium]</td>
+      <td>1</td>
+      <td>0.010515</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">wb</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #1f77b4; --comm-bg: rgba(31,119,180,0.18);">
+              <h3>Community 0</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1153</td>
+      <td>Integrator complex</td>
+      <td>Integrator complex</td>
+      <td>2</td>
+      <td>0.027575</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1155</td>
+      <td>Integrator-RNAPII complex</td>
+      <td>Integrator-RNAPII complex</td>
+      <td>2</td>
+      <td>0.032556</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:03010</td>
+      <td>Ribosome</td>
+      <td>Ribosome</td>
+      <td>4</td>
+      <td>0.001781</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:308</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>3</td>
+      <td>0.027121</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:57</td>
+      <td>HDAC4-ERK2 complex</td>
+      <td>HDAC4-ERK2 complex</td>
+      <td>1</td>
+      <td>0.049988</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M01118</td>
+      <td>Factor: WT1; motif: SMCNCCNSC</td>
+      <td>Factor: WT1; motif: SMCNCCNSC</td>
+      <td>14</td>
+      <td>0.039592</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #d62728; --comm-bg: rgba(214,39,40,0.18);">
+              <h3>Community 3</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1258</td>
+      <td>Ubiquitin E3 ligase (GLMN, FBXW8, SKP1A, RBX1)</td>
+      <td>Ubiquitin E3 ligase (GLMN, FBXW8, SKP1A, RBX1)</td>
+      <td>2</td>
+      <td>0.000441</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5285</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>2</td>
+      <td>0.000735</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>2</td>
+      <td>0.001101</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>2</td>
+      <td>0.002053</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0100212</td>
+      <td>Cerebral cortex; neuropil[≥Medium]</td>
+      <td>Cerebral cortex; neuropil[≥Medium]</td>
+      <td>9</td>
+      <td>0.010423</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0500701</td>
+      <td>Soft tissue 1; peripheral nerve[≥Low]</td>
+      <td>Soft tissue 1; peripheral nerve[≥Low]</td>
+      <td>9</td>
+      <td>0.018242</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0600222</td>
+      <td>Tonsil; squamous epithelial cells[≥Medium]</td>
+      <td>Tonsil; squamous epithelial cells[≥Medium]</td>
+      <td>11</td>
+      <td>0.019014</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #9467bd; --comm-bg: rgba(148,103,189,0.18);">
+              <h3>Community 4</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>3</td>
+      <td>0.007157</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340453</td>
+      <td>Ovary; follicle cells[High]</td>
+      <td>Ovary; follicle cells[High]</td>
+      <td>5</td>
+      <td>0.013534</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340451</td>
+      <td>Ovary; follicle cells[≥Low]</td>
+      <td>Ovary; follicle cells[≥Low]</td>
+      <td>9</td>
+      <td>0.017522</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M03972</td>
+      <td>Factor: ELK3; motif: ACCGGAAGTN</td>
+      <td>Factor: ELK3; motif: ACCGGAAGTN</td>
+      <td>7</td>
+      <td>0.006533</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11406</td>
+      <td>Factor: Pet-1; motif: NACCGGAAGTN</td>
+      <td>Factor: Pet-1; motif: NACCGGAAGTN</td>
+      <td>7</td>
+      <td>0.010383</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M03987</td>
+      <td>Factor: FEV; motif: ACCGGAAGTN</td>
+      <td>Factor: FEV; motif: ACCGGAAGTN</td>
+      <td>7</td>
+      <td>0.011301</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08917</td>
+      <td>Factor: GABP-ALPHA; motif: RCCGGAARTNN</td>
+      <td>Factor: GABP-ALPHA; motif: RCCGGAARTNN</td>
+      <td>9</td>
+      <td>0.011712</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11442</td>
+      <td>Factor: Net; motif: NACCGGAAGTN</td>
+      <td>Factor: Net; motif: NACCGGAAGTN</td>
+      <td>8</td>
+      <td>0.015349</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M13031_1</td>
+      <td>Factor: ETV4; motif: ACCGGAAGTN; match class: 1</td>
+      <td>Factor: ETV4; motif: ACCGGAAGTN; match class: 1</td>
+      <td>11</td>
+      <td>0.017305</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11436</td>
+      <td>Factor: SAP-1; motif: NRNCGGAWRYN</td>
+      <td>Factor: SAP-1; motif: NRNCGGAWRYN</td>
+      <td>7</td>
+      <td>0.020207</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M01593_1</td>
+      <td>Factor: Zfx; motif: SNSCAGGCCKCGSCSS; match class: 1</td>
+      <td>Factor: Zfx; motif: SNSCAGGCCKCGSCSS; match class: 1</td>
+      <td>6</td>
+      <td>0.030646</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M02054</td>
+      <td>Factor: ELF2; motif: CCCGGAARYN</td>
+      <td>Factor: ELF2; motif: CCCGGAARYN</td>
+      <td>9</td>
+      <td>0.033205</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M03981</td>
+      <td>Factor: ETV3; motif: ACCGGAAGTN</td>
+      <td>Factor: ETV3; motif: ACCGGAAGTN</td>
+      <td>8</td>
+      <td>0.046102</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #8c564b; --comm-bg: rgba(140,86,75,0.18);">
+              <h3>Community 5</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #e377c2; --comm-bg: rgba(227,119,194,0.18);">
+              <h3>Community 6</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0500113</td>
+      <td>Soft tissue 1; chondrocytes[High]</td>
+      <td>Soft tissue 1; chondrocytes[High]</td>
+      <td>3</td>
+      <td>0.042291</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">wh</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #1f77b4; --comm-bg: rgba(31,119,180,0.18);">
+              <h3>Community 0</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05207</td>
+      <td>Chemical carcinogenesis - receptor activation</td>
+      <td>Chemical carcinogenesis - receptor activation</td>
+      <td>4</td>
+      <td>0.033604</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>4</td>
+      <td>2.252745e-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>4</td>
+      <td>1.047798e-06</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>3</td>
+      <td>2.542007e-05</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>3</td>
+      <td>6.343735e-05</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5285</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>3</td>
+      <td>6.343735e-05</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>3</td>
+      <td>3.533600e-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>3</td>
+      <td>7.545123e-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>3</td>
+      <td>1.788686e-03</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6591</td>
+      <td>Hsp90-p23 complex</td>
+      <td>Hsp90-p23 complex</td>
+      <td>2</td>
+      <td>2.391614e-03</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6399</td>
+      <td>DNAJC7-HSPA8-HSP90AA1 complex</td>
+      <td>DNAJC7-HSPA8-HSP90AA1 complex</td>
+      <td>2</td>
+      <td>2.391614e-03</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0600222</td>
+      <td>Tonsil; squamous epithelial cells[≥Medium]</td>
+      <td>Tonsil; squamous epithelial cells[≥Medium]</td>
+      <td>18</td>
+      <td>0.005591</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0310432</td>
+      <td>Lymph node; germinal center cells[≥Medium]</td>
+      <td>Lymph node; germinal center cells[≥Medium]</td>
+      <td>15</td>
+      <td>0.006911</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340461</td>
+      <td>Ovary; ovarian stroma cells[≥Low]</td>
+      <td>Ovary; ovarian stroma cells[≥Low]</td>
+      <td>16</td>
+      <td>0.013068</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340452</td>
+      <td>Ovary; follicle cells[≥Medium]</td>
+      <td>Ovary; follicle cells[≥Medium]</td>
+      <td>12</td>
+      <td>0.020541</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0310433</td>
+      <td>Lymph node; germinal center cells[High]</td>
+      <td>Lymph node; germinal center cells[High]</td>
+      <td>8</td>
+      <td>0.022844</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0320102</td>
+      <td>Nasopharynx; respiratory epithelial cells[≥Medium]</td>
+      <td>Nasopharynx; respiratory epithelial cells[≥Medium]</td>
+      <td>17</td>
+      <td>0.023708</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0500701</td>
+      <td>Soft tissue 1; peripheral nerve[≥Low]</td>
+      <td>Soft tissue 1; peripheral nerve[≥Low]</td>
+      <td>13</td>
+      <td>0.035200</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0530721</td>
+      <td>Spleen; cells in white pulp[≥Low]</td>
+      <td>Spleen; cells in white pulp[≥Low]</td>
+      <td>16</td>
+      <td>0.042587</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340451</td>
+      <td>Ovary; follicle cells[≥Low]</td>
+      <td>Ovary; follicle cells[≥Low]</td>
+      <td>14</td>
+      <td>0.042924</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0380521</td>
+      <td>Placenta; trophoblastic cells[≥Low]</td>
+      <td>Placenta; trophoblastic cells[≥Low]</td>
+      <td>19</td>
+      <td>0.043001</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11655_1</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN; match class: 1</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN; match class: 1</td>
+      <td>5</td>
+      <td>0.000121</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M01023_1</td>
+      <td>Factor: HSF1; motif: NTTCTRGAAVNTTCTYM; match class: 1</td>
+      <td>Factor: HSF1; motif: NTTCTRGAAVNTTCTYM; match class: 1</td>
+      <td>6</td>
+      <td>0.000938</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M02052_1</td>
+      <td>Factor: EHF; motif: CSCGGAARTN; match class: 1</td>
+      <td>Factor: EHF; motif: CSCGGAARTN; match class: 1</td>
+      <td>16</td>
+      <td>0.002899</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11658_1</td>
+      <td>Factor: HSF4; motif: RGAANNTTCYRGAAN; match class: 1</td>
+      <td>Factor: HSF4; motif: RGAANNTTCYRGAAN; match class: 1</td>
+      <td>3</td>
+      <td>0.003369</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08917</td>
+      <td>Factor: GABP-ALPHA; motif: RCCGGAARTNN</td>
+      <td>Factor: GABP-ALPHA; motif: RCCGGAARTNN</td>
+      <td>13</td>
+      <td>0.006791</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08451</td>
+      <td>Factor: Elk-1:HOXA1; motif: ACCGGAAGTAATTA</td>
+      <td>Factor: Elk-1:HOXA1; motif: ACCGGAAGTAATTA</td>
+      <td>21</td>
+      <td>0.014590</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M02059</td>
+      <td>Factor: ELK-1; motif: ACCGGAAGTN</td>
+      <td>Factor: ELK-1; motif: ACCGGAAGTN</td>
+      <td>22</td>
+      <td>0.016000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11427_1</td>
+      <td>Factor: PEA3; motif: NACCGGAAGTN; match class: 1</td>
+      <td>Factor: PEA3; motif: NACCGGAAGTN; match class: 1</td>
+      <td>16</td>
+      <td>0.016702</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M09950_1</td>
+      <td>Factor: HSF1; motif: NRGAANNTTCYRGAA; match class: 1</td>
+      <td>Factor: HSF1; motif: NRGAANNTTCYRGAA; match class: 1</td>
+      <td>5</td>
+      <td>0.020468</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11662</td>
+      <td>Factor: HSF2; motif: RGAANGTTCYRGAAN</td>
+      <td>Factor: HSF2; motif: RGAANGTTCYRGAAN</td>
+      <td>5</td>
+      <td>0.026610</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:03010</td>
+      <td>Ribosome</td>
+      <td>Ribosome</td>
+      <td>4</td>
+      <td>0.007544</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:308</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>3</td>
+      <td>0.038402</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0630222</td>
+      <td>Cervix; squamous epithelial cells[≥Medium]</td>
+      <td>Cervix; squamous epithelial cells[≥Medium]</td>
+      <td>14</td>
+      <td>0.028895</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #d62728; --comm-bg: rgba(214,39,40,0.18);">
+              <h3>Community 3</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1153</td>
+      <td>Integrator complex</td>
+      <td>Integrator complex</td>
+      <td>2</td>
+      <td>0.049881</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0030843</td>
+      <td>Cardiac amyloidosis</td>
+      <td>Extracellular deposition in cardiac tissue of a proteinaceous material that, when stained with Congo red, demonstrates apple-green birefringence under polarized light and that has a distinct color when stained with sulfated Alcian blue. Viewed with electron microscopy, the amyloid deposits are seen to be composed of a beta-sheet fibrillar material. These nonbranching fibrils have a diameter of 7.5 to 10 nm and are the result of protein misfolding.</td>
+      <td>2</td>
+      <td>0.007591</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>HP</td>
+      <td>HP:0011034</td>
+      <td>Amyloidosis</td>
+      <td>The presence of amyloid deposition in one or more tissues. Amyloidosis may be defined as the extracellular deposition of amyloid in one or more sites of the body.</td>
+      <td>3</td>
+      <td>0.008160</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #9467bd; --comm-bg: rgba(148,103,189,0.18);">
+              <h3>Community 4</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>3</td>
+      <td>0.007157</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #8c564b; --comm-bg: rgba(140,86,75,0.18);">
+              <h3>Community 5</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6095</td>
+      <td>PLEKHA7-PDZD11 complex</td>
+      <td>PLEKHA7-PDZD11 complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0410262</td>
+      <td>Lower cranial nerve dysfunction</td>
+      <td>A functional abnormality affecting the lower cranial nerves, which include the paired 9th (glossopharyngeal), 10th (vagal), 11th (accessory) and 12th (hypoglossal) cranial nerves.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">whb</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #1f77b4; --comm-bg: rgba(31,119,180,0.18);">
+              <h3>Community 0</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1153</td>
+      <td>Integrator complex</td>
+      <td>Integrator complex</td>
+      <td>2</td>
+      <td>0.027575</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:1155</td>
+      <td>Integrator-RNAPII complex</td>
+      <td>Integrator-RNAPII complex</td>
+      <td>2</td>
+      <td>0.032556</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #ff7f0e; --comm-bg: rgba(255,127,14,0.18);">
+              <h3>Community 1</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M12057_1</td>
+      <td>Factor: ZBP99; motif: GCCCMTCCCCCR; match class: 1</td>
+      <td>Factor: ZBP99; motif: GCCCMTCCCCCR; match class: 1</td>
+      <td>11</td>
+      <td>0.00418</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #2ca02c; --comm-bg: rgba(44,160,44,0.18);">
+              <h3>Community 2</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>6</td>
+      <td>0.000075</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>4</td>
+      <td>7.206913e-07</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>4</td>
+      <td>3.348903e-06</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>3</td>
+      <td>6.509129e-05</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5285</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>3</td>
+      <td>1.623671e-04</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>3</td>
+      <td>1.623671e-04</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>3</td>
+      <td>9.032149e-04</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>3</td>
+      <td>1.926876e-03</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>3</td>
+      <td>4.561865e-03</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6591</td>
+      <td>Hsp90-p23 complex</td>
+      <td>Hsp90-p23 complex</td>
+      <td>2</td>
+      <td>5.012797e-03</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6399</td>
+      <td>DNAJC7-HSPA8-HSP90AA1 complex</td>
+      <td>DNAJC7-HSPA8-HSP90AA1 complex</td>
+      <td>2</td>
+      <td>5.012797e-03</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340451</td>
+      <td>Ovary; follicle cells[≥Low]</td>
+      <td>Ovary; follicle cells[≥Low]</td>
+      <td>18</td>
+      <td>0.001253</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0340452</td>
+      <td>Ovary; follicle cells[≥Medium]</td>
+      <td>Ovary; follicle cells[≥Medium]</td>
+      <td>15</td>
+      <td>0.001535</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0530721</td>
+      <td>Spleen; cells in white pulp[≥Low]</td>
+      <td>Spleen; cells in white pulp[≥Low]</td>
+      <td>20</td>
+      <td>0.002363</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0180052</td>
+      <td>Epididymis; glandular cells[≥Medium]</td>
+      <td>Epididymis; glandular cells[≥Medium]</td>
+      <td>22</td>
+      <td>0.006059</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0040081</td>
+      <td>Bone marrow; hematopoietic cells[≥Low]</td>
+      <td>Bone marrow; hematopoietic cells[≥Low]</td>
+      <td>23</td>
+      <td>0.009816</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0040000</td>
+      <td>Bone marrow</td>
+      <td>Bone marrow</td>
+      <td>23</td>
+      <td>0.009816</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0180000</td>
+      <td>Epididymis</td>
+      <td>Epididymis</td>
+      <td>24</td>
+      <td>0.010167</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0180051</td>
+      <td>Epididymis; glandular cells[≥Low]</td>
+      <td>Epididymis; glandular cells[≥Low]</td>
+      <td>24</td>
+      <td>0.010167</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0530000</td>
+      <td>Spleen</td>
+      <td>Spleen</td>
+      <td>22</td>
+      <td>0.012575</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0020051</td>
+      <td>Adrenal gland; glandular cells[≥Low]</td>
+      <td>Adrenal gland; glandular cells[≥Low]</td>
+      <td>24</td>
+      <td>0.012990</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11655_1</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN; match class: 1</td>
+      <td>Factor: HSF1; motif: NGAANGTTCKRGAAN; match class: 1</td>
+      <td>6</td>
+      <td>0.000004</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11427_1</td>
+      <td>Factor: PEA3; motif: NACCGGAAGTN; match class: 1</td>
+      <td>Factor: PEA3; motif: NACCGGAAGTN; match class: 1</td>
+      <td>20</td>
+      <td>0.000205</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M13031_1</td>
+      <td>Factor: ETV4; motif: ACCGGAAGTN; match class: 1</td>
+      <td>Factor: ETV4; motif: ACCGGAAGTN; match class: 1</td>
+      <td>20</td>
+      <td>0.000609</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11430_1</td>
+      <td>Factor: PEA3; motif: NACCGGAAGTN; match class: 1</td>
+      <td>Factor: PEA3; motif: NACCGGAAGTN; match class: 1</td>
+      <td>20</td>
+      <td>0.000622</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08451</td>
+      <td>Factor: Elk-1:HOXA1; motif: ACCGGAAGTAATTA</td>
+      <td>Factor: Elk-1:HOXA1; motif: ACCGGAAGTAATTA</td>
+      <td>25</td>
+      <td>0.000770</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M02052_1</td>
+      <td>Factor: EHF; motif: CSCGGAARTN; match class: 1</td>
+      <td>Factor: EHF; motif: CSCGGAARTN; match class: 1</td>
+      <td>18</td>
+      <td>0.001410</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08917</td>
+      <td>Factor: GABP-ALPHA; motif: RCCGGAARTNN</td>
+      <td>Factor: GABP-ALPHA; motif: RCCGGAARTNN</td>
+      <td>15</td>
+      <td>0.001428</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M03987</td>
+      <td>Factor: FEV; motif: ACCGGAAGTN</td>
+      <td>Factor: FEV; motif: ACCGGAAGTN</td>
+      <td>11</td>
+      <td>0.001687</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M09950_1</td>
+      <td>Factor: HSF1; motif: NRGAANNTTCYRGAA; match class: 1</td>
+      <td>Factor: HSF1; motif: NRGAANNTTCYRGAA; match class: 1</td>
+      <td>6</td>
+      <td>0.002143</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TF</td>
+      <td>TF:M01023_1</td>
+      <td>Factor: HSF1; motif: NTTCTRGAAVNTTCTYM; match class: 1</td>
+      <td>Factor: HSF1; motif: NTTCTRGAAVNTTCTYM; match class: 1</td>
+      <td>6</td>
+      <td>0.002514</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #d62728; --comm-bg: rgba(214,39,40,0.18);">
+              <h3>Community 3</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:351</td>
+      <td>Spliceosome</td>
+      <td>Spliceosome</td>
+      <td>3</td>
+      <td>0.021132</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2711</td>
+      <td>Amyloid beta protein homo-oligomer complex</td>
+      <td>Amyloid beta protein homo-oligomer complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:7529</td>
+      <td>APP-Abeta42-VDAC1 complex</td>
+      <td>APP-Abeta42-VDAC1 complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0000726</td>
+      <td>Dementia</td>
+      <td>A loss of global cognitive ability of sufficient amount to interfere with normal social or occupational function. Dementia represents a loss of previously present cognitive abilities, generally in adults, and can affect memory, thinking, language, judgment, and behavior.</td>
+      <td>3</td>
+      <td>0.049059</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #9467bd; --comm-bg: rgba(148,103,189,0.18);">
+              <h3>Community 4</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M11905</td>
+      <td>Factor: POU3F2; motif: NTAATTTATGCGY</td>
+      <td>Factor: POU3F2; motif: NTAATTTATGCGY</td>
+      <td>9</td>
+      <td>0.047565</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #8c564b; --comm-bg: rgba(140,86,75,0.18);">
+              <h3>Community 5</h3>
+              
+                <h4>KEGG</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:03010</td>
+      <td>Ribosome</td>
+      <td>Ribosome</td>
+      <td>4</td>
+      <td>0.000376</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>CORUM</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:308</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>60S ribosomal subunit, cytoplasmic</td>
+      <td>3</td>
+      <td>0.000635</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:306</td>
+      <td>Ribosome, cytoplasmic</td>
+      <td>Ribosome, cytoplasmic</td>
+      <td>3</td>
+      <td>0.003291</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:3055</td>
+      <td>Nop56p-associated pre-rRNA complex</td>
+      <td>Nop56p-associated pre-rRNA complex</td>
+      <td>3</td>
+      <td>0.006531</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5380</td>
+      <td>TRBP containing complex (DICER, RPL7A, EIF6, MOV10 and subunits of the 60S ribosomal particle)</td>
+      <td>TRBP containing complex (DICER, RPL7A, EIF6, MOV10 and subunits of the 60S ribosomal particle)</td>
+      <td>2</td>
+      <td>0.012263</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HP</h4>
+                <p>No results</p>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+            
+            
+            
+            <div class="comm-block" style="--comm-fg: #e377c2; --comm-bg: rgba(227,119,194,0.18);">
+              <h3>Community 6</h3>
+              
+                <h4>KEGG</h4>
+                <p>No results</p>
+              
+                <h4>CORUM</h4>
+                <p>No results</p>
+              
+                <h4>HP</h4>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0030843</td>
+      <td>Cardiac amyloidosis</td>
+      <td>Extracellular deposition in cardiac tissue of a proteinaceous material that, when stained with Congo red, demonstrates apple-green birefringence under polarized light and that has a distinct color when stained with sulfated Alcian blue. Viewed with electron microscopy, the amyloid deposits are seen to be composed of a beta-sheet fibrillar material. These nonbranching fibrils have a diameter of 7.5 to 10 nm and are the result of protein misfolding.</td>
+      <td>2</td>
+      <td>0.004006</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+              
+                <h4>HPA</h4>
+                <p>No results</p>
+              
+                <h4>TF</h4>
+                <p>No results</p>
+              
+            </div>
+          
+        
+      </div>
+    
+  </div>
+</body>
+</html>

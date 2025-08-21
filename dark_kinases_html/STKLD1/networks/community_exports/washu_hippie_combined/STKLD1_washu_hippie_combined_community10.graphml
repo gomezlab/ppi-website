@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="LIG1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="WDR35">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="ARFIP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="BDP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="ATAD3B">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="USP11">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="PRMT3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="UHRF1BP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="RAPGEF6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="AURKA">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="EPSTI1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="TRUB1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="RAPGEF2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="KIF16B">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <edge source="LIG1" target="AURKA" />
+    <edge source="LIG1" target="PRMT3" />
+    <edge source="WDR35" target="AURKA" />
+    <edge source="ARFIP1" target="PRMT3" />
+    <edge source="ARFIP1" target="ARFIP1" />
+    <edge source="BDP1" target="RAPGEF2" />
+    <edge source="ATAD3B" target="USP11" />
+    <edge source="ATAD3B" target="AURKA" />
+    <edge source="USP11" target="PRMT3" />
+    <edge source="USP11" target="UHRF1BP1" />
+    <edge source="USP11" target="AURKA" />
+    <edge source="USP11" target="USP11" />
+    <edge source="USP11" target="RAPGEF2" />
+    <edge source="USP11" target="TRUB1" />
+    <edge source="UHRF1BP1" target="RAPGEF2" />
+    <edge source="RAPGEF6" target="RAPGEF2" />
+    <edge source="RAPGEF6" target="AURKA" />
+    <edge source="AURKA" target="AURKA" />
+    <edge source="AURKA" target="EPSTI1" />
+    <edge source="AURKA" target="KIF16B" />
+  </graph>
+</graphml>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="RBBP5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="SMARCC2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="SMG6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="PHF10">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="DPF2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="PHF20L1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="ZZZ3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="KDM2A">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="YEATS2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="SMARCE1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="MAPK12">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="GCN1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">7</data>
+    </node>
+    <node id="BCR">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">7</data>
+    </node>
+    <edge source="RBBP5" target="YEATS2" />
+    <edge source="RBBP5" target="RBBP5" />
+    <edge source="RBBP5" target="ZZZ3" />
+    <edge source="RBBP5" target="KDM2A" />
+    <edge source="RBBP5" target="SMARCE1" />
+    <edge source="SMARCC2" target="DPF2" />
+    <edge source="SMARCC2" target="PHF10" />
+    <edge source="SMARCC2" target="SMARCE1" />
+    <edge source="SMG6" target="BCR" />
+    <edge source="SMG6" target="SMG6" />
+    <edge source="PHF10" target="DPF2" />
+    <edge source="PHF10" target="SMARCE1" />
+    <edge source="DPF2" target="BCR" />
+    <edge source="DPF2" target="SMARCE1" />
+    <edge source="PHF20L1" target="YEATS2" />
+    <edge source="PHF20L1" target="ZZZ3" />
+    <edge source="ZZZ3" target="YEATS2" />
+    <edge source="SMARCE1" target="SMARCE1" />
+    <edge source="MAPK12" target="GCN1" />
+    <edge source="MAPK12" target="MAPK12" />
+    <edge source="GCN1" target="BCR" />
+    <edge source="BCR" target="BCR" />
+  </graph>
+</graphml>

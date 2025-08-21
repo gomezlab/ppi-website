@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="DZIP3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="PHLDB3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="RABGAP1L">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="ARHGAP10">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="PROSER3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="DHPS">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="ANKMY2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="NUF2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="RABEP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="PKN3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="CCHCR1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="LRSAM1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="NCKAP5L">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="RABGAP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <node id="CENPE">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">10</data>
+    </node>
+    <edge source="DZIP3" target="PHLDB3" />
+    <edge source="DZIP3" target="NUF2" />
+    <edge source="DZIP3" target="NCKAP5L" />
+    <edge source="DZIP3" target="DZIP3" />
+    <edge source="DZIP3" target="PKN3" />
+    <edge source="DZIP3" target="RABEP1" />
+    <edge source="DZIP3" target="RABGAP1L" />
+    <edge source="DZIP3" target="CCHCR1" />
+    <edge source="PHLDB3" target="NCKAP5L" />
+    <edge source="PHLDB3" target="NUF2" />
+    <edge source="PHLDB3" target="CCHCR1" />
+    <edge source="PHLDB3" target="PKN3" />
+    <edge source="PHLDB3" target="RABGAP1L" />
+    <edge source="RABGAP1L" target="NUF2" />
+    <edge source="RABGAP1L" target="NCKAP5L" />
+    <edge source="RABGAP1L" target="CCHCR1" />
+    <edge source="RABGAP1L" target="RABGAP1" />
+    <edge source="RABGAP1L" target="RABEP1" />
+    <edge source="RABGAP1L" target="PKN3" />
+    <edge source="ARHGAP10" target="PKN3" />
+    <edge source="PROSER3" target="CCHCR1" />
+    <edge source="DHPS" target="ANKMY2" />
+    <edge source="DHPS" target="DHPS" />
+    <edge source="DHPS" target="CCHCR1" />
+    <edge source="ANKMY2" target="LRSAM1" />
+    <edge source="NUF2" target="RABGAP1" />
+    <edge source="NUF2" target="NCKAP5L" />
+    <edge source="NUF2" target="PKN3" />
+    <edge source="NUF2" target="CENPE" />
+    <edge source="NUF2" target="CCHCR1" />
+    <edge source="RABEP1" target="CENPE" />
+    <edge source="RABEP1" target="NCKAP5L" />
+    <edge source="RABEP1" target="CCHCR1" />
+    <edge source="RABEP1" target="RABEP1" />
+    <edge source="RABEP1" target="PKN3" />
+    <edge source="PKN3" target="NCKAP5L" />
+    <edge source="PKN3" target="CCHCR1" />
+    <edge source="PKN3" target="PKN3" />
+    <edge source="CCHCR1" target="NCKAP5L" />
+    <edge source="CCHCR1" target="CCHCR1" />
+    <edge source="LRSAM1" target="LRSAM1" />
+    <edge source="RABGAP1" target="RABGAP1" />
+    <edge source="CENPE" target="CENPE" />
+  </graph>
+</graphml>

@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="FTL">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="RRP12">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="KRI1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="NOC3L">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="GTPBP4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="RRP1B">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="NOP53">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="LARP1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="PPAN">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="DDX24">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="PDCD11">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="DDX54">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="UBR5">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="PWP1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="PIPSL">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <edge source="FTL" target="FTL" />
+    <edge source="FTL" target="PPAN" />
+    <edge source="FTL" target="PIPSL" />
+    <edge source="FTL" target="NOP53" />
+    <edge source="RRP12" target="DDX24" />
+    <edge source="RRP12" target="NOC3L" />
+    <edge source="RRP12" target="NOP53" />
+    <edge source="RRP12" target="RRP1B" />
+    <edge source="KRI1" target="NOP53" />
+    <edge source="KRI1" target="RRP1B" />
+    <edge source="NOC3L" target="DDX24" />
+    <edge source="NOC3L" target="PDCD11" />
+    <edge source="NOC3L" target="RRP1B" />
+    <edge source="GTPBP4" target="DDX24" />
+    <edge source="GTPBP4" target="PPAN" />
+    <edge source="GTPBP4" target="PWP1" />
+    <edge source="GTPBP4" target="NOP53" />
+    <edge source="GTPBP4" target="RRP1B" />
+    <edge source="RRP1B" target="DDX24" />
+    <edge source="RRP1B" target="DDX54" />
+    <edge source="RRP1B" target="LARP1" />
+    <edge source="RRP1B" target="NOP53" />
+    <edge source="RRP1B" target="PDCD11" />
+    <edge source="RRP1B" target="PPAN" />
+    <edge source="RRP1B" target="UBR5" />
+    <edge source="RRP1B" target="RRP1B" />
+    <edge source="NOP53" target="DDX54" />
+    <edge source="NOP53" target="NOP53" />
+    <edge source="NOP53" target="PPAN" />
+    <edge source="LARP1" target="PPAN" />
+    <edge source="LARP1" target="LARP1" />
+    <edge source="PPAN" target="DDX24" />
+    <edge source="PPAN" target="DDX54" />
+    <edge source="PPAN" target="PPAN" />
+    <edge source="PPAN" target="UBR5" />
+    <edge source="DDX24" target="PWP1" />
+    <edge source="DDX24" target="DDX24" />
+    <edge source="PDCD11" target="DDX54" />
+    <edge source="UBR5" target="UBR5" />
+  </graph>
+</graphml>

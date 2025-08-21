@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="COPS4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CPSF1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="C1orf198">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ARMC6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="WDTC1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="HTT">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="CPSF3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="GPS1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="USP25">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PSMD6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PSMD4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="FEM1B">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="ARHGAP29">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TXNL1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PSMD12">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="COPS3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="COPS8">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <edge source="COPS4" target="COPS3" />
+    <edge source="COPS4" target="COPS4" />
+    <edge source="COPS4" target="GPS1" />
+    <edge source="COPS4" target="COPS8" />
+    <edge source="COPS4" target="FEM1B" />
+    <edge source="CPSF1" target="GPS1" />
+    <edge source="CPSF1" target="CPSF1" />
+    <edge source="CPSF1" target="ARHGAP29" />
+    <edge source="CPSF1" target="CPSF3" />
+    <edge source="C1orf198" target="ARMC6" />
+    <edge source="ARMC6" target="PSMD6" />
+    <edge source="WDTC1" target="COPS3" />
+    <edge source="WDTC1" target="COPS8" />
+    <edge source="WDTC1" target="GPS1" />
+    <edge source="HTT" target="PSMD6" />
+    <edge source="HTT" target="COPS3" />
+    <edge source="HTT" target="CPSF3" />
+    <edge source="HTT" target="FEM1B" />
+    <edge source="HTT" target="HTT" />
+    <edge source="HTT" target="ARHGAP29" />
+    <edge source="HTT" target="PSMD4" />
+    <edge source="GPS1" target="COPS3" />
+    <edge source="GPS1" target="COPS8" />
+    <edge source="GPS1" target="FEM1B" />
+    <edge source="GPS1" target="GPS1" />
+    <edge source="USP25" target="FEM1B" />
+    <edge source="USP25" target="USP25" />
+    <edge source="PSMD6" target="PSMD6" />
+    <edge source="PSMD6" target="PSMD12" />
+    <edge source="PSMD6" target="TXNL1" />
+    <edge source="PSMD6" target="PSMD4" />
+    <edge source="PSMD4" target="PSMD12" />
+    <edge source="PSMD4" target="TXNL1" />
+    <edge source="PSMD4" target="PSMD4" />
+    <edge source="FEM1B" target="COPS3" />
+    <edge source="FEM1B" target="COPS8" />
+    <edge source="FEM1B" target="FEM1B" />
+    <edge source="TXNL1" target="PSMD12" />
+    <edge source="PSMD12" target="PSMD12" />
+    <edge source="COPS3" target="COPS8" />
+    <edge source="COPS3" target="COPS3" />
+    <edge source="COPS8" target="COPS8" />
+  </graph>
+</graphml>

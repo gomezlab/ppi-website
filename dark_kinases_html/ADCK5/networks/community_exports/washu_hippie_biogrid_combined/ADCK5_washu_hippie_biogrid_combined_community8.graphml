@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="ARHGEF11">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="ABI1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="ABL1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="ARHGAP5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="ASAP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="SOS1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="TIGD3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="RASA1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="KIAA1522">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="IVNS1ABP">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="ARHGAP12">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="PRPSAP2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="DOK1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="RPGR">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="PDSS2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="NUDCD2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="BCR">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <node id="NXN">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">8</data>
+    </node>
+    <edge source="ARHGEF11" target="ABL1" />
+    <edge source="ARHGEF11" target="ARHGEF11" />
+    <edge source="ARHGEF11" target="TIGD3" />
+    <edge source="ABI1" target="KIAA1522" />
+    <edge source="ABI1" target="ABL1" />
+    <edge source="ABI1" target="IVNS1ABP" />
+    <edge source="ABI1" target="PRPSAP2" />
+    <edge source="ABI1" target="SOS1" />
+    <edge source="ABI1" target="RASA1" />
+    <edge source="ABI1" target="ABI1" />
+    <edge source="ABI1" target="NXN" />
+    <edge source="ABI1" target="ARHGAP12" />
+    <edge source="ABL1" target="DOK1" />
+    <edge source="ABL1" target="ASAP1" />
+    <edge source="ABL1" target="ABL1" />
+    <edge source="ABL1" target="RASA1" />
+    <edge source="ABL1" target="PDSS2" />
+    <edge source="ABL1" target="SOS1" />
+    <edge source="ABL1" target="BCR" />
+    <edge source="ARHGAP5" target="RASA1" />
+    <edge source="ASAP1" target="KIAA1522" />
+    <edge source="ASAP1" target="ARHGAP12" />
+    <edge source="SOS1" target="BCR" />
+    <edge source="SOS1" target="NUDCD2" />
+    <edge source="SOS1" target="SOS1" />
+    <edge source="RASA1" target="DOK1" />
+    <edge source="RASA1" target="PRPSAP2" />
+    <edge source="RASA1" target="BCR" />
+    <edge source="RASA1" target="IVNS1ABP" />
+    <edge source="RASA1" target="RASA1" />
+    <edge source="KIAA1522" target="ARHGAP12" />
+    <edge source="IVNS1ABP" target="PRPSAP2" />
+    <edge source="IVNS1ABP" target="IVNS1ABP" />
+    <edge source="PRPSAP2" target="PRPSAP2" />
+    <edge source="DOK1" target="DOK1" />
+    <edge source="DOK1" target="BCR" />
+    <edge source="RPGR" target="NUDCD2" />
+    <edge source="NUDCD2" target="BCR" />
+    <edge source="NUDCD2" target="NUDCD2" />
+    <edge source="BCR" target="BCR" />
+  </graph>
+</graphml>

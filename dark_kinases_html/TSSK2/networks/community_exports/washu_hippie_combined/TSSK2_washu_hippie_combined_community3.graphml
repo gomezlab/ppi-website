@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="PPP1R13B">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="HDAC4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PKP4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PHLDB2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SRCIN1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="CTNNB1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SIPA1L3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PLEKHA6">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="PLEKHA5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="EPN3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="FOXM1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="KIAA1217">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="KIF7">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="LZTS2">
+      <data key="d0">gold</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="SIPA1L1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="KCTD3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <node id="MCM7">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+    </node>
+    <edge source="PPP1R13B" target="LZTS2" />
+    <edge source="PPP1R13B" target="PLEKHA5" />
+    <edge source="PPP1R13B" target="CTNNB1" />
+    <edge source="HDAC4" target="PHLDB2" />
+    <edge source="HDAC4" target="KCTD3" />
+    <edge source="HDAC4" target="CTNNB1" />
+    <edge source="HDAC4" target="HDAC4" />
+    <edge source="HDAC4" target="SIPA1L1" />
+    <edge source="PKP4" target="LZTS2" />
+    <edge source="PKP4" target="CTNNB1" />
+    <edge source="PHLDB2" target="LZTS2" />
+    <edge source="PHLDB2" target="KCTD3" />
+    <edge source="PHLDB2" target="CTNNB1" />
+    <edge source="PHLDB2" target="SIPA1L1" />
+    <edge source="PHLDB2" target="KIF7" />
+    <edge source="SRCIN1" target="CTNNB1" />
+    <edge source="CTNNB1" target="LZTS2" />
+    <edge source="CTNNB1" target="SIPA1L3" />
+    <edge source="CTNNB1" target="PLEKHA5" />
+    <edge source="CTNNB1" target="PLEKHA6" />
+    <edge source="CTNNB1" target="KIAA1217" />
+    <edge source="CTNNB1" target="SIPA1L1" />
+    <edge source="CTNNB1" target="FOXM1" />
+    <edge source="CTNNB1" target="MCM7" />
+    <edge source="SIPA1L3" target="LZTS2" />
+    <edge source="SIPA1L3" target="SIPA1L1" />
+    <edge source="PLEKHA6" target="PLEKHA5" />
+    <edge source="PLEKHA5" target="LZTS2" />
+    <edge source="PLEKHA5" target="KCTD3" />
+    <edge source="PLEKHA5" target="PLEKHA5" />
+    <edge source="PLEKHA5" target="SIPA1L1" />
+    <edge source="EPN3" target="KCTD3" />
+    <edge source="FOXM1" target="LZTS2" />
+    <edge source="FOXM1" target="FOXM1" />
+    <edge source="KIAA1217" target="LZTS2" />
+    <edge source="KIF7" target="LZTS2" />
+    <edge source="LZTS2" target="SIPA1L1" />
+    <edge source="LZTS2" target="MCM7" />
+    <edge source="SIPA1L1" target="KCTD3" />
+    <edge source="SIPA1L1" target="MCM7" />
+    <edge source="MCM7" target="MCM7" />
+  </graph>
+</graphml>

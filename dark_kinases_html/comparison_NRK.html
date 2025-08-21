@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Dark Kinase – NRK</title>
+  <style>
+    :root { --picker-h: 44px; } /* adjust if your picker is taller */
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header { padding: 10px; background: #333; color: white; display:flex; gap:12px; align-items:center; }
+    header select { font-size: 1rem; padding: 5px; }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      height: calc(100vh - 60px);
+    }
+    .column {
+      overflow-y: auto;
+      padding: 12px 12px 80px;
+      border-left: 1px solid #ddd;
+    }
+    .column:first-child { border-left: none; }
+    h2 { margin: 8px 0; font-size: 0.95rem; }
+    .picker {
+      display:flex; gap:8px; align-items:center;
+      position: sticky; top: 0; z-index: 2; background:#fff; padding-bottom:8px;
+    }
+    .picker label { font-size: 0.9rem; color:#333; }
+    img.network {
+      position: sticky; top: calc(var(--picker-h) + 8px);
+      background: #fff; z-index: 1; display:block;
+      max-width: 100%; height: auto; margin: 10px 0 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06); border-radius: 6px;
+    }
+    /* Per-community block uses CSS vars we set inline */
+    .comm-block h3 { margin: 10px 0 4px; font-size: 0.9rem; color: var(--comm-fg); }
+    .comm-block table { width: 100%; border-collapse: collapse; margin-bottom: 1em; }
+    .comm-block th, .comm-block td { border: 1px solid #999; padding: 4px; font-size: 12px; }
+    .comm-block th { background: var(--comm-bg); }
+    h4 { margin: 8px 0 2px; font-size: 0.85rem; color:#444; }
+    .muted { color:#888; font-size: 0.9rem; }
+  </style>
+  <script>
+    function onKinaseChange(sel) {
+      window.location = sel.value + ".html";
+    }
+    function onCommunityChange(selectEl, imgId) {
+      const url = selectEl.value;
+      const img = document.getElementById(imgId);
+      if (url && img) img.src = url;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <label for="kinaseSelect">Choose kinase:</label>
+    <select id="kinaseSelect" onchange="onKinaseChange(this)">
+      
+      <option value="comparison_ADCK5" >ADCK5</option>
+      
+      <option value="comparison_DYRK4" >DYRK4</option>
+      
+      <option value="comparison_NEK11" >NEK11</option>
+      
+      <option value="comparison_NRK" selected>NRK</option>
+      
+      <option value="comparison_PSKH1" >PSKH1</option>
+      
+      <option value="comparison_PSKH2" >PSKH2</option>
+      
+      <option value="comparison_RPS6KL1" >RPS6KL1</option>
+      
+      <option value="comparison_RSKR" >RSKR</option>
+      
+      <option value="comparison_SBK2" >SBK2</option>
+      
+      <option value="comparison_SBK3" >SBK3</option>
+      
+      <option value="comparison_STK32A" >STK32A</option>
+      
+      <option value="comparison_STK32B" >STK32B</option>
+      
+      <option value="comparison_STKLD1" >STKLD1</option>
+      
+      <option value="comparison_TSSK2" >TSSK2</option>
+      
+      <option value="comparison_TSSK3" >TSSK3</option>
+      
+      <option value="comparison_TSSK4" >TSSK4</option>
+      
+    </select>
+    <span class="muted">Sticky dropdown + image; headings & table headers tinted by community color</span>
+  </header>
+
+  <div class="container">
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">WashU</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">Hippie</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">biogrid</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">wb</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">wh</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+      </div>
+    
+      <div class="column">
+        <div class="picker">
+          <h2 style="margin:0;">whb</h2>
+          
+            <span class="muted">No community images</span>
+          
+        </div>
+
+        
+
+        
+      </div>
+    
+  </div>
+</body>
+</html>

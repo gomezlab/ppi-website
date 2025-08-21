@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="WNK1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="XPO1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="CDH1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="CAMK4">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="NHLRC2">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="PFN1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="VASP">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="DCAF15">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="TPP2">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="NAA40">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="RACK1">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <node id="ZYX">
+      <data key="d0">#9467bd</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">4</data>
+    </node>
+    <edge source="WNK1" target="NAA40" />
+    <edge source="WNK1" target="PFN1" />
+    <edge source="WNK1" target="WNK1" />
+    <edge source="WNK1" target="XPO1" />
+    <edge source="WNK1" target="ZYX" />
+    <edge source="XPO1" target="VASP" />
+    <edge source="XPO1" target="XPO1" />
+    <edge source="XPO1" target="ZYX" />
+    <edge source="CDH1" target="ZYX" />
+    <edge source="CDH1" target="VASP" />
+    <edge source="CDH1" target="PFN1" />
+    <edge source="CDH1" target="CDH1" />
+    <edge source="CDH1" target="RACK1" />
+    <edge source="CAMK4" target="RACK1" />
+    <edge source="CAMK4" target="NAA40" />
+    <edge source="CAMK4" target="CAMK4" />
+    <edge source="NHLRC2" target="ZYX" />
+    <edge source="NHLRC2" target="NHLRC2" />
+    <edge source="NHLRC2" target="VASP" />
+    <edge source="NHLRC2" target="PFN1" />
+    <edge source="PFN1" target="NAA40" />
+    <edge source="PFN1" target="VASP" />
+    <edge source="PFN1" target="PFN1" />
+    <edge source="VASP" target="VASP" />
+    <edge source="VASP" target="ZYX" />
+    <edge source="DCAF15" target="RACK1" />
+    <edge source="DCAF15" target="ZYX" />
+    <edge source="DCAF15" target="DCAF15" />
+    <edge source="TPP2" target="NAA40" />
+    <edge source="TPP2" target="TPP2" />
+    <edge source="NAA40" target="ZYX" />
+    <edge source="NAA40" target="NAA40" />
+    <edge source="NAA40" target="RACK1" />
+    <edge source="RACK1" target="RACK1" />
+  </graph>
+</graphml>

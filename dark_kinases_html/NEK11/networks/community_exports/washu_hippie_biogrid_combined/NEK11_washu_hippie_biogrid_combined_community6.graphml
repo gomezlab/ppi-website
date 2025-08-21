@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="TOMM5">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="TOMM40">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="RAB21">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SLC25A13">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="APP">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="RPN2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="SLC25A1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="VAPA">
+      <data key="d0">gold</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="GSTO1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="PLOD3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="VAC14">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="VDAC2">
+      <data key="d0">gold</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="VDAC3">
+      <data key="d0">gold</data>
+      <data key="d1">100</data>
+      <data key="d2">Overlap</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="STRIP2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">False</data>
+      <data key="d4">6</data>
+    </node>
+    <node id="HADHB">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">6</data>
+    </node>
+    <edge source="TOMM5" target="VDAC3" />
+    <edge source="TOMM5" target="VDAC2" />
+    <edge source="TOMM5" target="RPN2" />
+    <edge source="TOMM5" target="PLOD3" />
+    <edge source="TOMM5" target="APP" />
+    <edge source="TOMM5" target="TOMM40" />
+    <edge source="TOMM5" target="HADHB" />
+    <edge source="TOMM40" target="VDAC3" />
+    <edge source="TOMM40" target="VAPA" />
+    <edge source="TOMM40" target="VDAC2" />
+    <edge source="TOMM40" target="RPN2" />
+    <edge source="TOMM40" target="PLOD3" />
+    <edge source="TOMM40" target="APP" />
+    <edge source="TOMM40" target="HADHB" />
+    <edge source="RAB21" target="VDAC3" />
+    <edge source="RAB21" target="VAC14" />
+    <edge source="SLC25A13" target="APP" />
+    <edge source="SLC25A13" target="SLC25A1" />
+    <edge source="APP" target="VDAC3" />
+    <edge source="APP" target="VAPA" />
+    <edge source="APP" target="VDAC2" />
+    <edge source="APP" target="GSTO1" />
+    <edge source="APP" target="VAC14" />
+    <edge source="APP" target="STRIP2" />
+    <edge source="APP" target="HADHB" />
+    <edge source="APP" target="SLC25A1" />
+    <edge source="APP" target="APP" />
+    <edge source="RPN2" target="VDAC3" />
+    <edge source="RPN2" target="VAPA" />
+    <edge source="RPN2" target="VDAC2" />
+    <edge source="RPN2" target="SLC25A1" />
+    <edge source="RPN2" target="HADHB" />
+    <edge source="SLC25A1" target="VAPA" />
+    <edge source="VAPA" target="VDAC3" />
+    <edge source="VAPA" target="VAPA" />
+    <edge source="VAPA" target="VDAC2" />
+    <edge source="VAPA" target="PLOD3" />
+    <edge source="PLOD3" target="VDAC3" />
+    <edge source="PLOD3" target="VDAC2" />
+    <edge source="PLOD3" target="HADHB" />
+    <edge source="PLOD3" target="PLOD3" />
+    <edge source="VAC14" target="VAC14" />
+    <edge source="VDAC2" target="VDAC3" />
+    <edge source="VDAC2" target="HADHB" />
+    <edge source="VDAC3" target="HADHB" />
+  </graph>
+</graphml>
