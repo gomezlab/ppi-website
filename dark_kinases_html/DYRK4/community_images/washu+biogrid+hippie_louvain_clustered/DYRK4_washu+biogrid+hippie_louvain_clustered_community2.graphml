@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d5" for="edge" attr.name="source" attr.type="string" />
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="PPP1CC">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="DDOST">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="TECR">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="ATP1A1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="PPP5C">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="STIP1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="ST13">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="RBBP4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <node id="USP11">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">2</data>
+    </node>
+    <edge source="PPP1CC" target="STIP1">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="PPP1CC" target="USP11">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="DDOST" target="STIP1">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="DDOST" target="TECR">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="DDOST" target="USP11">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="DDOST" target="ATP1A1">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="TECR" target="STIP1">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="TECR" target="ATP1A1">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="ATP1A1" target="PPP5C">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE</data>
+    </edge>
+    <edge source="ATP1A1" target="ST13">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE</data>
+    </edge>
+    <edge source="ATP1A1" target="STIP1">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="ATP1A1" target="USP11">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="PPP5C" target="STIP1">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="STIP1" target="RBBP4">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="STIP1" target="ST13">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="RBBP4" target="USP11">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+  </graph>
+</graphml>

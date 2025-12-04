@@ -1,0 +1,5810 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Kinase – SBK2</title>
+
+<style>
+  body { margin:0; font-family: Arial, sans-serif; }
+  header {
+    background:#333; color:white; padding:10px;
+    display:flex; gap:12px; align-items:center;
+  }
+  header select { padding:5px; font-size:1rem; }
+
+  .container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: calc(100vh - 60px);
+  }
+
+  .column {
+    padding:12px;
+    overflow-y:auto;
+    border-left:1px solid #ddd;
+  }
+  .column:first-child { border-left:none; }
+
+  .picker {
+    position:sticky; top:0; background:white;
+    display:flex; gap:8px; align-items:center;
+    padding-bottom:6px;
+    z-index:10;
+  }
+
+  .graph-box {
+    position:sticky; top:50px;
+    background:#fafafa;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:8px;
+    margin-bottom:12px;
+    z-index:5;
+  }
+  .graph-box img {
+    max-width:100%; border-radius:6px; display:block;
+  }
+
+  .comm-block {
+    border:1px solid #aaa; border-radius:6px;
+    margin-bottom:12px; padding:8px;
+    background:var(--comm-bg);
+    color:var(--comm-fg);
+  }
+
+  .muted { color:#888; }
+</style>
+
+<script>
+function onKinaseChange(sel) {
+    window.location = sel.value + ".html";
+}
+
+function onCommunityChange(selectEl, imgId) {
+    const url = selectEl.value;
+    document.getElementById(imgId).src = url;
+}
+
+function showAnnotations(prefix, cid) {
+    // hide all annotation blocks for this column
+    document.querySelectorAll(`.ann-${prefix}`).forEach(div => {
+        div.style.display = 'none';
+    });
+    // show the selected
+    const block = document.getElementById(`ann-${prefix}-` + cid);
+    if (block) block.style.display = 'block';
+}
+</script>
+
+</head>
+<body>
+
+<header>
+  <label>Choose kinase:</label>
+  <select onchange="onKinaseChange(this)">
+    
+      <option value="ADCK5/comparison_ADCK5"
+              >ADCK5</option>
+    
+      <option value="DYRK4/comparison_DYRK4"
+              >DYRK4</option>
+    
+      <option value="NEK11/comparison_NEK11"
+              >NEK11</option>
+    
+      <option value="NRK/comparison_NRK"
+              >NRK</option>
+    
+      <option value="PSKH1/comparison_PSKH1"
+              >PSKH1</option>
+    
+      <option value="PSKH2/comparison_PSKH2"
+              >PSKH2</option>
+    
+      <option value="RPS6KL1/comparison_RPS6KL1"
+              >RPS6KL1</option>
+    
+      <option value="RSKR/comparison_RSKR"
+              >RSKR</option>
+    
+      <option value="SBK2/comparison_SBK2"
+              selected>SBK2</option>
+    
+      <option value="SBK3/comparison_SBK3"
+              >SBK3</option>
+    
+      <option value="STK32A/comparison_STK32A"
+              >STK32A</option>
+    
+      <option value="STK32B/comparison_STK32B"
+              >STK32B</option>
+    
+      <option value="STKLD1/comparison_STKLD1"
+              >STKLD1</option>
+    
+      <option value="TSSK2/comparison_TSSK2"
+              >TSSK2</option>
+    
+      <option value="TSSK3/comparison_TSSK3"
+              >TSSK3</option>
+    
+      <option value="TSSK4/comparison_TSSK4"
+              >TSSK4</option>
+    
+  </select>
+</header>
+
+<div class="container">
+
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">Reference (biogrid+hippie)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_0');
+            showAnnotations('0', this.value);
+        ">
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/SBK2_biogrid+hippie_leiden_clustered_FULL.png">full</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/SBK2_biogrid+hippie_leiden_clustered_community0.png">0</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/SBK2_biogrid+hippie_leiden_clustered_community1.png">1</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/SBK2_biogrid+hippie_leiden_clustered_community2.png">2</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_0" src="community_images/biogrid+hippie_leiden_clustered/SBK2_biogrid+hippie_leiden_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("0", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-0-0"
+             class="comm-block ann-0"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>CORUM</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>3</td>
+      <td>1.042503e-07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>3</td>
+      <td>2.605678e-07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>3</td>
+      <td>5.210199e-07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>3</td>
+      <td>3.123343e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>3</td>
+      <td>7.439004e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5199</td>
+      <td>Kinase maturation complex 1</td>
+      <td>Kinase maturation complex 1</td>
+      <td>3</td>
+      <td>1.455616e-05</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6512</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5849</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5285</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>2</td>
+      <td>4.401642e-04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5716</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>1</td>
+      <td>4.967994e-02</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:1990565</td>
+      <td>HSP90-CDC37 chaperone complex</td>
+      <td>"A protein kinase chaperone complex required for the proper folding, maturation and stabilization of target proteins (mostly signaling protein kinases, some steroid hormone receptors), usually during or immediately after completion of translation. The highly conserved, phosphorylated CDC37-Ser13 (vertebrates) or cdc37-Ser14 (yeast) is essential for complex assembly and target protein binding. CDC37-Ser13 (Ser14) is phosphorylated by Casein kinase II (CK2), which in turn is a target of CDC37 creating a positive feedback loop. Complex binding also prevents rapid ubiquitin-dependent proteosomal degradation of target proteins." [GOC:bhm, GOC:pad, GOC:PARL, PMID:21855797, PMID:22939624]</td>
+      <td>2</td>
+      <td>0.000003</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044294</td>
+      <td>dendritic growth cone</td>
+      <td>"The migrating motile tip of a growing nerve cell dendrite." [GOC:jl]</td>
+      <td>2</td>
+      <td>0.000122</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044292</td>
+      <td>dendrite terminus</td>
+      <td>"A structure at the distal end of a dendrite adapted to carry out a specific function, e.g. dendriole." [GOC:jl, NIF_Subcellular:sao28175134]</td>
+      <td>2</td>
+      <td>0.000307</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044295</td>
+      <td>axonal growth cone</td>
+      <td>"The migrating motile tip of a growing nerve cell axon." [GOC:jl, NIF_Subcellular:sao203987954]</td>
+      <td>2</td>
+      <td>0.001467</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0101031</td>
+      <td>protein folding chaperone complex</td>
+      <td>"A protein complex required for the non-covalent folding or unfolding, maturation, stabilization or assembly or disassembly of macromolecular structures. Usually active during or immediately after completion of translation. Many chaperone complexes contain heat shock proteins." [GOC:bhm, PMID:21855797]</td>
+      <td>2</td>
+      <td>0.002764</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0042470</td>
+      <td>melanosome</td>
+      <td>"A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored. Melanosomes are synthesized in melanocyte cells." [GOC:jl, PMID:11584301]</td>
+      <td>2</td>
+      <td>0.021616</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0048770</td>
+      <td>pigment granule</td>
+      <td>"A small, subcellular membrane-bounded vesicle containing pigment and/or pigment precursor molecules. Pigment granule biogenesis is poorly understood, as pigment granules are derived from multiple sources including the endoplasmic reticulum, coated vesicles, lysosomes, and endosomes." [GOC:jid, GOC:mh]</td>
+      <td>2</td>
+      <td>0.021616</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:1904813</td>
+      <td>ficolin-1-rich granule lumen</td>
+      <td>"Any membrane-enclosed lumen that is part of a ficolin-1-rich granule." [GO_REF:0000064, GOC:TermGenie, PMID:23650620]</td>
+      <td>2</td>
+      <td>0.025577</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030141</td>
+      <td>secretory granule</td>
+      <td>"A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion. Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized. Processing of the contained protein may take place in secretory granules." [GOC:mah, ISBN:0198506732]</td>
+      <td>3</td>
+      <td>0.036660</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030426</td>
+      <td>growth cone</td>
+      <td>"The migrating motile tip of a growing neuron projection, where actin accumulates, and the actin cytoskeleton is the most dynamic." [GOC:aruk, GOC:bc, ISBN:0815316194, PMID:10082468]</td>
+      <td>2</td>
+      <td>0.046925</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030427</td>
+      <td>site of polarized growth</td>
+      <td>"Any part of a cell where non-isotropic growth takes place." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.049753</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>REAC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9013418</td>
+      <td>RHOBTB2 GTPase cycle</td>
+      <td>RHOBTB2 GTPase cycle</td>
+      <td>3</td>
+      <td>0.000005</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9834752</td>
+      <td>Respiratory syncytial virus genome replication</td>
+      <td>Respiratory syncytial virus genome replication</td>
+      <td>2</td>
+      <td>0.000017</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9820962</td>
+      <td>Assembly and release of respiratory syncytial virus (RSV) virions</td>
+      <td>Assembly and release of respiratory syncytial virus (RSV) virions</td>
+      <td>2</td>
+      <td>0.000017</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9706574</td>
+      <td>RHOBTB GTPase Cycle</td>
+      <td>RHOBTB GTPase Cycle</td>
+      <td>3</td>
+      <td>0.000020</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665245</td>
+      <td>Resistance of ERBB2 KD mutants to tesevatinib</td>
+      <td>Resistance of ERBB2 KD mutants to tesevatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665233</td>
+      <td>Resistance of ERBB2 KD mutants to trastuzumab</td>
+      <td>Resistance of ERBB2 KD mutants to trastuzumab</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665250</td>
+      <td>Resistance of ERBB2 KD mutants to AEE788</td>
+      <td>Resistance of ERBB2 KD mutants to AEE788</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665249</td>
+      <td>Resistance of ERBB2 KD mutants to afatinib</td>
+      <td>Resistance of ERBB2 KD mutants to afatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665251</td>
+      <td>Resistance of ERBB2 KD mutants to lapatinib</td>
+      <td>Resistance of ERBB2 KD mutants to lapatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665246</td>
+      <td>Resistance of ERBB2 KD mutants to neratinib</td>
+      <td>Resistance of ERBB2 KD mutants to neratinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665247</td>
+      <td>Resistance of ERBB2 KD mutants to osimertinib</td>
+      <td>Resistance of ERBB2 KD mutants to osimertinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665244</td>
+      <td>Resistance of ERBB2 KD mutants to sapitinib</td>
+      <td>Resistance of ERBB2 KD mutants to sapitinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665737</td>
+      <td>Drug resistance in ERBB2 TMD/JMD mutants</td>
+      <td>Drug resistance in ERBB2 TMD/JMD mutants</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9652282</td>
+      <td>Drug-mediated inhibition of ERBB2 signaling</td>
+      <td>Drug-mediated inhibition of ERBB2 signaling</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665230</td>
+      <td>Drug resistance in ERBB2 KD mutants</td>
+      <td>Drug resistance in ERBB2 KD mutants</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5336415</td>
+      <td>Uptake and function of diphtheria toxin</td>
+      <td>Uptake and function of diphtheria toxin</td>
+      <td>2</td>
+      <td>0.000252</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9634285</td>
+      <td>Constitutive Signaling by Overexpressed ERBB2</td>
+      <td>Constitutive Signaling by Overexpressed ERBB2</td>
+      <td>2</td>
+      <td>0.000604</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371511</td>
+      <td>HSF1 activation</td>
+      <td>HSF1 activation</td>
+      <td>2</td>
+      <td>0.001107</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637810</td>
+      <td>Constitutive Signaling by EGFRvIII</td>
+      <td>Constitutive Signaling by EGFRvIII</td>
+      <td>2</td>
+      <td>0.001309</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637812</td>
+      <td>Signaling by EGFRvIII in Cancer</td>
+      <td>Signaling by EGFRvIII in Cancer</td>
+      <td>2</td>
+      <td>0.001309</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665348</td>
+      <td>Signaling by ERBB2 ECD mutants</td>
+      <td>Signaling by ERBB2 ECD mutants</td>
+      <td>2</td>
+      <td>0.001526</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371568</td>
+      <td>Attenuation phase</td>
+      <td>Attenuation phase</td>
+      <td>2</td>
+      <td>0.001526</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9820965</td>
+      <td>Respiratory syncytial virus (RSV) genome replication, transcription and translation</td>
+      <td>Respiratory syncytial virus (RSV) genome replication, transcription and translation</td>
+      <td>2</td>
+      <td>0.002012</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-399954</td>
+      <td>Sema3A PAK dependent Axon repulsion</td>
+      <td>Sema3A PAK dependent Axon repulsion</td>
+      <td>2</td>
+      <td>0.002012</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637815</td>
+      <td>Signaling by Ligand-Responsive EGFR Variants in Cancer</td>
+      <td>Signaling by Ligand-Responsive EGFR Variants in Cancer</td>
+      <td>2</td>
+      <td>0.002280</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1236382</td>
+      <td>Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants</td>
+      <td>Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants</td>
+      <td>2</td>
+      <td>0.002280</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665686</td>
+      <td>Signaling by ERBB2 TMD/JMD mutants</td>
+      <td>Signaling by ERBB2 TMD/JMD mutants</td>
+      <td>2</td>
+      <td>0.002565</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9664565</td>
+      <td>Signaling by ERBB2 KD Mutants</td>
+      <td>Signaling by ERBB2 KD Mutants</td>
+      <td>2</td>
+      <td>0.003520</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1227990</td>
+      <td>Signaling by ERBB2 in Cancer</td>
+      <td>Signaling by ERBB2 in Cancer</td>
+      <td>2</td>
+      <td>0.003871</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9613829</td>
+      <td>Chaperone Mediated Autophagy</td>
+      <td>Chaperone Mediated Autophagy</td>
+      <td>2</td>
+      <td>0.003871</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1643713</td>
+      <td>Signaling by EGFR in Cancer</td>
+      <td>Signaling by EGFR in Cancer</td>
+      <td>2</td>
+      <td>0.004239</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371571</td>
+      <td>HSF1-dependent transactivation</td>
+      <td>HSF1-dependent transactivation</td>
+      <td>2</td>
+      <td>0.004624</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5339562</td>
+      <td>Uptake and actions of bacterial toxins</td>
+      <td>Uptake and actions of bacterial toxins</td>
+      <td>2</td>
+      <td>0.005025</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-8863795</td>
+      <td>Downregulation of ERBB2 signaling</td>
+      <td>Downregulation of ERBB2 signaling</td>
+      <td>2</td>
+      <td>0.005878</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5213460</td>
+      <td>RIPK1-mediated regulated necrosis</td>
+      <td>RIPK1-mediated regulated necrosis</td>
+      <td>2</td>
+      <td>0.007784</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5675482</td>
+      <td>Regulation of necroptotic cell death</td>
+      <td>Regulation of necroptotic cell death</td>
+      <td>2</td>
+      <td>0.007784</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9694516</td>
+      <td>SARS-CoV-2 Infection</td>
+      <td>SARS-CoV-2 Infection</td>
+      <td>3</td>
+      <td>0.012294</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1227986</td>
+      <td>Signaling by ERBB2</td>
+      <td>Signaling by ERBB2</td>
+      <td>2</td>
+      <td>0.017294</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371497</td>
+      <td>HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand</td>
+      <td>HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand</td>
+      <td>2</td>
+      <td>0.026632</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5218859</td>
+      <td>Regulated Necrosis</td>
+      <td>Regulated Necrosis</td>
+      <td>2</td>
+      <td>0.027580</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-373755</td>
+      <td>Semaphorin interactions</td>
+      <td>Semaphorin interactions</td>
+      <td>2</td>
+      <td>0.033612</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9824439</td>
+      <td>Bacterial Infection Pathways</td>
+      <td>Bacterial Infection Pathways</td>
+      <td>2</td>
+      <td>0.035754</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9012999</td>
+      <td>RHO GTPase cycle</td>
+      <td>RHO GTPase cycle</td>
+      <td>3</td>
+      <td>0.044371</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9679506</td>
+      <td>SARS-CoV Infections</td>
+      <td>SARS-CoV Infections</td>
+      <td>3</td>
+      <td>0.047375</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030235</td>
+      <td>nitric-oxide synthase regulator activity</td>
+      <td>"Binds to and modulates the activity of nitric oxide synthase." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.000207</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030911</td>
+      <td>TPR domain binding</td>
+      <td>"Binding to a tetratricopeptide repeat (TPR) domain of a protein, the consensus sequence of which is defined by a pattern of small and large hydrophobic amino acids and a structure composed of helices." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.000207</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0051082</td>
+      <td>unfolded protein binding</td>
+      <td>"Binding to an unfolded protein." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.000340</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0004517</td>
+      <td>nitric-oxide synthase activity</td>
+      <td>"Catalysis of the reaction: L-arginine + n NADPH + n H+ + m O2 = citrulline + nitric oxide + n NADP+." [EC:1.14.13.39, RHEA:19897]</td>
+      <td>2</td>
+      <td>0.000444</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0070182</td>
+      <td>DNA polymerase binding</td>
+      <td>"Binding to a DNA polymerase." [GOC:BHF, GOC:mah]</td>
+      <td>2</td>
+      <td>0.001873</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0023026</td>
+      <td>MHC class II protein complex binding</td>
+      <td>"Binding to a class II major histocompatibility complex." [GOC:mtg_signal, GOC:vw]</td>
+      <td>2</td>
+      <td>0.002720</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0097718</td>
+      <td>disordered domain specific binding</td>
+      <td>"Binding to a disordered domain of a protein." [GOC:gg, PMID:11746698]</td>
+      <td>2</td>
+      <td>0.004000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0140662</td>
+      <td>ATP-dependent protein folding chaperone</td>
+      <td>"Binding to a protein or a protein-containing complex to assist the protein folding process, driven by ATP hydrolysis." [PMID:27365453]</td>
+      <td>2</td>
+      <td>0.004580</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0023023</td>
+      <td>MHC protein complex binding</td>
+      <td>"Binding to a major histocompatibility complex." [GOC:mtg_signal, GOC:vw]</td>
+      <td>2</td>
+      <td>0.005199</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0016709</td>
+      <td>oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen</td>
+      <td>"Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from NADH or NADPH and one other donor, and one atom of oxygen is incorporated into one donor." [EC:1.14.13.-]</td>
+      <td>2</td>
+      <td>0.008471</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0048156</td>
+      <td>tau protein binding</td>
+      <td>"Binding to tau protein. tau is a microtubule-associated protein, implicated in Alzheimer's disease, Down Syndrome and ALS." [GOC:jid]</td>
+      <td>2</td>
+      <td>0.008883</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030234</td>
+      <td>enzyme regulator activity</td>
+      <td>"Binds to and modulates the activity of an enzyme." [GOC:dph, GOC:mah, GOC:tb]</td>
+      <td>4</td>
+      <td>0.018266</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0044183</td>
+      <td>protein folding chaperone</td>
+      <td>"Binding to a protein or a protein-containing complex to assist the protein folding process." [GOC:mtg_cambridge_2009]</td>
+      <td>2</td>
+      <td>0.022355</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0097110</td>
+      <td>scaffold protein binding</td>
+      <td>"Binding to a scaffold protein. Scaffold proteins are crucial regulators of many key signaling pathways. Although not strictly defined in function, they are known to interact and/or bind with multiple members of a signaling pathway, tethering them into complexes." [GOC:BHF, GOC:sjp, PMID:10433269, Wikipedia:Scaffold_protein]</td>
+      <td>2</td>
+      <td>0.023694</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0032564</td>
+      <td>dATP binding</td>
+      <td>"Binding to dATP, deoxyadenosine triphosphate." [GOC:mah]</td>
+      <td>1</td>
+      <td>0.049992</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0002135</td>
+      <td>CTP binding</td>
+      <td>"Binding to CTP, cytidine 5'-triphosphate." [GOC:hjd, ISBN:0124020607]</td>
+      <td>1</td>
+      <td>0.049992</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0031647</td>
+      <td>regulation of protein stability</td>
+      <td>"Any process that affects the structure and integrity of a protein, altering the likelihood of its degradation or aggregation." [GOC:dph, GOC:mah, GOC:tb]</td>
+      <td>4</td>
+      <td>0.000248</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:1905323</td>
+      <td>telomerase holoenzyme complex assembly</td>
+      <td>"The aggregation, arrangement and bonding together of a set of components to form a telomerase holoenzyme complex." [GO_REF:0000079, GOC:TermGenie, PMID:26305931]</td>
+      <td>2</td>
+      <td>0.000754</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0006457</td>
+      <td>protein folding</td>
+      <td>"The process of assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure." [GOC:go_curators, GOC:rb]</td>
+      <td>3</td>
+      <td>0.008711</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0050821</td>
+      <td>protein stabilization</td>
+      <td>"Any process involved in maintaining the structure and integrity of a protein and preventing it from degradation or aggregation." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.009321</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0051131</td>
+      <td>chaperone-mediated protein complex assembly</td>
+      <td>"The aggregation, arrangement and bonding together of a set of components to form a protein complex, mediated by chaperone molecules that do not form part of the finished complex." [GOC:ai]</td>
+      <td>2</td>
+      <td>0.009889</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0045429</td>
+      <td>positive regulation of nitric oxide biosynthetic process</td>
+      <td>"Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of nitric oxide." [GOC:go_curators]</td>
+      <td>2</td>
+      <td>0.025156</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:1904407</td>
+      <td>positive regulation of nitric oxide metabolic process</td>
+      <td>"Any process that activates or increases the frequency, rate or extent of nitric oxide metabolic process." [GO_REF:0000058, GOC:TermGenie, PMID:11991626]</td>
+      <td>2</td>
+      <td>0.026513</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0036211</td>
+      <td>protein modification process</td>
+      <td>"The covalent alteration of one or more amino acids occurring in proteins, peptides and nascent polypeptides (co-translational, post-translational modifications). Includes the modification of charged tRNAs that are destined to occur in a protein (pre-translation modification)." [GOC:bf, GOC:jl]</td>
+      <td>5</td>
+      <td>0.035950</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0043412</td>
+      <td>macromolecule modification</td>
+      <td>"The covalent alteration of one or more monomeric units in a polypeptide, polynucleotide, polysaccharide, or other biological macromolecule, resulting in a change in its properties." [GOC:go_curators]</td>
+      <td>5</td>
+      <td>0.049185</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>KEGG</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>3</td>
+      <td>0.001615</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04151</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>3</td>
+      <td>0.015252</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04612</td>
+      <td>Antigen processing and presentation</td>
+      <td>Antigen processing and presentation</td>
+      <td>2</td>
+      <td>0.020787</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04657</td>
+      <td>IL-17 signaling pathway</td>
+      <td>IL-17 signaling pathway</td>
+      <td>2</td>
+      <td>0.036956</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05215</td>
+      <td>Prostate cancer</td>
+      <td>Prostate cancer</td>
+      <td>2</td>
+      <td>0.041073</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04914</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>2</td>
+      <td>0.045404</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04659</td>
+      <td>Th17 cell differentiation</td>
+      <td>Th17 cell differentiation</td>
+      <td>2</td>
+      <td>0.048105</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>WP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2873</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>2</td>
+      <td>0.013015</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP3932</td>
+      <td>Focal adhesion PI3K Akt mTOR signaling</td>
+      <td>Focal adhesion PI3K Akt mTOR signaling</td>
+      <td>3</td>
+      <td>0.013395</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2586</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>2</td>
+      <td>0.013605</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2882</td>
+      <td>Nuclear receptors meta pathway</td>
+      <td>Nuclear receptors meta pathway</td>
+      <td>3</td>
+      <td>0.014904</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP4172</td>
+      <td>PI3K Akt signaling</td>
+      <td>PI3K Akt signaling</td>
+      <td>3</td>
+      <td>0.018411</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-0-2"
+             class="comm-block ann-0"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 2</h4>
+
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0071660</td>
+      <td>positive regulation of IP-10 production</td>
+      <td>"Any process that activates or increases the frequency, rate, or extent of production of IP-10." [GOC:mah]</td>
+      <td>1</td>
+      <td>0.049542</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">Reference (biogrid+hippie)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_1');
+            showAnnotations('1', this.value);
+        ">
+          
+            <option value="community_images/biogrid+hippie_louvain_clustered/SBK2_biogrid+hippie_louvain_clustered_FULL.png">full</option>
+          
+            <option value="community_images/biogrid+hippie_louvain_clustered/SBK2_biogrid+hippie_louvain_clustered_community0.png">0</option>
+          
+            <option value="community_images/biogrid+hippie_louvain_clustered/SBK2_biogrid+hippie_louvain_clustered_community1.png">1</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_1" src="community_images/biogrid+hippie_louvain_clustered/SBK2_biogrid+hippie_louvain_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("1", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-1-0"
+             class="comm-block ann-1"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>CORUM</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>3</td>
+      <td>1.042503e-07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>3</td>
+      <td>2.605678e-07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>3</td>
+      <td>5.210199e-07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>3</td>
+      <td>3.123343e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>3</td>
+      <td>7.439004e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5199</td>
+      <td>Kinase maturation complex 1</td>
+      <td>Kinase maturation complex 1</td>
+      <td>3</td>
+      <td>1.455616e-05</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5849</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6512</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5285</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>2</td>
+      <td>4.401642e-04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5716</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>1</td>
+      <td>4.967994e-02</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:1990565</td>
+      <td>HSP90-CDC37 chaperone complex</td>
+      <td>"A protein kinase chaperone complex required for the proper folding, maturation and stabilization of target proteins (mostly signaling protein kinases, some steroid hormone receptors), usually during or immediately after completion of translation. The highly conserved, phosphorylated CDC37-Ser13 (vertebrates) or cdc37-Ser14 (yeast) is essential for complex assembly and target protein binding. CDC37-Ser13 (Ser14) is phosphorylated by Casein kinase II (CK2), which in turn is a target of CDC37 creating a positive feedback loop. Complex binding also prevents rapid ubiquitin-dependent proteosomal degradation of target proteins." [GOC:bhm, GOC:pad, GOC:PARL, PMID:21855797, PMID:22939624]</td>
+      <td>2</td>
+      <td>0.000003</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044294</td>
+      <td>dendritic growth cone</td>
+      <td>"The migrating motile tip of a growing nerve cell dendrite." [GOC:jl]</td>
+      <td>2</td>
+      <td>0.000122</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044292</td>
+      <td>dendrite terminus</td>
+      <td>"A structure at the distal end of a dendrite adapted to carry out a specific function, e.g. dendriole." [GOC:jl, NIF_Subcellular:sao28175134]</td>
+      <td>2</td>
+      <td>0.000307</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044295</td>
+      <td>axonal growth cone</td>
+      <td>"The migrating motile tip of a growing nerve cell axon." [GOC:jl, NIF_Subcellular:sao203987954]</td>
+      <td>2</td>
+      <td>0.001467</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0101031</td>
+      <td>protein folding chaperone complex</td>
+      <td>"A protein complex required for the non-covalent folding or unfolding, maturation, stabilization or assembly or disassembly of macromolecular structures. Usually active during or immediately after completion of translation. Many chaperone complexes contain heat shock proteins." [GOC:bhm, PMID:21855797]</td>
+      <td>2</td>
+      <td>0.002764</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0042470</td>
+      <td>melanosome</td>
+      <td>"A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored. Melanosomes are synthesized in melanocyte cells." [GOC:jl, PMID:11584301]</td>
+      <td>2</td>
+      <td>0.021616</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0048770</td>
+      <td>pigment granule</td>
+      <td>"A small, subcellular membrane-bounded vesicle containing pigment and/or pigment precursor molecules. Pigment granule biogenesis is poorly understood, as pigment granules are derived from multiple sources including the endoplasmic reticulum, coated vesicles, lysosomes, and endosomes." [GOC:jid, GOC:mh]</td>
+      <td>2</td>
+      <td>0.021616</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:1904813</td>
+      <td>ficolin-1-rich granule lumen</td>
+      <td>"Any membrane-enclosed lumen that is part of a ficolin-1-rich granule." [GO_REF:0000064, GOC:TermGenie, PMID:23650620]</td>
+      <td>2</td>
+      <td>0.025577</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030141</td>
+      <td>secretory granule</td>
+      <td>"A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion. Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized. Processing of the contained protein may take place in secretory granules." [GOC:mah, ISBN:0198506732]</td>
+      <td>3</td>
+      <td>0.036660</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030426</td>
+      <td>growth cone</td>
+      <td>"The migrating motile tip of a growing neuron projection, where actin accumulates, and the actin cytoskeleton is the most dynamic." [GOC:aruk, GOC:bc, ISBN:0815316194, PMID:10082468]</td>
+      <td>2</td>
+      <td>0.046925</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030427</td>
+      <td>site of polarized growth</td>
+      <td>"Any part of a cell where non-isotropic growth takes place." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.049753</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>REAC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9013418</td>
+      <td>RHOBTB2 GTPase cycle</td>
+      <td>RHOBTB2 GTPase cycle</td>
+      <td>3</td>
+      <td>0.000005</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9820962</td>
+      <td>Assembly and release of respiratory syncytial virus (RSV) virions</td>
+      <td>Assembly and release of respiratory syncytial virus (RSV) virions</td>
+      <td>2</td>
+      <td>0.000017</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9834752</td>
+      <td>Respiratory syncytial virus genome replication</td>
+      <td>Respiratory syncytial virus genome replication</td>
+      <td>2</td>
+      <td>0.000017</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9706574</td>
+      <td>RHOBTB GTPase Cycle</td>
+      <td>RHOBTB GTPase Cycle</td>
+      <td>3</td>
+      <td>0.000020</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665245</td>
+      <td>Resistance of ERBB2 KD mutants to tesevatinib</td>
+      <td>Resistance of ERBB2 KD mutants to tesevatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9652282</td>
+      <td>Drug-mediated inhibition of ERBB2 signaling</td>
+      <td>Drug-mediated inhibition of ERBB2 signaling</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665230</td>
+      <td>Drug resistance in ERBB2 KD mutants</td>
+      <td>Drug resistance in ERBB2 KD mutants</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665244</td>
+      <td>Resistance of ERBB2 KD mutants to sapitinib</td>
+      <td>Resistance of ERBB2 KD mutants to sapitinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665251</td>
+      <td>Resistance of ERBB2 KD mutants to lapatinib</td>
+      <td>Resistance of ERBB2 KD mutants to lapatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665249</td>
+      <td>Resistance of ERBB2 KD mutants to afatinib</td>
+      <td>Resistance of ERBB2 KD mutants to afatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665737</td>
+      <td>Drug resistance in ERBB2 TMD/JMD mutants</td>
+      <td>Drug resistance in ERBB2 TMD/JMD mutants</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665246</td>
+      <td>Resistance of ERBB2 KD mutants to neratinib</td>
+      <td>Resistance of ERBB2 KD mutants to neratinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665250</td>
+      <td>Resistance of ERBB2 KD mutants to AEE788</td>
+      <td>Resistance of ERBB2 KD mutants to AEE788</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665247</td>
+      <td>Resistance of ERBB2 KD mutants to osimertinib</td>
+      <td>Resistance of ERBB2 KD mutants to osimertinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665233</td>
+      <td>Resistance of ERBB2 KD mutants to trastuzumab</td>
+      <td>Resistance of ERBB2 KD mutants to trastuzumab</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5336415</td>
+      <td>Uptake and function of diphtheria toxin</td>
+      <td>Uptake and function of diphtheria toxin</td>
+      <td>2</td>
+      <td>0.000252</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9634285</td>
+      <td>Constitutive Signaling by Overexpressed ERBB2</td>
+      <td>Constitutive Signaling by Overexpressed ERBB2</td>
+      <td>2</td>
+      <td>0.000604</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371511</td>
+      <td>HSF1 activation</td>
+      <td>HSF1 activation</td>
+      <td>2</td>
+      <td>0.001107</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637812</td>
+      <td>Signaling by EGFRvIII in Cancer</td>
+      <td>Signaling by EGFRvIII in Cancer</td>
+      <td>2</td>
+      <td>0.001309</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637810</td>
+      <td>Constitutive Signaling by EGFRvIII</td>
+      <td>Constitutive Signaling by EGFRvIII</td>
+      <td>2</td>
+      <td>0.001309</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665348</td>
+      <td>Signaling by ERBB2 ECD mutants</td>
+      <td>Signaling by ERBB2 ECD mutants</td>
+      <td>2</td>
+      <td>0.001526</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371568</td>
+      <td>Attenuation phase</td>
+      <td>Attenuation phase</td>
+      <td>2</td>
+      <td>0.001526</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-399954</td>
+      <td>Sema3A PAK dependent Axon repulsion</td>
+      <td>Sema3A PAK dependent Axon repulsion</td>
+      <td>2</td>
+      <td>0.002012</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9820965</td>
+      <td>Respiratory syncytial virus (RSV) genome replication, transcription and translation</td>
+      <td>Respiratory syncytial virus (RSV) genome replication, transcription and translation</td>
+      <td>2</td>
+      <td>0.002012</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637815</td>
+      <td>Signaling by Ligand-Responsive EGFR Variants in Cancer</td>
+      <td>Signaling by Ligand-Responsive EGFR Variants in Cancer</td>
+      <td>2</td>
+      <td>0.002280</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1236382</td>
+      <td>Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants</td>
+      <td>Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants</td>
+      <td>2</td>
+      <td>0.002280</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665686</td>
+      <td>Signaling by ERBB2 TMD/JMD mutants</td>
+      <td>Signaling by ERBB2 TMD/JMD mutants</td>
+      <td>2</td>
+      <td>0.002565</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9664565</td>
+      <td>Signaling by ERBB2 KD Mutants</td>
+      <td>Signaling by ERBB2 KD Mutants</td>
+      <td>2</td>
+      <td>0.003520</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1227990</td>
+      <td>Signaling by ERBB2 in Cancer</td>
+      <td>Signaling by ERBB2 in Cancer</td>
+      <td>2</td>
+      <td>0.003871</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9613829</td>
+      <td>Chaperone Mediated Autophagy</td>
+      <td>Chaperone Mediated Autophagy</td>
+      <td>2</td>
+      <td>0.003871</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1643713</td>
+      <td>Signaling by EGFR in Cancer</td>
+      <td>Signaling by EGFR in Cancer</td>
+      <td>2</td>
+      <td>0.004239</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371571</td>
+      <td>HSF1-dependent transactivation</td>
+      <td>HSF1-dependent transactivation</td>
+      <td>2</td>
+      <td>0.004624</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5339562</td>
+      <td>Uptake and actions of bacterial toxins</td>
+      <td>Uptake and actions of bacterial toxins</td>
+      <td>2</td>
+      <td>0.005025</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-8863795</td>
+      <td>Downregulation of ERBB2 signaling</td>
+      <td>Downregulation of ERBB2 signaling</td>
+      <td>2</td>
+      <td>0.005878</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5213460</td>
+      <td>RIPK1-mediated regulated necrosis</td>
+      <td>RIPK1-mediated regulated necrosis</td>
+      <td>2</td>
+      <td>0.007784</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5675482</td>
+      <td>Regulation of necroptotic cell death</td>
+      <td>Regulation of necroptotic cell death</td>
+      <td>2</td>
+      <td>0.007784</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9694516</td>
+      <td>SARS-CoV-2 Infection</td>
+      <td>SARS-CoV-2 Infection</td>
+      <td>3</td>
+      <td>0.012294</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1227986</td>
+      <td>Signaling by ERBB2</td>
+      <td>Signaling by ERBB2</td>
+      <td>2</td>
+      <td>0.017294</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371497</td>
+      <td>HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand</td>
+      <td>HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand</td>
+      <td>2</td>
+      <td>0.026632</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5218859</td>
+      <td>Regulated Necrosis</td>
+      <td>Regulated Necrosis</td>
+      <td>2</td>
+      <td>0.027580</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-373755</td>
+      <td>Semaphorin interactions</td>
+      <td>Semaphorin interactions</td>
+      <td>2</td>
+      <td>0.033612</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9824439</td>
+      <td>Bacterial Infection Pathways</td>
+      <td>Bacterial Infection Pathways</td>
+      <td>2</td>
+      <td>0.035754</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9012999</td>
+      <td>RHO GTPase cycle</td>
+      <td>RHO GTPase cycle</td>
+      <td>3</td>
+      <td>0.044371</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9679506</td>
+      <td>SARS-CoV Infections</td>
+      <td>SARS-CoV Infections</td>
+      <td>3</td>
+      <td>0.047375</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0031647</td>
+      <td>regulation of protein stability</td>
+      <td>"Any process that affects the structure and integrity of a protein, altering the likelihood of its degradation or aggregation." [GOC:dph, GOC:mah, GOC:tb]</td>
+      <td>4</td>
+      <td>0.000042</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:1905323</td>
+      <td>telomerase holoenzyme complex assembly</td>
+      <td>"The aggregation, arrangement and bonding together of a set of components to form a telomerase holoenzyme complex." [GO_REF:0000079, GOC:TermGenie, PMID:26305931]</td>
+      <td>2</td>
+      <td>0.000380</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0006457</td>
+      <td>protein folding</td>
+      <td>"The process of assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure." [GOC:go_curators, GOC:rb]</td>
+      <td>3</td>
+      <td>0.002950</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0050821</td>
+      <td>protein stabilization</td>
+      <td>"Any process involved in maintaining the structure and integrity of a protein and preventing it from degradation or aggregation." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.003157</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0051131</td>
+      <td>chaperone-mediated protein complex assembly</td>
+      <td>"The aggregation, arrangement and bonding together of a set of components to form a protein complex, mediated by chaperone molecules that do not form part of the finished complex." [GOC:ai]</td>
+      <td>2</td>
+      <td>0.004988</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0045429</td>
+      <td>positive regulation of nitric oxide biosynthetic process</td>
+      <td>"Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of nitric oxide." [GOC:go_curators]</td>
+      <td>2</td>
+      <td>0.012693</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:1904407</td>
+      <td>positive regulation of nitric oxide metabolic process</td>
+      <td>"Any process that activates or increases the frequency, rate or extent of nitric oxide metabolic process." [GO_REF:0000058, GOC:TermGenie, PMID:11991626]</td>
+      <td>2</td>
+      <td>0.013378</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0045428</td>
+      <td>regulation of nitric oxide biosynthetic process</td>
+      <td>"Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of nitric oxide." [GOC:go_curators]</td>
+      <td>2</td>
+      <td>0.029808</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0080164</td>
+      <td>regulation of nitric oxide metabolic process</td>
+      <td>"Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving nitric oxide, nitrogen monoxide (NO), a colorless gas only slightly soluble in water." [GOC:DHL]</td>
+      <td>2</td>
+      <td>0.031913</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0007004</td>
+      <td>telomere maintenance via telomerase</td>
+      <td>"The maintenance of proper telomeric length by the addition of telomeric repeats by telomerase." [GOC:elh]</td>
+      <td>2</td>
+      <td>0.031913</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0006278</td>
+      <td>RNA-templated DNA biosynthetic process</td>
+      <td>"A DNA biosynthetic process that uses RNA as a template for RNA-dependent DNA polymerases (e.g. reverse transcriptase) that synthesize the new strand." [GOC:mah, ISBN:0198506732]</td>
+      <td>2</td>
+      <td>0.035206</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0034605</td>
+      <td>cellular response to heat</td>
+      <td>"Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a heat stimulus, a temperature stimulus above the optimal temperature for that organism." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.037491</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0051604</td>
+      <td>protein maturation</td>
+      <td>"Any process leading to the attainment of the full functional capacity of a protein." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.043825</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0006809</td>
+      <td>nitric oxide biosynthetic process</td>
+      <td>"The chemical reactions and pathways resulting in the formation of nitric oxide, nitrogen monoxide (NO), a colorless gas only slightly soluble in water." [GOC:ai]</td>
+      <td>2</td>
+      <td>0.046050</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0010833</td>
+      <td>telomere maintenance via telomere lengthening</td>
+      <td>"Any process that contributes to the maintenance of proper telomeric length and structure by affecting and monitoring the activity of telomeric proteins and lengthening the telomeric DNA." [GOC:dph, GOC:tb]</td>
+      <td>2</td>
+      <td>0.047344</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030911</td>
+      <td>TPR domain binding</td>
+      <td>"Binding to a tetratricopeptide repeat (TPR) domain of a protein, the consensus sequence of which is defined by a pattern of small and large hydrophobic amino acids and a structure composed of helices." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.000155</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030235</td>
+      <td>nitric-oxide synthase regulator activity</td>
+      <td>"Binds to and modulates the activity of nitric oxide synthase." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.000155</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0051082</td>
+      <td>unfolded protein binding</td>
+      <td>"Binding to an unfolded protein." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.000170</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0004517</td>
+      <td>nitric-oxide synthase activity</td>
+      <td>"Catalysis of the reaction: L-arginine + n NADPH + n H+ + m O2 = citrulline + nitric oxide + n NADP+." [EC:1.14.13.39, RHEA:19897]</td>
+      <td>2</td>
+      <td>0.000333</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0070182</td>
+      <td>DNA polymerase binding</td>
+      <td>"Binding to a DNA polymerase." [GOC:BHF, GOC:mah]</td>
+      <td>2</td>
+      <td>0.001403</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0023026</td>
+      <td>MHC class II protein complex binding</td>
+      <td>"Binding to a class II major histocompatibility complex." [GOC:mtg_signal, GOC:vw]</td>
+      <td>2</td>
+      <td>0.002038</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0097718</td>
+      <td>disordered domain specific binding</td>
+      <td>"Binding to a disordered domain of a protein." [GOC:gg, PMID:11746698]</td>
+      <td>2</td>
+      <td>0.002996</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0140662</td>
+      <td>ATP-dependent protein folding chaperone</td>
+      <td>"Binding to a protein or a protein-containing complex to assist the protein folding process, driven by ATP hydrolysis." [PMID:27365453]</td>
+      <td>2</td>
+      <td>0.003431</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0023023</td>
+      <td>MHC protein complex binding</td>
+      <td>"Binding to a major histocompatibility complex." [GOC:mtg_signal, GOC:vw]</td>
+      <td>2</td>
+      <td>0.003896</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030234</td>
+      <td>enzyme regulator activity</td>
+      <td>"Binds to and modulates the activity of an enzyme." [GOC:dph, GOC:mah, GOC:tb]</td>
+      <td>4</td>
+      <td>0.004811</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0016709</td>
+      <td>oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen</td>
+      <td>"Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from NADH or NADPH and one other donor, and one atom of oxygen is incorporated into one donor." [EC:1.14.13.-]</td>
+      <td>2</td>
+      <td>0.006349</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0048156</td>
+      <td>tau protein binding</td>
+      <td>"Binding to tau protein. tau is a microtubule-associated protein, implicated in Alzheimer's disease, Down Syndrome and ALS." [GOC:jid]</td>
+      <td>2</td>
+      <td>0.006658</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0044183</td>
+      <td>protein folding chaperone</td>
+      <td>"Binding to a protein or a protein-containing complex to assist the protein folding process." [GOC:mtg_cambridge_2009]</td>
+      <td>2</td>
+      <td>0.016768</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0097110</td>
+      <td>scaffold protein binding</td>
+      <td>"Binding to a scaffold protein. Scaffold proteins are crucial regulators of many key signaling pathways. Although not strictly defined in function, they are known to interact and/or bind with multiple members of a signaling pathway, tethering them into complexes." [GOC:BHF, GOC:sjp, PMID:10433269, Wikipedia:Scaffold_protein]</td>
+      <td>2</td>
+      <td>0.017775</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0098772</td>
+      <td>molecular function regulator activity</td>
+      <td>"A molecular function regulator regulates the activity of its target via non-covalent binding that does not result in covalent modification to the target. Examples of molecular function regulators include regulatory subunits of multimeric enzymes and channels. Mechanisms of regulation include allosteric changes in the target and competitive inhibition." [GOC:dos, GOC:pt]</td>
+      <td>4</td>
+      <td>0.034804</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0019901</td>
+      <td>protein kinase binding</td>
+      <td>"Binding to a protein kinase, any enzyme that catalyzes the transfer of a phosphate group, usually from ATP, to a protein substrate." [GOC:jl]</td>
+      <td>3</td>
+      <td>0.043502</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0004497</td>
+      <td>monooxygenase activity</td>
+      <td>"Catalysis of the incorporation of one atom from molecular oxygen into a compound and the reduction of the other atom of oxygen to water." [ISBN:0198506732]</td>
+      <td>2</td>
+      <td>0.047269</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0032564</td>
+      <td>dATP binding</td>
+      <td>"Binding to dATP, deoxyadenosine triphosphate." [GOC:mah]</td>
+      <td>1</td>
+      <td>0.049891</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0002135</td>
+      <td>CTP binding</td>
+      <td>"Binding to CTP, cytidine 5'-triphosphate." [GOC:hjd, ISBN:0124020607]</td>
+      <td>1</td>
+      <td>0.049891</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>KEGG</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>3</td>
+      <td>0.001615</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04151</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>3</td>
+      <td>0.015252</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04612</td>
+      <td>Antigen processing and presentation</td>
+      <td>Antigen processing and presentation</td>
+      <td>2</td>
+      <td>0.020787</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04657</td>
+      <td>IL-17 signaling pathway</td>
+      <td>IL-17 signaling pathway</td>
+      <td>2</td>
+      <td>0.036956</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05215</td>
+      <td>Prostate cancer</td>
+      <td>Prostate cancer</td>
+      <td>2</td>
+      <td>0.041073</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04914</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>2</td>
+      <td>0.045404</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04659</td>
+      <td>Th17 cell differentiation</td>
+      <td>Th17 cell differentiation</td>
+      <td>2</td>
+      <td>0.048105</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>WP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2873</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>2</td>
+      <td>0.013015</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP3932</td>
+      <td>Focal adhesion PI3K Akt mTOR signaling</td>
+      <td>Focal adhesion PI3K Akt mTOR signaling</td>
+      <td>3</td>
+      <td>0.013395</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2586</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>2</td>
+      <td>0.013605</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2882</td>
+      <td>Nuclear receptors meta pathway</td>
+      <td>Nuclear receptors meta pathway</td>
+      <td>3</td>
+      <td>0.014904</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP4172</td>
+      <td>PI3K Akt signaling</td>
+      <td>PI3K Akt signaling</td>
+      <td>3</td>
+      <td>0.018411</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">All Sources (biogrid+hippie+washu)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_2');
+            showAnnotations('2', this.value);
+        ">
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_FULL.png">full</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_community0.png">0</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_community1.png">1</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_community2.png">2</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_community3.png">3</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_community4.png">4</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_community5.png">5</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_community6.png">6</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_community7.png">7</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_community8.png">8</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_2" src="community_images/washu+biogrid+hippie_leiden_clustered/SBK2_washu+biogrid+hippie_leiden_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("2", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-2-0"
+             class="comm-block ann-2"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>CORUM</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>3</td>
+      <td>1.042503e-07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>3</td>
+      <td>2.605678e-07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>3</td>
+      <td>5.210199e-07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>3</td>
+      <td>3.123343e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>3</td>
+      <td>7.439004e-06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5199</td>
+      <td>Kinase maturation complex 1</td>
+      <td>Kinase maturation complex 1</td>
+      <td>3</td>
+      <td>1.455616e-05</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6512</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5849</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5285</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>2</td>
+      <td>4.401642e-04</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5716</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>1</td>
+      <td>4.967994e-02</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:1990565</td>
+      <td>HSP90-CDC37 chaperone complex</td>
+      <td>"A protein kinase chaperone complex required for the proper folding, maturation and stabilization of target proteins (mostly signaling protein kinases, some steroid hormone receptors), usually during or immediately after completion of translation. The highly conserved, phosphorylated CDC37-Ser13 (vertebrates) or cdc37-Ser14 (yeast) is essential for complex assembly and target protein binding. CDC37-Ser13 (Ser14) is phosphorylated by Casein kinase II (CK2), which in turn is a target of CDC37 creating a positive feedback loop. Complex binding also prevents rapid ubiquitin-dependent proteosomal degradation of target proteins." [GOC:bhm, GOC:pad, GOC:PARL, PMID:21855797, PMID:22939624]</td>
+      <td>2</td>
+      <td>0.000003</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044294</td>
+      <td>dendritic growth cone</td>
+      <td>"The migrating motile tip of a growing nerve cell dendrite." [GOC:jl]</td>
+      <td>2</td>
+      <td>0.000122</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044292</td>
+      <td>dendrite terminus</td>
+      <td>"A structure at the distal end of a dendrite adapted to carry out a specific function, e.g. dendriole." [GOC:jl, NIF_Subcellular:sao28175134]</td>
+      <td>2</td>
+      <td>0.000307</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044295</td>
+      <td>axonal growth cone</td>
+      <td>"The migrating motile tip of a growing nerve cell axon." [GOC:jl, NIF_Subcellular:sao203987954]</td>
+      <td>2</td>
+      <td>0.001467</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0101031</td>
+      <td>protein folding chaperone complex</td>
+      <td>"A protein complex required for the non-covalent folding or unfolding, maturation, stabilization or assembly or disassembly of macromolecular structures. Usually active during or immediately after completion of translation. Many chaperone complexes contain heat shock proteins." [GOC:bhm, PMID:21855797]</td>
+      <td>2</td>
+      <td>0.002764</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0042470</td>
+      <td>melanosome</td>
+      <td>"A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored. Melanosomes are synthesized in melanocyte cells." [GOC:jl, PMID:11584301]</td>
+      <td>2</td>
+      <td>0.021616</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0048770</td>
+      <td>pigment granule</td>
+      <td>"A small, subcellular membrane-bounded vesicle containing pigment and/or pigment precursor molecules. Pigment granule biogenesis is poorly understood, as pigment granules are derived from multiple sources including the endoplasmic reticulum, coated vesicles, lysosomes, and endosomes." [GOC:jid, GOC:mh]</td>
+      <td>2</td>
+      <td>0.021616</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:1904813</td>
+      <td>ficolin-1-rich granule lumen</td>
+      <td>"Any membrane-enclosed lumen that is part of a ficolin-1-rich granule." [GO_REF:0000064, GOC:TermGenie, PMID:23650620]</td>
+      <td>2</td>
+      <td>0.025577</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030141</td>
+      <td>secretory granule</td>
+      <td>"A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion. Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized. Processing of the contained protein may take place in secretory granules." [GOC:mah, ISBN:0198506732]</td>
+      <td>3</td>
+      <td>0.036660</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030426</td>
+      <td>growth cone</td>
+      <td>"The migrating motile tip of a growing neuron projection, where actin accumulates, and the actin cytoskeleton is the most dynamic." [GOC:aruk, GOC:bc, ISBN:0815316194, PMID:10082468]</td>
+      <td>2</td>
+      <td>0.046925</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030427</td>
+      <td>site of polarized growth</td>
+      <td>"Any part of a cell where non-isotropic growth takes place." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.049753</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>REAC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9013418</td>
+      <td>RHOBTB2 GTPase cycle</td>
+      <td>RHOBTB2 GTPase cycle</td>
+      <td>3</td>
+      <td>0.000005</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9834752</td>
+      <td>Respiratory syncytial virus genome replication</td>
+      <td>Respiratory syncytial virus genome replication</td>
+      <td>2</td>
+      <td>0.000017</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9820962</td>
+      <td>Assembly and release of respiratory syncytial virus (RSV) virions</td>
+      <td>Assembly and release of respiratory syncytial virus (RSV) virions</td>
+      <td>2</td>
+      <td>0.000017</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9706574</td>
+      <td>RHOBTB GTPase Cycle</td>
+      <td>RHOBTB GTPase Cycle</td>
+      <td>3</td>
+      <td>0.000020</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665245</td>
+      <td>Resistance of ERBB2 KD mutants to tesevatinib</td>
+      <td>Resistance of ERBB2 KD mutants to tesevatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665233</td>
+      <td>Resistance of ERBB2 KD mutants to trastuzumab</td>
+      <td>Resistance of ERBB2 KD mutants to trastuzumab</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665250</td>
+      <td>Resistance of ERBB2 KD mutants to AEE788</td>
+      <td>Resistance of ERBB2 KD mutants to AEE788</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665249</td>
+      <td>Resistance of ERBB2 KD mutants to afatinib</td>
+      <td>Resistance of ERBB2 KD mutants to afatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665251</td>
+      <td>Resistance of ERBB2 KD mutants to lapatinib</td>
+      <td>Resistance of ERBB2 KD mutants to lapatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665246</td>
+      <td>Resistance of ERBB2 KD mutants to neratinib</td>
+      <td>Resistance of ERBB2 KD mutants to neratinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665247</td>
+      <td>Resistance of ERBB2 KD mutants to osimertinib</td>
+      <td>Resistance of ERBB2 KD mutants to osimertinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665244</td>
+      <td>Resistance of ERBB2 KD mutants to sapitinib</td>
+      <td>Resistance of ERBB2 KD mutants to sapitinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665737</td>
+      <td>Drug resistance in ERBB2 TMD/JMD mutants</td>
+      <td>Drug resistance in ERBB2 TMD/JMD mutants</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9652282</td>
+      <td>Drug-mediated inhibition of ERBB2 signaling</td>
+      <td>Drug-mediated inhibition of ERBB2 signaling</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665230</td>
+      <td>Drug resistance in ERBB2 KD mutants</td>
+      <td>Drug resistance in ERBB2 KD mutants</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5336415</td>
+      <td>Uptake and function of diphtheria toxin</td>
+      <td>Uptake and function of diphtheria toxin</td>
+      <td>2</td>
+      <td>0.000252</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9634285</td>
+      <td>Constitutive Signaling by Overexpressed ERBB2</td>
+      <td>Constitutive Signaling by Overexpressed ERBB2</td>
+      <td>2</td>
+      <td>0.000604</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371511</td>
+      <td>HSF1 activation</td>
+      <td>HSF1 activation</td>
+      <td>2</td>
+      <td>0.001107</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637810</td>
+      <td>Constitutive Signaling by EGFRvIII</td>
+      <td>Constitutive Signaling by EGFRvIII</td>
+      <td>2</td>
+      <td>0.001309</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637812</td>
+      <td>Signaling by EGFRvIII in Cancer</td>
+      <td>Signaling by EGFRvIII in Cancer</td>
+      <td>2</td>
+      <td>0.001309</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665348</td>
+      <td>Signaling by ERBB2 ECD mutants</td>
+      <td>Signaling by ERBB2 ECD mutants</td>
+      <td>2</td>
+      <td>0.001526</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371568</td>
+      <td>Attenuation phase</td>
+      <td>Attenuation phase</td>
+      <td>2</td>
+      <td>0.001526</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9820965</td>
+      <td>Respiratory syncytial virus (RSV) genome replication, transcription and translation</td>
+      <td>Respiratory syncytial virus (RSV) genome replication, transcription and translation</td>
+      <td>2</td>
+      <td>0.002012</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-399954</td>
+      <td>Sema3A PAK dependent Axon repulsion</td>
+      <td>Sema3A PAK dependent Axon repulsion</td>
+      <td>2</td>
+      <td>0.002012</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637815</td>
+      <td>Signaling by Ligand-Responsive EGFR Variants in Cancer</td>
+      <td>Signaling by Ligand-Responsive EGFR Variants in Cancer</td>
+      <td>2</td>
+      <td>0.002280</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1236382</td>
+      <td>Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants</td>
+      <td>Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants</td>
+      <td>2</td>
+      <td>0.002280</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665686</td>
+      <td>Signaling by ERBB2 TMD/JMD mutants</td>
+      <td>Signaling by ERBB2 TMD/JMD mutants</td>
+      <td>2</td>
+      <td>0.002565</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9664565</td>
+      <td>Signaling by ERBB2 KD Mutants</td>
+      <td>Signaling by ERBB2 KD Mutants</td>
+      <td>2</td>
+      <td>0.003520</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1227990</td>
+      <td>Signaling by ERBB2 in Cancer</td>
+      <td>Signaling by ERBB2 in Cancer</td>
+      <td>2</td>
+      <td>0.003871</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9613829</td>
+      <td>Chaperone Mediated Autophagy</td>
+      <td>Chaperone Mediated Autophagy</td>
+      <td>2</td>
+      <td>0.003871</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1643713</td>
+      <td>Signaling by EGFR in Cancer</td>
+      <td>Signaling by EGFR in Cancer</td>
+      <td>2</td>
+      <td>0.004239</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371571</td>
+      <td>HSF1-dependent transactivation</td>
+      <td>HSF1-dependent transactivation</td>
+      <td>2</td>
+      <td>0.004624</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5339562</td>
+      <td>Uptake and actions of bacterial toxins</td>
+      <td>Uptake and actions of bacterial toxins</td>
+      <td>2</td>
+      <td>0.005025</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-8863795</td>
+      <td>Downregulation of ERBB2 signaling</td>
+      <td>Downregulation of ERBB2 signaling</td>
+      <td>2</td>
+      <td>0.005878</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5213460</td>
+      <td>RIPK1-mediated regulated necrosis</td>
+      <td>RIPK1-mediated regulated necrosis</td>
+      <td>2</td>
+      <td>0.007784</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5675482</td>
+      <td>Regulation of necroptotic cell death</td>
+      <td>Regulation of necroptotic cell death</td>
+      <td>2</td>
+      <td>0.007784</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9694516</td>
+      <td>SARS-CoV-2 Infection</td>
+      <td>SARS-CoV-2 Infection</td>
+      <td>3</td>
+      <td>0.012294</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1227986</td>
+      <td>Signaling by ERBB2</td>
+      <td>Signaling by ERBB2</td>
+      <td>2</td>
+      <td>0.017294</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371497</td>
+      <td>HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand</td>
+      <td>HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand</td>
+      <td>2</td>
+      <td>0.026632</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5218859</td>
+      <td>Regulated Necrosis</td>
+      <td>Regulated Necrosis</td>
+      <td>2</td>
+      <td>0.027580</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-373755</td>
+      <td>Semaphorin interactions</td>
+      <td>Semaphorin interactions</td>
+      <td>2</td>
+      <td>0.033612</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9824439</td>
+      <td>Bacterial Infection Pathways</td>
+      <td>Bacterial Infection Pathways</td>
+      <td>2</td>
+      <td>0.035754</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9012999</td>
+      <td>RHO GTPase cycle</td>
+      <td>RHO GTPase cycle</td>
+      <td>3</td>
+      <td>0.044371</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9679506</td>
+      <td>SARS-CoV Infections</td>
+      <td>SARS-CoV Infections</td>
+      <td>3</td>
+      <td>0.047375</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030235</td>
+      <td>nitric-oxide synthase regulator activity</td>
+      <td>"Binds to and modulates the activity of nitric oxide synthase." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.000207</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030911</td>
+      <td>TPR domain binding</td>
+      <td>"Binding to a tetratricopeptide repeat (TPR) domain of a protein, the consensus sequence of which is defined by a pattern of small and large hydrophobic amino acids and a structure composed of helices." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.000207</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0051082</td>
+      <td>unfolded protein binding</td>
+      <td>"Binding to an unfolded protein." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.000340</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0004517</td>
+      <td>nitric-oxide synthase activity</td>
+      <td>"Catalysis of the reaction: L-arginine + n NADPH + n H+ + m O2 = citrulline + nitric oxide + n NADP+." [EC:1.14.13.39, RHEA:19897]</td>
+      <td>2</td>
+      <td>0.000444</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0070182</td>
+      <td>DNA polymerase binding</td>
+      <td>"Binding to a DNA polymerase." [GOC:BHF, GOC:mah]</td>
+      <td>2</td>
+      <td>0.001873</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0023026</td>
+      <td>MHC class II protein complex binding</td>
+      <td>"Binding to a class II major histocompatibility complex." [GOC:mtg_signal, GOC:vw]</td>
+      <td>2</td>
+      <td>0.002720</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0097718</td>
+      <td>disordered domain specific binding</td>
+      <td>"Binding to a disordered domain of a protein." [GOC:gg, PMID:11746698]</td>
+      <td>2</td>
+      <td>0.004000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0140662</td>
+      <td>ATP-dependent protein folding chaperone</td>
+      <td>"Binding to a protein or a protein-containing complex to assist the protein folding process, driven by ATP hydrolysis." [PMID:27365453]</td>
+      <td>2</td>
+      <td>0.004580</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0023023</td>
+      <td>MHC protein complex binding</td>
+      <td>"Binding to a major histocompatibility complex." [GOC:mtg_signal, GOC:vw]</td>
+      <td>2</td>
+      <td>0.005199</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0016709</td>
+      <td>oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen</td>
+      <td>"Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from NADH or NADPH and one other donor, and one atom of oxygen is incorporated into one donor." [EC:1.14.13.-]</td>
+      <td>2</td>
+      <td>0.008471</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0048156</td>
+      <td>tau protein binding</td>
+      <td>"Binding to tau protein. tau is a microtubule-associated protein, implicated in Alzheimer's disease, Down Syndrome and ALS." [GOC:jid]</td>
+      <td>2</td>
+      <td>0.008883</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030234</td>
+      <td>enzyme regulator activity</td>
+      <td>"Binds to and modulates the activity of an enzyme." [GOC:dph, GOC:mah, GOC:tb]</td>
+      <td>4</td>
+      <td>0.018266</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0044183</td>
+      <td>protein folding chaperone</td>
+      <td>"Binding to a protein or a protein-containing complex to assist the protein folding process." [GOC:mtg_cambridge_2009]</td>
+      <td>2</td>
+      <td>0.022355</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0097110</td>
+      <td>scaffold protein binding</td>
+      <td>"Binding to a scaffold protein. Scaffold proteins are crucial regulators of many key signaling pathways. Although not strictly defined in function, they are known to interact and/or bind with multiple members of a signaling pathway, tethering them into complexes." [GOC:BHF, GOC:sjp, PMID:10433269, Wikipedia:Scaffold_protein]</td>
+      <td>2</td>
+      <td>0.023694</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0032564</td>
+      <td>dATP binding</td>
+      <td>"Binding to dATP, deoxyadenosine triphosphate." [GOC:mah]</td>
+      <td>1</td>
+      <td>0.049992</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0002135</td>
+      <td>CTP binding</td>
+      <td>"Binding to CTP, cytidine 5'-triphosphate." [GOC:hjd, ISBN:0124020607]</td>
+      <td>1</td>
+      <td>0.049992</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0031647</td>
+      <td>regulation of protein stability</td>
+      <td>"Any process that affects the structure and integrity of a protein, altering the likelihood of its degradation or aggregation." [GOC:dph, GOC:mah, GOC:tb]</td>
+      <td>4</td>
+      <td>0.000248</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:1905323</td>
+      <td>telomerase holoenzyme complex assembly</td>
+      <td>"The aggregation, arrangement and bonding together of a set of components to form a telomerase holoenzyme complex." [GO_REF:0000079, GOC:TermGenie, PMID:26305931]</td>
+      <td>2</td>
+      <td>0.000754</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0006457</td>
+      <td>protein folding</td>
+      <td>"The process of assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure." [GOC:go_curators, GOC:rb]</td>
+      <td>3</td>
+      <td>0.008711</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0050821</td>
+      <td>protein stabilization</td>
+      <td>"Any process involved in maintaining the structure and integrity of a protein and preventing it from degradation or aggregation." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.009321</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0051131</td>
+      <td>chaperone-mediated protein complex assembly</td>
+      <td>"The aggregation, arrangement and bonding together of a set of components to form a protein complex, mediated by chaperone molecules that do not form part of the finished complex." [GOC:ai]</td>
+      <td>2</td>
+      <td>0.009889</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0045429</td>
+      <td>positive regulation of nitric oxide biosynthetic process</td>
+      <td>"Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of nitric oxide." [GOC:go_curators]</td>
+      <td>2</td>
+      <td>0.025156</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:1904407</td>
+      <td>positive regulation of nitric oxide metabolic process</td>
+      <td>"Any process that activates or increases the frequency, rate or extent of nitric oxide metabolic process." [GO_REF:0000058, GOC:TermGenie, PMID:11991626]</td>
+      <td>2</td>
+      <td>0.026513</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0036211</td>
+      <td>protein modification process</td>
+      <td>"The covalent alteration of one or more amino acids occurring in proteins, peptides and nascent polypeptides (co-translational, post-translational modifications). Includes the modification of charged tRNAs that are destined to occur in a protein (pre-translation modification)." [GOC:bf, GOC:jl]</td>
+      <td>5</td>
+      <td>0.035950</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0043412</td>
+      <td>macromolecule modification</td>
+      <td>"The covalent alteration of one or more monomeric units in a polypeptide, polynucleotide, polysaccharide, or other biological macromolecule, resulting in a change in its properties." [GOC:go_curators]</td>
+      <td>5</td>
+      <td>0.049185</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>KEGG</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>3</td>
+      <td>0.001615</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04151</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>3</td>
+      <td>0.015252</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04612</td>
+      <td>Antigen processing and presentation</td>
+      <td>Antigen processing and presentation</td>
+      <td>2</td>
+      <td>0.020787</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04657</td>
+      <td>IL-17 signaling pathway</td>
+      <td>IL-17 signaling pathway</td>
+      <td>2</td>
+      <td>0.036956</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05215</td>
+      <td>Prostate cancer</td>
+      <td>Prostate cancer</td>
+      <td>2</td>
+      <td>0.041073</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04914</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>2</td>
+      <td>0.045404</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04659</td>
+      <td>Th17 cell differentiation</td>
+      <td>Th17 cell differentiation</td>
+      <td>2</td>
+      <td>0.048105</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>WP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2873</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>2</td>
+      <td>0.013015</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP3932</td>
+      <td>Focal adhesion PI3K Akt mTOR signaling</td>
+      <td>Focal adhesion PI3K Akt mTOR signaling</td>
+      <td>3</td>
+      <td>0.013395</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2586</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>2</td>
+      <td>0.013605</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2882</td>
+      <td>Nuclear receptors meta pathway</td>
+      <td>Nuclear receptors meta pathway</td>
+      <td>3</td>
+      <td>0.014904</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP4172</td>
+      <td>PI3K Akt signaling</td>
+      <td>PI3K Akt signaling</td>
+      <td>3</td>
+      <td>0.018411</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-1"
+             class="comm-block ann-2"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0005741</td>
+      <td>mitochondrial outer membrane</td>
+      <td>"The outer, i.e. cytoplasm-facing, lipid bilayer of the mitochondrial envelope." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.000196</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031968</td>
+      <td>organelle outer membrane</td>
+      <td>"The outer, i.e. cytoplasm-facing in a cellular organelle, lipid bilayer of an organelle envelope." [GOC:mah]</td>
+      <td>3</td>
+      <td>0.000288</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0019867</td>
+      <td>outer membrane</td>
+      <td>"The external membrane of Gram-negative bacteria or certain organelles such as mitochondria and chloroplasts; freely permeable to most ions and metabolites." [GOC:go_curators]</td>
+      <td>3</td>
+      <td>0.000295</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031966</td>
+      <td>mitochondrial membrane</td>
+      <td>"Either of the lipid bilayers that surround the mitochondrion and form the mitochondrial envelope." [GOC:mah, NIF_Subcellular:sao1045389829]</td>
+      <td>3</td>
+      <td>0.008341</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0005740</td>
+      <td>mitochondrial envelope</td>
+      <td>"The double lipid bilayer enclosing the mitochondrion and separating its contents from the cell cytoplasm; includes the intermembrane space." [GOC:ai, GOC:pz]</td>
+      <td>3</td>
+      <td>0.010030</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031967</td>
+      <td>organelle envelope</td>
+      <td>"A double membrane structure enclosing an organelle, including two lipid bilayers and the region between them. In some cases, an organelle envelope may have more than two membranes." [GOC:mah, GOC:pz]</td>
+      <td>3</td>
+      <td>0.039773</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0140374</td>
+      <td>antiviral innate immune response</td>
+      <td>"A defense response against viruses mediated through an innate immune response. An innate immune response is mediated by germline encoded components that directly recognize components of potential pathogens." [PMID:31006531]</td>
+      <td>2</td>
+      <td>0.010061</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>HPA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0100123</td>
+      <td>Cerebral cortex; glial cells[High]</td>
+      <td>Cerebral cortex; glial cells[High]</td>
+      <td>3</td>
+      <td>0.018944</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0030073</td>
+      <td>Appendix; lymphoid tissue[High]</td>
+      <td>Appendix; lymphoid tissue[High]</td>
+      <td>3</td>
+      <td>0.020513</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0460673</td>
+      <td>Skin 1; melanocytes[High]</td>
+      <td>Skin 1; melanocytes[High]</td>
+      <td>3</td>
+      <td>0.043826</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-2"
+             class="comm-block ann-2"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 2</h4>
+
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0002953</td>
+      <td>5'-deoxynucleotidase activity</td>
+      <td>"Catalysis of the reaction: a 2'-deoxyribonucleoside 5'-phosphate + H2O = a 2'-deoxyribonucleoside + phosphate." [RHEA:36167]</td>
+      <td>1</td>
+      <td>0.049891</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-5"
+             class="comm-block ann-2"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 5</h4>
+
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0102265</td>
+      <td>tRNA-dihydrouridine47 synthase activity</td>
+      <td>"Catalysis of the reaction: a 5,6-dihydrouracil47 in tRNA + NAD(P) = H+ + a uracil47 in tRNA + NAD(P)H." [EC:1.3.1.89, GOC:pz]</td>
+      <td>1</td>
+      <td>0.024946</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0106414</td>
+      <td>mRNA dihydrouridine synthase activity</td>
+      <td>"Catalysis of the reaction: mRNA-uracil + NAD(P)+ = mRNA-dihydrouridine + NAD(P)H+ + H+." [PMID:34798057]</td>
+      <td>1</td>
+      <td>0.024946</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-7"
+             class="comm-block ann-2"
+             style="--comm-fg:#d62728; --comm-bg:rgba(214,39,40,0.18); display:none;">
+
+          <h4>Community 7</h4>
+
+          
+            <h5>TF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M06845_1</td>
+      <td>Factor: ZBTB38; motif: NTYRATGCAMY; match class: 1</td>
+      <td>Factor: ZBTB38; motif: NTYRATGCAMY; match class: 1</td>
+      <td>1</td>
+      <td>0.037328</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">All Sources (biogrid+hippie+washu)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_3');
+            showAnnotations('3', this.value);
+        ">
+          
+            <option value="community_images/washu+biogrid+hippie_louvain_clustered/SBK2_washu+biogrid+hippie_louvain_clustered_FULL.png">full</option>
+          
+            <option value="community_images/washu+biogrid+hippie_louvain_clustered/SBK2_washu+biogrid+hippie_louvain_clustered_community0.png">0</option>
+          
+            <option value="community_images/washu+biogrid+hippie_louvain_clustered/SBK2_washu+biogrid+hippie_louvain_clustered_community1.png">1</option>
+          
+            <option value="community_images/washu+biogrid+hippie_louvain_clustered/SBK2_washu+biogrid+hippie_louvain_clustered_community2.png">2</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_3" src="community_images/washu+biogrid+hippie_louvain_clustered/SBK2_washu+biogrid+hippie_louvain_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("3", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-3-0"
+             class="comm-block ann-3"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0106310</td>
+      <td>protein serine kinase activity</td>
+      <td>"Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate." [RHEA:17989]</td>
+      <td>3</td>
+      <td>0.026742</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-3-1"
+             class="comm-block ann-3"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>CORUM</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:2112</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>CDC37-HSP90AA1-HSP90AB1-MAP3K11 complex</td>
+      <td>3</td>
+      <td>1.042503e-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5234</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>IKBKB-CDC37-KIAA1967-HSP90AB1-HSP90AA1 complex</td>
+      <td>3</td>
+      <td>2.605678e-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5269</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 8</td>
+      <td>3</td>
+      <td>5.210199e-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5268</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 7</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5212</td>
+      <td>Kinase maturation complex 2</td>
+      <td>Kinase maturation complex 2</td>
+      <td>3</td>
+      <td>1.458208e-06</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5286</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 10</td>
+      <td>3</td>
+      <td>3.123343e-06</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5266</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 6</td>
+      <td>3</td>
+      <td>7.439004e-06</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5199</td>
+      <td>Kinase maturation complex 1</td>
+      <td>Kinase maturation complex 1</td>
+      <td>3</td>
+      <td>1.455616e-05</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5849</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>HSP90-CDC37-LRRK2 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6512</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>ILK-HSP90-CDC37 complex</td>
+      <td>2</td>
+      <td>1.321535e-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5285</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>TNF-alpha/NF-kappa B signaling complex 9</td>
+      <td>2</td>
+      <td>4.401642e-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:5716</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>NOS3-HSP90 complex, VEGF induced</td>
+      <td>1</td>
+      <td>4.967994e-02</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:1990565</td>
+      <td>HSP90-CDC37 chaperone complex</td>
+      <td>"A protein kinase chaperone complex required for the proper folding, maturation and stabilization of target proteins (mostly signaling protein kinases, some steroid hormone receptors), usually during or immediately after completion of translation. The highly conserved, phosphorylated CDC37-Ser13 (vertebrates) or cdc37-Ser14 (yeast) is essential for complex assembly and target protein binding. CDC37-Ser13 (Ser14) is phosphorylated by Casein kinase II (CK2), which in turn is a target of CDC37 creating a positive feedback loop. Complex binding also prevents rapid ubiquitin-dependent proteosomal degradation of target proteins." [GOC:bhm, GOC:pad, GOC:PARL, PMID:21855797, PMID:22939624]</td>
+      <td>2</td>
+      <td>0.000003</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044294</td>
+      <td>dendritic growth cone</td>
+      <td>"The migrating motile tip of a growing nerve cell dendrite." [GOC:jl]</td>
+      <td>2</td>
+      <td>0.000122</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044292</td>
+      <td>dendrite terminus</td>
+      <td>"A structure at the distal end of a dendrite adapted to carry out a specific function, e.g. dendriole." [GOC:jl, NIF_Subcellular:sao28175134]</td>
+      <td>2</td>
+      <td>0.000307</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0044295</td>
+      <td>axonal growth cone</td>
+      <td>"The migrating motile tip of a growing nerve cell axon." [GOC:jl, NIF_Subcellular:sao203987954]</td>
+      <td>2</td>
+      <td>0.001467</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0101031</td>
+      <td>protein folding chaperone complex</td>
+      <td>"A protein complex required for the non-covalent folding or unfolding, maturation, stabilization or assembly or disassembly of macromolecular structures. Usually active during or immediately after completion of translation. Many chaperone complexes contain heat shock proteins." [GOC:bhm, PMID:21855797]</td>
+      <td>2</td>
+      <td>0.002764</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0042470</td>
+      <td>melanosome</td>
+      <td>"A tissue-specific, membrane-bounded cytoplasmic organelle within which melanin pigments are synthesized and stored. Melanosomes are synthesized in melanocyte cells." [GOC:jl, PMID:11584301]</td>
+      <td>2</td>
+      <td>0.021616</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0048770</td>
+      <td>pigment granule</td>
+      <td>"A small, subcellular membrane-bounded vesicle containing pigment and/or pigment precursor molecules. Pigment granule biogenesis is poorly understood, as pigment granules are derived from multiple sources including the endoplasmic reticulum, coated vesicles, lysosomes, and endosomes." [GOC:jid, GOC:mh]</td>
+      <td>2</td>
+      <td>0.021616</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:1904813</td>
+      <td>ficolin-1-rich granule lumen</td>
+      <td>"Any membrane-enclosed lumen that is part of a ficolin-1-rich granule." [GO_REF:0000064, GOC:TermGenie, PMID:23650620]</td>
+      <td>2</td>
+      <td>0.025577</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030141</td>
+      <td>secretory granule</td>
+      <td>"A small subcellular vesicle, surrounded by a membrane, that is formed from the Golgi apparatus and contains a highly concentrated protein destined for secretion. Secretory granules move towards the periphery of the cell and upon stimulation, their membranes fuse with the cell membrane, and their protein load is exteriorized. Processing of the contained protein may take place in secretory granules." [GOC:mah, ISBN:0198506732]</td>
+      <td>3</td>
+      <td>0.036660</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030426</td>
+      <td>growth cone</td>
+      <td>"The migrating motile tip of a growing neuron projection, where actin accumulates, and the actin cytoskeleton is the most dynamic." [GOC:aruk, GOC:bc, ISBN:0815316194, PMID:10082468]</td>
+      <td>2</td>
+      <td>0.046925</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0030427</td>
+      <td>site of polarized growth</td>
+      <td>"Any part of a cell where non-isotropic growth takes place." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.049753</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>REAC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9013418</td>
+      <td>RHOBTB2 GTPase cycle</td>
+      <td>RHOBTB2 GTPase cycle</td>
+      <td>3</td>
+      <td>0.000005</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9834752</td>
+      <td>Respiratory syncytial virus genome replication</td>
+      <td>Respiratory syncytial virus genome replication</td>
+      <td>2</td>
+      <td>0.000017</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9820962</td>
+      <td>Assembly and release of respiratory syncytial virus (RSV) virions</td>
+      <td>Assembly and release of respiratory syncytial virus (RSV) virions</td>
+      <td>2</td>
+      <td>0.000017</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9706574</td>
+      <td>RHOBTB GTPase Cycle</td>
+      <td>RHOBTB GTPase Cycle</td>
+      <td>3</td>
+      <td>0.000020</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665250</td>
+      <td>Resistance of ERBB2 KD mutants to AEE788</td>
+      <td>Resistance of ERBB2 KD mutants to AEE788</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665251</td>
+      <td>Resistance of ERBB2 KD mutants to lapatinib</td>
+      <td>Resistance of ERBB2 KD mutants to lapatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9652282</td>
+      <td>Drug-mediated inhibition of ERBB2 signaling</td>
+      <td>Drug-mediated inhibition of ERBB2 signaling</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665737</td>
+      <td>Drug resistance in ERBB2 TMD/JMD mutants</td>
+      <td>Drug resistance in ERBB2 TMD/JMD mutants</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665249</td>
+      <td>Resistance of ERBB2 KD mutants to afatinib</td>
+      <td>Resistance of ERBB2 KD mutants to afatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665230</td>
+      <td>Drug resistance in ERBB2 KD mutants</td>
+      <td>Drug resistance in ERBB2 KD mutants</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665247</td>
+      <td>Resistance of ERBB2 KD mutants to osimertinib</td>
+      <td>Resistance of ERBB2 KD mutants to osimertinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665233</td>
+      <td>Resistance of ERBB2 KD mutants to trastuzumab</td>
+      <td>Resistance of ERBB2 KD mutants to trastuzumab</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665246</td>
+      <td>Resistance of ERBB2 KD mutants to neratinib</td>
+      <td>Resistance of ERBB2 KD mutants to neratinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665244</td>
+      <td>Resistance of ERBB2 KD mutants to sapitinib</td>
+      <td>Resistance of ERBB2 KD mutants to sapitinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665245</td>
+      <td>Resistance of ERBB2 KD mutants to tesevatinib</td>
+      <td>Resistance of ERBB2 KD mutants to tesevatinib</td>
+      <td>2</td>
+      <td>0.000101</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5336415</td>
+      <td>Uptake and function of diphtheria toxin</td>
+      <td>Uptake and function of diphtheria toxin</td>
+      <td>2</td>
+      <td>0.000252</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9634285</td>
+      <td>Constitutive Signaling by Overexpressed ERBB2</td>
+      <td>Constitutive Signaling by Overexpressed ERBB2</td>
+      <td>2</td>
+      <td>0.000604</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371511</td>
+      <td>HSF1 activation</td>
+      <td>HSF1 activation</td>
+      <td>2</td>
+      <td>0.001107</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637810</td>
+      <td>Constitutive Signaling by EGFRvIII</td>
+      <td>Constitutive Signaling by EGFRvIII</td>
+      <td>2</td>
+      <td>0.001309</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637812</td>
+      <td>Signaling by EGFRvIII in Cancer</td>
+      <td>Signaling by EGFRvIII in Cancer</td>
+      <td>2</td>
+      <td>0.001309</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665348</td>
+      <td>Signaling by ERBB2 ECD mutants</td>
+      <td>Signaling by ERBB2 ECD mutants</td>
+      <td>2</td>
+      <td>0.001526</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371568</td>
+      <td>Attenuation phase</td>
+      <td>Attenuation phase</td>
+      <td>2</td>
+      <td>0.001526</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-399954</td>
+      <td>Sema3A PAK dependent Axon repulsion</td>
+      <td>Sema3A PAK dependent Axon repulsion</td>
+      <td>2</td>
+      <td>0.002012</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9820965</td>
+      <td>Respiratory syncytial virus (RSV) genome replication, transcription and translation</td>
+      <td>Respiratory syncytial virus (RSV) genome replication, transcription and translation</td>
+      <td>2</td>
+      <td>0.002012</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5637815</td>
+      <td>Signaling by Ligand-Responsive EGFR Variants in Cancer</td>
+      <td>Signaling by Ligand-Responsive EGFR Variants in Cancer</td>
+      <td>2</td>
+      <td>0.002280</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1236382</td>
+      <td>Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants</td>
+      <td>Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants</td>
+      <td>2</td>
+      <td>0.002280</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9665686</td>
+      <td>Signaling by ERBB2 TMD/JMD mutants</td>
+      <td>Signaling by ERBB2 TMD/JMD mutants</td>
+      <td>2</td>
+      <td>0.002565</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9664565</td>
+      <td>Signaling by ERBB2 KD Mutants</td>
+      <td>Signaling by ERBB2 KD Mutants</td>
+      <td>2</td>
+      <td>0.003520</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9613829</td>
+      <td>Chaperone Mediated Autophagy</td>
+      <td>Chaperone Mediated Autophagy</td>
+      <td>2</td>
+      <td>0.003871</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1227990</td>
+      <td>Signaling by ERBB2 in Cancer</td>
+      <td>Signaling by ERBB2 in Cancer</td>
+      <td>2</td>
+      <td>0.003871</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1643713</td>
+      <td>Signaling by EGFR in Cancer</td>
+      <td>Signaling by EGFR in Cancer</td>
+      <td>2</td>
+      <td>0.004239</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371571</td>
+      <td>HSF1-dependent transactivation</td>
+      <td>HSF1-dependent transactivation</td>
+      <td>2</td>
+      <td>0.004624</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5339562</td>
+      <td>Uptake and actions of bacterial toxins</td>
+      <td>Uptake and actions of bacterial toxins</td>
+      <td>2</td>
+      <td>0.005025</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-8863795</td>
+      <td>Downregulation of ERBB2 signaling</td>
+      <td>Downregulation of ERBB2 signaling</td>
+      <td>2</td>
+      <td>0.005878</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5213460</td>
+      <td>RIPK1-mediated regulated necrosis</td>
+      <td>RIPK1-mediated regulated necrosis</td>
+      <td>2</td>
+      <td>0.007784</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5675482</td>
+      <td>Regulation of necroptotic cell death</td>
+      <td>Regulation of necroptotic cell death</td>
+      <td>2</td>
+      <td>0.007784</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9694516</td>
+      <td>SARS-CoV-2 Infection</td>
+      <td>SARS-CoV-2 Infection</td>
+      <td>3</td>
+      <td>0.012294</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-1227986</td>
+      <td>Signaling by ERBB2</td>
+      <td>Signaling by ERBB2</td>
+      <td>2</td>
+      <td>0.017294</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-3371497</td>
+      <td>HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand</td>
+      <td>HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand</td>
+      <td>2</td>
+      <td>0.026632</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-5218859</td>
+      <td>Regulated Necrosis</td>
+      <td>Regulated Necrosis</td>
+      <td>2</td>
+      <td>0.027580</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-373755</td>
+      <td>Semaphorin interactions</td>
+      <td>Semaphorin interactions</td>
+      <td>2</td>
+      <td>0.033612</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9824439</td>
+      <td>Bacterial Infection Pathways</td>
+      <td>Bacterial Infection Pathways</td>
+      <td>2</td>
+      <td>0.035754</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9012999</td>
+      <td>RHO GTPase cycle</td>
+      <td>RHO GTPase cycle</td>
+      <td>3</td>
+      <td>0.044371</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-9679506</td>
+      <td>SARS-CoV Infections</td>
+      <td>SARS-CoV Infections</td>
+      <td>3</td>
+      <td>0.047375</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030911</td>
+      <td>TPR domain binding</td>
+      <td>"Binding to a tetratricopeptide repeat (TPR) domain of a protein, the consensus sequence of which is defined by a pattern of small and large hydrophobic amino acids and a structure composed of helices." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.000207</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030235</td>
+      <td>nitric-oxide synthase regulator activity</td>
+      <td>"Binds to and modulates the activity of nitric oxide synthase." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.000207</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0051082</td>
+      <td>unfolded protein binding</td>
+      <td>"Binding to an unfolded protein." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.000340</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0004517</td>
+      <td>nitric-oxide synthase activity</td>
+      <td>"Catalysis of the reaction: L-arginine + n NADPH + n H+ + m O2 = citrulline + nitric oxide + n NADP+." [EC:1.14.13.39, RHEA:19897]</td>
+      <td>2</td>
+      <td>0.000444</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0070182</td>
+      <td>DNA polymerase binding</td>
+      <td>"Binding to a DNA polymerase." [GOC:BHF, GOC:mah]</td>
+      <td>2</td>
+      <td>0.001873</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0023026</td>
+      <td>MHC class II protein complex binding</td>
+      <td>"Binding to a class II major histocompatibility complex." [GOC:mtg_signal, GOC:vw]</td>
+      <td>2</td>
+      <td>0.002720</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0097718</td>
+      <td>disordered domain specific binding</td>
+      <td>"Binding to a disordered domain of a protein." [GOC:gg, PMID:11746698]</td>
+      <td>2</td>
+      <td>0.004000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0140662</td>
+      <td>ATP-dependent protein folding chaperone</td>
+      <td>"Binding to a protein or a protein-containing complex to assist the protein folding process, driven by ATP hydrolysis." [PMID:27365453]</td>
+      <td>2</td>
+      <td>0.004580</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0023023</td>
+      <td>MHC protein complex binding</td>
+      <td>"Binding to a major histocompatibility complex." [GOC:mtg_signal, GOC:vw]</td>
+      <td>2</td>
+      <td>0.005199</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0016709</td>
+      <td>oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen</td>
+      <td>"Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from NADH or NADPH and one other donor, and one atom of oxygen is incorporated into one donor." [EC:1.14.13.-]</td>
+      <td>2</td>
+      <td>0.008471</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0048156</td>
+      <td>tau protein binding</td>
+      <td>"Binding to tau protein. tau is a microtubule-associated protein, implicated in Alzheimer's disease, Down Syndrome and ALS." [GOC:jid]</td>
+      <td>2</td>
+      <td>0.008883</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0030234</td>
+      <td>enzyme regulator activity</td>
+      <td>"Binds to and modulates the activity of an enzyme." [GOC:dph, GOC:mah, GOC:tb]</td>
+      <td>4</td>
+      <td>0.018266</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0044183</td>
+      <td>protein folding chaperone</td>
+      <td>"Binding to a protein or a protein-containing complex to assist the protein folding process." [GOC:mtg_cambridge_2009]</td>
+      <td>2</td>
+      <td>0.022355</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0097110</td>
+      <td>scaffold protein binding</td>
+      <td>"Binding to a scaffold protein. Scaffold proteins are crucial regulators of many key signaling pathways. Although not strictly defined in function, they are known to interact and/or bind with multiple members of a signaling pathway, tethering them into complexes." [GOC:BHF, GOC:sjp, PMID:10433269, Wikipedia:Scaffold_protein]</td>
+      <td>2</td>
+      <td>0.023694</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0106414</td>
+      <td>mRNA dihydrouridine synthase activity</td>
+      <td>"Catalysis of the reaction: mRNA-uracil + NAD(P)+ = mRNA-dihydrouridine + NAD(P)H+ + H+." [PMID:34798057]</td>
+      <td>1</td>
+      <td>0.049992</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0102265</td>
+      <td>tRNA-dihydrouridine47 synthase activity</td>
+      <td>"Catalysis of the reaction: a 5,6-dihydrouracil47 in tRNA + NAD(P) = H+ + a uracil47 in tRNA + NAD(P)H." [EC:1.3.1.89, GOC:pz]</td>
+      <td>1</td>
+      <td>0.049992</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0032564</td>
+      <td>dATP binding</td>
+      <td>"Binding to dATP, deoxyadenosine triphosphate." [GOC:mah]</td>
+      <td>1</td>
+      <td>0.049992</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0002135</td>
+      <td>CTP binding</td>
+      <td>"Binding to CTP, cytidine 5'-triphosphate." [GOC:hjd, ISBN:0124020607]</td>
+      <td>1</td>
+      <td>0.049992</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0031647</td>
+      <td>regulation of protein stability</td>
+      <td>"Any process that affects the structure and integrity of a protein, altering the likelihood of its degradation or aggregation." [GOC:dph, GOC:mah, GOC:tb]</td>
+      <td>4</td>
+      <td>0.000248</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:1905323</td>
+      <td>telomerase holoenzyme complex assembly</td>
+      <td>"The aggregation, arrangement and bonding together of a set of components to form a telomerase holoenzyme complex." [GO_REF:0000079, GOC:TermGenie, PMID:26305931]</td>
+      <td>2</td>
+      <td>0.000754</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0006457</td>
+      <td>protein folding</td>
+      <td>"The process of assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure." [GOC:go_curators, GOC:rb]</td>
+      <td>3</td>
+      <td>0.008711</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0050821</td>
+      <td>protein stabilization</td>
+      <td>"Any process involved in maintaining the structure and integrity of a protein and preventing it from degradation or aggregation." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.009321</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0051131</td>
+      <td>chaperone-mediated protein complex assembly</td>
+      <td>"The aggregation, arrangement and bonding together of a set of components to form a protein complex, mediated by chaperone molecules that do not form part of the finished complex." [GOC:ai]</td>
+      <td>2</td>
+      <td>0.009889</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0045429</td>
+      <td>positive regulation of nitric oxide biosynthetic process</td>
+      <td>"Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of nitric oxide." [GOC:go_curators]</td>
+      <td>2</td>
+      <td>0.025156</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:1904407</td>
+      <td>positive regulation of nitric oxide metabolic process</td>
+      <td>"Any process that activates or increases the frequency, rate or extent of nitric oxide metabolic process." [GO_REF:0000058, GOC:TermGenie, PMID:11991626]</td>
+      <td>2</td>
+      <td>0.026513</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0043412</td>
+      <td>macromolecule modification</td>
+      <td>"The covalent alteration of one or more monomeric units in a polypeptide, polynucleotide, polysaccharide, or other biological macromolecule, resulting in a change in its properties." [GOC:go_curators]</td>
+      <td>5</td>
+      <td>0.049185</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>KEGG</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04141</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>Protein processing in endoplasmic reticulum</td>
+      <td>3</td>
+      <td>0.001615</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04151</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>PI3K-Akt signaling pathway</td>
+      <td>3</td>
+      <td>0.015252</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04612</td>
+      <td>Antigen processing and presentation</td>
+      <td>Antigen processing and presentation</td>
+      <td>2</td>
+      <td>0.020787</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04657</td>
+      <td>IL-17 signaling pathway</td>
+      <td>IL-17 signaling pathway</td>
+      <td>2</td>
+      <td>0.036956</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:05215</td>
+      <td>Prostate cancer</td>
+      <td>Prostate cancer</td>
+      <td>2</td>
+      <td>0.041073</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04914</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>Progesterone-mediated oocyte maturation</td>
+      <td>2</td>
+      <td>0.045404</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:04659</td>
+      <td>Th17 cell differentiation</td>
+      <td>Th17 cell differentiation</td>
+      <td>2</td>
+      <td>0.048105</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>TF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08537</td>
+      <td>Factor: ERF:HES-7; motif: NNCACGYGCNNNCCGGAAGT</td>
+      <td>Factor: ERF:HES-7; motif: NNCACGYGCNNNCCGGAAGT</td>
+      <td>3</td>
+      <td>0.01006</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>WP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2873</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>2</td>
+      <td>0.013015</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP3932</td>
+      <td>Focal adhesion PI3K Akt mTOR signaling</td>
+      <td>Focal adhesion PI3K Akt mTOR signaling</td>
+      <td>3</td>
+      <td>0.013395</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2586</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>Aryl hydrocarbon receptor pathway</td>
+      <td>2</td>
+      <td>0.013605</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP2882</td>
+      <td>Nuclear receptors meta pathway</td>
+      <td>Nuclear receptors meta pathway</td>
+      <td>3</td>
+      <td>0.014904</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP4172</td>
+      <td>PI3K Akt signaling</td>
+      <td>PI3K Akt signaling</td>
+      <td>3</td>
+      <td>0.018411</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-3-2"
+             class="comm-block ann-3"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 2</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0005741</td>
+      <td>mitochondrial outer membrane</td>
+      <td>"The outer, i.e. cytoplasm-facing, lipid bilayer of the mitochondrial envelope." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.000196</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031968</td>
+      <td>organelle outer membrane</td>
+      <td>"The outer, i.e. cytoplasm-facing in a cellular organelle, lipid bilayer of an organelle envelope." [GOC:mah]</td>
+      <td>3</td>
+      <td>0.000288</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0019867</td>
+      <td>outer membrane</td>
+      <td>"The external membrane of Gram-negative bacteria or certain organelles such as mitochondria and chloroplasts; freely permeable to most ions and metabolites." [GOC:go_curators]</td>
+      <td>3</td>
+      <td>0.000295</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031966</td>
+      <td>mitochondrial membrane</td>
+      <td>"Either of the lipid bilayers that surround the mitochondrion and form the mitochondrial envelope." [GOC:mah, NIF_Subcellular:sao1045389829]</td>
+      <td>3</td>
+      <td>0.008341</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0005740</td>
+      <td>mitochondrial envelope</td>
+      <td>"The double lipid bilayer enclosing the mitochondrion and separating its contents from the cell cytoplasm; includes the intermembrane space." [GOC:ai, GOC:pz]</td>
+      <td>3</td>
+      <td>0.010030</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031967</td>
+      <td>organelle envelope</td>
+      <td>"A double membrane structure enclosing an organelle, including two lipid bilayers and the region between them. In some cases, an organelle envelope may have more than two membranes." [GOC:mah, GOC:pz]</td>
+      <td>3</td>
+      <td>0.039773</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0140374</td>
+      <td>antiviral innate immune response</td>
+      <td>"A defense response against viruses mediated through an innate immune response. An innate immune response is mediated by germline encoded components that directly recognize components of potential pathogens." [PMID:31006531]</td>
+      <td>2</td>
+      <td>0.010061</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>HPA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0100123</td>
+      <td>Cerebral cortex; glial cells[High]</td>
+      <td>Cerebral cortex; glial cells[High]</td>
+      <td>3</td>
+      <td>0.018944</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0030073</td>
+      <td>Appendix; lymphoid tissue[High]</td>
+      <td>Appendix; lymphoid tissue[High]</td>
+      <td>3</td>
+      <td>0.020513</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0460673</td>
+      <td>Skin 1; melanocytes[High]</td>
+      <td>Skin 1; melanocytes[High]</td>
+      <td>3</td>
+      <td>0.043826</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">WashU Only (washu)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_4');
+            showAnnotations('4', this.value);
+        ">
+          
+            <option value="community_images/washu_leiden_clustered/SBK2_washu_leiden_clustered_FULL.png">full</option>
+          
+            <option value="community_images/washu_leiden_clustered/SBK2_washu_leiden_clustered_community0.png">0</option>
+          
+            <option value="community_images/washu_leiden_clustered/SBK2_washu_leiden_clustered_community1.png">1</option>
+          
+            <option value="community_images/washu_leiden_clustered/SBK2_washu_leiden_clustered_community2.png">2</option>
+          
+            <option value="community_images/washu_leiden_clustered/SBK2_washu_leiden_clustered_community3.png">3</option>
+          
+            <option value="community_images/washu_leiden_clustered/SBK2_washu_leiden_clustered_community4.png">4</option>
+          
+            <option value="community_images/washu_leiden_clustered/SBK2_washu_leiden_clustered_community5.png">5</option>
+          
+            <option value="community_images/washu_leiden_clustered/SBK2_washu_leiden_clustered_community6.png">6</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_4" src="community_images/washu_leiden_clustered/SBK2_washu_leiden_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("4", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-4-0"
+             class="comm-block ann-4"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0005741</td>
+      <td>mitochondrial outer membrane</td>
+      <td>"The outer, i.e. cytoplasm-facing, lipid bilayer of the mitochondrial envelope." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.000196</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031968</td>
+      <td>organelle outer membrane</td>
+      <td>"The outer, i.e. cytoplasm-facing in a cellular organelle, lipid bilayer of an organelle envelope." [GOC:mah]</td>
+      <td>3</td>
+      <td>0.000288</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0019867</td>
+      <td>outer membrane</td>
+      <td>"The external membrane of Gram-negative bacteria or certain organelles such as mitochondria and chloroplasts; freely permeable to most ions and metabolites." [GOC:go_curators]</td>
+      <td>3</td>
+      <td>0.000295</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031966</td>
+      <td>mitochondrial membrane</td>
+      <td>"Either of the lipid bilayers that surround the mitochondrion and form the mitochondrial envelope." [GOC:mah, NIF_Subcellular:sao1045389829]</td>
+      <td>3</td>
+      <td>0.008341</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0005740</td>
+      <td>mitochondrial envelope</td>
+      <td>"The double lipid bilayer enclosing the mitochondrion and separating its contents from the cell cytoplasm; includes the intermembrane space." [GOC:ai, GOC:pz]</td>
+      <td>3</td>
+      <td>0.010030</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031967</td>
+      <td>organelle envelope</td>
+      <td>"A double membrane structure enclosing an organelle, including two lipid bilayers and the region between them. In some cases, an organelle envelope may have more than two membranes." [GOC:mah, GOC:pz]</td>
+      <td>3</td>
+      <td>0.039773</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>HPA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0100123</td>
+      <td>Cerebral cortex; glial cells[High]</td>
+      <td>Cerebral cortex; glial cells[High]</td>
+      <td>3</td>
+      <td>0.018944</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0030073</td>
+      <td>Appendix; lymphoid tissue[High]</td>
+      <td>Appendix; lymphoid tissue[High]</td>
+      <td>3</td>
+      <td>0.020513</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0460673</td>
+      <td>Skin 1; melanocytes[High]</td>
+      <td>Skin 1; melanocytes[High]</td>
+      <td>3</td>
+      <td>0.043826</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0140374</td>
+      <td>antiviral innate immune response</td>
+      <td>"A defense response against viruses mediated through an innate immune response. An innate immune response is mediated by germline encoded components that directly recognize components of potential pathogens." [PMID:31006531]</td>
+      <td>2</td>
+      <td>0.026783</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-4-1"
+             class="comm-block ann-4"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0002953</td>
+      <td>5'-deoxynucleotidase activity</td>
+      <td>"Catalysis of the reaction: a 2'-deoxyribonucleoside 5'-phosphate + H2O = a 2'-deoxyribonucleoside + phosphate." [RHEA:36167]</td>
+      <td>1</td>
+      <td>0.049891</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-4-4"
+             class="comm-block ann-4"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 4</h4>
+
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0102265</td>
+      <td>tRNA-dihydrouridine47 synthase activity</td>
+      <td>"Catalysis of the reaction: a 5,6-dihydrouracil47 in tRNA + NAD(P) = H+ + a uracil47 in tRNA + NAD(P)H." [EC:1.3.1.89, GOC:pz]</td>
+      <td>1</td>
+      <td>0.024946</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0106414</td>
+      <td>mRNA dihydrouridine synthase activity</td>
+      <td>"Catalysis of the reaction: mRNA-uracil + NAD(P)+ = mRNA-dihydrouridine + NAD(P)H+ + H+." [PMID:34798057]</td>
+      <td>1</td>
+      <td>0.024946</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-4-6"
+             class="comm-block ann-4"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 6</h4>
+
+          
+            <h5>TF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M06845_1</td>
+      <td>Factor: ZBTB38; motif: NTYRATGCAMY; match class: 1</td>
+      <td>Factor: ZBTB38; motif: NTYRATGCAMY; match class: 1</td>
+      <td>1</td>
+      <td>0.037328</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">WashU Only (washu)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_5');
+            showAnnotations('5', this.value);
+        ">
+          
+            <option value="community_images/washu_louvain_clustered/SBK2_washu_louvain_clustered_FULL.png">full</option>
+          
+            <option value="community_images/washu_louvain_clustered/SBK2_washu_louvain_clustered_community0.png">0</option>
+          
+            <option value="community_images/washu_louvain_clustered/SBK2_washu_louvain_clustered_community1.png">1</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_5" src="community_images/washu_louvain_clustered/SBK2_washu_louvain_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("5", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-5-0"
+             class="comm-block ann-5"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0106310</td>
+      <td>protein serine kinase activity</td>
+      <td>"Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate." [RHEA:17989]</td>
+      <td>3</td>
+      <td>0.026742</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0102265</td>
+      <td>tRNA-dihydrouridine47 synthase activity</td>
+      <td>"Catalysis of the reaction: a 5,6-dihydrouracil47 in tRNA + NAD(P) = H+ + a uracil47 in tRNA + NAD(P)H." [EC:1.3.1.89, GOC:pz]</td>
+      <td>1</td>
+      <td>0.049963</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0106414</td>
+      <td>mRNA dihydrouridine synthase activity</td>
+      <td>"Catalysis of the reaction: mRNA-uracil + NAD(P)+ = mRNA-dihydrouridine + NAD(P)H+ + H+." [PMID:34798057]</td>
+      <td>1</td>
+      <td>0.049963</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-5-1"
+             class="comm-block ann-5"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0005741</td>
+      <td>mitochondrial outer membrane</td>
+      <td>"The outer, i.e. cytoplasm-facing, lipid bilayer of the mitochondrial envelope." [GOC:ai]</td>
+      <td>3</td>
+      <td>0.000196</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031968</td>
+      <td>organelle outer membrane</td>
+      <td>"The outer, i.e. cytoplasm-facing in a cellular organelle, lipid bilayer of an organelle envelope." [GOC:mah]</td>
+      <td>3</td>
+      <td>0.000288</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0019867</td>
+      <td>outer membrane</td>
+      <td>"The external membrane of Gram-negative bacteria or certain organelles such as mitochondria and chloroplasts; freely permeable to most ions and metabolites." [GOC:go_curators]</td>
+      <td>3</td>
+      <td>0.000295</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031966</td>
+      <td>mitochondrial membrane</td>
+      <td>"Either of the lipid bilayers that surround the mitochondrion and form the mitochondrial envelope." [GOC:mah, NIF_Subcellular:sao1045389829]</td>
+      <td>3</td>
+      <td>0.008341</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0005740</td>
+      <td>mitochondrial envelope</td>
+      <td>"The double lipid bilayer enclosing the mitochondrion and separating its contents from the cell cytoplasm; includes the intermembrane space." [GOC:ai, GOC:pz]</td>
+      <td>3</td>
+      <td>0.010030</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0031967</td>
+      <td>organelle envelope</td>
+      <td>"A double membrane structure enclosing an organelle, including two lipid bilayers and the region between them. In some cases, an organelle envelope may have more than two membranes." [GOC:mah, GOC:pz]</td>
+      <td>3</td>
+      <td>0.039773</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0140374</td>
+      <td>antiviral innate immune response</td>
+      <td>"A defense response against viruses mediated through an innate immune response. An innate immune response is mediated by germline encoded components that directly recognize components of potential pathogens." [PMID:31006531]</td>
+      <td>2</td>
+      <td>0.010061</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>HPA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0100123</td>
+      <td>Cerebral cortex; glial cells[High]</td>
+      <td>Cerebral cortex; glial cells[High]</td>
+      <td>3</td>
+      <td>0.018944</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0030073</td>
+      <td>Appendix; lymphoid tissue[High]</td>
+      <td>Appendix; lymphoid tissue[High]</td>
+      <td>3</td>
+      <td>0.020513</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>HPA</td>
+      <td>HPA:0460673</td>
+      <td>Skin 1; melanocytes[High]</td>
+      <td>Skin 1; melanocytes[High]</td>
+      <td>3</td>
+      <td>0.043826</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+
+</div>
+</body>
+</html>

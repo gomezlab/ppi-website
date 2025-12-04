@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d5" for="edge" attr.name="source" attr.type="string" />
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="CCT8">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="MAP4">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="MAP1B">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="AIMP2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="FLNA">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="CRY2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="SBK3">
+      <data key="d0">lightblue</data>
+      <data key="d1">400</data>
+      <data key="d2">bait</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <edge source="CCT8" target="MAP1B">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="CCT8" target="FLNA">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="CCT8" target="SBK3">
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="CCT8" target="CRY2">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT8" target="MAP4">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="CCT8" target="AIMP2">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="MAP4" target="FLNA">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="MAP4" target="SBK3">
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="MAP4" target="CRY2">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="MAP4" target="AIMP2">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="MAP1B" target="SBK3">
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="MAP1B" target="FLNA">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="MAP1B" target="AIMP2">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="AIMP2" target="FLNA">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="AIMP2" target="SBK3">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="FLNA" target="SBK3">
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="FLNA" target="CRY2">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CRY2" target="SBK3">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+  </graph>
+</graphml>

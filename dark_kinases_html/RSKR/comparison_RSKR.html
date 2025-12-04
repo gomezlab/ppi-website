@@ -1,0 +1,2177 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Kinase – RSKR</title>
+
+<style>
+  body { margin:0; font-family: Arial, sans-serif; }
+  header {
+    background:#333; color:white; padding:10px;
+    display:flex; gap:12px; align-items:center;
+  }
+  header select { padding:5px; font-size:1rem; }
+
+  .container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: calc(100vh - 60px);
+  }
+
+  .column {
+    padding:12px;
+    overflow-y:auto;
+    border-left:1px solid #ddd;
+  }
+  .column:first-child { border-left:none; }
+
+  .picker {
+    position:sticky; top:0; background:white;
+    display:flex; gap:8px; align-items:center;
+    padding-bottom:6px;
+    z-index:10;
+  }
+
+  .graph-box {
+    position:sticky; top:50px;
+    background:#fafafa;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:8px;
+    margin-bottom:12px;
+    z-index:5;
+  }
+  .graph-box img {
+    max-width:100%; border-radius:6px; display:block;
+  }
+
+  .comm-block {
+    border:1px solid #aaa; border-radius:6px;
+    margin-bottom:12px; padding:8px;
+    background:var(--comm-bg);
+    color:var(--comm-fg);
+  }
+
+  .muted { color:#888; }
+</style>
+
+<script>
+function onKinaseChange(sel) {
+    window.location = sel.value + ".html";
+}
+
+function onCommunityChange(selectEl, imgId) {
+    const url = selectEl.value;
+    document.getElementById(imgId).src = url;
+}
+
+function showAnnotations(prefix, cid) {
+    // hide all annotation blocks for this column
+    document.querySelectorAll(`.ann-${prefix}`).forEach(div => {
+        div.style.display = 'none';
+    });
+    // show the selected
+    const block = document.getElementById(`ann-${prefix}-` + cid);
+    if (block) block.style.display = 'block';
+}
+</script>
+
+</head>
+<body>
+
+<header>
+  <label>Choose kinase:</label>
+  <select onchange="onKinaseChange(this)">
+    
+      <option value="ADCK5/comparison_ADCK5"
+              >ADCK5</option>
+    
+      <option value="DYRK4/comparison_DYRK4"
+              >DYRK4</option>
+    
+      <option value="NEK11/comparison_NEK11"
+              >NEK11</option>
+    
+      <option value="NRK/comparison_NRK"
+              >NRK</option>
+    
+      <option value="PSKH1/comparison_PSKH1"
+              >PSKH1</option>
+    
+      <option value="PSKH2/comparison_PSKH2"
+              >PSKH2</option>
+    
+      <option value="RPS6KL1/comparison_RPS6KL1"
+              >RPS6KL1</option>
+    
+      <option value="RSKR/comparison_RSKR"
+              selected>RSKR</option>
+    
+      <option value="SBK2/comparison_SBK2"
+              >SBK2</option>
+    
+      <option value="SBK3/comparison_SBK3"
+              >SBK3</option>
+    
+      <option value="STK32A/comparison_STK32A"
+              >STK32A</option>
+    
+      <option value="STK32B/comparison_STK32B"
+              >STK32B</option>
+    
+      <option value="STKLD1/comparison_STKLD1"
+              >STKLD1</option>
+    
+      <option value="TSSK2/comparison_TSSK2"
+              >TSSK2</option>
+    
+      <option value="TSSK3/comparison_TSSK3"
+              >TSSK3</option>
+    
+      <option value="TSSK4/comparison_TSSK4"
+              >TSSK4</option>
+    
+  </select>
+</header>
+
+<div class="container">
+
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">Reference (biogrid+hippie)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_0');
+            showAnnotations('0', this.value);
+        ">
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_FULL.png">full</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_community0.png">0</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_community1.png">1</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_community2.png">2</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_community3.png">3</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_community4.png">4</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_community5.png">5</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_community6.png">6</option>
+          
+            <option value="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_community7.png">7</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_0" src="community_images/biogrid+hippie_leiden_clustered/RSKR_biogrid+hippie_leiden_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("0", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-0-0"
+             class="comm-block ann-0"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0070772</td>
+      <td>PAS complex</td>
+      <td>"A phosphatidylinositol kinase complex that contains a phosphatidylinositol-3-phosphate 5-kinase subunit (Fab1p in yeast; PIKFYVE in mammals), a kinase activator, and a phosphatase, and may also contain additional proteins; it is involved in regulating the synthesis and turnover of phosphatidylinositol 3,5-bisphosphate. In mammals the complex is composed of PIKFYVE, FIG4 and VAC14. In yeast it is composed of Atg18p, Fig4p, Fab1p, Vac14p and Vac7p." [PMID:18950639, PMID:19037259, PMID:19158662]</td>
+      <td>1</td>
+      <td>0.02499</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-0-1"
+             class="comm-block ann-0"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>REAC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-168316</td>
+      <td>Assembly of Viral Components at the Budding Site</td>
+      <td>Assembly of Viral Components at the Budding Site</td>
+      <td>1</td>
+      <td>0.024966</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-168268</td>
+      <td>Virus Assembly and Release</td>
+      <td>Virus Assembly and Release</td>
+      <td>1</td>
+      <td>0.024966</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-0-2"
+             class="comm-block ann-0"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 2</h4>
+
+          
+            <h5>HP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0040310</td>
+      <td>Sterile arthritis</td>
+      <td>An inflammatory arthritis characterized by purulent synovial fluid with neutrophil accumulation, but with negative cultures.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-0-4"
+             class="comm-block ann-0"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 4</h4>
+
+          
+            <h5>WP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP5030</td>
+      <td>Ethylmalonic encephalopathy</td>
+      <td>Ethylmalonic encephalopathy</td>
+      <td>1</td>
+      <td>0.018731</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP4507</td>
+      <td>Molybdenum cofactor Moco biosynthesis</td>
+      <td>Molybdenum cofactor Moco biosynthesis</td>
+      <td>1</td>
+      <td>0.043706</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>KEGG</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00920</td>
+      <td>Sulfur metabolism</td>
+      <td>Sulfur metabolism</td>
+      <td>1</td>
+      <td>0.019197</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0008482</td>
+      <td>sulfite oxidase activity</td>
+      <td>"Catalysis of the reaction: H2O + O2 + sulfite = H2O2 + H+ + sulfate." [RHEA:24600]</td>
+      <td>1</td>
+      <td>0.024946</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>HP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0032350</td>
+      <td>Sulfocysteinuria</td>
+      <td>A increased concentration of sulfocysteine in the urine.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-0-6"
+             class="comm-block ann-0"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 6</h4>
+
+          
+            <h5>HP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0007096</td>
+      <td>Hypoplasia of the optic tract</td>
+      <td>Hypoplasia of the optic tract</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-0-7"
+             class="comm-block ann-0"
+             style="--comm-fg:#d62728; --comm-bg:rgba(214,39,40,0.18); display:none;">
+
+          <h4>Community 7</h4>
+
+          
+            <h5>MIRNA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-5705</td>
+      <td>hsa-mir-5705</td>
+      <td>hsa-mir-5705</td>
+      <td>1</td>
+      <td>0.022595</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-1537-3p</td>
+      <td>hsa-mir-1537-3p</td>
+      <td>hsa-mir-1537-3p</td>
+      <td>1</td>
+      <td>0.033893</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">Reference (biogrid+hippie)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_1');
+            showAnnotations('1', this.value);
+        ">
+          
+            <option value="community_images/biogrid+hippie_louvain_clustered/RSKR_biogrid+hippie_louvain_clustered_FULL.png">full</option>
+          
+            <option value="community_images/biogrid+hippie_louvain_clustered/RSKR_biogrid+hippie_louvain_clustered_community0.png">0</option>
+          
+            <option value="community_images/biogrid+hippie_louvain_clustered/RSKR_biogrid+hippie_louvain_clustered_community1.png">1</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_1" src="community_images/biogrid+hippie_louvain_clustered/RSKR_biogrid+hippie_louvain_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("1", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-1-0"
+             class="comm-block ann-1"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0008482</td>
+      <td>sulfite oxidase activity</td>
+      <td>"Catalysis of the reaction: H2O + O2 + sulfite = H2O2 + H+ + sulfate." [RHEA:24600]</td>
+      <td>1</td>
+      <td>0.049963</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-1-1"
+             class="comm-block ann-1"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0070772</td>
+      <td>PAS complex</td>
+      <td>"A phosphatidylinositol kinase complex that contains a phosphatidylinositol-3-phosphate 5-kinase subunit (Fab1p in yeast; PIKFYVE in mammals), a kinase activator, and a phosphatase, and may also contain additional proteins; it is involved in regulating the synthesis and turnover of phosphatidylinositol 3,5-bisphosphate. In mammals the complex is composed of PIKFYVE, FIG4 and VAC14. In yeast it is composed of Atg18p, Fig4p, Fab1p, Vac14p and Vac7p." [PMID:18950639, PMID:19037259, PMID:19158662]</td>
+      <td>1</td>
+      <td>0.024944</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">All Sources (biogrid+hippie+washu)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_2');
+            showAnnotations('2', this.value);
+        ">
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_FULL.png">full</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community0.png">0</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community1.png">1</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community2.png">2</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community3.png">3</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community4.png">4</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community5.png">5</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community6.png">6</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community7.png">7</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community8.png">8</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community9.png">9</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community10.png">10</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community11.png">11</option>
+          
+            <option value="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_community12.png">12</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_2" src="community_images/washu+biogrid+hippie_leiden_clustered/RSKR_washu+biogrid+hippie_leiden_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("2", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-2-0"
+             class="comm-block ann-2"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0070772</td>
+      <td>PAS complex</td>
+      <td>"A phosphatidylinositol kinase complex that contains a phosphatidylinositol-3-phosphate 5-kinase subunit (Fab1p in yeast; PIKFYVE in mammals), a kinase activator, and a phosphatase, and may also contain additional proteins; it is involved in regulating the synthesis and turnover of phosphatidylinositol 3,5-bisphosphate. In mammals the complex is composed of PIKFYVE, FIG4 and VAC14. In yeast it is composed of Atg18p, Fig4p, Fab1p, Vac14p and Vac7p." [PMID:18950639, PMID:19037259, PMID:19158662]</td>
+      <td>1</td>
+      <td>0.024944</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-1"
+             class="comm-block ann-2"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>MIRNA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-518c-5p</td>
+      <td>hsa-mir-518c-5p</td>
+      <td>hsa-mir-518c-5p</td>
+      <td>2</td>
+      <td>0.013705</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-4266</td>
+      <td>hsa-mir-4266</td>
+      <td>hsa-mir-4266</td>
+      <td>3</td>
+      <td>0.039654</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0003730</td>
+      <td>mRNA 3'-UTR binding</td>
+      <td>"Binding to a 3' untranslated region of an mRNA molecule." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.031523</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-2"
+             class="comm-block ann-2"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 2</h4>
+
+          
+            <h5>MIRNA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-6126</td>
+      <td>hsa-mir-6126</td>
+      <td>hsa-mir-6126</td>
+      <td>2</td>
+      <td>0.001944</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-3190-3p</td>
+      <td>hsa-mir-3190-3p</td>
+      <td>hsa-mir-3190-3p</td>
+      <td>2</td>
+      <td>0.009207</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-6077</td>
+      <td>hsa-mir-6077</td>
+      <td>hsa-mir-6077</td>
+      <td>2</td>
+      <td>0.028166</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>REAC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-168316</td>
+      <td>Assembly of Viral Components at the Budding Site</td>
+      <td>Assembly of Viral Components at the Budding Site</td>
+      <td>1</td>
+      <td>0.024966</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-168268</td>
+      <td>Virus Assembly and Release</td>
+      <td>Virus Assembly and Release</td>
+      <td>1</td>
+      <td>0.024966</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-3"
+             class="comm-block ann-2"
+             style="--comm-fg:#d62728; --comm-bg:rgba(214,39,40,0.18); display:none;">
+
+          <h4>Community 3</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0071818</td>
+      <td>BAT3 complex</td>
+      <td>"A protein complex found in mammals that transfers tail-anchored (TA) proteins from SGTA to GET3 (ASNA1/TRC4) for targeting to the endoplasmic reticulum membrane. Also chaperones polypeptides from the endoplasmic reticulum retrotranslocation machinery to the proteasome, maintaining the solubility of substrates to improve ER-associated protein degradation (ERAD). Consists of BAG6 (BAT3) and its cofactors GET4 (TRC35) and UBL4A." [GOC:bm, PMID:20676083, PMID:21636303]</td>
+      <td>1</td>
+      <td>0.029966</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>CORUM</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6862</td>
+      <td>Bag6-Ubl4A-Trc35 Complex</td>
+      <td>Bag6-Ubl4A-Trc35 Complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-4"
+             class="comm-block ann-2"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 4</h4>
+
+          
+            <h5>REAC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-4570571</td>
+      <td>Defective RFT1 causes CDG-1n</td>
+      <td>Defective RFT1 causes CDG-1n</td>
+      <td>1</td>
+      <td>0.012483</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0034202</td>
+      <td>glycolipid floppase activity</td>
+      <td>"Catalysis of the movement of a glycolipid from the cytosolic to the exoplasmic leaflet of a membrane, using energy from the hydrolysis of ATP." [GOC:krc, PMID:11807558]</td>
+      <td>1</td>
+      <td>0.024946</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0034203</td>
+      <td>glycolipid translocation</td>
+      <td>"The translocation, or flipping, of glycolipid molecules from one monolayer of a membrane bilayer to the opposite monolayer." [GOC:go_curators, PMID:11807558]</td>
+      <td>1</td>
+      <td>0.049542</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-5"
+             class="comm-block ann-2"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 5</h4>
+
+          
+            <h5>TF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M06480</td>
+      <td>Factor: znf440; motif: NYGGGGGGCTAT</td>
+      <td>Factor: znf440; motif: NYGGGGGGCTAT</td>
+      <td>1</td>
+      <td>0.037328</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-6"
+             class="comm-block ann-2"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 6</h4>
+
+          
+            <h5>MIRNA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-5707</td>
+      <td>hsa-mir-5707</td>
+      <td>hsa-mir-5707</td>
+      <td>1</td>
+      <td>0.036152</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-7"
+             class="comm-block ann-2"
+             style="--comm-fg:#d62728; --comm-bg:rgba(214,39,40,0.18); display:none;">
+
+          <h4>Community 7</h4>
+
+          
+            <h5>TF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08258_1</td>
+      <td>Factor: ER71:FOXI1; motif: TGTTKACGGAAGTN; match class: 1</td>
+      <td>Factor: ER71:FOXI1; motif: TGTTKACGGAAGTN; match class: 1</td>
+      <td>1</td>
+      <td>0.049771</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-8"
+             class="comm-block ann-2"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 8</h4>
+
+          
+            <h5>HP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0040310</td>
+      <td>Sterile arthritis</td>
+      <td>An inflammatory arthritis characterized by purulent synovial fluid with neutrophil accumulation, but with negative cultures.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-10"
+             class="comm-block ann-2"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 10</h4>
+
+          
+            <h5>WP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP5030</td>
+      <td>Ethylmalonic encephalopathy</td>
+      <td>Ethylmalonic encephalopathy</td>
+      <td>1</td>
+      <td>0.018731</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>WP</td>
+      <td>WP:WP4507</td>
+      <td>Molybdenum cofactor Moco biosynthesis</td>
+      <td>Molybdenum cofactor Moco biosynthesis</td>
+      <td>1</td>
+      <td>0.043706</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>KEGG</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG</td>
+      <td>KEGG:00920</td>
+      <td>Sulfur metabolism</td>
+      <td>Sulfur metabolism</td>
+      <td>1</td>
+      <td>0.019197</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0008482</td>
+      <td>sulfite oxidase activity</td>
+      <td>"Catalysis of the reaction: H2O + O2 + sulfite = H2O2 + H+ + sulfate." [RHEA:24600]</td>
+      <td>1</td>
+      <td>0.024946</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>HP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0032350</td>
+      <td>Sulfocysteinuria</td>
+      <td>A increased concentration of sulfocysteine in the urine.</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-2-12"
+             class="comm-block ann-2"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 12</h4>
+
+          
+            <h5>HP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HP</td>
+      <td>HP:0007096</td>
+      <td>Hypoplasia of the optic tract</td>
+      <td>Hypoplasia of the optic tract</td>
+      <td>1</td>
+      <td>0.049962</td>
+      <td>12</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">All Sources (biogrid+hippie+washu)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_3');
+            showAnnotations('3', this.value);
+        ">
+          
+            <option value="community_images/washu+biogrid+hippie_louvain_clustered/RSKR_washu+biogrid+hippie_louvain_clustered_FULL.png">full</option>
+          
+            <option value="community_images/washu+biogrid+hippie_louvain_clustered/RSKR_washu+biogrid+hippie_louvain_clustered_community0.png">0</option>
+          
+            <option value="community_images/washu+biogrid+hippie_louvain_clustered/RSKR_washu+biogrid+hippie_louvain_clustered_community1.png">1</option>
+          
+            <option value="community_images/washu+biogrid+hippie_louvain_clustered/RSKR_washu+biogrid+hippie_louvain_clustered_community2.png">2</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_3" src="community_images/washu+biogrid+hippie_louvain_clustered/RSKR_washu+biogrid+hippie_louvain_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("3", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-3-1"
+             class="comm-block ann-3"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0070772</td>
+      <td>PAS complex</td>
+      <td>"A phosphatidylinositol kinase complex that contains a phosphatidylinositol-3-phosphate 5-kinase subunit (Fab1p in yeast; PIKFYVE in mammals), a kinase activator, and a phosphatase, and may also contain additional proteins; it is involved in regulating the synthesis and turnover of phosphatidylinositol 3,5-bisphosphate. In mammals the complex is composed of PIKFYVE, FIG4 and VAC14. In yeast it is composed of Atg18p, Fig4p, Fab1p, Vac14p and Vac7p." [PMID:18950639, PMID:19037259, PMID:19158662]</td>
+      <td>1</td>
+      <td>0.049888</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-3-2"
+             class="comm-block ann-3"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 2</h4>
+
+          
+            <h5>MIRNA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-518c-5p</td>
+      <td>hsa-mir-518c-5p</td>
+      <td>hsa-mir-518c-5p</td>
+      <td>2</td>
+      <td>0.013705</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-4266</td>
+      <td>hsa-mir-4266</td>
+      <td>hsa-mir-4266</td>
+      <td>3</td>
+      <td>0.039654</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0003730</td>
+      <td>mRNA 3'-UTR binding</td>
+      <td>"Binding to a 3' untranslated region of an mRNA molecule." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.031523</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">WashU Only (washu)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_4');
+            showAnnotations('4', this.value);
+        ">
+          
+            <option value="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_FULL.png">full</option>
+          
+            <option value="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_community0.png">0</option>
+          
+            <option value="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_community1.png">1</option>
+          
+            <option value="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_community2.png">2</option>
+          
+            <option value="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_community3.png">3</option>
+          
+            <option value="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_community4.png">4</option>
+          
+            <option value="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_community5.png">5</option>
+          
+            <option value="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_community6.png">6</option>
+          
+            <option value="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_community7.png">7</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_4" src="community_images/washu_leiden_clustered/RSKR_washu_leiden_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("4", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-4-0"
+             class="comm-block ann-4"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>MIRNA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-518c-5p</td>
+      <td>hsa-mir-518c-5p</td>
+      <td>hsa-mir-518c-5p</td>
+      <td>2</td>
+      <td>0.013705</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-4266</td>
+      <td>hsa-mir-4266</td>
+      <td>hsa-mir-4266</td>
+      <td>3</td>
+      <td>0.039654</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0003730</td>
+      <td>mRNA 3'-UTR binding</td>
+      <td>"Binding to a 3' untranslated region of an mRNA molecule." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.047269</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-4-1"
+             class="comm-block ann-4"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>GO:CC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:CC</td>
+      <td>GO:0071818</td>
+      <td>BAT3 complex</td>
+      <td>"A protein complex found in mammals that transfers tail-anchored (TA) proteins from SGTA to GET3 (ASNA1/TRC4) for targeting to the endoplasmic reticulum membrane. Also chaperones polypeptides from the endoplasmic reticulum retrotranslocation machinery to the proteasome, maintaining the solubility of substrates to improve ER-associated protein degradation (ERAD). Consists of BAG6 (BAT3) and its cofactors GET4 (TRC35) and UBL4A." [GOC:bm, PMID:20676083, PMID:21636303]</td>
+      <td>1</td>
+      <td>0.029966</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>CORUM</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6862</td>
+      <td>Bag6-Ubl4A-Trc35 Complex</td>
+      <td>Bag6-Ubl4A-Trc35 Complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-4-2"
+             class="comm-block ann-4"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 2</h4>
+
+          
+            <h5>REAC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-4570571</td>
+      <td>Defective RFT1 causes CDG-1n</td>
+      <td>Defective RFT1 causes CDG-1n</td>
+      <td>1</td>
+      <td>0.012483</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0034202</td>
+      <td>glycolipid floppase activity</td>
+      <td>"Catalysis of the movement of a glycolipid from the cytosolic to the exoplasmic leaflet of a membrane, using energy from the hydrolysis of ATP." [GOC:krc, PMID:11807558]</td>
+      <td>1</td>
+      <td>0.024946</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:BP</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:BP</td>
+      <td>GO:0034203</td>
+      <td>glycolipid translocation</td>
+      <td>"The translocation, or flipping, of glycolipid molecules from one monolayer of a membrane bilayer to the opposite monolayer." [GOC:go_curators, PMID:11807558]</td>
+      <td>1</td>
+      <td>0.049542</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-4-3"
+             class="comm-block ann-4"
+             style="--comm-fg:#d62728; --comm-bg:rgba(214,39,40,0.18); display:none;">
+
+          <h4>Community 3</h4>
+
+          
+            <h5>TF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M06480</td>
+      <td>Factor: znf440; motif: NYGGGGGGCTAT</td>
+      <td>Factor: znf440; motif: NYGGGGGGCTAT</td>
+      <td>1</td>
+      <td>0.037328</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-4-6"
+             class="comm-block ann-4"
+             style="--comm-fg:#2ca02c; --comm-bg:rgba(44,160,44,0.18); display:none;">
+
+          <h4>Community 6</h4>
+
+          
+            <h5>MIRNA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-5707</td>
+      <td>hsa-mir-5707</td>
+      <td>hsa-mir-5707</td>
+      <td>1</td>
+      <td>0.036152</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-4-7"
+             class="comm-block ann-4"
+             style="--comm-fg:#d62728; --comm-bg:rgba(214,39,40,0.18); display:none;">
+
+          <h4>Community 7</h4>
+
+          
+            <h5>TF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TF</td>
+      <td>TF:M08258_1</td>
+      <td>Factor: ER71:FOXI1; motif: TGTTKACGGAAGTN; match class: 1</td>
+      <td>Factor: ER71:FOXI1; motif: TGTTKACGGAAGTN; match class: 1</td>
+      <td>1</td>
+      <td>0.049771</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+  
+
+  <div class="column">
+
+    <!-- Picker -->
+    <div class="picker">
+      <h3 style="margin:0; font-size:0.95rem;">WashU Only (washu)</h3>
+
+      
+        <label>Community:</label>
+        <select onchange="
+            onCommunityChange(this, 'img_5');
+            showAnnotations('5', this.value);
+        ">
+          
+            <option value="community_images/washu_louvain_clustered/RSKR_washu_louvain_clustered_FULL.png">full</option>
+          
+            <option value="community_images/washu_louvain_clustered/RSKR_washu_louvain_clustered_community0.png">0</option>
+          
+            <option value="community_images/washu_louvain_clustered/RSKR_washu_louvain_clustered_community1.png">1</option>
+          
+        </select>
+      
+    </div>
+
+    <!-- Graph -->
+    
+      <div class="graph-box">
+        <img id="img_5" src="community_images/washu_louvain_clustered/RSKR_washu_louvain_clustered_FULL.png">
+      </div>
+
+      <script>
+        // show the first one by default
+        showAnnotations("5", "full");
+      </script>
+    
+
+    <!-- ANNOTATIONS -->
+    
+      
+        
+        
+
+        <div id="ann-5-0"
+             class="comm-block ann-5"
+             style="--comm-fg:#1f77b4; --comm-bg:rgba(31,119,180,0.18); display:none;">
+
+          <h4>Community 0</h4>
+
+          
+            <h5>MIRNA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-4532</td>
+      <td>hsa-mir-4532</td>
+      <td>hsa-mir-4532</td>
+      <td>4</td>
+      <td>0.012823</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>CORUM</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CORUM</td>
+      <td>CORUM:6862</td>
+      <td>Bag6-Ubl4A-Trc35 Complex</td>
+      <td>Bag6-Ubl4A-Trc35 Complex</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>REAC</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>REAC</td>
+      <td>REAC:R-HSA-4570571</td>
+      <td>Defective RFT1 causes CDG-1n</td>
+      <td>Defective RFT1 causes CDG-1n</td>
+      <td>1</td>
+      <td>0.049932</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0034202</td>
+      <td>glycolipid floppase activity</td>
+      <td>"Catalysis of the movement of a glycolipid from the cytosolic to the exoplasmic leaflet of a membrane, using energy from the hydrolysis of ATP." [GOC:krc, PMID:11807558]</td>
+      <td>1</td>
+      <td>0.049963</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+        
+        
+
+        <div id="ann-5-1"
+             class="comm-block ann-5"
+             style="--comm-fg:#ff7f0e; --comm-bg:rgba(255,127,14,0.18); display:none;">
+
+          <h4>Community 1</h4>
+
+          
+            <h5>MIRNA</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-518c-5p</td>
+      <td>hsa-mir-518c-5p</td>
+      <td>hsa-mir-518c-5p</td>
+      <td>2</td>
+      <td>0.013705</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MIRNA</td>
+      <td>MIRNA:hsa-mir-4266</td>
+      <td>hsa-mir-4266</td>
+      <td>hsa-mir-4266</td>
+      <td>3</td>
+      <td>0.039654</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+            <h5>GO:MF</h5>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>term_id</th>
+      <th>annotation</th>
+      <th>description</th>
+      <th>intersection_size</th>
+      <th>p_value</th>
+      <th>community</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GO:MF</td>
+      <td>GO:0003730</td>
+      <td>mRNA 3'-UTR binding</td>
+      <td>"Binding to a 3' untranslated region of an mRNA molecule." [GOC:mah]</td>
+      <td>2</td>
+      <td>0.031523</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+          
+        </div>
+      
+    
+
+  </div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source" attr.type="string" />
+  <key id="d5" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="NOTCH2NLA">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="ZMPSTE24">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="ADCK5">
+      <data key="d0">lightblue</data>
+      <data key="d1">400</data>
+      <data key="d2">bait</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="FABP1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="TNS2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="AKR1B10">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="IMMT">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="TENC1">
+      <data key="d0">skyblue</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="TMEM160">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CLPB">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="RHOD">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CHCHD3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="NOTCH2NL">
+      <data key="d0">skyblue</data>
+      <data key="d1">100</data>
+      <data key="d2">BioGRID</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="ALDH3A2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <edge source="NOTCH2NLA" target="ADCK5">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="NOTCH2NLA" target="CHCHD3">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="NOTCH2NLA" target="TNS2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="ZMPSTE24" target="ADCK5">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="ADCK5" target="IMMT">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="ADCK5" target="NOTCH2NL">
+      <data key="d6">HIPPIE,BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="ADCK5" target="RHOD">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="ADCK5" target="TENC1">
+      <data key="d6">HIPPIE,BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="ADCK5" target="TMEM160">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="ADCK5" target="AKR1B10">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="ADCK5" target="ALDH3A2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="ADCK5" target="CHCHD3">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="ADCK5" target="CLPB">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="ADCK5" target="FABP1">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="ADCK5" target="TNS2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="IMMT" target="CHCHD3">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="IMMT" target="RHOD">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="IMMT" target="CLPB">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="TENC1" target="NOTCH2NL">
+      <data key="d6">BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="CLPB" target="CHCHD3">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="RHOD" target="CHCHD3">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="RHOD" target="ALDH3A2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CHCHD3" target="NOTCH2NL">
+      <data key="d6">BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+  </graph>
+</graphml>

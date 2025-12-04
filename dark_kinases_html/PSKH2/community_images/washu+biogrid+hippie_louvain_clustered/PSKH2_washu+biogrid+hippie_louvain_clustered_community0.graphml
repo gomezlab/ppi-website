@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source" attr.type="string" />
+  <key id="d5" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="GLUD1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="EDEM2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="CLN5">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="COPG2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="GUSB">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="NAGA">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="CANX">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="EDEM3">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="MYO5A">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="DGKE">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="MRPL41">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="POFUT2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="DDX20">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="NOP58">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="MRPL10">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="MANBA">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="SCPEP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="SDF2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="DNAJC10">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="CHST14">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="GBA">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="RABGGTB">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="NOP53">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="UNC119">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="PSKH2">
+      <data key="d0">lightblue</data>
+      <data key="d1">400</data>
+      <data key="d2">bait</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="TXNDC16">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="GTF3C1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="PLAT">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="LAMB2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="GALNS">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="UNC119B">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="UGGT2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="COPA">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="FUCA2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <edge source="GLUD1" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="EDEM2" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="EDEM2" target="CANX">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="EDEM2" target="EDEM3">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="EDEM2" target="UGGT2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="EDEM2" target="CLN5">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CLN5" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="CLN5" target="CANX">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CLN5" target="GALNS">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="COPG2" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="COPG2" target="CANX">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="COPG2" target="COPA">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="GUSB" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="GUSB" target="CANX">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="NAGA" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="NAGA" target="CANX">
+      <data key="d6">BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="CANX" target="EDEM3">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CANX" target="SCPEP1">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CANX" target="CHST14">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CANX" target="GBA">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CANX" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CANX" target="PLAT">
+      <data key="d6">BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="CANX" target="LAMB2">
+      <data key="d6">BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="CANX" target="UGGT2">
+      <data key="d6">BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="CANX" target="FUCA2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CANX" target="DNAJC10">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CANX" target="NOP53">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="CANX" target="COPA">
+      <data key="d6">BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="EDEM3" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="EDEM3" target="COPA">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="EDEM3" target="DNAJC10">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="MYO5A" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="DGKE" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="MRPL41" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="MRPL41" target="MRPL10">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="POFUT2" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="DDX20" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="DDX20" target="COPA">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="NOP58" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="MRPL10" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="MANBA" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="SCPEP1" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="SDF2" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="DNAJC10" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="DNAJC10" target="LAMB2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="DNAJC10" target="UGGT2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CHST14" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="GBA" target="PSKH2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="RABGGTB" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="NOP53" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE</data>
+    </edge>
+    <edge source="UNC119" target="PSKH2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="UNC119" target="UNC119B">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="PSKH2" target="UGGT2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="PSKH2" target="GALNS">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="PSKH2" target="LAMB2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="PSKH2" target="FUCA2">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="PSKH2" target="PLAT">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="PSKH2" target="TXNDC16">
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="PSKH2" target="UNC119B">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="PSKH2" target="COPA">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="PSKH2" target="GTF3C1">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+  </graph>
+</graphml>

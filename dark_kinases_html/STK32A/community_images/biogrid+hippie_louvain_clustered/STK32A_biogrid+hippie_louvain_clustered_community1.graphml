@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source" attr.type="string" />
+  <key id="d5" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="TCP1">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CCT2">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CCT3">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CCT4">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CCT5">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CCT6A">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CCT7">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <node id="CCT8">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">1</data>
+    </node>
+    <edge source="TCP1" target="CCT2">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="TCP1" target="CCT4">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="TCP1" target="CCT3">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="TCP1" target="CCT5">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="TCP1" target="CCT6A">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="TCP1" target="CCT8">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="TCP1" target="CCT7">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT2" target="CCT4">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT2" target="CCT5">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT2" target="CCT7">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT2" target="CCT3">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT2" target="CCT6A">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT2" target="CCT8">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT3" target="CCT5">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT3" target="CCT4">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT3" target="CCT6A">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT3" target="CCT8">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT3" target="CCT7">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT4" target="CCT7">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT4" target="CCT6A">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT4" target="CCT8">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT4" target="CCT5">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT5" target="CCT6A">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT5" target="CCT8">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT5" target="CCT7">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT6A" target="CCT7">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT6A" target="CCT8">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="CCT7" target="CCT8">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+  </graph>
+</graphml>

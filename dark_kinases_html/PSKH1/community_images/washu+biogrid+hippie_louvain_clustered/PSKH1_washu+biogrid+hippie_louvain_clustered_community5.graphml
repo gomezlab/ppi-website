@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source" attr.type="string" />
+  <key id="d5" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="FTL">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="MIS18BP1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="PIPSL">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="YTHDC1">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="EAPP">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="PHKA2">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <node id="CENPB">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">5</data>
+    </node>
+    <edge source="FTL" target="YTHDC1">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="FTL" target="MIS18BP1">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="FTL" target="EAPP">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="FTL" target="PIPSL">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="MIS18BP1" target="PIPSL">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="PIPSL" target="YTHDC1">
+      <data key="d5">1.0</data>
+      <data key="d6">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="YTHDC1" target="CENPB">
+      <data key="d6">BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+    <edge source="YTHDC1" target="PHKA2">
+      <data key="d6">BIOGRID</data>
+      <data key="d5">1.0</data>
+    </edge>
+  </graph>
+</graphml>

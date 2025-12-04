@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="confidence" attr.type="double" />
+  <key id="d5" for="edge" attr.name="source" attr.type="string" />
+  <key id="d4" for="node" attr.name="community" attr.type="long" />
+  <key id="d3" for="node" attr.name="visible" attr.type="boolean" />
+  <key id="d2" for="node" attr.name="source" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="VENTX">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="SGK494">
+      <data key="d0">lightcoral</data>
+      <data key="d1">100</data>
+      <data key="d2">WashU</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="VAC14">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="MGAT5B">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="RSKR">
+      <data key="d0">lightblue</data>
+      <data key="d1">400</data>
+      <data key="d2">bait</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <node id="ZNF581">
+      <data key="d0">lightgreen</data>
+      <data key="d1">100</data>
+      <data key="d2">HIPPIE</data>
+      <data key="d3">True</data>
+      <data key="d4">0</data>
+    </node>
+    <edge source="VENTX" target="SGK494">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="VENTX" target="RSKR">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE</data>
+    </edge>
+    <edge source="VENTX" target="VAC14">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="SGK494" target="RSKR">
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="SGK494" target="VAC14">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="SGK494" target="ZNF581">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="SGK494" target="MGAT5B">
+      <data key="d5">BIOGRID</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="VAC14" target="RSKR">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE</data>
+    </edge>
+    <edge source="VAC14" target="MGAT5B">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="MGAT5B" target="RSKR">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE</data>
+    </edge>
+    <edge source="MGAT5B" target="ZNF581">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE,BIOGRID</data>
+    </edge>
+    <edge source="RSKR" target="ZNF581">
+      <data key="d6">1.0</data>
+      <data key="d5">HIPPIE</data>
+    </edge>
+  </graph>
+</graphml>
