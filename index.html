@@ -1,27 +1,74 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.6">
-  <style type="text/css">
-    body {background-color: #f1f1f1}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 18.0px Arial; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Arial; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; background-color: #0b61cd}
-    span.s3 {font: 12.0px Arial; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    span.s4 {font: 18.0px Arial; font-kerning: none; background-color: #0b61cd; -webkit-text-stroke: 0px #ffffff}
+  <meta charset="utf-8">
+  <title>Kinase Network Visualization Portal</title>
+
+  <style>
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #000;
+    }
+
+    .link-box {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px;
+      font-size: 18px;
+      color: white;
+      background-color: #0b61cd;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #084a9e;
+    }
+
+    .section {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 14px;
+      text-align: center;
+      margin: 4px 0;
+    }
+
   </style>
 </head>
+
 <body>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; text-align: center; font: 24.0px Arial; -webkit-text-stroke: #000000"><span class="s1"><b>Navigate to the Kinase Visualization Sites:</b></span></h1>
-<p class="p2"><span class="s2"><a href="file:///Users/suhanasaigoli/Desktop/Projects/Gomez/ppi-website/dark_kinases_html/comparison_ADCK5.html">Dark Kinases</a></span><span class="s3"> <a href="file:///Users/suhanasaigoli/Desktop/Projects/Gomez/ppi-website/positive_kinases_html/comparison_AAK1.html"><span class="s4">Positive Kinases</span></a></span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; text-align: center; font: 18.0px Arial; -webkit-text-stroke: #000000"><span class="s1"><b>Data Preprocessing Details</b></span></h2>
-<p class="p4"><span class="s1">- All bait/prey interactions filtered by SAINT, BFDR score only interactions that meet criteria considered<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s1">- GSEA results filtered by p-value, ascending<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s1">- Website visualizes top 10 GSEA results per GO annotation source<span class="Apple-converted-space"> </span></span></p>
+
+<h1><b>Navigate to the Kinase Visualization Sites</b></h1>
+
+<div class="link-box">
+  <!-- Relative paths from test/results_html/index.html -->
+  <a class="btn" href="dark_kinases/ADCK5/comparison_ADCK5.html">Dark Kinases</a>
+  <a class="btn" href="positive_kinases/AAK1/comparison_AAK1.html">Positive Kinases</a>
+</div>
+
+<div class="section">
+  <h2><b>Data Preprocessing Details</b></h2>
+
+  <p>- SAINT/BFDR filtering applied to bait–prey interactions.</p>
+  <p>- GSEA results sorted by ascending p-value.</p>
+  <p>- Website visualizes top 10 GO enrichment results per annotation source.</p>
+</div>
+
 </body>
 </html>

@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Dark Kinase – NRK</title>
+  <style>
+    :root { --picker-h: 44px; }
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header {
+      padding: 10px;
+      background: #333;
+      color: white;
+      display:flex;
+      gap:12px;
+      align-items:center;
+    }
+    header select { font-size: 1rem; padding: 5px; }
+    .toggle-wrapper {
+      margin-left:auto;
+      display:flex;
+      gap:8px;
+      align-items:center;
+      color:white;
+      font-size:0.9rem;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Louvain only by default */
+      height: calc(100vh - 60px);
+    }
+    .column {
+      overflow-y: auto;
+      padding: 12px 12px 80px;
+      border-left: 1px solid #ddd;
+    }
+    .column:first-child { border-left:none; }
+    .leiden-col { display:none; } /* hidden by default */
+
+    h2 { margin: 8px 0; font-size: 0.95rem; }
+    .picker {
+      display:flex;
+      gap:8px;
+      align-items:center;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      background:#fff;
+      padding-bottom:8px;
+    }
+    img.network {
+
+    
+      position: sticky;
+      top: calc(var(--picker-h) + 8px);
+      background:#fff;
+      z-index:1;
+      display:block;
+      max-width:100%;
+      height:auto;
+      margin:10px 0 14px;
+      box-shadow:0 1px 3px rgba(0,0,0,0.06);
+      border-radius:6px;
+    }
+    .comm-block table {
+      width:100%;
+      border-collapse:collapse;
+      margin-bottom:1em;
+    }
+    .comm-block th, .comm-block td {
+      border:1px solid #999;
+      padding:4px;
+      font-size:12px;
+    }
+    .comm-block th { background:var(--comm-bg); }
+    .muted { color:#888; font-size:0.9rem; }
+  </style>
+
+  <script>
+    function onKinaseChange(sel) {
+      if (sel.value) {
+        window.location = sel.value;
+      }
+    }
+
+    function onCommunityChange(selectEl, imgId, colIndex) {
+      const opt = selectEl.options[selectEl.selectedIndex];
+      const url = opt.value;
+      const cid = opt.dataset.community; // 'full', 'hist', or numeric string
+      const img = document.getElementById(imgId);
+
+      if (url && img) {
+        img.src = url;
+      }
+
+      // Hide all annotation blocks in this column
+      document.querySelectorAll('.comm-block[data-col="' + colIndex + '"]')
+        .forEach(b => b.style.display = 'none');
+
+      // If full/hist → no annotations
+      if (!cid || cid === 'full' || cid === 'hist') {
+        return;
+      }
+
+      // Show only the matching community block
+      const target = document.querySelector(
+        '.comm-block[data-col="' + colIndex + '"][data-community="' + cid + '"]'
+      );
+      if (target) {
+        target.style.display = 'block';
+      }
+    }
+
+    function toggleLeiden(cb) {
+      const cols = document.querySelectorAll('.leiden-col');
+      const container = document.querySelector('.container');
+
+      if (cb.checked) {
+        cols.forEach(c => c.style.display = 'block');
+        container.style.gridTemplateColumns = 'repeat(6, 1fr)';
+      } else {
+        cols.forEach(c => c.style.display = 'none');
+        container.style.gridTemplateColumns = 'repeat(3, 1fr)';
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <label for="kinaseSelect">Choose kinase:</label>
+    <select id="kinaseSelect" onchange="onKinaseChange(this)">
+      
+      <option value="../ADCK5/comparison_ADCK5.html"
+              >
+        ADCK5
+      </option>
+      
+      <option value="../DYRK4/comparison_DYRK4.html"
+              >
+        DYRK4
+      </option>
+      
+      <option value="../NEK11/comparison_NEK11.html"
+              >
+        NEK11
+      </option>
+      
+      <option value="../NRK/comparison_NRK.html"
+              selected>
+        NRK
+      </option>
+      
+      <option value="../PSKH1/comparison_PSKH1.html"
+              >
+        PSKH1
+      </option>
+      
+      <option value="../PSKH2/comparison_PSKH2.html"
+              >
+        PSKH2
+      </option>
+      
+      <option value="../RPS6KL1/comparison_RPS6KL1.html"
+              >
+        RPS6KL1
+      </option>
+      
+      <option value="../RSKR/comparison_RSKR.html"
+              >
+        RSKR
+      </option>
+      
+      <option value="../SBK2/comparison_SBK2.html"
+              >
+        SBK2
+      </option>
+      
+      <option value="../SBK3/comparison_SBK3.html"
+              >
+        SBK3
+      </option>
+      
+      <option value="../STK32A/comparison_STK32A.html"
+              >
+        STK32A
+      </option>
+      
+      <option value="../STK32B/comparison_STK32B.html"
+              >
+        STK32B
+      </option>
+      
+      <option value="../STKLD1/comparison_STKLD1.html"
+              >
+        STKLD1
+      </option>
+      
+      <option value="../TSSK2/comparison_TSSK2.html"
+              >
+        TSSK2
+      </option>
+      
+      <option value="../TSSK3/comparison_TSSK3.html"
+              >
+        TSSK3
+      </option>
+      
+      <option value="../TSSK4/comparison_TSSK4.html"
+              >
+        TSSK4
+      </option>
+      
+    </select>
+
+    <div class="toggle-wrapper">
+      <label for="leidenToggle">Show Leiden</label>
+      <input type="checkbox" id="leidenToggle" onchange="toggleLeiden(this)">
+    </div>
+  </header>
+
+  <div class="container">
+    
+      
+      
+      <div class="column leiden-col">
+        <div class="picker">
+          <h2 style="margin:0;">biogrid+hippie (Leiden)</h2>
+
+          
+            <label for="sel_0">View:</label>
+            <select id="sel_0"
+                    onchange="onCommunityChange(this, 'img_0', 0)">
+              
+                <option value="community_images/biogrid+hippie_leiden_clustered/NRK_biogrid+hippie_leiden_clustered_FULL.png" data-community="full">
+                  
+                    Full Network
+                  
+                </option>
+              
+            </select>
+          
+        </div>
+
+        
+          <!-- Default to first entry, which is FULL (sorted) -->
+          <img id="img_0" class="network"
+               src="community_images/biogrid+hippie_leiden_clustered/NRK_biogrid+hippie_leiden_clustered_FULL.png"
+               alt="biogrid+hippie (Leiden) network"/>
+        
+
+        
+      </div>
+    
+      
+      
+      <div class="column louvain-col">
+        <div class="picker">
+          <h2 style="margin:0;">biogrid+hippie (Louvain)</h2>
+
+          
+            <label for="sel_1">View:</label>
+            <select id="sel_1"
+                    onchange="onCommunityChange(this, 'img_1', 1)">
+              
+                <option value="community_images/biogrid+hippie_louvain_clustered/NRK_biogrid+hippie_louvain_clustered_FULL.png" data-community="full">
+                  
+                    Full Network
+                  
+                </option>
+              
+            </select>
+          
+        </div>
+
+        
+          <!-- Default to first entry, which is FULL (sorted) -->
+          <img id="img_1" class="network"
+               src="community_images/biogrid+hippie_louvain_clustered/NRK_biogrid+hippie_louvain_clustered_FULL.png"
+               alt="biogrid+hippie (Louvain) network"/>
+        
+
+        
+      </div>
+    
+      
+      
+      <div class="column leiden-col">
+        <div class="picker">
+          <h2 style="margin:0;">washu+biogrid+hippie (Leiden)</h2>
+
+          
+            <label for="sel_2">View:</label>
+            <select id="sel_2"
+                    onchange="onCommunityChange(this, 'img_2', 2)">
+              
+                <option value="community_images/washu+biogrid+hippie_leiden_clustered/NRK_washu+biogrid+hippie_leiden_clustered_FULL.png" data-community="full">
+                  
+                    Full Network
+                  
+                </option>
+              
+            </select>
+          
+        </div>
+
+        
+          <!-- Default to first entry, which is FULL (sorted) -->
+          <img id="img_2" class="network"
+               src="community_images/washu+biogrid+hippie_leiden_clustered/NRK_washu+biogrid+hippie_leiden_clustered_FULL.png"
+               alt="washu+biogrid+hippie (Leiden) network"/>
+        
+
+        
+      </div>
+    
+      
+      
+      <div class="column louvain-col">
+        <div class="picker">
+          <h2 style="margin:0;">washu+biogrid+hippie (Louvain)</h2>
+
+          
+            <label for="sel_3">View:</label>
+            <select id="sel_3"
+                    onchange="onCommunityChange(this, 'img_3', 3)">
+              
+                <option value="community_images/washu+biogrid+hippie_louvain_clustered/NRK_washu+biogrid+hippie_louvain_clustered_FULL.png" data-community="full">
+                  
+                    Full Network
+                  
+                </option>
+              
+            </select>
+          
+        </div>
+
+        
+          <!-- Default to first entry, which is FULL (sorted) -->
+          <img id="img_3" class="network"
+               src="community_images/washu+biogrid+hippie_louvain_clustered/NRK_washu+biogrid+hippie_louvain_clustered_FULL.png"
+               alt="washu+biogrid+hippie (Louvain) network"/>
+        
+
+        
+      </div>
+    
+      
+      
+      <div class="column leiden-col">
+        <div class="picker">
+          <h2 style="margin:0;">WashU (Leiden)</h2>
+
+          
+            <label for="sel_4">View:</label>
+            <select id="sel_4"
+                    onchange="onCommunityChange(this, 'img_4', 4)">
+              
+                <option value="community_images/washu_leiden_clustered/NRK_washu_leiden_clustered_FULL.png" data-community="full">
+                  
+                    Full Network
+                  
+                </option>
+              
+            </select>
+          
+        </div>
+
+        
+          <!-- Default to first entry, which is FULL (sorted) -->
+          <img id="img_4" class="network"
+               src="community_images/washu_leiden_clustered/NRK_washu_leiden_clustered_FULL.png"
+               alt="WashU (Leiden) network"/>
+        
+
+        
+      </div>
+    
+      
+      
+      <div class="column louvain-col">
+        <div class="picker">
+          <h2 style="margin:0;">WashU (Louvain)</h2>
+
+          
+            <label for="sel_5">View:</label>
+            <select id="sel_5"
+                    onchange="onCommunityChange(this, 'img_5', 5)">
+              
+                <option value="community_images/washu_louvain_clustered/NRK_washu_louvain_clustered_FULL.png" data-community="full">
+                  
+                    Full Network
+                  
+                </option>
+              
+            </select>
+          
+        </div>
+
+        
+          <!-- Default to first entry, which is FULL (sorted) -->
+          <img id="img_5" class="network"
+               src="community_images/washu_louvain_clustered/NRK_washu_louvain_clustered_FULL.png"
+               alt="WashU (Louvain) network"/>
+        
+
+        
+      </div>
+    
+  </div>
+
+</body>
+</html>
