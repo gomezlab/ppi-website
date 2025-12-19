@@ -4,51 +4,16 @@
 <head>
 <meta charset="utf-8"/>
 <title>RSKR</title>
-
 <style>
 body { font-family: Arial, sans-serif; margin:0; }
-header {
-  background:#333; color:white; padding:10px;
-  display:flex; align-items:center; gap:12px;
-}
-header select { padding:4px; font-size:1rem; }
-
-.toggle { margin-left:auto; display:flex; gap:6px; align-items:center; }
-
-.container {
-  display:grid;
-  grid-template-columns: repeat(6, 1fr);
-  height: calc(100vh - 60px);
-}
-
-.column {
-  border-left:1px solid #ddd;
-  padding:12px;
-  overflow-y:auto;
-}
+header { background:#333; color:white; padding:10px; display:flex; gap:12px; }
+.container { display:grid; grid-template-columns: repeat(6,1fr); height:calc(100vh - 50px); }
+.column { padding:12px; border-left:1px solid #ddd; overflow-y:auto; }
 .column:first-child { border-left:none; }
-
-.picker {
-  position:sticky; top:0; background:white;
-  padding-bottom:6px; z-index:2;
-}
-
-img.network {
-  width:100%; margin:10px 0;
-  border-radius:6px;
-  box-shadow:0 1px 4px rgba(0,0,0,0.1);
-}
-
+img { width:100%; margin:10px 0; border-radius:6px; }
 .muted { color:#888; font-size:0.9rem; }
 </style>
-
 <script>
-function onKinaseChange(sel){
-  window.location = sel.value + ".html";
-}
-function onImgChange(sel, imgId){
-  document.getElementById(imgId).src = sel.value;
-}
 function toggleLeiden(cb){
   document.querySelectorAll('.leiden').forEach(
     c => c.style.display = cb.checked ? 'block' : 'none'
@@ -56,125 +21,58 @@ function toggleLeiden(cb){
   document.querySelector('.container').style.gridTemplateColumns =
     cb.checked ? 'repeat(6,1fr)' : 'repeat(3,1fr)';
 }
+function swap(sel,id){ document.getElementById(id).src = sel.value; }
 </script>
 </head>
 
 <body>
 <header>
-  <label>Kinase:</label>
-  <select onchange="onKinaseChange(this)">
-    
-      <option value="comparison_ADCK5" >ADCK5</option>
-    
-      <option value="comparison_DYRK4" >DYRK4</option>
-    
-      <option value="comparison_NEK11" >NEK11</option>
-    
-      <option value="comparison_NRK" >NRK</option>
-    
-      <option value="comparison_PSKH1" >PSKH1</option>
-    
-      <option value="comparison_PSKH2" >PSKH2</option>
-    
-      <option value="comparison_RPS6KL1" >RPS6KL1</option>
-    
-      <option value="comparison_RSKR" selected>RSKR</option>
-    
-      <option value="comparison_SBK2" >SBK2</option>
-    
-      <option value="comparison_SBK3" >SBK3</option>
-    
-      <option value="comparison_STK32A" >STK32A</option>
-    
-      <option value="comparison_STK32B" >STK32B</option>
-    
-      <option value="comparison_STKLD1" >STKLD1</option>
-    
-      <option value="comparison_TSSK2" >TSSK2</option>
-    
-      <option value="comparison_TSSK3" >TSSK3</option>
-    
-      <option value="comparison_TSSK4" >TSSK4</option>
-    
-  </select>
-
-  <div class="toggle">
-    <label>Show Leiden</label>
-    <input type="checkbox" onchange="toggleLeiden(this)">
-  </div>
+<strong>RSKR</strong>
+<label style="margin-left:auto">Show Leiden</label>
+<input type="checkbox" onchange="toggleLeiden(this)">
 </header>
 
 <div class="container">
 
   <div class="column leiden">
-    <div class="picker">
-      <strong>biogrid+hippie (Leiden)</strong><br/>
-
-      
-        <div class="muted">Leiden networks not found.</div>
-      
-    </div>
-
+    <strong>biogrid+hippie (Leiden)</strong><br/>
+    
+      <div class="muted">Leiden networks not found.</div>
     
   </div>
 
   <div class="column ">
-    <div class="picker">
-      <strong>biogrid+hippie (Louvain)</strong><br/>
-
-      
-        <div class="muted">Leiden networks not found.</div>
-      
-    </div>
-
+    <strong>biogrid+hippie (Louvain)</strong><br/>
+    
+      <div class="muted">Leiden networks not found.</div>
     
   </div>
 
   <div class="column leiden">
-    <div class="picker">
-      <strong>washu+biogrid+hippie (Leiden)</strong><br/>
-
-      
-        <div class="muted">Leiden networks not found.</div>
-      
-    </div>
-
+    <strong>washu+biogrid+hippie (Leiden)</strong><br/>
+    
+      <div class="muted">Leiden networks not found.</div>
     
   </div>
 
   <div class="column ">
-    <div class="picker">
-      <strong>washu+biogrid+hippie (Louvain)</strong><br/>
-
-      
-        <div class="muted">Leiden networks not found.</div>
-      
-    </div>
-
+    <strong>washu+biogrid+hippie (Louvain)</strong><br/>
+    
+      <div class="muted">Leiden networks not found.</div>
     
   </div>
 
   <div class="column leiden">
-    <div class="picker">
-      <strong>WashU (Leiden)</strong><br/>
-
-      
-        <div class="muted">Leiden networks not found.</div>
-      
-    </div>
-
+    <strong>WashU (Leiden)</strong><br/>
+    
+      <div class="muted">Leiden networks not found.</div>
     
   </div>
 
   <div class="column ">
-    <div class="picker">
-      <strong>WashU (Louvain)</strong><br/>
-
-      
-        <div class="muted">Leiden networks not found.</div>
-      
-    </div>
-
+    <strong>WashU (Louvain)</strong><br/>
+    
+      <div class="muted">Leiden networks not found.</div>
     
   </div>
 
